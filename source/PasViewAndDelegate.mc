@@ -24,6 +24,7 @@ class PasView extends Ui.View {
         						:locY=>10}
         );
         
+        
         timer = new Timer.Timer();
     	timer.start(method(:incsec),1000, true);
     }

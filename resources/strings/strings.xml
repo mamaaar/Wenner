@@ -5,4 +5,12 @@
     <string id="StepsHeader">Pas / 10000</string>
     
     <string id="FcTitle">Fréquence cardiaque</string>
+        <string id="namaste_label">Namastes</string>
+        <string id="namaste_graph_label">Namastes</string>
+        <string id="namaste_units">N(s)</string>
+
 </strings>
+
+
+    
+    

@@ -37,12 +37,14 @@ class WennerView extends Ui.View { // Vue principale : celle où il y a l'heure e
 	var message1Heure = 8;
     var message1Minute = 00;
     
-    var message2Heure = 15;
+    var message2Heure = 10;
     var message2Minute = 00;
     
+	var message3Heure = 15; 
+    var message3Minute = 00;
     
-	var message3Heure = 17; 
-    var message3Minute = 30;
+    var message4Heure = 17; 
+    var message4Minute = 30;
     
     var messageSortieHeure = 21;
     var messageSortieMinute = 00;
@@ -102,9 +104,9 @@ class WennerView extends Ui.View { // Vue principale : celle où il y a l'heure e
 		
 		dc.drawText( 				// Affichage du % de batterie
 			dc.getWidth()/2, 		// x : au milieu
-			20, 					// y : vers le haut
+			dc.getHeight()/4, 					// y : vers le haut
 			Graphics.FONT_MEDIUM, 	// police moyenne
-			myStats.battery.format("%02d") + "% battery", 	
+			myStats.battery.format("%02d") + "% battery",
 			Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER
 		);
 		
@@ -120,7 +122,7 @@ class WennerView extends Ui.View { // Vue principale : celle où il y a l'heure e
         
         dc.drawText( // Affichage de la date
         	dc.getWidth()/2, 
-        	150, 
+        	dc.getHeight()/4*3, 
         	Graphics.FONT_MEDIUM, 
         	today.day_of_week + " " + today.day, 
         	Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER
@@ -145,18 +147,24 @@ class WennerView extends Ui.View { // Vue principale : celle où il y a l'heure e
        		
        		if (message1Heure.toNumber()==today.hour.toNumber() 	// 1er message
 			&& message1Minute.toNumber()==today.min.toNumber()) {
-				System.println("message du groupe D");
-				envoyerMessageAleaGroupe(tabCondition["grpD"]);
+				System.println("message du groupe C");
+				envoyerMessageAleaGroupe(tabCondition["grpC"]);
        		}
        		
        		if (message2Heure.toNumber()==today.hour.toNumber() 	// 2eme message
 			&& message2Minute.toNumber()==today.min.toNumber()) {
-				System.println("message du groupe Entrer C");
+				System.println("message du groupe C");
 				envoyerMessageAleaGroupe(tabCondition["grpC"]);
        		}
        		
        		if (message3Heure.toNumber()==today.hour.toNumber() 	//3eme message
 			&& message3Minute.toNumber()==today.min.toNumber()) {
+				System.println("message du groupe Entrer D");
+				envoyerMessageAleaGroupe(tabCondition["grpD"]);
+       		}
+       		
+       		if (message4Heure.toNumber()==today.hour.toNumber() 	//4eme message
+			&& message4Minute.toNumber()==today.min.toNumber()) {
 				System.println("message du groupe B");
 				envoyerMessageAleaGroupe(tabCondition["grpB"]);
        		}

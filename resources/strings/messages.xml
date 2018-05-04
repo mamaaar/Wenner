@@ -1,5 +1,5 @@
 <strings>
-         <string id="messageEntree">Votre objectif du jour est de 10 000 pas !</string>
+         <string id="messageEntree">Votre objectif \ndu jour est \nde 10 000 pas !</string>
          <string id="proA1">Continue comme ca,\n tes efforts \n vont payer!</string>
          <string id="proA7">Tu as atteint \n l objectif et c est \n entierement grace \n a ta determination !</string>
          <string id="proA8">Tu as reussi \n facilement,\n bien joue !</string>

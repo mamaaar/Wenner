@@ -24,12 +24,7 @@ class SensorView extends Ui.View
     //! Constructor
     function initialize()
     {
-        View.initialize();
-        coeur = new Ui.Bitmap({	:rezId=>Rez.Drawables.coeur,
-        						:locX=>75,
-        						:locY=>30}
-        					);
-        					
+        View.initialize();			
     	Snsr.setEnabledSensors( [Snsr.SENSOR_HEARTRATE] );
         Snsr.enableSensorEvents( method(:onSnsr) );
         HR_graph = new LineGraph( 20, 10, Gfx.COLOR_RED );
@@ -43,11 +38,15 @@ class SensorView extends Ui.View
         dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_BLACK);
         dc.clear();
         
+        coeur = new Ui.Bitmap({	:rezId=>Rez.Drawables.coeur,
+        						:locX=>85,
+        						:locY=>45}
+        					);
         coeur.draw(dc);
 
         dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT );
 		var stringFc = Ui.loadResource( Rez.Strings.FcTitle );
-        dc.drawText(dc.getWidth()/2,10, Gfx.FONT_SMALL, stringFc, Gfx.TEXT_JUSTIFY_CENTER);
+        dc.drawText(dc.getWidth()/2,30, Gfx.FONT_SMALL, stringFc, Gfx.TEXT_JUSTIFY_CENTER);
         
         dc.drawText(dc.getWidth() / 2, 90, Gfx.FONT_LARGE, string_HR, Gfx.TEXT_JUSTIFY_CENTER);
         
@@ -55,7 +54,7 @@ class SensorView extends Ui.View
 		var maxHR = hrIterator.getMax();
        	var minHR = hrIterator.getMin();
        	
-       	dc.drawText(dc.getWidth()/2, dc.getHeight()/4*3, Gfx.FONT_MEDIUM, "Basse: " + minHR + " / Haute: " + maxHR, Gfx.TEXT_JUSTIFY_CENTER);
+       	dc.drawText(dc.getWidth()/2, dc.getHeight()/4*3 - 15, Gfx.FONT_SMALL, "Basse: " + minHR + " / Haute: " + maxHR, Gfx.TEXT_JUSTIFY_CENTER);
 
         HR_graph.draw(dc, [0, 0], [dc.getWidth(), dc.getHeight()]);
 		
