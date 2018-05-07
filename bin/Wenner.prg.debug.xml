@@ -1,876 +1,399 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
 <pcToLineNum>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryDelegate.mc" lineNum="28" pc="268435456" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryDelegate.mc" lineNum="29" pc="268435460" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryDelegate.mc" lineNum="34" pc="268435478" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryDelegate.mc" lineNum="36" pc="268435501" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryDelegate.mc" lineNum="37" pc="268435518" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryDelegate.mc" lineNum="39" pc="268435525" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryDelegate.mc" lineNum="40" pc="268435555" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryDelegate.mc" lineNum="41" pc="268435573" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryDelegate.mc" lineNum="47" pc="268435602" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryDelegate.mc" lineNum="48" pc="268435624" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryDelegate.mc" lineNum="49" pc="268435655" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryDelegate.mc" lineNum="55" pc="268435682" symbol="onBack"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryDelegate.mc" lineNum="56" pc="268435686" symbol="onBack"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryDelegate.mc" lineNum="57" pc="268435714" symbol="onBack"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryDelegate.mc" lineNum="59" pc="268435718" symbol="incTimer"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryDelegate.mc" lineNum="60" pc="268435722" symbol="incTimer"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryDelegate.mc" lineNum="63" pc="268435742" symbol="onSelect"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryDelegate.mc" lineNum="64" pc="268435746" symbol="onSelect"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="63" pc="268435791" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="64" pc="268435795" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="68" pc="268435813" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="69" pc="268435856" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="70" pc="268435881" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="72" pc="268435900" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="73" pc="268435925" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="75" pc="268435944" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="76" pc="268435969" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="80" pc="268435988" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="81" pc="268436024" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="88" pc="268436066" symbol="onShow"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="89" pc="268436070" symbol="onShow"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="90" pc="268436111" symbol="onShow"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="94" pc="268436128" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="95" pc="268436132" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="97" pc="268436152" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="98" pc="268436192" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="100" pc="268436204" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="101" pc="268436223" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="102" pc="268436242" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="103" pc="268436296" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="105" pc="268436325" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="113" pc="268436442" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="123" pc="268436611" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="133" pc="268436742" symbol="incsec"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="134" pc="268436746" symbol="incsec"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="135" pc="268436765" symbol="incsec"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="136" pc="268436791" symbol="incsec"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="137" pc="268436814" symbol="incsec"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="139" pc="268436868" symbol="incsec"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="141" pc="268436959" symbol="incsec"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="142" pc="268436977" symbol="incsec"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="144" pc="268437014" symbol="incsec"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="145" pc="268437048" symbol="incsec"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="148" pc="268437123" symbol="incsec"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="150" pc="268437214" symbol="incsec"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="151" pc="268437237" symbol="incsec"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="154" pc="268437266" symbol="incsec"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="156" pc="268437357" symbol="incsec"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="157" pc="268437380" symbol="incsec"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="160" pc="268437409" symbol="incsec"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="162" pc="268437500" symbol="incsec"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="163" pc="268437523" symbol="incsec"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="166" pc="268437552" symbol="incsec"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="168" pc="268437643" symbol="incsec"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="169" pc="268437666" symbol="incsec"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="172" pc="268437695" symbol="incsec"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="174" pc="268437786" symbol="incsec"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="175" pc="268437809" symbol="incsec"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="176" pc="268437826" symbol="incsec"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="179" pc="268437855" symbol="incsec"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="180" pc="268437887" symbol="incsec"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="185" pc="268437919" symbol="incsec"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="190" pc="268437936" symbol="envoyerMessageAleaGroupe"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="191" pc="268437940" symbol="envoyerMessageAleaGroupe"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="192" pc="268437969" symbol="envoyerMessageAleaGroupe"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="193" pc="268437976" symbol="envoyerMessageAleaGroupe"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="194" pc="268437996" symbol="envoyerMessageAleaGroupe"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="195" pc="268438015" symbol="envoyerMessageAleaGroupe"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="196" pc="268438035" symbol="envoyerMessageAleaGroupe"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="197" pc="268438069" symbol="envoyerMessageAleaGroupe"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="203" pc="268438142" symbol="onHide"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="204" pc="268438146" symbol="onHide"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="205" pc="268438159" symbol="onHide"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryView.mc" lineNum="8" pc="268438178" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryView.mc" lineNum="9" pc="268438182" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryView.mc" lineNum="12" pc="268438201" symbol="onLayout"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryView.mc" lineNum="13" pc="268438205" symbol="onLayout"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryView.mc" lineNum="17" pc="268438243" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryView.mc" lineNum="18" pc="268438247" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryView.mc" lineNum="20" pc="268438267" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryView.mc" lineNum="21" pc="268438303" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryView.mc" lineNum="22" pc="268438320" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryView.mc" lineNum="23" pc="268438327" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryView.mc" lineNum="24" pc="268438334" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryView.mc" lineNum="26" pc="268438363" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryView.mc" lineNum="28" pc="268438393" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryView.mc" lineNum="29" pc="268438417" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryView.mc" lineNum="31" pc="268438501" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryView.mc" lineNum="32" pc="268438530" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryView.mc" lineNum="33" pc="268438552" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="11" pc="268438647" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="12" pc="268438651" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="16" pc="268438670" symbol="onLayout"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="18" pc="268438674" symbol="onLayout"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="19" pc="268438687" symbol="onLayout"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="20" pc="268438720" symbol="onLayout"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="26" pc="268438741" symbol="onShow"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="30" pc="268438746" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="32" pc="268438750" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="33" pc="268438786" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="36" pc="268438798" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="37" pc="268438834" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="38" pc="268438905" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="41" pc="268438941" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="42" pc="268439003" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="44" pc="268439077" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="45" pc="268439101" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="46" pc="268439125" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="48" pc="268439149" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="49" pc="268439166" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="50" pc="268439183" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="53" pc="268439200" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="54" pc="268439230" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="64" pc="268439267" symbol="onHide"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="69" pc="268439272" symbol="incIndex"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="70" pc="268439276" symbol="incIndex"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="71" pc="268439289" symbol="incIndex"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="72" pc="268439308" symbol="incIndex"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="73" pc="268439325" symbol="incIndex"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="79" pc="268439345" symbol="decIndex"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="80" pc="268439349" symbol="decIndex"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="81" pc="268439362" symbol="decIndex"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="82" pc="268439381" symbol="decIndex"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="83" pc="268439398" symbol="decIndex"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="89" pc="268439418" symbol="action"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="90" pc="268439422" symbol="action"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="91" pc="268439439" symbol="action"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="93" pc="268439514" symbol="action"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="94" pc="268439531" symbol="action"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="96" pc="268439606" symbol="action"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="107" pc="268439610" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="108" pc="268439614" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="112" pc="268439633" symbol="onLayout"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="114" pc="268439637" symbol="onLayout"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="115" pc="268439650" symbol="onLayout"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="116" pc="268439683" symbol="onLayout"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="122" pc="268439704" symbol="onShow"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="126" pc="268439709" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="128" pc="268439713" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="129" pc="268439749" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="132" pc="268439761" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="133" pc="268439797" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="134" pc="268439868" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="137" pc="268439904" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="138" pc="268439966" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="140" pc="268440040" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="141" pc="268440064" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="142" pc="268440088" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="144" pc="268440112" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="145" pc="268440129" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="146" pc="268440146" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="149" pc="268440163" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="150" pc="268440193" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="160" pc="268440230" symbol="onHide"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="165" pc="268440235" symbol="incIndex"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="166" pc="268440239" symbol="incIndex"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="167" pc="268440252" symbol="incIndex"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="168" pc="268440271" symbol="incIndex"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="169" pc="268440288" symbol="incIndex"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="175" pc="268440308" symbol="decIndex"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="176" pc="268440312" symbol="decIndex"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="177" pc="268440325" symbol="decIndex"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="178" pc="268440344" symbol="decIndex"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="179" pc="268440361" symbol="decIndex"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="185" pc="268440381" symbol="action"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="186" pc="268440385" symbol="action"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="188" pc="268440405" symbol="action"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="190" pc="268440425" symbol="action"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="201" pc="268440429" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="202" pc="268440433" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="206" pc="268440452" symbol="onLayout"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="208" pc="268440456" symbol="onLayout"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="209" pc="268440469" symbol="onLayout"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="210" pc="268440502" symbol="onLayout"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="216" pc="268440523" symbol="onShow"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="220" pc="268440528" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="222" pc="268440532" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="223" pc="268440568" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="226" pc="268440580" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="227" pc="268440616" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="228" pc="268440687" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="231" pc="268440723" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="232" pc="268440785" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="234" pc="268440859" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="235" pc="268440883" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="236" pc="268440907" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="238" pc="268440931" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="239" pc="268440948" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="240" pc="268440965" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="243" pc="268440982" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="244" pc="268441012" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="254" pc="268441049" symbol="onHide"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="259" pc="268441054" symbol="incIndex"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="260" pc="268441058" symbol="incIndex"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="261" pc="268441071" symbol="incIndex"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="262" pc="268441090" symbol="incIndex"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="263" pc="268441107" symbol="incIndex"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="269" pc="268441127" symbol="decIndex"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="270" pc="268441131" symbol="decIndex"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="271" pc="268441144" symbol="decIndex"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="272" pc="268441163" symbol="decIndex"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="273" pc="268441180" symbol="decIndex"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="279" pc="268441200" symbol="action"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="280" pc="268441204" symbol="action"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="282" pc="268441224" symbol="action"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreVue.mc" lineNum="284" pc="268441244" symbol="action"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="11" pc="268441248" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="12" pc="268441252" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="16" pc="268441271" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="17" pc="268441275" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="18" pc="268441295" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="19" pc="268441307" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="21" pc="268441343" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="23" pc="268441376" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="24" pc="268441395" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="26" pc="268441414" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="28" pc="268441456" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="29" pc="268441473" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="34" pc="268441527" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreDelegate.mc" lineNum="6" pc="268441549" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreDelegate.mc" lineNum="7" pc="268441553" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreDelegate.mc" lineNum="10" pc="268441572" symbol="onMenu"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreDelegate.mc" lineNum="11" pc="268441576" symbol="onMenu"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreDelegate.mc" lineNum="15" pc="268441580" symbol="onKey"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreDelegate.mc" lineNum="16" pc="268441584" symbol="onKey"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreDelegate.mc" lineNum="17" pc="268441601" symbol="onKey"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreDelegate.mc" lineNum="19" pc="268441614" symbol="onKey"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreDelegate.mc" lineNum="20" pc="268441632" symbol="onKey"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreDelegate.mc" lineNum="22" pc="268441653" symbol="onKey"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreDelegate.mc" lineNum="23" pc="268441671" symbol="onKey"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreDelegate.mc" lineNum="25" pc="268441692" symbol="onKey"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreDelegate.mc" lineNum="26" pc="268441710" symbol="onKey"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreDelegate.mc" lineNum="28" pc="268441731" symbol="onKey"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreDelegate.mc" lineNum="29" pc="268441749" symbol="onKey"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreDelegate.mc" lineNum="32" pc="268441770" symbol="onKey"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreDelegate.mc" lineNum="34" pc="268441773" symbol="onKey"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreDelegate.mc" lineNum="35" pc="268441789" symbol="onKey"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreDelegate.mc" lineNum="43" pc="268441793" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreDelegate.mc" lineNum="44" pc="268441797" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreDelegate.mc" lineNum="47" pc="268441816" symbol="onMenu"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreDelegate.mc" lineNum="48" pc="268441820" symbol="onMenu"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreDelegate.mc" lineNum="52" pc="268441824" symbol="onKey"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreDelegate.mc" lineNum="53" pc="268441828" symbol="onKey"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreDelegate.mc" lineNum="54" pc="268441845" symbol="onKey"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreDelegate.mc" lineNum="56" pc="268441858" symbol="onKey"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreDelegate.mc" lineNum="57" pc="268441876" symbol="onKey"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreDelegate.mc" lineNum="59" pc="268441897" symbol="onKey"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreDelegate.mc" lineNum="60" pc="268441915" symbol="onKey"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreDelegate.mc" lineNum="62" pc="268441936" symbol="onKey"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreDelegate.mc" lineNum="63" pc="268441954" symbol="onKey"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreDelegate.mc" lineNum="65" pc="268442029" symbol="onKey"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreDelegate.mc" lineNum="66" pc="268442047" symbol="onKey"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreDelegate.mc" lineNum="68" pc="268442068" symbol="onKey"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreDelegate.mc" lineNum="69" pc="268442086" symbol="onKey"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreDelegate.mc" lineNum="72" pc="268442107" symbol="onKey"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreDelegate.mc" lineNum="74" pc="268442110" symbol="onKey"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreDelegate.mc" lineNum="75" pc="268442126" symbol="onKey"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreDelegate.mc" lineNum="82" pc="268442130" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreDelegate.mc" lineNum="83" pc="268442134" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreDelegate.mc" lineNum="86" pc="268442153" symbol="onMenu"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreDelegate.mc" lineNum="87" pc="268442157" symbol="onMenu"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreDelegate.mc" lineNum="91" pc="268442161" symbol="onKey"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreDelegate.mc" lineNum="92" pc="268442165" symbol="onKey"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreDelegate.mc" lineNum="93" pc="268442182" symbol="onKey"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreDelegate.mc" lineNum="95" pc="268442195" symbol="onKey"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreDelegate.mc" lineNum="96" pc="268442213" symbol="onKey"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreDelegate.mc" lineNum="98" pc="268442234" symbol="onKey"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreDelegate.mc" lineNum="99" pc="268442252" symbol="onKey"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreDelegate.mc" lineNum="101" pc="268442273" symbol="onKey"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreDelegate.mc" lineNum="102" pc="268442291" symbol="onKey"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreDelegate.mc" lineNum="104" pc="268442366" symbol="onKey"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreDelegate.mc" lineNum="105" pc="268442384" symbol="onKey"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreDelegate.mc" lineNum="107" pc="268442405" symbol="onKey"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreDelegate.mc" lineNum="108" pc="268442423" symbol="onKey"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreDelegate.mc" lineNum="111" pc="268442444" symbol="onKey"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreDelegate.mc" lineNum="113" pc="268442447" symbol="onKey"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\parametreDelegate.mc" lineNum="114" pc="268442463" symbol="onKey"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="5" pc="268442467" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="6" pc="268442471" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="9" pc="268442490" symbol="onSelect"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="10" pc="268442494" symbol="onSelect"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="22" pc="268442567" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="24" pc="268442571" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="25" pc="268442584" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="27" pc="268442616" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="29" pc="268442627" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="31" pc="268442651" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="32" pc="268442662" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="33" pc="268442672" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="37" pc="268442683" symbol="setColor"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="39" pc="268442687" symbol="setColor"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="43" pc="268442698" symbol="setMinRange"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="45" pc="268442702" symbol="setMinRange"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="48" pc="268442713" symbol="addItem"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="50" pc="268442717" symbol="addItem"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="51" pc="268442721" symbol="addItem"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="53" pc="268442725" symbol="addItem"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="55" pc="268442756" symbol="addItem"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="58" pc="268442775" symbol="addItem"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="59" pc="268442791" symbol="addItem"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="63" pc="268442810" symbol="addItem"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="65" pc="268442830" symbol="addItem"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="67" pc="268442849" symbol="addItem"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="69" pc="268442884" symbol="addItem"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="72" pc="268442891" symbol="addItem"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="74" pc="268442911" symbol="addItem"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="76" pc="268442930" symbol="addItem"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="78" pc="268442965" symbol="addItem"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="82" pc="268442972" symbol="addItem"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="84" pc="268442991" symbol="addItem"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="85" pc="268443010" symbol="addItem"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="87" pc="268443039" symbol="addItem"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="90" pc="268443055" symbol="addItem"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="92" pc="268443060" symbol="addItem"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="93" pc="268443060" symbol="addItem"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="94" pc="268443076" symbol="addItem"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="96" pc="268443106" symbol="addItem"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="98" pc="268443123" symbol="addItem"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="101" pc="268443152" symbol="addItem"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="104" pc="268443171" symbol="addItem"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="106" pc="268443176" symbol="addItem"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="107" pc="268443176" symbol="addItem"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="108" pc="268443192" symbol="addItem"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="110" pc="268443222" symbol="addItem"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="112" pc="268443239" symbol="addItem"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="115" pc="268443268" symbol="addItem"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="126" pc="268443291" symbol="draw"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="128" pc="268443295" symbol="draw"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="129" pc="268443295" symbol="draw"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="130" pc="268443295" symbol="draw"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="131" pc="268443295" symbol="draw"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="132" pc="268443295" symbol="draw"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="133" pc="268443295" symbol="draw"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="134" pc="268443295" symbol="draw"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="135" pc="268443320" symbol="draw"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="136" pc="268443345" symbol="draw"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="137" pc="268443345" symbol="draw"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="139" pc="268443352" symbol="draw"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="140" pc="268443359" symbol="draw"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="141" pc="268443381" symbol="draw"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="142" pc="268443391" symbol="draw"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="143" pc="268443413" symbol="draw"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="144" pc="268443423" symbol="draw"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="145" pc="268443445" symbol="draw"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="146" pc="268443455" symbol="draw"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="147" pc="268443477" symbol="draw"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="150" pc="268443487" symbol="draw"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="153" pc="268443506" symbol="draw"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="156" pc="268443534" symbol="draw"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="157" pc="268443550" symbol="draw"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="158" pc="268443581" symbol="draw"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="160" pc="268443594" symbol="draw"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="162" pc="268443608" symbol="draw"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="163" pc="268443630" symbol="draw"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="166" pc="268443643" symbol="draw"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="167" pc="268443653" symbol="draw"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="168" pc="268443693" symbol="draw"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="169" pc="268443696" symbol="draw"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="171" pc="268443729" symbol="draw"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="173" pc="268443745" symbol="draw"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="174" pc="268443749" symbol="draw"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="175" pc="268443780" symbol="draw"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="177" pc="268443793" symbol="draw"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="179" pc="268443800" symbol="draw"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="180" pc="268443820" symbol="draw"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="181" pc="268443824" symbol="draw"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="182" pc="268443834" symbol="draw"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="186" pc="268443893" symbol="draw"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="188" pc="268443914" symbol="draw"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="190" pc="268443930" symbol="draw"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="191" pc="268443934" symbol="draw"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="192" pc="268443965" symbol="draw"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="194" pc="268443978" symbol="draw"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="196" pc="268443985" symbol="draw"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="197" pc="268444005" symbol="draw"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="198" pc="268444009" symbol="draw"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\Graph.mc" lineNum="199" pc="268444019" symbol="draw"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="11" pc="268444082" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="12" pc="268444086" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="13" pc="268444104" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="14" pc="268444127" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="15" pc="268444161" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="18" pc="268444203" symbol="incsec"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="19" pc="268444207" symbol="incsec"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="20" pc="268444226" symbol="incsec"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="21" pc="268444243" symbol="incsec"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="22" pc="268444256" symbol="incsec"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="23" pc="268444275" symbol="incsec"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="24" pc="268444292" symbol="incsec"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="25" pc="268444305" symbol="incsec"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="30" pc="268444331" symbol="onBack"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="31" pc="268444335" symbol="onBack"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="32" pc="268444353" symbol="onBack"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="19" pc="268444422" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="20" pc="268444426" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="22" pc="268444444" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="28" pc="268444538" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="29" pc="268444572" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="33" pc="268444614" symbol="onLayout"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="39" pc="268444619" symbol="onShow"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="40" pc="268444623" symbol="onShow"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="41" pc="268444664" symbol="onShow"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="45" pc="268444681" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="46" pc="268444685" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="47" pc="268444721" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="49" pc="268444733" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="51" pc="268444753" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="52" pc="268444776" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="53" pc="268444795" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="55" pc="268444819" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="63" pc="268444890" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="65" pc="268444926" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="76" pc="268445051" symbol="incsec"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="77" pc="268445055" symbol="incsec"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="78" pc="268445074" symbol="incsec"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="81" pc="268445098" symbol="incsec"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="85" pc="268445115" symbol="drawBar"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="86" pc="268445119" symbol="drawBar"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="87" pc="268445144" symbol="drawBar"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="89" pc="268445163" symbol="drawBar"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="90" pc="268445174" symbol="drawBar"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="93" pc="268445184" symbol="drawBar"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="94" pc="268445200" symbol="drawBar"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="95" pc="268445226" symbol="drawBar"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="96" pc="268445262" symbol="drawBar"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="97" pc="268445285" symbol="drawBar"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="99" pc="268445302" symbol="drawBar"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="101" pc="268445316" symbol="drawBar"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="107" pc="268445373" symbol="onHide"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="108" pc="268445377" symbol="onHide"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="109" pc="268445390" symbol="onHide"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="118" pc="268445409" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="119" pc="268445413" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="123" pc="268445432" symbol="onNextPage"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="124" pc="268445436" symbol="onNextPage"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="127" pc="268445509" symbol="onPreviousPage"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="128" pc="268445513" symbol="onPreviousPage"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\SensorViewAndDelegate.mc" lineNum="25" pc="268445586" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\SensorViewAndDelegate.mc" lineNum="27" pc="268445590" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\SensorViewAndDelegate.mc" lineNum="28" pc="268445608" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\SensorViewAndDelegate.mc" lineNum="29" pc="268445650" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\SensorViewAndDelegate.mc" lineNum="30" pc="268445682" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\SensorViewAndDelegate.mc" lineNum="32" pc="268445734" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\SensorViewAndDelegate.mc" lineNum="36" pc="268445748" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\SensorViewAndDelegate.mc" lineNum="38" pc="268445752" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\SensorViewAndDelegate.mc" lineNum="39" pc="268445788" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\SensorViewAndDelegate.mc" lineNum="41" pc="268445800" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\SensorViewAndDelegate.mc" lineNum="45" pc="268445894" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\SensorViewAndDelegate.mc" lineNum="47" pc="268445914" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\SensorViewAndDelegate.mc" lineNum="48" pc="268445950" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\SensorViewAndDelegate.mc" lineNum="49" pc="268445987" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\SensorViewAndDelegate.mc" lineNum="51" pc="268446047" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\SensorViewAndDelegate.mc" lineNum="53" pc="268446113" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\SensorViewAndDelegate.mc" lineNum="54" pc="268446135" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\SensorViewAndDelegate.mc" lineNum="55" pc="268446148" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\SensorViewAndDelegate.mc" lineNum="57" pc="268446161" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\SensorViewAndDelegate.mc" lineNum="59" pc="268446260" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\SensorViewAndDelegate.mc" lineNum="63" pc="268446357" symbol="onSnsr"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\SensorViewAndDelegate.mc" lineNum="65" pc="268446361" symbol="onSnsr"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\SensorViewAndDelegate.mc" lineNum="66" pc="268446371" symbol="onSnsr"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\SensorViewAndDelegate.mc" lineNum="67" pc="268446371" symbol="onSnsr"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\SensorViewAndDelegate.mc" lineNum="69" pc="268446384" symbol="onSnsr"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\SensorViewAndDelegate.mc" lineNum="72" pc="268446409" symbol="onSnsr"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\SensorViewAndDelegate.mc" lineNum="76" pc="268446432" symbol="onSnsr"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\SensorViewAndDelegate.mc" lineNum="79" pc="268446445" symbol="onSnsr"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\SensorViewAndDelegate.mc" lineNum="87" pc="268446462" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\SensorViewAndDelegate.mc" lineNum="88" pc="268446466" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\SensorViewAndDelegate.mc" lineNum="91" pc="268446485" symbol="onNextPage"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\SensorViewAndDelegate.mc" lineNum="92" pc="268446489" symbol="onNextPage"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\SensorViewAndDelegate.mc" lineNum="95" pc="268446562" symbol="onPreviousPage"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\SensorViewAndDelegate.mc" lineNum="96" pc="268446566" symbol="onPreviousPage"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\tempsPasseView.mc" lineNum="14" pc="268446639" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\tempsPasseView.mc" lineNum="16" pc="268446643" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\tempsPasseView.mc" lineNum="19" pc="268446662" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\tempsPasseView.mc" lineNum="21" pc="268446666" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\tempsPasseView.mc" lineNum="22" pc="268446702" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\tempsPasseView.mc" lineNum="24" pc="268446714" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\tempsPasseView.mc" lineNum="25" pc="268446747" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\tempsPasseView.mc" lineNum="28" pc="268446780" symbol="onUpdate"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\tempsPasseView.mc" lineNum="37" pc="268446868" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\tempsPasseView.mc" lineNum="38" pc="268446872" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerApp.mc" lineNum="6" pc="268446891" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerApp.mc" lineNum="7" pc="268446895" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerApp.mc" lineNum="11" pc="268446914" symbol="onStart"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerApp.mc" lineNum="15" pc="268446919" symbol="onStop"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerApp.mc" lineNum="19" pc="268446924" symbol="getInitialView"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerApp.mc" lineNum="20" pc="268446928" symbol="getInitialView"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\BigHistoDelegate.mc" lineNum="5" pc="268446996" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\BigHistoDelegate.mc" lineNum="6" pc="268447000" symbol="initialize"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\BigHistoDelegate.mc" lineNum="9" pc="268447019" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\BigHistoDelegate.mc" lineNum="10" pc="268447023" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\BigHistoDelegate.mc" lineNum="11" pc="268447034" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\BigHistoDelegate.mc" lineNum="13" pc="268447058" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\BigHistoDelegate.mc" lineNum="14" pc="268447069" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\BigHistoDelegate.mc" lineNum="16" pc="268447093" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\BigHistoDelegate.mc" lineNum="17" pc="268447104" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\BigHistoDelegate.mc" lineNum="19" pc="268447128" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\BigHistoDelegate.mc" lineNum="20" pc="268447139" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\BigHistoDelegate.mc" lineNum="22" pc="268447163" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\BigHistoDelegate.mc" lineNum="23" pc="268447174" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\BigHistoDelegate.mc" lineNum="25" pc="268447198" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\BigHistoDelegate.mc" lineNum="26" pc="268447209" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\BigHistoDelegate.mc" lineNum="28" pc="268447233" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\BigHistoDelegate.mc" lineNum="29" pc="268447244" symbol="onMenuItem"/>
-<entry filename="Rez" lineNum="61" pc="268447269" symbol="HistoryLayout"/>
-<entry filename="Rez" lineNum="65" pc="268447281" symbol="HistoryLayout"/>
-<entry filename="Rez" lineNum="66" pc="268447437" symbol="HistoryLayout"/>
-<entry filename="Rez" lineNum="67" pc="268447462" symbol="HistoryLayout"/>
-<entry filename="Rez" lineNum="68" pc="268447514" symbol="HistoryLayout"/>
-<entry filename="Rez" lineNum="69" pc="268447689" symbol="HistoryLayout"/>
-<entry filename="Rez" lineNum="72" pc="268447870" symbol="HistoryLayout"/>
-<entry filename="Rez" lineNum="81" pc="268447908" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="88" pc="268447921" symbol="MainText"/>
-<entry filename="Rez" lineNum="92" pc="268447933" symbol="MainText"/>
-<entry filename="Rez" lineNum="93" pc="268448127" symbol="MainText"/>
-<entry filename="Rez" lineNum="94" pc="268448152" symbol="MainText"/>
-<entry filename="Rez" lineNum="95" pc="268448204" symbol="MainText"/>
-<entry filename="Rez" lineNum="96" pc="268448347" symbol="MainText"/>
-<entry filename="Rez" lineNum="97" pc="268448372" symbol="MainText"/>
-<entry filename="Rez" lineNum="98" pc="268448424" symbol="MainText"/>
-<entry filename="Rez" lineNum="99" pc="268448470" symbol="MainText"/>
-<entry filename="Rez" lineNum="100" pc="268448650" symbol="MainText"/>
-<entry filename="Rez" lineNum="101" pc="268448675" symbol="MainText"/>
-<entry filename="Rez" lineNum="102" pc="268448727" symbol="MainText"/>
-<entry filename="Rez" lineNum="103" pc="268448921" symbol="MainText"/>
-<entry filename="Rez" lineNum="104" pc="268448946" symbol="MainText"/>
-<entry filename="Rez" lineNum="105" pc="268448998" symbol="MainText"/>
-<entry filename="Rez" lineNum="106" pc="268449141" symbol="MainText"/>
-<entry filename="Rez" lineNum="107" pc="268449166" symbol="MainText"/>
-<entry filename="Rez" lineNum="108" pc="268449218" symbol="MainText"/>
-<entry filename="Rez" lineNum="109" pc="268449264" symbol="MainText"/>
-<entry filename="Rez" lineNum="110" pc="268449444" symbol="MainText"/>
-<entry filename="Rez" lineNum="111" pc="268449469" symbol="MainText"/>
-<entry filename="Rez" lineNum="112" pc="268449521" symbol="MainText"/>
-<entry filename="Rez" lineNum="113" pc="268449715" symbol="MainText"/>
-<entry filename="Rez" lineNum="114" pc="268449740" symbol="MainText"/>
-<entry filename="Rez" lineNum="115" pc="268449792" symbol="MainText"/>
-<entry filename="Rez" lineNum="116" pc="268449935" symbol="MainText"/>
-<entry filename="Rez" lineNum="117" pc="268449960" symbol="MainText"/>
-<entry filename="Rez" lineNum="118" pc="268450012" symbol="MainText"/>
-<entry filename="Rez" lineNum="119" pc="268450058" symbol="MainText"/>
-<entry filename="Rez" lineNum="120" pc="268450238" symbol="MainText"/>
-<entry filename="Rez" lineNum="121" pc="268450263" symbol="MainText"/>
-<entry filename="Rez" lineNum="124" pc="268450315" symbol="MainText"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="5" pc="268435456" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="6" pc="268435460" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="9" pc="268435479" symbol="onSelect"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="10" pc="268435483" symbol="onSelect"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="63" pc="268435556" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="64" pc="268435560" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="68" pc="268435578" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="69" pc="268435621" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="70" pc="268435646" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="72" pc="268435665" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="73" pc="268435690" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="75" pc="268435709" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="76" pc="268435734" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="80" pc="268435753" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="87" pc="268435790" symbol="onShow"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="88" pc="268435794" symbol="onShow"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="89" pc="268435835" symbol="onShow"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="93" pc="268435852" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="94" pc="268435856" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="96" pc="268435876" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="97" pc="268435916" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="99" pc="268435928" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="100" pc="268435947" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="101" pc="268435966" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="102" pc="268436020" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="104" pc="268436049" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="112" pc="268436166" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="122" pc="268436335" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="132" pc="268436466" symbol="incsec"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="133" pc="268436470" symbol="incsec"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="134" pc="268436489" symbol="incsec"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="135" pc="268436521" symbol="incsec"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="136" pc="268436544" symbol="incsec"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="138" pc="268436598" symbol="incsec"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="140" pc="268436689" symbol="incsec"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="141" pc="268436707" symbol="incsec"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="143" pc="268436744" symbol="incsec"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="144" pc="268436778" symbol="incsec"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="147" pc="268436855" symbol="incsec"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="149" pc="268436946" symbol="incsec"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="150" pc="268436969" symbol="incsec"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="153" pc="268436998" symbol="incsec"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="155" pc="268437089" symbol="incsec"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="156" pc="268437112" symbol="incsec"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="159" pc="268437141" symbol="incsec"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="161" pc="268437232" symbol="incsec"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="162" pc="268437255" symbol="incsec"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="165" pc="268437284" symbol="incsec"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="167" pc="268437375" symbol="incsec"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="168" pc="268437398" symbol="incsec"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="171" pc="268437427" symbol="incsec"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="173" pc="268437518" symbol="incsec"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="174" pc="268437541" symbol="incsec"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="175" pc="268437558" symbol="incsec"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="178" pc="268437587" symbol="incsec"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="179" pc="268437619" symbol="incsec"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="184" pc="268437651" symbol="incsec"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="189" pc="268437668" symbol="envoyerMessageAleaGroupe"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="190" pc="268437672" symbol="envoyerMessageAleaGroupe"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="191" pc="268437701" symbol="envoyerMessageAleaGroupe"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="192" pc="268437708" symbol="envoyerMessageAleaGroupe"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="193" pc="268437728" symbol="envoyerMessageAleaGroupe"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="194" pc="268437747" symbol="envoyerMessageAleaGroupe"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="195" pc="268437767" symbol="envoyerMessageAleaGroupe"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="196" pc="268437801" symbol="envoyerMessageAleaGroupe"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="199" pc="268437876" symbol="onHide"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="200" pc="268437880" symbol="onHide"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="11" pc="268437899" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="12" pc="268437903" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="13" pc="268437921" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="14" pc="268437944" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="15" pc="268437978" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="18" pc="268438020" symbol="incsec"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="19" pc="268438024" symbol="incsec"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="20" pc="268438043" symbol="incsec"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="21" pc="268438060" symbol="incsec"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="22" pc="268438073" symbol="incsec"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="23" pc="268438092" symbol="incsec"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="24" pc="268438109" symbol="incsec"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="25" pc="268438122" symbol="incsec"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="30" pc="268438148" symbol="onSelect"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="31" pc="268438152" symbol="onSelect"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="32" pc="268438170" symbol="onSelect"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="33" pc="268438238" symbol="onSelect"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="19" pc="268438311" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="20" pc="268438315" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="22" pc="268438333" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="28" pc="268438427" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="29" pc="268438461" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="33" pc="268438503" symbol="onLayout"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="39" pc="268438508" symbol="onShow"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="40" pc="268438512" symbol="onShow"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="41" pc="268438553" symbol="onShow"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="45" pc="268438570" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="46" pc="268438574" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="47" pc="268438610" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="49" pc="268438622" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="51" pc="268438642" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="52" pc="268438665" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="53" pc="268438684" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="55" pc="268438708" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="64" pc="268438779" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="66" pc="268438815" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="77" pc="268438940" symbol="incsec"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="78" pc="268438944" symbol="incsec"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="79" pc="268438963" symbol="incsec"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="82" pc="268438993" symbol="incsec"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="86" pc="268439010" symbol="drawBar"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="87" pc="268439014" symbol="drawBar"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="88" pc="268439039" symbol="drawBar"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="90" pc="268439058" symbol="drawBar"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="91" pc="268439069" symbol="drawBar"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="94" pc="268439079" symbol="drawBar"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="95" pc="268439095" symbol="drawBar"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="96" pc="268439121" symbol="drawBar"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="97" pc="268439157" symbol="drawBar"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="98" pc="268439180" symbol="drawBar"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="100" pc="268439197" symbol="drawBar"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="102" pc="268439211" symbol="drawBar"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="108" pc="268439268" symbol="onHide"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="109" pc="268439272" symbol="onHide"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="110" pc="268439285" symbol="onHide"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="119" pc="268439304" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="120" pc="268439308" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="122" pc="268439327" symbol="onSelect"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="123" pc="268439331" symbol="onSelect"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerApp.mc" lineNum="6" pc="268439404" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerApp.mc" lineNum="7" pc="268439408" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerApp.mc" lineNum="11" pc="268439427" symbol="onStart"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerApp.mc" lineNum="15" pc="268439432" symbol="onStop"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerApp.mc" lineNum="19" pc="268439437" symbol="getInitialView"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerApp.mc" lineNum="20" pc="268439441" symbol="getInitialView"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="12" pc="268439509" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="13" pc="268439513" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="14" pc="268439518" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="16" pc="268439531" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="17" pc="268439549" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="21" pc="268439579" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="22" pc="268439583" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="23" pc="268439603" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="25" pc="268439615" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="26" pc="268439644" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="27" pc="268439669" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="29" pc="268439693" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="32" pc="268439726" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="40" pc="268439764" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="42" pc="268439775" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="43" pc="268439792" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="48" pc="268439846" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="54" pc="268439871" symbol="drawBarMessage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="55" pc="268439875" symbol="drawBarMessage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="56" pc="268439900" symbol="drawBarMessage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="57" pc="268439919" symbol="drawBarMessage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="58" pc="268439926" symbol="drawBarMessage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="59" pc="268439937" symbol="drawBarMessage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="62" pc="268439947" symbol="drawBarMessage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="63" pc="268439983" symbol="drawBarMessage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="64" pc="268440009" symbol="drawBarMessage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="65" pc="268440045" symbol="drawBarMessage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="66" pc="268440068" symbol="drawBarMessage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="68" pc="268440085" symbol="drawBarMessage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="70" pc="268440099" symbol="drawBarMessage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="72" pc="268440170" symbol="drawBarMessage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="74" pc="268440206" symbol="drawBarMessage"/>
+<entry filename="Rez" lineNum="61" pc="268440270" symbol="HistoryLayout"/>
+<entry filename="Rez" lineNum="65" pc="268440282" symbol="HistoryLayout"/>
+<entry filename="Rez" lineNum="66" pc="268440438" symbol="HistoryLayout"/>
+<entry filename="Rez" lineNum="67" pc="268440463" symbol="HistoryLayout"/>
+<entry filename="Rez" lineNum="68" pc="268440515" symbol="HistoryLayout"/>
+<entry filename="Rez" lineNum="69" pc="268440690" symbol="HistoryLayout"/>
+<entry filename="Rez" lineNum="72" pc="268440871" symbol="HistoryLayout"/>
+<entry filename="Rez" lineNum="81" pc="268440909" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="88" pc="268440922" symbol="MainText"/>
+<entry filename="Rez" lineNum="92" pc="268440934" symbol="MainText"/>
+<entry filename="Rez" lineNum="93" pc="268441128" symbol="MainText"/>
+<entry filename="Rez" lineNum="94" pc="268441153" symbol="MainText"/>
+<entry filename="Rez" lineNum="95" pc="268441205" symbol="MainText"/>
+<entry filename="Rez" lineNum="96" pc="268441348" symbol="MainText"/>
+<entry filename="Rez" lineNum="97" pc="268441373" symbol="MainText"/>
+<entry filename="Rez" lineNum="98" pc="268441425" symbol="MainText"/>
+<entry filename="Rez" lineNum="99" pc="268441471" symbol="MainText"/>
+<entry filename="Rez" lineNum="100" pc="268441651" symbol="MainText"/>
+<entry filename="Rez" lineNum="101" pc="268441676" symbol="MainText"/>
+<entry filename="Rez" lineNum="102" pc="268441728" symbol="MainText"/>
+<entry filename="Rez" lineNum="103" pc="268441922" symbol="MainText"/>
+<entry filename="Rez" lineNum="104" pc="268441947" symbol="MainText"/>
+<entry filename="Rez" lineNum="105" pc="268441999" symbol="MainText"/>
+<entry filename="Rez" lineNum="106" pc="268442142" symbol="MainText"/>
+<entry filename="Rez" lineNum="107" pc="268442167" symbol="MainText"/>
+<entry filename="Rez" lineNum="108" pc="268442219" symbol="MainText"/>
+<entry filename="Rez" lineNum="109" pc="268442265" symbol="MainText"/>
+<entry filename="Rez" lineNum="110" pc="268442445" symbol="MainText"/>
+<entry filename="Rez" lineNum="111" pc="268442470" symbol="MainText"/>
+<entry filename="Rez" lineNum="112" pc="268442522" symbol="MainText"/>
+<entry filename="Rez" lineNum="113" pc="268442716" symbol="MainText"/>
+<entry filename="Rez" lineNum="114" pc="268442741" symbol="MainText"/>
+<entry filename="Rez" lineNum="115" pc="268442793" symbol="MainText"/>
+<entry filename="Rez" lineNum="116" pc="268442936" symbol="MainText"/>
+<entry filename="Rez" lineNum="117" pc="268442961" symbol="MainText"/>
+<entry filename="Rez" lineNum="118" pc="268443013" symbol="MainText"/>
+<entry filename="Rez" lineNum="119" pc="268443059" symbol="MainText"/>
+<entry filename="Rez" lineNum="120" pc="268443239" symbol="MainText"/>
+<entry filename="Rez" lineNum="121" pc="268443264" symbol="MainText"/>
+<entry filename="Rez" lineNum="124" pc="268443316" symbol="MainText"/>
 </pcToLineNum>
 <symbolTable>
-<entry id="21" object="true" symbol="WennerDelegate"/>
-<entry field="true" id="113" symbol="aleatoires"/>
+<entry id="9" object="true" symbol="WennerDelegate"/>
+<entry field="true" id="77" symbol="aleatoires"/>
 <entry id="8388644" module="true" symbol="System"/>
 <entry field="true" id="8388923" method="true" symbol="today"/>
-<entry field="true" id="38" symbol="minutesCoeur"/>
-<entry field="true" id="122" symbol="message4Heure"/>
-<entry id="33" method="true" symbol="decIndex"/>
-<entry id="9" object="true" symbol="HistoryDelegate"/>
+<entry field="true" id="86" symbol="message4Heure"/>
 <entry id="8388987" method="true" symbol="vibrate"/>
-<entry field="true" id="108" symbol="nbPasActuel"/>
-<entry field="true" id="114" symbol="messageEntreeHeure"/>
+<entry field="true" id="71" symbol="nbPasActuel"/>
+<entry field="true" id="78" symbol="messageEntreeHeure"/>
+<entry field="true" id="70" symbol="mVibration"/>
 <entry id="8389124" method="true" symbol="onUpdate"/>
 <entry id="8389349" symbol="justification"/>
-<entry id="24" object="true" symbol="PasView"/>
-<entry field="true" id="91" symbol="string_HR"/>
-<entry id="8389097" method="true" symbol="onKey"/>
-<entry id="46" method="true" symbol="HistoryLayout"/>
-<entry field="true" id="84" symbol="namaste_graph_label"/>
-<entry field="true" id="124" symbol="messageSortieHeure"/>
-<entry id="30" object="true" symbol="WennerApp"/>
+<entry id="12" object="true" symbol="PasView"/>
+<entry id="25" method="true" symbol="HistoryLayout"/>
+<entry field="true" id="63" symbol="namaste_graph_label"/>
+<entry field="true" id="88" symbol="messageSortieHeure"/>
+<entry id="14" object="true" symbol="WennerApp"/>
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
 <entry id="8388645" module="true" symbol="Time"/>
-<entry id="48" method="true" symbol="MainText"/>
-<entry id="14" object="true" symbol="parametreVue"/>
+<entry id="27" method="true" symbol="MainText"/>
 <entry id="8389619" method="true" symbol="onSelect"/>
-<entry id="29" object="true" symbol="tempsPasseDelegate"/>
-<entry id="20" object="true" symbol="paramMessagesDelegate"/>
-<entry field="true" id="123" symbol="message4Minute"/>
+<entry field="true" id="87" symbol="message4Minute"/>
 <entry id="8388770" module="true" object="true" symbol="Strings"/>
-<entry field="true" id="12" symbol="selectedIndex"/>
-<entry id="127" method="true" symbol="envoyerMessageAleaGroupe"/>
-<entry id="8389095" method="true" symbol="addItem"/>
-<entry id="110" method="true" symbol="drawBar"/>
+<entry id="91" method="true" symbol="envoyerMessageAleaGroupe"/>
+<entry id="74" method="true" symbol="drawBar"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
-<entry id="8389068" method="true" symbol="draw"/>
-<entry id="8388640" module="true" symbol="Lang"/>
-<entry id="32" method="true" symbol="incIndex"/>
-<entry field="true" id="112" symbol="preventions"/>
-<entry id="47" method="true" symbol="MainLayout"/>
-<entry id="107" method="true" symbol="incsec"/>
-<entry field="true" id="64" symbol="messageEntree"/>
-<entry field="true" id="111" symbol="promotions"/>
-<entry field="true" id="87" symbol="preD11"/>
-<entry field="true" id="86" symbol="preD10"/>
-<entry field="true" id="35" symbol="minutesPas"/>
+<entry field="true" id="76" symbol="preventions"/>
+<entry id="26" method="true" symbol="MainLayout"/>
+<entry id="19" method="true" symbol="incsec"/>
+<entry field="true" id="43" symbol="messageEntree"/>
+<entry field="true" id="75" symbol="promotions"/>
+<entry field="true" id="66" symbol="preD11"/>
+<entry field="true" id="65" symbol="preD10"/>
 <entry id="8388769" module="true" object="true" symbol="Rez"/>
-<entry field="true" id="116" symbol="message1Heure"/>
+<entry field="true" id="80" symbol="message1Heure"/>
 <entry id="8389123" method="true" symbol="onShow"/>
-<entry id="15" object="true" symbol="paramTypeMessageVue"/>
 <entry id="8388924" module="true" symbol="Gregorian"/>
-<entry field="true" id="95" symbol="graphIndex"/>
-<entry id="19" object="true" symbol="paramTypeMessageDelegate"/>
-<entry field="true" id="126" symbol="tabCondition"/>
-<entry field="true" id="98" symbol="graphColor"/>
-<entry id="8388636" module="true" symbol="Attention"/>
-<entry field="true" id="109" symbol="timer"/>
-<entry id="8389131" method="true" symbol="setColor"/>
+<entry field="true" id="90" symbol="tabCondition"/>
+<entry id="72" method="true" symbol="drawBarMessage"/>
+<entry field="true" id="73" symbol="timer"/>
 <entry id="8388702" method="true" symbol="initialize"/>
-<entry id="93" method="true" symbol="onSnsr"/>
 <entry id="10" object="true" symbol="WennerView"/>
-<entry field="true" id="61" symbol="AppName"/>
+<entry field="true" id="40" symbol="AppName"/>
 <entry field="true" id="8389343" symbol="minutes"/>
-<entry field="true" id="39" symbol="secondesCoeur"/>
-<entry id="26" object="true" symbol="SensorView"/>
-<entry id="99" method="true" symbol="setMinRange"/>
-<entry id="8389080" method="true" symbol="onMenu"/>
-<entry field="true" id="120" symbol="message3Heure"/>
-<entry id="31" object="true" symbol="BigHistoDelegate"/>
-<entry id="8389078" method="true" symbol="onNextPage"/>
-<entry field="true" id="106" symbol="milliSecs"/>
-<entry id="134" symbol="item_7"/>
-<entry id="133" symbol="item_6"/>
-<entry id="132" symbol="item_5"/>
-<entry id="131" symbol="item_4"/>
-<entry id="130" symbol="item_3"/>
-<entry id="129" symbol="item_2"/>
-<entry id="128" symbol="item_1"/>
+<entry field="true" id="84" symbol="message3Heure"/>
+<entry field="true" id="18" symbol="milliSecs"/>
 <entry id="8388641" module="true" symbol="Math"/>
-<entry id="17" object="true" symbol="MessageView"/>
-<entry field="true" id="45" symbol="LauncherIcon"/>
-<entry field="true" id="62" symbol="idParticipant"/>
+<entry id="15" object="true" symbol="MessageView"/>
+<entry field="true" id="24" symbol="LauncherIcon"/>
+<entry field="true" id="41" symbol="idParticipant"/>
 <entry id="8388646" module="true" object="true" symbol="Timer"/>
-<entry id="8389081" method="true" symbol="onBack"/>
-<entry id="23" object="true" symbol="MessageViewDelegate"/>
-<entry id="8388648" module="true" symbol="WatchUi"/>
+<entry id="11" object="true" symbol="MessageViewDelegate"/>
 <entry id="8389281" method="true" symbol="onStop"/>
-<entry id="18" object="true" symbol="parametreDelegate"/>
-<entry id="28" object="true" symbol="tempsPasseView"/>
 <entry field="true" id="8389065" symbol="locY"/>
 <entry field="true" id="8389064" symbol="locX"/>
 <entry id="8388771" module="true" object="true" symbol="Drawables"/>
-<entry field="true" id="52" symbol="DayHeader"/>
+<entry field="true" id="31" symbol="DayHeader"/>
 <entry id="8389122" method="true" symbol="onLayout"/>
-<entry id="27" object="true" symbol="SensorDelegate"/>
-<entry field="true" id="125" symbol="messageSortieMinute"/>
+<entry field="true" id="89" symbol="messageSortieMinute"/>
 <entry id="8389279" method="true" symbol="onStart"/>
-<entry field="true" id="115" symbol="messageEntreeMinute"/>
-<entry field="true" id="63" symbol="namaste_label"/>
-<entry field="true" id="117" symbol="message1Minute"/>
-<entry id="25" object="true" symbol="PasDelegate"/>
+<entry field="true" id="79" symbol="messageEntreeMinute"/>
+<entry field="true" id="42" symbol="namaste_label"/>
+<entry field="true" id="81" symbol="message1Minute"/>
+<entry id="13" object="true" symbol="PasDelegate"/>
 <entry id="8389348" symbol="font"/>
-<entry field="true" id="104" symbol="secMessage"/>
-<entry field="true" id="51" symbol="namaste_units"/>
+<entry field="true" id="16" symbol="secMessage"/>
+<entry field="true" id="30" symbol="namaste_units"/>
 <entry id="8389347" symbol="color"/>
-<entry field="true" id="53" symbol="StepsHeader"/>
-<entry field="true" id="71" symbol="proE4"/>
-<entry field="true" id="72" symbol="proE3"/>
-<entry field="true" id="74" symbol="proE2"/>
-<entry field="true" id="50" symbol="proD6"/>
-<entry field="true" id="102" symbol="itemId"/>
-<entry field="true" id="54" symbol="proD1"/>
-<entry field="true" id="92" symbol="HR_graph"/>
-<entry id="34" method="true" symbol="action"/>
-<entry field="true" id="67" symbol="proC8"/>
-<entry field="true" id="68" symbol="proC7"/>
-<entry field="true" id="70" symbol="proC3"/>
-<entry field="true" id="101" symbol="delegate"/>
-<entry field="true" id="88" symbol="proB8"/>
-<entry field="true" id="90" symbol="proB7"/>
-<entry field="true" id="49" symbol="proB4"/>
-<entry field="true" id="65" symbol="proA8"/>
-<entry field="true" id="66" symbol="proA7"/>
-<entry field="true" id="69" symbol="proA1"/>
-<entry id="8389109" method="true" symbol="onMenuItem"/>
-<entry field="true" id="13" symbol="mainText"/>
-<entry field="true" id="96" symbol="graphRange"/>
-<entry field="true" id="60" symbol="FcTitle"/>
-<entry id="42" module="true" symbol="Layouts"/>
-<entry id="8389079" method="true" symbol="onPreviousPage"/>
-<entry id="11" object="true" symbol="HistoryView"/>
-<entry field="true" id="44" symbol="coeur"/>
-<entry field="true" id="82" symbol="preE3"/>
-<entry field="true" id="83" symbol="preE2"/>
+<entry field="true" id="32" symbol="StepsHeader"/>
+<entry field="true" id="50" symbol="proE4"/>
+<entry field="true" id="51" symbol="proE3"/>
+<entry field="true" id="53" symbol="proE2"/>
+<entry field="true" id="29" symbol="proD6"/>
+<entry field="true" id="33" symbol="proD1"/>
+<entry field="true" id="46" symbol="proC8"/>
+<entry field="true" id="47" symbol="proC7"/>
+<entry field="true" id="49" symbol="proC3"/>
+<entry field="true" id="67" symbol="proB8"/>
+<entry field="true" id="69" symbol="proB7"/>
+<entry field="true" id="28" symbol="proB4"/>
+<entry field="true" id="44" symbol="proA8"/>
+<entry field="true" id="45" symbol="proA7"/>
+<entry field="true" id="48" symbol="proA1"/>
+<entry field="true" id="39" symbol="FcTitle"/>
+<entry id="21" module="true" symbol="Layouts"/>
+<entry field="true" id="23" symbol="coeur"/>
+<entry field="true" id="61" symbol="preE3"/>
+<entry field="true" id="62" symbol="preE2"/>
 <entry id="8389125" method="true" symbol="onHide"/>
-<entry field="true" id="97" symbol="graphMinRange"/>
-<entry field="true" id="58" symbol="preD6"/>
-<entry field="true" id="59" symbol="preD4"/>
-<entry field="true" id="76" symbol="preC6"/>
-<entry field="true" id="78" symbol="preC4"/>
-<entry field="true" id="80" symbol="preC3"/>
-<entry field="true" id="81" symbol="preC2"/>
-<entry field="true" id="55" symbol="preB8"/>
-<entry field="true" id="56" symbol="preB5"/>
-<entry field="true" id="57" symbol="preB4"/>
+<entry field="true" id="37" symbol="preD6"/>
+<entry field="true" id="38" symbol="preD4"/>
+<entry field="true" id="55" symbol="preC6"/>
+<entry field="true" id="57" symbol="preC4"/>
+<entry field="true" id="59" symbol="preC3"/>
+<entry field="true" id="60" symbol="preC2"/>
+<entry field="true" id="34" symbol="preB8"/>
+<entry field="true" id="35" symbol="preB5"/>
+<entry field="true" id="36" symbol="preB4"/>
 <entry id="8389345" symbol="rezId"/>
-<entry field="true" id="73" symbol="preA9"/>
-<entry field="true" id="75" symbol="preA8"/>
-<entry field="true" id="77" symbol="preA2"/>
-<entry field="true" id="79" symbol="preA1"/>
+<entry field="true" id="52" symbol="preA9"/>
+<entry field="true" id="54" symbol="preA8"/>
+<entry field="true" id="56" symbol="preA2"/>
+<entry field="true" id="58" symbol="preA1"/>
 <entry id="8390088" module="true" object="true" symbol="JsonData"/>
-<entry id="16" object="true" symbol="paramMessagesVue"/>
-<entry field="true" id="89" symbol="HistoryTitle"/>
-<entry id="22" object="true" symbol="LineGraph"/>
-<entry field="true" id="36" symbol="secondesPas"/>
+<entry field="true" id="68" symbol="HistoryTitle"/>
 <entry id="8389346" symbol="text"/>
-<entry field="true" id="40" symbol="milliSecsCoeur"/>
-<entry field="true" id="118" symbol="message2Heure"/>
-<entry field="true" id="100" symbol="menu"/>
+<entry field="true" id="82" symbol="message2Heure"/>
 <entry field="true" id="8389063" symbol="identifier"/>
-<entry id="41" module="true" symbol="Menus"/>
-<entry field="true" id="121" symbol="message3Minute"/>
-<entry field="true" id="119" symbol="message2Minute"/>
-<entry field="true" id="85" symbol="condition"/>
-<entry field="true" id="43" symbol="pas"/>
-<entry field="true" id="94" symbol="graphArray"/>
+<entry id="20" module="true" symbol="Menus"/>
+<entry field="true" id="85" symbol="message3Minute"/>
+<entry field="true" id="83" symbol="message2Minute"/>
+<entry field="true" id="64" symbol="condition"/>
+<entry field="true" id="22" symbol="pas"/>
 <entry id="8388772" module="true" object="true" symbol="Fonts"/>
 <entry field="true" id="8388722" symbol="sec"/>
 <entry id="8388633" module="true" symbol="ActivityMonitor"/>
-<entry field="true" id="37" symbol="milliSecsPas"/>
-<entry id="103" method="true" symbol="incTimer"/>
-<entry field="true" id="105" symbol="secondes"/>
+<entry field="true" id="17" symbol="secondes"/>
 </symbolTable>
 <localVars>
-<entry endPc="268435678" name="i" stackId="3" startPc="268435573"/>
-<entry endPc="268435681" name="string" stackId="2" startPc="268435460"/>
-<entry endPc="268435681" name="actHistArray" stackId="1" startPc="268435460"/>
-<entry endPc="268436741" name="myStats" stackId="3" startPc="268436132"/>
-<entry endPc="268436741" name="myTime" stackId="2" startPc="268436132"/>
-<entry endPc="268436742" name="dc" stackId="1" startPc="268436128"/>
-<entry endPc="268437120" name="messageAenvoyer" stackId="1" startPc="268436959"/>
-<entry endPc="268438141" name="messageAenvoyer" stackId="4" startPc="268437940"/>
-<entry endPc="268438141" name="messageId" stackId="3" startPc="268437940"/>
-<entry endPc="268438141" name="random" stackId="2" startPc="268437940"/>
-<entry endPc="268438142" name="groupe" stackId="1" startPc="268437936"/>
-<entry endPc="268438243" name="dc" stackId="1" startPc="268438201"/>
-<entry endPc="268438643" name="i" stackId="6" startPc="268438417"/>
-<entry endPc="268438646" name="string" stackId="4" startPc="268438247"/>
-<entry endPc="268438646" name="fontHeight" stackId="5" startPc="268438247"/>
-<entry endPc="268438646" name="actHistArray" stackId="2" startPc="268438247"/>
-<entry endPc="268438646" name="padding" stackId="3" startPc="268438247"/>
-<entry endPc="268438647" name="dc" stackId="1" startPc="268438243"/>
-<entry endPc="268438741" name="dc" stackId="1" startPc="268438670"/>
-<entry endPc="268439266" name="i" stackId="5" startPc="268439230"/>
-<entry endPc="268439266" name="titreLabel" stackId="2" startPc="268438750"/>
-<entry endPc="268439266" name="messagesLabel" stackId="4" startPc="268438750"/>
-<entry endPc="268439266" name="typeMessagesLabel" stackId="3" startPc="268438750"/>
-<entry endPc="268439267" name="dc" stackId="1" startPc="268438746"/>
-<entry endPc="268439704" name="dc" stackId="1" startPc="268439633"/>
-<entry endPc="268440229" name="i" stackId="5" startPc="268440193"/>
-<entry endPc="268440229" name="titreLabel" stackId="2" startPc="268439713"/>
-<entry endPc="268440229" name="messagesLabel" stackId="4" startPc="268439713"/>
-<entry endPc="268440229" name="typeMessagesLabel" stackId="3" startPc="268439713"/>
-<entry endPc="268440230" name="dc" stackId="1" startPc="268439709"/>
-<entry endPc="268440523" name="dc" stackId="1" startPc="268440452"/>
-<entry endPc="268441048" name="i" stackId="5" startPc="268441012"/>
-<entry endPc="268441048" name="titreLabel" stackId="2" startPc="268440532"/>
-<entry endPc="268441048" name="messagesLabel" stackId="4" startPc="268440532"/>
-<entry endPc="268441048" name="typeMessagesLabel" stackId="3" startPc="268440532"/>
-<entry endPc="268441049" name="dc" stackId="1" startPc="268440528"/>
-<entry endPc="268441545" name="vibrations" stackId="5" startPc="268441473"/>
-<entry endPc="268441548" name="x" stackId="3" startPc="268441275"/>
-<entry endPc="268441548" name="string" stackId="2" startPc="268441275"/>
-<entry endPc="268441548" name="y" stackId="4" startPc="268441275"/>
-<entry endPc="268441549" name="dc" stackId="1" startPc="268441271"/>
-<entry endPc="268441792" name="key" stackId="3" startPc="268441584"/>
-<entry endPc="268441792" name="app" stackId="2" startPc="268441584"/>
-<entry endPc="268441793" name="evt" stackId="1" startPc="268441580"/>
-<entry endPc="268442129" name="key" stackId="3" startPc="268441828"/>
-<entry endPc="268442129" name="app" stackId="2" startPc="268441828"/>
-<entry endPc="268442130" name="evt" stackId="1" startPc="268441824"/>
-<entry endPc="268442466" name="key" stackId="3" startPc="268442165"/>
-<entry endPc="268442466" name="app" stackId="2" startPc="268442165"/>
-<entry endPc="268442467" name="evt" stackId="1" startPc="268442161"/>
-<entry endPc="268442683" name="color" stackId="3" startPc="268442567"/>
-<entry endPc="268442683" name="minRange" stackId="2" startPc="268442567"/>
-<entry endPc="268442683" name="size" stackId="1" startPc="268442567"/>
-<entry endPc="268442698" name="color" stackId="1" startPc="268442683"/>
-<entry endPc="268442713" name="minRange" stackId="1" startPc="268442698"/>
-<entry endPc="268443168" name="min" stackId="5" startPc="268443060"/>
-<entry endPc="268443168" name="i" stackId="4" startPc="268443060"/>
-<entry endPc="268443284" name="max" stackId="7" startPc="268443176"/>
-<entry endPc="268443284" name="i" stackId="6" startPc="268443176"/>
-<entry endPc="268443290" name="updateMax" stackId="3" startPc="268442717"/>
-<entry endPc="268443290" name="updateMin" stackId="2" startPc="268442717"/>
-<entry endPc="268443291" name="value" stackId="1" startPc="268442713"/>
-<entry endPc="268444081" name="drawExtentsY" stackId="11" startPc="268443295"/>
-<entry endPc="268444081" name="drawExtentsX" stackId="10" startPc="268443295"/>
-<entry endPc="268444081" name="draw_idx" stackId="13" startPc="268443295"/>
-<entry endPc="268444081" name="min" stackId="4" startPc="268443295"/>
-<entry endPc="268444081" name="i" stackId="12" startPc="268443295"/>
-<entry endPc="268444081" name="prev_y" stackId="8" startPc="268443295"/>
-<entry endPc="268444081" name="range" stackId="5" startPc="268443295"/>
-<entry endPc="268444081" name="prev_x" stackId="9" startPc="268443295"/>
-<entry endPc="268444081" name="string" stackId="14" startPc="268443295"/>
-<entry endPc="268444081" name="y" stackId="6" startPc="268443295"/>
-<entry endPc="268444081" name="x" stackId="7" startPc="268443295"/>
-<entry endPc="268444082" name="dc" stackId="1" startPc="268443291"/>
-<entry endPc="268444082" name="bottomRight" stackId="3" startPc="268443291"/>
-<entry endPc="268444082" name="topLeft" stackId="2" startPc="268443291"/>
-<entry endPc="268444619" name="dc" stackId="1" startPc="268444614"/>
-<entry endPc="268445050" name="stringPercent" stackId="4" startPc="268444685"/>
-<entry endPc="268445050" name="stepsPercent" stackId="3" startPc="268444685"/>
-<entry endPc="268445050" name="nbPasActuel" stackId="2" startPc="268444685"/>
-<entry endPc="268445051" name="dc" stackId="1" startPc="268444681"/>
-<entry endPc="268445372" name="x" stackId="7" startPc="268445119"/>
-<entry endPc="268445372" name="font" stackId="8" startPc="268445119"/>
-<entry endPc="268445372" name="width" stackId="6" startPc="268445119"/>
-<entry endPc="268445373" name="dc" stackId="1" startPc="268445115"/>
-<entry endPc="268445373" name="color" stackId="5" startPc="268445115"/>
-<entry endPc="268445373" name="string" stackId="2" startPc="268445115"/>
-<entry endPc="268445373" name="percent" stackId="4" startPc="268445115"/>
-<entry endPc="268445373" name="y" stackId="3" startPc="268445115"/>
-<entry endPc="268446356" name="stringFc" stackId="2" startPc="268445752"/>
-<entry endPc="268446356" name="hrIterator" stackId="3" startPc="268445752"/>
-<entry endPc="268446356" name="minHR" stackId="5" startPc="268445752"/>
-<entry endPc="268446356" name="maxHR" stackId="4" startPc="268445752"/>
-<entry endPc="268446357" name="dc" stackId="1" startPc="268445748"/>
-<entry endPc="268446461" name="HR" stackId="2" startPc="268446361"/>
-<entry endPc="268446461" name="bucket" stackId="3" startPc="268446361"/>
-<entry endPc="268446462" name="sensor_info" stackId="1" startPc="268446357"/>
-<entry endPc="268446867" name="secCoeur" stackId="3" startPc="268446666"/>
-<entry endPc="268446867" name="secPas" stackId="2" startPc="268446666"/>
-<entry endPc="268446868" name="dc" stackId="1" startPc="268446662"/>
-<entry endPc="268446919" name="state" stackId="1" startPc="268446914"/>
-<entry endPc="268446924" name="state" stackId="1" startPc="268446919"/>
-<entry endPc="268447269" name="item" stackId="1" startPc="268447019"/>
-<entry endPc="268447907" name="rez_cmp_local_bitmap_TitleLabel" stackId="2" startPc="268447281"/>
-<entry endPc="268447907" name="rez_cmp_local_bitmap_TitleLabel_fontHeight" stackId="3" startPc="268447281"/>
-<entry endPc="268447907" name="rez_cmp_local_bitmap_StepsLabel" stackId="5" startPc="268447281"/>
-<entry endPc="268447907" name="rez_cmp_local_bitmap_DayLabel" stackId="4" startPc="268447281"/>
-<entry endPc="268447908" name="dc" stackId="1" startPc="268447269"/>
-<entry endPc="268447921" name="dc" stackId="1" startPc="268447908"/>
-<entry endPc="268450412" name="rez_cmp_local_bitmap_Type_de_messages_fontHeight" stackId="5" startPc="268447933"/>
-<entry endPc="268450412" name="rez_cmp_local_bitmap_Messages2" stackId="14" startPc="268447933"/>
-<entry endPc="268450412" name="rez_cmp_local_bitmap_Promotion" stackId="10" startPc="268447933"/>
-<entry endPc="268450412" name="rez_cmp_local_bitmap_Semaine_fontHeight" stackId="17" startPc="268447933"/>
-<entry endPc="268450412" name="rez_cmp_local_bitmap_Messages_fontHeight" stackId="7" startPc="268447933"/>
-<entry endPc="268450412" name="rez_cmp_local_bitmap_Messages" stackId="6" startPc="268447933"/>
-<entry endPc="268450412" name="rez_cmp_local_bitmap_Type_de_messages2_fontHeight" stackId="9" startPc="268447933"/>
-<entry endPc="268450412" name="rez_cmp_local_bitmap_Type_de_messages" stackId="4" startPc="268447933"/>
-<entry endPc="268450412" name="rez_cmp_local_bitmap_Week_end_fontHeight" stackId="19" startPc="268447933"/>
-<entry endPc="268450412" name="rez_cmp_local_bitmap_Promotion_fontHeight" stackId="11" startPc="268447933"/>
-<entry endPc="268450412" name="rez_cmp_local_bitmap_Semaine" stackId="16" startPc="268447933"/>
-<entry endPc="268450412" name="rez_cmp_local_bitmap_Week_end" stackId="18" startPc="268447933"/>
-<entry endPc="268450412" name="rez_cmp_local_bitmap_Messages2_fontHeight" stackId="15" startPc="268447933"/>
-<entry endPc="268450412" name="rez_cmp_local_bitmap_Prevention" stackId="12" startPc="268447933"/>
-<entry endPc="268450412" name="rez_cmp_local_bitmap_Parametre_fontHeight" stackId="3" startPc="268447933"/>
-<entry endPc="268450412" name="rez_cmp_local_bitmap_Prevention_fontHeight" stackId="13" startPc="268447933"/>
-<entry endPc="268450412" name="rez_cmp_local_bitmap_Parametre" stackId="2" startPc="268447933"/>
-<entry endPc="268450412" name="rez_cmp_local_bitmap_Type_de_messages2" stackId="8" startPc="268447933"/>
-<entry endPc="268450413" name="dc" stackId="1" startPc="268447921"/>
+<entry endPc="268436465" name="myStats" stackId="3" startPc="268435856"/>
+<entry endPc="268436465" name="myTime" stackId="2" startPc="268435856"/>
+<entry endPc="268436466" name="dc" stackId="1" startPc="268435852"/>
+<entry endPc="268436852" name="messageAenvoyer" stackId="1" startPc="268436689"/>
+<entry endPc="268437875" name="messageAenvoyer" stackId="4" startPc="268437672"/>
+<entry endPc="268437875" name="messageId" stackId="3" startPc="268437672"/>
+<entry endPc="268437875" name="random" stackId="2" startPc="268437672"/>
+<entry endPc="268437876" name="groupe" stackId="1" startPc="268437668"/>
+<entry endPc="268438508" name="dc" stackId="1" startPc="268438503"/>
+<entry endPc="268438939" name="stringPercent" stackId="4" startPc="268438574"/>
+<entry endPc="268438939" name="stepsPercent" stackId="3" startPc="268438574"/>
+<entry endPc="268438939" name="nbPasActuel" stackId="2" startPc="268438574"/>
+<entry endPc="268438940" name="dc" stackId="1" startPc="268438570"/>
+<entry endPc="268439267" name="x" stackId="7" startPc="268439014"/>
+<entry endPc="268439267" name="font" stackId="8" startPc="268439014"/>
+<entry endPc="268439267" name="width" stackId="6" startPc="268439014"/>
+<entry endPc="268439268" name="dc" stackId="1" startPc="268439010"/>
+<entry endPc="268439268" name="color" stackId="5" startPc="268439010"/>
+<entry endPc="268439268" name="string" stackId="2" startPc="268439010"/>
+<entry endPc="268439268" name="percent" stackId="4" startPc="268439010"/>
+<entry endPc="268439268" name="y" stackId="3" startPc="268439010"/>
+<entry endPc="268439432" name="state" stackId="1" startPc="268439427"/>
+<entry endPc="268439437" name="state" stackId="1" startPc="268439432"/>
+<entry endPc="268439579" name="vibration" stackId="1" startPc="268439509"/>
+<entry endPc="268439864" name="vibrations" stackId="5" startPc="268439792"/>
+<entry endPc="268439870" name="stringPercent" stackId="3" startPc="268439583"/>
+<entry endPc="268439870" name="stepsPercent" stackId="2" startPc="268439583"/>
+<entry endPc="268439870" name="message" stackId="4" startPc="268439583"/>
+<entry endPc="268439871" name="dc" stackId="1" startPc="268439579"/>
+<entry endPc="268440269" name="x" stackId="6" startPc="268439875"/>
+<entry endPc="268440269" name="font" stackId="8" startPc="268439875"/>
+<entry endPc="268440269" name="width" stackId="5" startPc="268439875"/>
+<entry endPc="268440269" name="y" stackId="7" startPc="268439875"/>
+<entry endPc="268440270" name="dc" stackId="1" startPc="268439871"/>
+<entry endPc="268440270" name="message" stackId="4" startPc="268439871"/>
+<entry endPc="268440270" name="percent" stackId="3" startPc="268439871"/>
+<entry endPc="268440270" name="text" stackId="2" startPc="268439871"/>
+<entry endPc="268440908" name="rez_cmp_local_bitmap_TitleLabel" stackId="2" startPc="268440282"/>
+<entry endPc="268440908" name="rez_cmp_local_bitmap_TitleLabel_fontHeight" stackId="3" startPc="268440282"/>
+<entry endPc="268440908" name="rez_cmp_local_bitmap_StepsLabel" stackId="5" startPc="268440282"/>
+<entry endPc="268440908" name="rez_cmp_local_bitmap_DayLabel" stackId="4" startPc="268440282"/>
+<entry endPc="268440909" name="dc" stackId="1" startPc="268440270"/>
+<entry endPc="268440922" name="dc" stackId="1" startPc="268440909"/>
+<entry endPc="268443413" name="rez_cmp_local_bitmap_Type_de_messages_fontHeight" stackId="5" startPc="268440934"/>
+<entry endPc="268443413" name="rez_cmp_local_bitmap_Messages2" stackId="14" startPc="268440934"/>
+<entry endPc="268443413" name="rez_cmp_local_bitmap_Promotion" stackId="10" startPc="268440934"/>
+<entry endPc="268443413" name="rez_cmp_local_bitmap_Semaine_fontHeight" stackId="17" startPc="268440934"/>
+<entry endPc="268443413" name="rez_cmp_local_bitmap_Messages_fontHeight" stackId="7" startPc="268440934"/>
+<entry endPc="268443413" name="rez_cmp_local_bitmap_Messages" stackId="6" startPc="268440934"/>
+<entry endPc="268443413" name="rez_cmp_local_bitmap_Type_de_messages2_fontHeight" stackId="9" startPc="268440934"/>
+<entry endPc="268443413" name="rez_cmp_local_bitmap_Type_de_messages" stackId="4" startPc="268440934"/>
+<entry endPc="268443413" name="rez_cmp_local_bitmap_Week_end_fontHeight" stackId="19" startPc="268440934"/>
+<entry endPc="268443413" name="rez_cmp_local_bitmap_Promotion_fontHeight" stackId="11" startPc="268440934"/>
+<entry endPc="268443413" name="rez_cmp_local_bitmap_Semaine" stackId="16" startPc="268440934"/>
+<entry endPc="268443413" name="rez_cmp_local_bitmap_Week_end" stackId="18" startPc="268440934"/>
+<entry endPc="268443413" name="rez_cmp_local_bitmap_Messages2_fontHeight" stackId="15" startPc="268440934"/>
+<entry endPc="268443413" name="rez_cmp_local_bitmap_Prevention" stackId="12" startPc="268440934"/>
+<entry endPc="268443413" name="rez_cmp_local_bitmap_Parametre_fontHeight" stackId="3" startPc="268440934"/>
+<entry endPc="268443413" name="rez_cmp_local_bitmap_Prevention_fontHeight" stackId="13" startPc="268440934"/>
+<entry endPc="268443413" name="rez_cmp_local_bitmap_Parametre" stackId="2" startPc="268440934"/>
+<entry endPc="268443413" name="rez_cmp_local_bitmap_Type_de_messages2" stackId="8" startPc="268440934"/>
+<entry endPc="268443414" name="dc" stackId="1" startPc="268440922"/>
 </localVars>
 <annotations/>
 <functions>
-<functionEntry accessMode="public" name="initialize" parent="HistoryDelegate">
+<functionEntry accessMode="public" name="initialize" parent="WennerDelegate">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="onBack" parent="HistoryDelegate">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="incTimer" parent="HistoryDelegate">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onSelect" parent="HistoryDelegate">
+<functionEntry accessMode="public" name="onSelect" parent="WennerDelegate">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="initialize" parent="WennerView">
@@ -893,169 +416,13 @@
 <functionEntry accessMode="public" name="onHide" parent="WennerView">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="initialize" parent="HistoryView">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onLayout" parent="HistoryView">
-<param id="dc"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onUpdate" parent="HistoryView">
-<param id="dc"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="initialize" parent="parametreVue">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onLayout" parent="parametreVue">
-<param id="dc"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onShow" parent="parametreVue">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onUpdate" parent="parametreVue">
-<param id="dc"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onHide" parent="parametreVue">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="incIndex" parent="parametreVue">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="decIndex" parent="parametreVue">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="action" parent="parametreVue">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="initialize" parent="paramTypeMessageVue">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onLayout" parent="paramTypeMessageVue">
-<param id="dc"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onShow" parent="paramTypeMessageVue">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onUpdate" parent="paramTypeMessageVue">
-<param id="dc"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onHide" parent="paramTypeMessageVue">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="incIndex" parent="paramTypeMessageVue">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="decIndex" parent="paramTypeMessageVue">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="action" parent="paramTypeMessageVue">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="initialize" parent="paramMessagesVue">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onLayout" parent="paramMessagesVue">
-<param id="dc"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onShow" parent="paramMessagesVue">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onUpdate" parent="paramMessagesVue">
-<param id="dc"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onHide" parent="paramMessagesVue">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="incIndex" parent="paramMessagesVue">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="decIndex" parent="paramMessagesVue">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="action" parent="paramMessagesVue">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="initialize" parent="MessageView">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onUpdate" parent="MessageView">
-<param id="dc"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="initialize" parent="parametreDelegate">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onMenu" parent="parametreDelegate">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onKey" parent="parametreDelegate">
-<param id="evt"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="initialize" parent="paramTypeMessageDelegate">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onMenu" parent="paramTypeMessageDelegate">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onKey" parent="paramTypeMessageDelegate">
-<param id="evt"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="initialize" parent="paramMessagesDelegate">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onMenu" parent="paramMessagesDelegate">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onKey" parent="paramMessagesDelegate">
-<param id="evt"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="initialize" parent="WennerDelegate">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onSelect" parent="WennerDelegate">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="initialize" parent="LineGraph">
-<param id="size"/>
-<param id="minRange"/>
-<param id="color"/>
-<documentation><![CDATA[<div class="description"> Constructor<br/></div>]]></documentation>
-</functionEntry>
-<functionEntry accessMode="public" name="setColor" parent="LineGraph">
-<param id="color"/>
-<documentation><![CDATA[<div class="description"> Set graph line color<br/></div>]]></documentation>
-</functionEntry>
-<functionEntry accessMode="public" name="setMinRange" parent="LineGraph">
-<param id="minRange"/>
-<documentation><![CDATA[<div class="description"> Set graph line color<br/></div>]]></documentation>
-</functionEntry>
-<functionEntry accessMode="public" name="addItem" parent="LineGraph">
-<param id="value"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="draw" parent="LineGraph">
-<param id="dc"/>
-<param id="topLeft"/>
-<param id="bottomRight"/>
-<documentation><![CDATA[<div class="description"> Handle the update event<br/></div>]]></documentation>
-</functionEntry>
 <functionEntry accessMode="public" name="initialize" parent="MessageViewDelegate">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="incsec" parent="MessageViewDelegate">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="onBack" parent="MessageViewDelegate">
+<functionEntry accessMode="public" name="onSelect" parent="MessageViewDelegate">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="initialize" parent="PasView">
@@ -1089,40 +456,7 @@
 <functionEntry accessMode="public" name="initialize" parent="PasDelegate">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="onNextPage" parent="PasDelegate">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onPreviousPage" parent="PasDelegate">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="initialize" parent="SensorView">
-<documentation><![CDATA[<div class="description"> Constructor<br/></div>]]></documentation>
-</functionEntry>
-<functionEntry accessMode="public" name="onUpdate" parent="SensorView">
-<param id="dc"/>
-<documentation><![CDATA[<div class="description"> Handle the update event<br/></div>]]></documentation>
-</functionEntry>
-<functionEntry accessMode="public" name="onSnsr" parent="SensorView">
-<param id="sensor_info"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="initialize" parent="SensorDelegate">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onNextPage" parent="SensorDelegate">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onPreviousPage" parent="SensorDelegate">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="initialize" parent="tempsPasseView">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onUpdate" parent="tempsPasseView">
-<param id="dc"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="initialize" parent="tempsPasseDelegate">
+<functionEntry accessMode="public" name="onSelect" parent="PasDelegate">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="initialize" parent="WennerApp">
@@ -1139,11 +473,19 @@
 <functionEntry accessMode="public" name="getInitialView" parent="WennerApp">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="initialize" parent="BigHistoDelegate">
+<functionEntry accessMode="public" name="initialize" parent="MessageView">
+<param id="vibration"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="onMenuItem" parent="BigHistoDelegate">
-<param id="item"/>
+<functionEntry accessMode="public" name="onUpdate" parent="MessageView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="drawBarMessage" parent="MessageView">
+<param id="dc"/>
+<param id="text"/>
+<param id="percent"/>
+<param id="message"/>
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="HistoryLayout" parent="Layouts">
@@ -1161,33 +503,19 @@
 </functions>
 <dataEntryOffsetMappings>
 <dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
-<dataEntry offset="430" parentId="globals" symbolId="parametreVue" type="class"/>
-<dataEntry offset="533" parentId="globals" symbolId="SensorDelegate" type="class"/>
-<dataEntry offset="596" parentId="globals" symbolId="tempsPasseView" type="class"/>
-<dataEntry offset="699" parentId="globals" symbolId="parametreDelegate" type="class"/>
-<dataEntry offset="762" parentId="globals" symbolId="Rez" type="module"/>
-<dataEntry offset="841" parentId="Rez" symbolId="Drawables" type="module"/>
-<dataEntry offset="896" parentId="Rez" symbolId="Menus" type="module"/>
-<dataEntry offset="927" parentId="Rez" symbolId="Fonts" type="module"/>
-<dataEntry offset="958" parentId="Rez" symbolId="JsonData" type="module"/>
-<dataEntry offset="989" parentId="Rez" symbolId="Layouts" type="module"/>
-<dataEntry offset="1044" parentId="Rez" symbolId="Strings" type="module"/>
-<dataEntry offset="1411" parentId="globals" symbolId="SensorView" type="class"/>
-<dataEntry offset="1498" parentId="globals" symbolId="paramTypeMessageDelegate" type="class"/>
-<dataEntry offset="1561" parentId="globals" symbolId="PasDelegate" type="class"/>
-<dataEntry offset="1624" parentId="globals" symbolId="tempsPasseDelegate" type="class"/>
-<dataEntry offset="1671" parentId="globals" symbolId="MessageView" type="class"/>
-<dataEntry offset="1726" parentId="globals" symbolId="WennerDelegate" type="class"/>
-<dataEntry offset="1781" parentId="globals" symbolId="LineGraph" type="class"/>
-<dataEntry offset="1900" parentId="globals" symbolId="HistoryView" type="class"/>
-<dataEntry offset="1963" parentId="globals" symbolId="HistoryDelegate" type="class"/>
-<dataEntry offset="2058" parentId="globals" symbolId="WennerApp" type="class"/>
-<dataEntry offset="2129" parentId="globals" symbolId="MessageViewDelegate" type="class"/>
-<dataEntry offset="2224" parentId="globals" symbolId="paramMessagesVue" type="class"/>
-<dataEntry offset="2327" parentId="globals" symbolId="paramMessagesDelegate" type="class"/>
-<dataEntry offset="2390" parentId="globals" symbolId="BigHistoDelegate" type="class"/>
-<dataEntry offset="2445" parentId="globals" symbolId="PasView" type="class"/>
-<dataEntry offset="2572" parentId="globals" symbolId="WennerView" type="class"/>
-<dataEntry offset="2827" parentId="globals" symbolId="paramTypeMessageVue" type="class"/>
+<dataEntry offset="238" parentId="globals" symbolId="WennerApp" type="class"/>
+<dataEntry offset="309" parentId="globals" symbolId="MessageViewDelegate" type="class"/>
+<dataEntry offset="404" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry offset="483" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry offset="538" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry offset="569" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry offset="600" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry offset="631" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry offset="686" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry offset="1053" parentId="globals" symbolId="MessageView" type="class"/>
+<dataEntry offset="1132" parentId="globals" symbolId="PasView" type="class"/>
+<dataEntry offset="1259" parentId="globals" symbolId="WennerDelegate" type="class"/>
+<dataEntry offset="1314" parentId="globals" symbolId="PasDelegate" type="class"/>
+<dataEntry offset="1369" parentId="globals" symbolId="WennerView" type="class"/>
 </dataEntryOffsetMappings>
 </debugInfo>

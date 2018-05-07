@@ -57,7 +57,8 @@ class PasView extends Ui.View {
         	dc, 
         	stringPercent + "%" + " de " + 10000, 
         	(dc.getHeight()/2)+10, 
-        	stepsPercent, Gfx.COLOR_GREEN
+        	stepsPercent, 
+        	Gfx.COLOR_GREEN
         );
         
        	dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
@@ -75,7 +76,7 @@ class PasView extends Ui.View {
     
     function incsec() { // Permet d'actualiser l'interface toute les secondes
 		sec += 1;
-       	System.println(sec);
+       	System.println("pas " + sec);
        
        	//Kick the display update
        	Ui.requestUpdate();
@@ -118,15 +119,7 @@ class PasDelegate extends Ui.BehaviorDelegate {
     function initialize() {
         BehaviorDelegate.initialize();
     }
-    
-    
-    function onNextPage() { //when Key up
-    	Ui.pushView(new SensorView(), new SensorDelegate(), Ui.SLIDE_UP);
-    }
-    
-    function onPreviousPage() { //when Key down
-    	Ui.pushView(new SensorView(), new SensorDelegate(), Ui.SLIDE_DOWN);
-    }
-    
-
+    function onSelect() {
+		Ui.pushView(new WennerView(), new WennerDelegate(), Ui.SLIDE_LEFT);
+	}
 }
