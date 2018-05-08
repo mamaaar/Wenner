@@ -1,12 +1,12 @@
 <strings>
          <string id="messageEntree">Votre objectif \ndu jour est \nde 10 000 pas !</string>
          <string id="proA1">Continue comme ca,\n tes efforts \n vont payer!</string>
-         <string id="proA7">Tu as atteint \n l objectif et c est \n entierement grace \n a ta determination !</string>
+         <string id="proA7">Tu as atteint \n l'objectif et c'est \n entièrement grâçe \n à ta détermination !</string>
          <string id="proA8">Tu as reussi \n facilement,\n bien joue !</string>
          
-         <string id="proB7">C est bien,\n ta perseverance \nportera ses fruits !</string>
+         <string id="proB7">C'est bien,\n ta persévérance \nportera ses fruits !</string>
          <string id="proB4">Persevère, \n tu iras au-delà \n de toi-même !</string>
-         <string id="proB8">Presque ! \nTu atteindras \n ton objectif \ntres vite !</string>
+         <string id="proB8">Presque ! \nTu atteindras \n ton objectif \ntrès vite !</string>
          
          <string id="proC8">Allez ! \nTu es \n le meilleur !</string>
          <string id="proC7">Courage,\n tu as tout \n pour réussir !</string>
@@ -20,23 +20,23 @@
          <string id="proE3">A coeur vaillant,\n rien d’impossible :\n tu réussiras demain !</string>
          <string id="preA1">Continue comme ça,\n tu ne dois pas \nrelâcher tes \nefforts !</string>
          <string id="preA2">Tu n’as pas échoué \net c’est entièrement\n grâce à ta\n détermination !</string>
-         <string id="preA8">Bien ! \nC’est ce qu’il faut\n faire pour ne pas\n être en mauvaise\n forme !</string>
-         <string id="preA9">Bravo !\n En continuant\n comme ça,\n tu préserveras \nta santé !</string>
+         <string id="preA8">Bien ! C’est ce qu’il faut\n faire pour ne pas être\n en mauvaise forme !</string>
+         <string id="preA9">Bravo ! En continuant\n comme ça, tu\n préserveras ta\n santé !</string>
 
          <string id="preB4">C’est bien,\n tu ne perds \npas de vue\n ton objectif !</string>
          <string id="preB5">Persévère,\n tu es capable\n de ne pas\n échouer !</string>
-         <string id="preB8">Presque ! \nTu verras \nbientôt les\n bénéfices de \ntes efforts  !</string>
+         <string id="preB8">Presque ! Tu verras \nbientôt les bénéfices\n de tes efforts  !</string>
 
          <string id="preC2">Tu feras le\n nécessaire pour \nne pas échouer !</string>
          <string id="preC3">Garde cette bonne \nattitude et il n’y aura\n pas de raison \nque tu échoues !</string>
          <string id="preC4">Cette journée sera\n pleine d’épreuves mais\n ça vaut le coup \nd’aller au bout !</string>
          <string id="preC6">Courage,\n tu as tout \npour ne pas\n connaître l’échec !</string>
 
-         <string id="preD10">Allez !\n Pense à ta santé :\n tu ne veux pas\n être en mauvaise\n forme !</string>
+         <string id="preD10">Allez ! Pense à ta santé :\n tu ne veux pas\n être en mauvaise\n forme !</string>
          <string id="preD11">Ce n’est pas \ncomme ça que tu\n iras au bout,\n bouge toi !</string>
-         <string id="preD4">Allez, tu ne dois pas dévier de ton objectif !</string>
-         <string id="preD6">Ce n’est pas\n le moment d’économiser\n tes efforts,\n ton objectif\n n’est pas loin !</string>
+         <string id="preD4">Allez, tu ne dois\n pas dévier de\n ton objectif !</string>
+         <string id="preD6">Ce n’est pas le \nmoment d’économiser tes \nefforts, ton objectif\n n’est pas loin !</string>
 
          <string id="preE2">Ta santé\n est en jeu,\n ne l’oublie pas !</string>
-         <string id="preE3">Ce n’est pas la\n bonne attitude\n pour atteindre ton\n objectif,\n fais des efforts !</string>
+         <string id="preE3">Ce n’est pas la bonne\n attitude pour atteindre\n ton objectif,\n fais des efforts !</string>
 </strings>

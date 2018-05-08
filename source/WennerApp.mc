@@ -17,7 +17,7 @@ class WennerApp extends App.AppBase {
 
     // Return the initial view of your application here
     function getInitialView() {
-        return [ new WennerView(), new WennerDelegate() ];
+        return [ new WennerView() , new WennerDelegate() ];
     }
 
 }

@@ -43,8 +43,8 @@ class WennerView extends Ui.View { // Vue principale : celle où il y a l'heure e
 	var message3Heure = 15; 
     var message3Minute = 00;
     
-    var message4Heure = 17; 
-    var message4Minute = 30;
+    var message4Heure = 16; 
+    var message4Minute = 41;
     
     var messageSortieHeure = 21;
     var messageSortieMinute = 00;
@@ -78,7 +78,6 @@ class WennerView extends Ui.View { // Vue principale : celle où il y a l'heure e
     	//***************************************************************
     	
     	timer = new Timer.Timer();
-    	timer.start(method(:incsec),1000, true);  // appelle de la fonction innsec() toute les secondes
     }
 
 
@@ -132,7 +131,7 @@ class WennerView extends Ui.View { // Vue principale : celle où il y a l'heure e
     
     function incsec() { // Fonction appelé toute les secondes
 		sec += 1;		// incrémente le compteur
-       	System.println(sec);
+       	System.println("wennerView" + sec);
        	if (sec%60 == 0){		// Toute les minutes cette partie vérifie si un message doit être affiché
     		today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM); // récupère l'heure, la minute et la seconde courantes
 			
@@ -142,7 +141,7 @@ class WennerView extends Ui.View { // Vue principale : celle où il y a l'heure e
     			var messageAenvoyer = Ui.loadResource(Rez.Strings.messageEntree);
     		
     			Application.getApp().setProperty("Message", messageAenvoyer);
-       			Ui.switchToView(new MessageView(), new MessageViewDelegate(), Ui.SLIDE_IMMEDIATE);
+       			Ui.switchToView(new MessageView(false), new MessageViewDelegate(), Ui.SLIDE_IMMEDIATE);
        		}
        		
        		if (message1Heure.toNumber()==today.hour.toNumber() 	// 1er message
@@ -194,15 +193,10 @@ class WennerView extends Ui.View { // Vue principale : celle où il y a l'heure e
     	var messageAenvoyer = Ui.loadResource(messageId);
     	System.println(messageAenvoyer);
     	Application.getApp().setProperty("Message", messageAenvoyer); //affiche le message dans la classe messageView
-       	Ui.pushView(new MessageView(), new MessageViewDelegate(), Ui.SLIDE_IMMEDIATE);
+       	Ui.pushView(new MessageView(true), new MessageViewDelegate(), Ui.SLIDE_IMMEDIATE);
 	}
 
-    // Called when this View is removed from the screen. Save the
-    // state of this View here. This includes freeing resources from
-    // memory.
-    function onHide() {
-    	sec = 0;
+    function onHide(){
     	timer.stop();
     }
-
 }
