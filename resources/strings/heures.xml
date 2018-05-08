@@ -1,0 +1,9 @@
+<strings>
+	<!--  Le 0 est obligatoire avant un chiffre -->
+	<string id="HeureMessageEntree">06:30</string>
+	<string id="HeureMessage1">21:15</string>
+	<string id="HeureMessage2">21:14</string>
+	<string id="HeureMessage3">15:00</string>
+	<string id="HeureMessage4">17:30</string>
+	<string id="HeureMessageSortie">21:30</string>
+</strings>

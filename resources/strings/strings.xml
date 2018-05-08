@@ -1,14 +1,5 @@
 <strings>
     <string id="AppName">WEnner</string>
-    <string id="HistoryTitle">Historique</string>
-    <string id="DayHeader">Jour</string>
-    <string id="StepsHeader">Pas / 10000</string>
-    
-    <string id="FcTitle">Fréquence cardiaque</string>
-        <string id="namaste_label">Namastes</string>
-        <string id="namaste_graph_label">Namastes</string>
-        <string id="namaste_units">N(s)</string>
-
 </strings>
 
 

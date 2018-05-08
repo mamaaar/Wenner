@@ -11,8 +11,6 @@ class PasView extends Ui.View {
 
 	var pas; //variable pour le logo nombre de pas
 	
-	var nbPasActuel;
-	
 	var timer; // Timer 
 	var sec = 0;
 	
@@ -24,22 +22,10 @@ class PasView extends Ui.View {
         						:locY=>10}
         );
         
-        
         timer = new Timer.Timer();
     	timer.start(method(:incsec),1000, true);
     }
     
-    // Load your resources here
-    function onLayout(dc) {
-    }
-
-    // Called when this View is brought to the foreground. Restore
-    // the state of this View and prepare it to be shown. This includes
-    // loading resources into memory.
-    function onShow() {
-    	timer.start(method(:incsec),1000, true);
-    	Ui.requestUpdate();
-    }
 
     // Update the view
     function onUpdate(dc) {
