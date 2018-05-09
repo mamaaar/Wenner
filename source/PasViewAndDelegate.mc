@@ -26,6 +26,9 @@ class PasView extends Ui.View {
     	timer.start(method(:incsec),1000, true);
     }
     
+    function onShow(){
+    	Ui.requestUpdate();	
+    }
 
     // Update the view
     function onUpdate(dc) {

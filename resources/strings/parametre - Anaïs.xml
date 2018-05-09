@@ -1,4 +1,4 @@
 <strings>
          <string id="idParticipant">4</string>
-         <string id="condition">promotion</string>  <!-- prevention, promotion, aleatoire -->
+         <string id="condition">aleatoire</string>  <!-- prevention, promotion, aleatoire -->
 </strings>

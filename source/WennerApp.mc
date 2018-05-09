@@ -29,10 +29,8 @@ class WennerApp extends App.AppBase {
 	var today;
 	
 	/*******************************/
-	
-	// onStart() is called on application start up
-    function onStart(state) {
-    	messageEntreeHeure = Ui.loadResource(Rez.Strings.HeureMessageEntree).substring(0,2);
+	function initialize() {
+		messageEntreeHeure = Ui.loadResource(Rez.Strings.HeureMessageEntree).substring(0,2);
 		messageEntreeMinute = Ui.loadResource(Rez.Strings.HeureMessageEntree).substring(3,5);
 		
 		message1Heure = Ui.loadResource(Rez.Strings.HeureMessage1).substring(0,2);
@@ -85,6 +83,10 @@ class WennerApp extends App.AppBase {
     	sec = 0;
     	timer = new Timer.Timer();
     	timer.start(method(:incsec),1000, true);
+        AppBase.initialize();
+    }
+	// onStart() is called on application start up
+    function onStart(state) {
     }
 
     // onStop() is called when your application is exiting
@@ -140,7 +142,7 @@ class WennerApp extends App.AppBase {
 					envoyerMessageAleaGroupe(tabMessages["grpA"]);
 				}
 				else {
-					System.println(tabCondition["grpE"]);
+					System.println(tabMessages["grpE"]);
 					envoyerMessageAleaGroupe(tabMessages["grpE"]);
 				}
        		}

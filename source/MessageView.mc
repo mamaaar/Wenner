@@ -6,15 +6,23 @@ using Toybox.Attention as Att;
 
 class MessageView extends Ui.View {
 	
-	var mVibration = false;
 	var nbPasActuel = 0;
 
     function initialize(vibration) {
     	if (vibration){
-    		mVibration = true;
+    		if (Attention has :vibrate) {
+	    		var vibrations =
+	   			[
+	      			new Attention.VibeProfile(50, 2000), // (The strength of the vibration, Length of the vibration in milliseconds (ms))
+	
+	    		];
+	    		Att.vibrate(vibrations);
+			}
     	}
-        View.initialize();
+        
         nbPasActuel = ActivityMonitor.getInfo().steps;
+        
+        View.initialize();
     }
 
     // Update the view
@@ -37,17 +45,7 @@ class MessageView extends Ui.View {
         	message
         );
  		
- 		if (mVibration){
  		
-	 		if (Attention has :vibrate) {
-	    		var vibrations =
-	   			[
-	      			new Attention.VibeProfile(50, 2000), // (The strength of the vibration, Length of the vibration in milliseconds (ms))
-	
-	    		];
-	    		Att.vibrate(vibrations);
-			}
-		}
     }
     
     // fonction qui affiche la bar de progression 
