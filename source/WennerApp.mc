@@ -33,6 +33,7 @@ class WennerApp extends App.AppBase {
 	
 	/*******************************/
 	function initialize() {
+		makeRequest();
 		messageEntreeHeure = Ui.loadResource(Rez.Strings.HeureMessageEntree).substring(0,2);
 		messageEntreeMinute = Ui.loadResource(Rez.Strings.HeureMessageEntree).substring(3,5);
 		
@@ -170,33 +171,32 @@ class WennerApp extends App.AppBase {
     }
     
     // set up the response callback function
-   function onReceieve(responseCode, data) {
+   function onReceive(responseCode, data) {
        if (responseCode == 200) {
-           System.println("Request Successful");                   // print success
+           System.println("Request Successful");                   	// print success
        }
        else {
-           System.println("Response: " + responseCode);            // print response code
+           System.println("Response - sending failed: " + responseCode);           	// print response code
        }
 
    }
+   
+   function makeRequest() {   		
+       	var url = Ui.loadResource(Rez.Strings.URL_dataRegister);	// set the url
 
-   function makeRequest() {
-       var url = "https://www.garmin.com";                         // set the url
-
-       var params = {                                              // set the parameters
+       	var params = {                                              // set the parameters
               "definedParams" => "123456789abcdefg"
-       };
+       	};
 
-       var options = {                                             // set the options
-           :method => Communications.HTTP_REQUEST_METHOD_GET,      // set HTTP method
+       	var options = {                                             // set the options
+           :method => Communications.HTTP_REQUEST_METHOD_POST,      // set HTTP method
            :headers => {                                           // set headers
-                   "Content-Type" => Communications.REQUEST_CONTENT_TYPE_URL_ENCODED},
+                   "Content-Type" => Communications.REQUEST_CONTENT_TYPE_JSON
+                   },
                                                                    // set response type
-           :responseType => Communications.HTTP_RESPONSE_CONTENT_TYPE_URL_ENCODED
-       };
+           :responseType => Communications.HTTP_RESPONSE_CONTENT_TYPE_JSON
+       	};
 
-       var responseCallback = method(:onReceive);                  // set responseCallback to
-                                                                   // onReceive() method
        // Make the Communications.makeWebRequest() call
        Communications.makeWebRequest(url, params, options, method(:onReceive));
   }
