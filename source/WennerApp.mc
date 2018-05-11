@@ -3,6 +3,9 @@ using Toybox.WatchUi as Ui;
 using Toybox.Time.Gregorian;
 using Toybox.ActivityMonitor;
 using Toybox.Math;
+using Toybox.Communications;
+
+var user = {};
 
 class WennerApp extends App.AppBase {
 	
@@ -165,5 +168,37 @@ class WennerApp extends App.AppBase {
     function getInitialView() {
         return [ new WennerView() , new WennerDelegate() ];
     }
+    
+    // set up the response callback function
+   function onReceieve(responseCode, data) {
+       if (responseCode == 200) {
+           System.println("Request Successful");                   // print success
+       }
+       else {
+           System.println("Response: " + responseCode);            // print response code
+       }
+
+   }
+
+   function makeRequest() {
+       var url = "https://www.garmin.com";                         // set the url
+
+       var params = {                                              // set the parameters
+              "definedParams" => "123456789abcdefg"
+       };
+
+       var options = {                                             // set the options
+           :method => Communications.HTTP_REQUEST_METHOD_GET,      // set HTTP method
+           :headers => {                                           // set headers
+                   "Content-Type" => Communications.REQUEST_CONTENT_TYPE_URL_ENCODED},
+                                                                   // set response type
+           :responseType => Communications.HTTP_RESPONSE_CONTENT_TYPE_URL_ENCODED
+       };
+
+       var responseCallback = method(:onReceive);                  // set responseCallback to
+                                                                   // onReceive() method
+       // Make the Communications.makeWebRequest() call
+       Communications.makeWebRequest(url, params, options, method(:onReceive));
+  }
 
 }
