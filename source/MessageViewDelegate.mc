@@ -27,10 +27,10 @@ class MessageViewDelegate extends Ui.BehaviorDelegate {
 		}
 	}
 	
-	function onSelect(){
+	function onBack(){
 		secMessage.stop();
 		System.println("temps mit : " + minutes + " minutes " + secondes + " secondes " + milliSecs + " milisecondes");
-		Ui.pushView(new WennerView(), new WennerDelegate(), Ui.SLIDE_LEFT);
+		//Ui.pushView(new WennerView(), new WennerDelegate(), Ui.SLIDE_LEFT);
 	}
 	
 

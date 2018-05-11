@@ -23,10 +23,10 @@ class PasView extends Ui.View {
         );
         
         timer = new Timer.Timer();
-    	timer.start(method(:incsec),1000, true);
     }
     
     function onShow(){
+    	timer.start(method(:incsec),1000, true);
     	Ui.requestUpdate();	
     }
 
@@ -108,7 +108,8 @@ class PasDelegate extends Ui.BehaviorDelegate {
     function initialize() {
         BehaviorDelegate.initialize();
     }
-    function onSelect() {
-		Ui.pushView(new WennerView(), new WennerDelegate(), Ui.SLIDE_LEFT);
-	}
+    
+    function onBack() {
+    
+    }
 }

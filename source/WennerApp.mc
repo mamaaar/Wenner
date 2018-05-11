@@ -103,7 +103,6 @@ class WennerApp extends App.AppBase {
 			
 			if (messageEntreeHeure.toNumber()==today.hour.toNumber()  // message d'entrer
 			&& messageEntreeMinute.toNumber()==today.min.toNumber()) {
-				timer.stop();
     			var messageAenvoyer = Ui.loadResource(Rez.Strings.messageEntree);
     		
     			Application.getApp().setProperty("Message", messageAenvoyer);

@@ -3,7 +3,7 @@
 	<string id="HeureMessageEntree">06:30</string>
 	<string id="HeureMessage1">09:00</string>
 	<string id="HeureMessage2">12:00</string>
-	<string id="HeureMessage3">15:00</string>
-	<string id="HeureMessage4">18:00</string>
-	<string id="HeureMessageSortie">21:00</string>
+	<string id="HeureMessage3">10:02</string>
+	<string id="HeureMessage4">10:05</string>
+	<string id="HeureMessageSortie">10:06</string>
 </strings>
