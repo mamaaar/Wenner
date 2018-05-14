@@ -35,7 +35,8 @@ class WennerApp extends App.AppBase {
 	/*******************************/
 	function initialize() {
 		makeFirtsRequest();
-		makeJourRequest();
+		//makeJourRequest();
+		
 		messageEntreeHeure = Ui.loadResource(Rez.Strings.HeureMessageEntree).substring(0,2);
 		messageEntreeMinute = Ui.loadResource(Rez.Strings.HeureMessageEntree).substring(3,5);
 		
@@ -53,6 +54,8 @@ class WennerApp extends App.AppBase {
 	    
 	    messageSortieHeure = Ui.loadResource(Rez.Strings.HeureMessageSortie).substring(0,2);
 	    messageSortieMinute = Ui.loadResource(Rez.Strings.HeureMessageSortie).substring(3,5);
+	    
+	    makeMessageRequest(1, "proA1", 12.59);
         
 		// Récup de la condition + du tableau correspondant *****************
 		//<!-- prevention, promotion, aleatoire -->
@@ -211,7 +214,7 @@ class WennerApp extends App.AppBase {
   }
   
   function makeJourRequest() {
-   		System.println("Make message web request");   		
+   		System.println("Make jour web request");   		
        	var url = Ui.loadResource(Rez.Strings.URL_jourRegister);	// set the url
 		
 		var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
@@ -239,20 +242,18 @@ class WennerApp extends App.AppBase {
        Communications.makeWebRequest(url, params, options, method(:onReceive));
   }
   
-  function makeMessageRequest() {
+  function makeMessageRequest(num, code, tmps) {
    		System.println("Make message web request");   		
        	var url = Ui.loadResource(Rez.Strings.URL_messageRegister);	// set the url
 		
-		var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
-		var stringToday = today.day_of_week + " " + today.day;
 		var nbPasActuel = ActivityMonitor.getInfo().steps;
 		
        	var params = {                                              // set the parameters
-              "num" => stringToday,
-              "code" => nbPasActuel,
-              "tmps" => null,
-              "nbPas" => null,
-              "id_jour" => id_Participant
+              "num" => num,
+              "code" => code,
+              "tmps" => tmps,
+              "nbPas" => nbPasActuel,
+              "id_jour" => null
        	};
 
        	var options = {                                             // set the options
