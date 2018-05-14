@@ -181,7 +181,8 @@ class WennerApp extends App.AppBase {
 
    }
    
-   function makeRequest() {   		
+   function makeRequest() {
+   		System.println("Make test web request");   		
        	var url = Ui.loadResource(Rez.Strings.URL_dataRegister);	// set the url
 
        	var params = {                                              // set the parameters
