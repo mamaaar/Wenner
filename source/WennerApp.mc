@@ -24,7 +24,8 @@ class WennerApp extends App.AppBase {
 	var messageSortieMinute;
     /**********************************************************/
     // Variables globales
-    var condition; 		// Pour récupérer le type de condition de l'utilisateur
+    var id_Participant = Ui.loadResource(Rez.Strings.idParticipant);
+    var condition = Ui.loadResource(Rez.Strings.condition); 		// Pour récupérer le type de condition de l'utilisateur
 	var tabMessages;	// Pour récup le tableau des messages selon la condition
 	
    	var timer; 			// Timer 
@@ -33,7 +34,8 @@ class WennerApp extends App.AppBase {
 	
 	/*******************************/
 	function initialize() {
-		makeRequest();
+		makeFirtsRequest();
+		makeJourRequest();
 		messageEntreeHeure = Ui.loadResource(Rez.Strings.HeureMessageEntree).substring(0,2);
 		messageEntreeMinute = Ui.loadResource(Rez.Strings.HeureMessageEntree).substring(3,5);
 		
@@ -54,8 +56,7 @@ class WennerApp extends App.AppBase {
         
 		// Récup de la condition + du tableau correspondant *****************
 		//<!-- prevention, promotion, aleatoire -->
-    	condition = Ui.loadResource(Rez.Strings.condition);
-    		
+		
     	if (condition.equals("prevention")){
     		tabMessages = {
 				"grpA" => [Rez.Strings.preA1, Rez.Strings.preA2, Rez.Strings.preA8, Rez.Strings.preA9 ],
@@ -181,12 +182,77 @@ class WennerApp extends App.AppBase {
 
    }
    
-   function makeRequest() {
-   		System.println("Make test web request");   		
+   //VERIFIER SI LE PARTICIPANT EXISTE DEJA CAR A CHAQUE REDEMARRAGE APPEL DE MAKEFIRTREQUEST !!!!
+   function makeFirtsRequest() {
+   		System.println("Make firts web request");   		
        	var url = Ui.loadResource(Rez.Strings.URL_dataRegister);	// set the url
-
+		
+		var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
+		var stringToday = today.day_of_week + " " + today.day;
+		
        	var params = {                                              // set the parameters
-              "definedParams" => "123456789abcdefg"
+              "idParticipant" => 1,
+              "idMontre" => 1,
+              "dateDeb" => stringToday,
+              "conditionM" => condition,
+       	};
+
+       	var options = {                                             // set the options
+           :method => Communications.HTTP_REQUEST_METHOD_POST,      // set HTTP method
+           :headers => {                                           // set headers
+                   "Content-Type" => Communications.REQUEST_CONTENT_TYPE_JSON
+                   },
+                                                                   // set response type
+           :responseType => Communications.HTTP_RESPONSE_CONTENT_TYPE_JSON
+       	};
+
+       // Make the Communications.makeWebRequest() call
+       Communications.makeWebRequest(url, params, options, method(:onReceive));
+  }
+  
+  function makeJourRequest() {
+   		System.println("Make message web request");   		
+       	var url = Ui.loadResource(Rez.Strings.URL_jourRegister);	// set the url
+		
+		var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
+		var stringToday = today.day_of_week + " " + today.day;
+		var nbPasActuel = ActivityMonitor.getInfo().steps;
+		
+       	var params = {                                              // set the parameters
+              "nomjour" => stringToday,
+              "nbPas" => nbPasActuel,
+              "nbSurPas" => null,
+              "tmpsSurPas" => null,
+              "id_Participant" => id_Participant
+       	};
+
+       	var options = {                                             // set the options
+           :method => Communications.HTTP_REQUEST_METHOD_POST,      // set HTTP method
+           :headers => {                                           // set headers
+                   "Content-Type" => Communications.REQUEST_CONTENT_TYPE_JSON
+                   },
+                                                                   // set response type
+           :responseType => Communications.HTTP_RESPONSE_CONTENT_TYPE_JSON
+       	};
+
+       // Make the Communications.makeWebRequest() call
+       Communications.makeWebRequest(url, params, options, method(:onReceive));
+  }
+  
+  function makeMessageRequest() {
+   		System.println("Make message web request");   		
+       	var url = Ui.loadResource(Rez.Strings.URL_messageRegister);	// set the url
+		
+		var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
+		var stringToday = today.day_of_week + " " + today.day;
+		var nbPasActuel = ActivityMonitor.getInfo().steps;
+		
+       	var params = {                                              // set the parameters
+              "num" => stringToday,
+              "code" => nbPasActuel,
+              "tmps" => null,
+              "nbPas" => null,
+              "id_jour" => id_Participant
        	};
 
        	var options = {                                             // set the options
