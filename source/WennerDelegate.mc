@@ -12,5 +12,9 @@ class WennerDelegate extends Ui.BehaviorDelegate {
 	function onSelect() {
 		Ui.pushView(pasView, pasDelegate, Ui.SLIDE_LEFT);
 	}
+	
+	function onBack() {
+		return true;
+	}
 
 }
