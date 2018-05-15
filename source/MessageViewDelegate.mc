@@ -1,5 +1,6 @@
 using Toybox.WatchUi as Ui;
 using Toybox.Timer as Timer;
+using Toybox.Application;
 
 class MessageViewDelegate extends Ui.BehaviorDelegate {
 

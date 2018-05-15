@@ -15,7 +15,6 @@ class MessageView extends Ui.View {
     	
     	messageAenvoyer = Ui.loadResource(_messageId);
     	System.println(messageAenvoyer);
-    	System.println("messageCode : " + messageAenvoyer);
     	
     	if (vibration){
     		if (Attention has :vibrate) {

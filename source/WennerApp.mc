@@ -206,7 +206,7 @@ class WennerApp extends App.AppBase {
 		var random = Math.rand()%(groupe.size()); //To generate a random number between min and max => rand()%(max-min + 1) + min;
 		var tabKeys = groupe.keys();
     	var messageCode = tabKeys[random]; // Récupère un Id au hassard dans le groupe (tableau)
-    	System.println(tabKeys);
+    	System.println(messageCode);
     	var messageId = groupe.get(messageCode);
     	System.println(messageId);
     	
