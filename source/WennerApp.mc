@@ -5,7 +5,60 @@ using Toybox.ActivityMonitor;
 using Toybox.Math;
 using Toybox.Communications;
 
-var user = {};
+class User {
+	var idParticipant = Ui.loadResource(Rez.Strings.idParticipant);
+	var condition = Ui.loadResource(Rez.Strings.condition);
+	var idMontre = Ui.loadResource(Rez.Strings.idMontre);
+	var tabJours = [];
+	
+	var jourActuel;
+	
+	function initialize() {
+		var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
+		var stringToday = today.day_of_week + " " + today.day;
+		
+		self.jourActuel = new Jour(stringToday);
+	}
+	
+	function addJour(_jour, _nbPas) {  // ajouter les données de la journée dans la base locale
+		self.tabJours.add(jourActuel);
+	}
+	
+	function addMessage(_type, _code, _tmps, _nbPas) { // ajouter les donénes du message envoyée dans la base locale
+		jourActuel.addMessage(_type, _code, _tmps, _nbPas);
+	}
+	
+}
+
+class Jour {
+	var jour;
+	var nbPas;
+	var tabMessages = [];
+	
+	function initialize(_jour) {
+		self.nbPas = ActivityMonitor.getInfo().steps;
+		self.jour = _jour;
+	}
+	
+	function addMessage(_type, _code, _tmps, _nbPas) {
+		self.nbPas = ActivityMonitor.getInfo().steps;
+		tabMessages.add(new Message(_type, _code, _tmps, _nbPas));
+	}
+}
+
+class Message {
+	var type; 		//0 pour le message d'entrer, 1 pour le 1er message ainsi de suite
+	var code;	 	//code du message
+	var tmps;		//temps passé sur le message
+	var nbPas;
+	
+	function initialize(_type, _code, _tmps, _nbPas) {
+		self.type = _type;
+		self.code = _code;
+		self.tmps = _tmsp;
+		self.nbPas = _nbPas;
+	}
+}
 
 class WennerApp extends App.AppBase {
 	
@@ -23,20 +76,17 @@ class WennerApp extends App.AppBase {
 	var messageSortieHeure;
 	var messageSortieMinute;
     /**********************************************************/
-    // Variables globales
-    var id_Participant = Ui.loadResource(Rez.Strings.idParticipant);
-    var condition = Ui.loadResource(Rez.Strings.condition); 		// Pour récupérer le type de condition de l'utilisateur
+    // Variable globale
+    var userActuel;
 	var tabMessages;	// Pour récup le tableau des messages selon la condition
 	
    	var timer; 			// Timer 
-	var sec;			// Compteur pour refresh la page chaque seconde
-	var today;
-	
+	var sec;			// Compteur pour refresh la page chaque seconde	
 	/*******************************/
 	function initialize() {
-		makeFirtsRequest();
-		//makeJourRequest();
-		
+	
+		userActuel = new User(); // Donnée que l'on va récuper à la fin de l'expérimentation
+			
 		messageEntreeHeure = Ui.loadResource(Rez.Strings.HeureMessageEntree).substring(0,2);
 		messageEntreeMinute = Ui.loadResource(Rez.Strings.HeureMessageEntree).substring(3,5);
 		
@@ -54,22 +104,20 @@ class WennerApp extends App.AppBase {
 	    
 	    messageSortieHeure = Ui.loadResource(Rez.Strings.HeureMessageSortie).substring(0,2);
 	    messageSortieMinute = Ui.loadResource(Rez.Strings.HeureMessageSortie).substring(3,5);
-	    
-	    makeMessageRequest(1, "proA1", 12.59);
         
 		// Récup de la condition + du tableau correspondant *****************
 		//<!-- prevention, promotion, aleatoire -->
 		
-    	if (condition.equals("prevention")){
+    	if (userActuel.condition.equals("prevention")){
     		tabMessages = {
 				"grpA" => [Rez.Strings.preA1, Rez.Strings.preA2, Rez.Strings.preA8, Rez.Strings.preA9 ],
-			    "grpB" => [Rez.Strings.preB4, Rez.Strings.preB5, Rez.Strings.preB8],
+			    "grpB" => {	"preB4" => Rez.Strings.preB4, "preB5" => Rez.Strings.preB5, "preB8" => Rez.Strings.preB8},
 				"grpC" => [Rez.Strings.preC2, Rez.Strings.preC3, Rez.Strings.preC4, Rez.Strings.preC6],
 				"grpD" => [Rez.Strings.preD4, Rez.Strings.preD6, Rez.Strings.preD10, Rez.Strings.preD11],
 				"grpE" => [Rez.Strings.preE2, Rez.Strings.preE3]
 			};
     	}
-    	else if (condition.equals("promotion")){
+    	else if (userActuel.condition.equals("promotion")){
     		tabMessages = {
 				"grpA" => [Rez.Strings.proA1, Rez.Strings.proA1, Rez.Strings.proA7, Rez.Strings.proA8],
 		        "grpB" => [Rez.Strings.proB7, Rez.Strings.proB4, Rez.Strings.proB8],
@@ -78,7 +126,7 @@ class WennerApp extends App.AppBase {
 				"grpE" => [Rez.Strings.proE4, Rez.Strings.proE2, Rez.Strings.proE3]
 			};
     	}
-    	else if (condition.equals("aleatoire")){
+    	else if (userActuel.condition.equals("aleatoire")){
     		tabMessages = {
 				"grpA" => [Rez.Strings.proA1, Rez.Strings.proA1, Rez.Strings.proA7, Rez.Strings.proA8, Rez.Strings.preA1, Rez.Strings.preA2, Rez.Strings.preA8, Rez.Strings.preA9 ],
 			    "grpB" => [Rez.Strings.proB7, Rez.Strings.proB4, Rez.Strings.proB8, Rez.Strings.preB4, Rez.Strings.preB5, Rez.Strings.preB8],
@@ -93,21 +141,13 @@ class WennerApp extends App.AppBase {
     	timer.start(method(:incsec),1000, true);
         AppBase.initialize();
     }
-	// onStart() is called on application start up
-    function onStart(state) {
-    }
-
-    // onStop() is called when your application is exiting
-    function onStop(state) {
-    }
-   
     
     function incsec() { // Fonction appelé toute les secondes
     	
 		sec += 1;		// incrémente le compteur
        	System.println("wennerView" + sec);
        	if (sec%60 == 0){		// Toute les minutes cette partie vérifie si un message doit être affiché
-    		today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM); // récupère l'heure, la minute et la seconde courantes
+    		var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM); // récupère l'heure, la minute et la seconde courantes
 			
 			if (messageEntreeHeure.toNumber()==today.hour.toNumber()  // message d'entrer
 			&& messageEntreeMinute.toNumber()==today.min.toNumber()) {
@@ -153,6 +193,9 @@ class WennerApp extends App.AppBase {
 					envoyerMessageAleaGroupe(tabMessages["grpE"]);
 				}
        		}
+       		
+       		if (00==today.hour.toNumber() && 1==today.min.toNumber()) {
+       		}
        }
        	//Kick the display update
        	Ui.requestUpdate();
@@ -161,112 +204,17 @@ class WennerApp extends App.AppBase {
 	/* Fonction qui envoie le message selon le groupe choisi */
     function envoyerMessageAleaGroupe(groupe){
 		var random = Math.rand()%(groupe.size()); //To generate a random number between min and max => rand()%(max-min + 1) + min;
-    	var messageId = groupe[random]; // Récupère un Id au hassard dans le groupe (tableau)
+		var tabKeys = groupe.keys();
+    	var messageCode = tabKeys[random]; // Récupère un Id au hassard dans le groupe (tableau)
+    	System.println(tabKeys);
+    	var messageId = groupe.get(messageCode);
     	System.println(messageId);
-    	var messageAenvoyer = Ui.loadResource(messageId);
-    	System.println(messageAenvoyer);
-    	Application.getApp().setProperty("Message", messageAenvoyer); //affiche le message dans la classe messageView
-       	Ui.pushView(new MessageView(true), new MessageViewDelegate(), Ui.SLIDE_IMMEDIATE);
+    	
+       	Ui.pushView(new MessageView(true, messageId, messageCode), new MessageViewDelegate(), Ui.SLIDE_IMMEDIATE);
 	}
 
     // Return the initial view of your application here
     function getInitialView() {
         return [ new WennerView() , new WennerDelegate() ];
     }
-    
-    // set up the response callback function
-   function onReceive(responseCode, data) {
-       if (responseCode == 200) {
-           System.println("Request Successful");                   	// print success
-       }
-       else {
-           System.println("Response - sending failed: " + responseCode);           	// print response code
-       }
-
-   }
-   
-   //VERIFIER SI LE PARTICIPANT EXISTE DEJA CAR A CHAQUE REDEMARRAGE APPEL DE MAKEFIRTREQUEST !!!!
-   function makeFirtsRequest() {
-   		System.println("Make firts web request");   		
-       	var url = Ui.loadResource(Rez.Strings.URL_dataRegister);	// set the url
-		
-		var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
-		var stringToday = today.day_of_week + " " + today.day;
-		
-       	var params = {                                              // set the parameters
-              "idParticipant" => 1,
-              "idMontre" => 1,
-              "dateDeb" => stringToday,
-              "conditionM" => condition,
-       	};
-
-       	var options = {                                             // set the options
-           :method => Communications.HTTP_REQUEST_METHOD_POST,      // set HTTP method
-           :headers => {                                           // set headers
-                   "Content-Type" => Communications.REQUEST_CONTENT_TYPE_JSON
-                   },
-                                                                   // set response type
-           :responseType => Communications.HTTP_RESPONSE_CONTENT_TYPE_JSON
-       	};
-
-       // Make the Communications.makeWebRequest() call
-       Communications.makeWebRequest(url, params, options, method(:onReceive));
-  }
-  
-  function makeJourRequest() {
-   		System.println("Make jour web request");   		
-       	var url = Ui.loadResource(Rez.Strings.URL_jourRegister);	// set the url
-		
-		var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
-		var stringToday = today.day_of_week + " " + today.day;
-		var nbPasActuel = ActivityMonitor.getInfo().steps;
-		
-       	var params = {                                              // set the parameters
-              "nomjour" => stringToday,
-              "nbPas" => nbPasActuel,
-              "nbSurPas" => null,
-              "tmpsSurPas" => null,
-              "id_Participant" => id_Participant
-       	};
-
-       	var options = {                                             // set the options
-           :method => Communications.HTTP_REQUEST_METHOD_POST,      // set HTTP method
-           :headers => {                                           // set headers
-                   "Content-Type" => Communications.REQUEST_CONTENT_TYPE_JSON
-                   },
-                                                                   // set response type
-           :responseType => Communications.HTTP_RESPONSE_CONTENT_TYPE_JSON
-       	};
-
-       // Make the Communications.makeWebRequest() call
-       Communications.makeWebRequest(url, params, options, method(:onReceive));
-  }
-  
-  function makeMessageRequest(num, code, tmps) {
-   		System.println("Make message web request");   		
-       	var url = Ui.loadResource(Rez.Strings.URL_messageRegister);	// set the url
-		
-		var nbPasActuel = ActivityMonitor.getInfo().steps;
-		
-       	var params = {                                              // set the parameters
-              "num" => num,
-              "code" => code,
-              "tmps" => tmps,
-              "nbPas" => nbPasActuel,
-              "id_jour" => null
-       	};
-
-       	var options = {                                             // set the options
-           :method => Communications.HTTP_REQUEST_METHOD_POST,      // set HTTP method
-           :headers => {                                           // set headers
-                   "Content-Type" => Communications.REQUEST_CONTENT_TYPE_JSON
-                   },
-                                                                   // set response type
-           :responseType => Communications.HTTP_RESPONSE_CONTENT_TYPE_JSON
-       	};
-
-       // Make the Communications.makeWebRequest() call
-       Communications.makeWebRequest(url, params, options, method(:onReceive));
-  }
-
 }

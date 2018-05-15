@@ -6,9 +6,17 @@ using Toybox.Attention as Att;
 
 class MessageView extends Ui.View {
 	
-	var nbPasActuel = 0;
+	var nbPasActuel = ActivityMonitor.getInfo().steps;
+	var messageId;
+	var messageAenvoyer;
 
-    function initialize(vibration) {
+    function initialize(vibration, _messageId, _messageCode) {
+    	View.initialize();
+    	
+    	messageAenvoyer = Ui.loadResource(_messageId);
+    	System.println(messageAenvoyer);
+    	System.println("messageCode : " + messageAenvoyer);
+    	
     	if (vibration){
     		if (Attention has :vibrate) {
 	    		var vibrations =
@@ -19,33 +27,22 @@ class MessageView extends Ui.View {
 	    		Att.vibrate(vibrations);
 			}
     	}
-        
-        nbPasActuel = ActivityMonitor.getInfo().steps;
-        
-        View.initialize();
     }
 
     // Update the view
     function onUpdate(dc) {
-    	View.onUpdate(dc);
     	dc.clear();
-    	
-    	nbPasActuel = ActivityMonitor.getInfo().steps; //nb pas
+   
        	var stepsPercent = (nbPasActuel.toFloat() / 10000); //percent of 10000 steps
        	var stringPercent = (stepsPercent*100).format("%.f");
        	
- 		var message = Application.getApp().getProperty("Message");
- 		
-        
  		drawBarMessage( // fonction qui affiche la bar de progression
         // drawBar(dc, titre de la bar ici "% sur 10000", emplacement selon y, color de l'intérieur ici vert)
         	dc, 
         	stringPercent + "%" + " de " + 10000,
         	stepsPercent,
-        	message
+        	messageAenvoyer
         );
- 		
- 		
     }
     
     // fonction qui affiche la bar de progression 
