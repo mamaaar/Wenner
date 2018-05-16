@@ -1,9 +1,22 @@
 <strings>
 	<!--  Le 0 est obligatoire avant un chiffre -->
-	<string id="HeureMessageEntree">06:30</string>
-	<string id="HeureMessage1">09:00</string>
-	<string id="HeureMessage2">12:00</string>
-	<string id="HeureMessage3">15:00</string>
-	<string id="HeureMessage4">18:00</string>
-	<string id="HeureMessageSortie">21:00</string>
+	<string id="HeureMessageEntree"	>22:45</string>
+	<string id="HeureMessage1"		>22:23</string>
+	<string id="HeureMessage2"		>22:24</string>
+	<string id="HeureMessage3"		>22:25</string>
+	<string id="HeureMessage4"		>22:26</string>
+	<string id="HeureMessageSortie"	>22:27</string>
 </strings>
+
+<!--  
+
+<strings>
+	<string id="HeureMessageEntree"	>06:30</string>
+	<string id="HeureMessage1"		>09:00</string>
+	<string id="HeureMessage2"		>12:00</string>
+	<string id="HeureMessage3"		>15:00</string>
+	<string id="HeureMessage4"		>18:00</string>
+	<string id="HeureMessageSortie"	>21:00</string>
+</strings>
+
+ -->

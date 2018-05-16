@@ -37,15 +37,30 @@ class User {
 		jourActuel.addMessage(_type, _code, _tmps, _nbPas);
 	}
 	
-	function toString() {
-		System.println(idParticipant);
-		System.println(condition);
-		System.println(idMontre);
-		System.println(tabJours);
+	function affichage(){
+		System.print(idParticipant + ";");
+		System.print(condition + ";");
+		System.print(idMontre + ";");
+		for (var i = 0; i<tabJours.size(); i++) {
+			// i : class Jour
+			var iJour = tabJours[i].toString();
+			System.print(iJour[0] + ";");
+			System.print(iJour[1] + ";");
+			for (var j = 0; j < iJour[2].size(); j++) {
+				// j : class Message
+				var jMessage = iJour[2][j].toString();
+				System.print(jMessage[0] + ";");
+				System.print(jMessage[1] + ";");
+				System.print(jMessage[2] + ";");
+				System.println(jMessage[3]);
+			}
+		}
 	}
 	
+	function toString() {
+		return [idParticipant, condition, idMontre, tabJours];
+	}	
 }
-
 class Jour {
 	var jour;
 	var nbPas;
@@ -60,6 +75,10 @@ class Jour {
 		self.nbPas = ActivityMonitor.getInfo().steps;
 		tabMessages.add(new Message(_type, _code, _tmps, _nbPas));
 	}
+	
+	function toString(){
+		return [jour, nbPas, tabMessages];
+	}
 }
 
 class Message {
@@ -73,6 +92,10 @@ class Message {
 		self.code = _code;
 		self.tmps = _tmps;
 		self.nbPas = _nbPas;
+	}
+	
+	function toString(){
+		return [type, code, tmps, nbPas];
 	}
 }
 
@@ -172,11 +195,13 @@ class WennerApp extends App.AppBase {
 		sec += 1;		// incrémente le compteur
        	System.println("wennerView" + sec);
        	if (sec%60 == 0){		// Toute les minutes cette partie vérifie si un message doit être affiché
+       		sec = 0;
     		var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM); // récupère l'heure, la minute et la seconde courantes
 			
 			if (messageEntreeHeure.toNumber()==today.hour.toNumber()  // message d'entrer
 			&& messageEntreeMinute.toNumber()==today.min.toNumber()) {
-       			Ui.switchToView(new MessageView(false, Rez.Strings.messageEntree), new MessageViewDelegate("messageEntrer", 0), Ui.SLIDE_IMMEDIATE);
+       			System.println("message d'entrer");
+       			Ui.pushView(new MessageView(false, Rez.Strings.messageEntree), new MessageViewDelegate("messageEntrer", 0), Ui.SLIDE_IMMEDIATE);
        		}
        		
        		if (message1Heure.toNumber()==today.hour.toNumber() 	// 1er message
@@ -193,7 +218,7 @@ class WennerApp extends App.AppBase {
        		
        		if (message3Heure.toNumber()==today.hour.toNumber() 	//3eme message
 			&& message3Minute.toNumber()==today.min.toNumber()) {
-				System.println("message du groupe Entrer D");
+				System.println("message du groupe D");
 				envoyerMessageAleaGroupe(tabMessages["grpD"], 3);
        		}
        		
@@ -206,15 +231,13 @@ class WennerApp extends App.AppBase {
        		if (messageSortieHeure.toNumber()==today.hour.toNumber() 	//message de sortie
 			&& messageSortieMinute.toNumber()==today.min.toNumber()) {
 				var nbPasActuel = ActivityMonitor.getInfo().steps;		// nombre de pas actuel
-				System.println("message du groupe Sortie");
+				System.println("message de Sortie");
 				if (nbPasActuel >= 10000){
-					userActuel.addJour();
-					System.println(tabMessages["grpA"]);
+					System.println("message du groupe A");
 					envoyerMessageAleaGroupe(tabMessages["grpA"], 5);
 				}
 				else {
-					userActuel.addJour();
-					System.println(tabMessages["grpE"]);
+					System.println("message du groupe E");
 					envoyerMessageAleaGroupe(tabMessages["grpE"], 5);
 				}
        		}
@@ -234,7 +257,6 @@ class WennerApp extends App.AppBase {
     	var messageCode = tabKeys[random]; // Récupère un Id au hassard dans le groupe (tableau)
     	System.println(messageCode);
     	var messageId = groupe.get(messageCode);
-    	System.println(messageId);
     	
        	Ui.pushView(new MessageView(true, messageId), new MessageViewDelegate(messageCode, type), Ui.SLIDE_IMMEDIATE);
 	}

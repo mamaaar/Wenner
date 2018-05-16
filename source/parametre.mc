@@ -21,7 +21,10 @@ class paramView extends Ui.View {
        		Gfx.TEXT_JUSTIFY_CENTER
        	);
        	
-       	Application.getApp().userActuel.toString();
+       	var appbase = Application.getApp();
+       	appbase.userActuel.addJour();
+       	appbase.userActuel.affichage();
+       	System.println("");
     }
 }
 

@@ -1,8 +1,7 @@
 using Toybox.WatchUi as Ui;
 using Toybox.Graphics as Gfx;
 using Toybox.ActivityMonitor;
-
-using Toybox.Attention as Att;
+using Toybox.Attention;
 
 class MessageView extends Ui.View {
 	
@@ -23,7 +22,7 @@ class MessageView extends Ui.View {
 	      			new Attention.VibeProfile(50, 2000), // (The strength of the vibration, Length of the vibration in milliseconds (ms))
 	
 	    		];
-	    		Att.vibrate(vibrations);
+	    		Attention.vibrate(vibrations);
 			}
     	}
     }
