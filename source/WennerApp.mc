@@ -20,12 +20,28 @@ class User {
 		self.jourActuel = new Jour(stringToday);
 	}
 	
-	function addJour(_jour, _nbPas) {  // ajouter les données de la journée dans la base locale
+	function addJour() {  // ajouter les données de la journée dans la base locale
+		self.jourActuel.nbPas = ActivityMonitor.getInfo().steps;
 		self.tabJours.add(jourActuel);
+		var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
+		var stringToday = today.day_of_week + " " + today.day;
+		
+		self.jourActuel = new Jour(stringToday);
+	}
+	
+	function updateAvantMinuit() {  // ajouter les données de la journée dans la base locale
+		self.jourActuel.nbPas = ActivityMonitor.getInfo().steps;
 	}
 	
 	function addMessage(_type, _code, _tmps, _nbPas) { // ajouter les donénes du message envoyée dans la base locale
 		jourActuel.addMessage(_type, _code, _tmps, _nbPas);
+	}
+	
+	function toString() {
+		System.println(idParticipant);
+		System.println(condition);
+		System.println(idMontre);
+		System.println(tabJours);
 	}
 	
 }
@@ -55,7 +71,7 @@ class Message {
 	function initialize(_type, _code, _tmps, _nbPas) {
 		self.type = _type;
 		self.code = _code;
-		self.tmps = _tmsp;
+		self.tmps = _tmps;
 		self.nbPas = _nbPas;
 	}
 }
@@ -110,30 +126,39 @@ class WennerApp extends App.AppBase {
 		
     	if (userActuel.condition.equals("prevention")){
     		tabMessages = {
-				"grpA" => [Rez.Strings.preA1, Rez.Strings.preA2, Rez.Strings.preA8, Rez.Strings.preA9 ],
-			    "grpB" => {	"preB4" => Rez.Strings.preB4, "preB5" => Rez.Strings.preB5, "preB8" => Rez.Strings.preB8},
-				"grpC" => [Rez.Strings.preC2, Rez.Strings.preC3, Rez.Strings.preC4, Rez.Strings.preC6],
-				"grpD" => [Rez.Strings.preD4, Rez.Strings.preD6, Rez.Strings.preD10, Rez.Strings.preD11],
-				"grpE" => [Rez.Strings.preE2, Rez.Strings.preE3]
+				"grpA" => {"preA1" => Rez.Strings.preA1, "preA2" => Rez.Strings.preA2, "preA8" => Rez.Strings.preA8, "preA9" => Rez.Strings.preA9},
+			    "grpB" => {"preB4" => Rez.Strings.preB4, "preB5" => Rez.Strings.preB5, "preB8" => Rez.Strings.preB8},
+				"grpC" => {"preC2" => Rez.Strings.preC2, "preC3" => Rez.Strings.preC3, "preC4" => Rez.Strings.preC4, "preC6" => Rez.Strings.preC6},
+				"grpD" => {"preD4" => Rez.Strings.preD4, "preD6" => Rez.Strings.preD6, "preD10" => Rez.Strings.preD10, "preD11" => Rez.Strings.preD11},
+				"grpE" => {"preE2" => Rez.Strings.preE2, "preE3" => Rez.Strings.preE3}
 			};
     	}
     	else if (userActuel.condition.equals("promotion")){
     		tabMessages = {
-				"grpA" => [Rez.Strings.proA1, Rez.Strings.proA1, Rez.Strings.proA7, Rez.Strings.proA8],
-		        "grpB" => [Rez.Strings.proB7, Rez.Strings.proB4, Rez.Strings.proB8],
-				"grpC" => [Rez.Strings.proC8, Rez.Strings.proC7, Rez.Strings.proC3],
-				"grpD" => [Rez.Strings.proD1, Rez.Strings.proD6],
-				"grpE" => [Rez.Strings.proE4, Rez.Strings.proE2, Rez.Strings.proE3]
+				"grpA" => {"proA1" => Rez.Strings.proA1, "proA7" => Rez.Strings.proA7, "proA8" => Rez.Strings.proA8},
+		        "grpB" => {"proB7" => Rez.Strings.proB7, "proB4" => Rez.Strings.proB4, "proB8" => Rez.Strings.proB8},
+				"grpC" => {"proC8" => Rez.Strings.proC8, "proC7" => Rez.Strings.proC7, "proC3" => Rez.Strings.proC3},
+				"grpD" => {"proD1" => Rez.Strings.proD1, "proD6" => Rez.Strings.proD6},
+				"grpE" => {"proE4" => Rez.Strings.proE4, "proE2" => Rez.Strings.proE2, "proE3" => Rez.Strings.proE3}
 			};
     	}
     	else if (userActuel.condition.equals("aleatoire")){
     		tabMessages = {
-				"grpA" => [Rez.Strings.proA1, Rez.Strings.proA1, Rez.Strings.proA7, Rez.Strings.proA8, Rez.Strings.preA1, Rez.Strings.preA2, Rez.Strings.preA8, Rez.Strings.preA9 ],
-			    "grpB" => [Rez.Strings.proB7, Rez.Strings.proB4, Rez.Strings.proB8, Rez.Strings.preB4, Rez.Strings.preB5, Rez.Strings.preB8],
-				"grpC" => [Rez.Strings.proC8, Rez.Strings.proC7, Rez.Strings.proC3, Rez.Strings.preC2, Rez.Strings.preC3, Rez.Strings.preC4, Rez.Strings.preC6],
-				"grpD" => [Rez.Strings.proD1, Rez.Strings.proD6, Rez.Strings.preD4, Rez.Strings.preD6, Rez.Strings.preD10, Rez.Strings.preD11],
-				"grpE" => [Rez.Strings.proE4, Rez.Strings.proE2, Rez.Strings.proE3, Rez.Strings.preE2, Rez.Strings.preE3]
+				"grpA" => {"preA1" => Rez.Strings.preA1, "preA2" => Rez.Strings.preA2, "preA8" => Rez.Strings.preA8, "preA9" => Rez.Strings.preA9, "proA1" => Rez.Strings.proA1, "proA7" => Rez.Strings.proA7, "proA8" => Rez.Strings.proA8},
+			    "grpB" => {"preB4" => Rez.Strings.preB4, "preB5" => Rez.Strings.preB5, "preB8" => Rez.Strings.preB8, "proB7" => Rez.Strings.proB7, "proB4" => Rez.Strings.proB4, "proB8" => Rez.Strings.proB8},
+				"grpC" => {"preC2" => Rez.Strings.preC2, "preC3" => Rez.Strings.preC3, "preC4" => Rez.Strings.preC4, "preC6" => Rez.Strings.preC6, "proC8" => Rez.Strings.proC8, "proC7" => Rez.Strings.proC7, "proC3" => Rez.Strings.proC3},
+				"grpD" => {"preD4" => Rez.Strings.preD4, "preD6" => Rez.Strings.preD6, "preD10" => Rez.Strings.preD10, "preD11" => Rez.Strings.preD11, "proD1" => Rez.Strings.proD1, "proD6" => Rez.Strings.proD6},
+				"grpE" => {"preE2" => Rez.Strings.preE2, "preE3" => Rez.Strings.preE3, "proE4" => Rez.Strings.proE4, "proE2" => Rez.Strings.proE2, "proE3" => Rez.Strings.proE3}
 			};
+    	}
+    	else if (userActuel.condition.equals("sansCadrage")){
+    		tabMessages = {
+    			"grpA" => {"sansCadrageSortieAteint" => Rez.Strings.sansCadrageSortieAteint},
+    			"grpB" => {"sansCadrage4" => Rez.Strings.sansCadrage4},
+    			"grpC" => {"sansCadrage1" => Rez.Strings.sansCadrage1, "sansCadrage2" => Rez.Strings.sansCadrage2},
+    			"grpD" => {"sansCadrage3" => Rez.Strings.sansCadrage3},
+    			"grpE" => {"sansCadrageSortieNonAteint" => Rez.Strings.sansCadrageSortieNonAteint}
+    		};
     	}
     	//***************************************************************
     	sec = 0;
@@ -151,34 +176,31 @@ class WennerApp extends App.AppBase {
 			
 			if (messageEntreeHeure.toNumber()==today.hour.toNumber()  // message d'entrer
 			&& messageEntreeMinute.toNumber()==today.min.toNumber()) {
-    			var messageAenvoyer = Ui.loadResource(Rez.Strings.messageEntree);
-    		
-    			Application.getApp().setProperty("Message", messageAenvoyer);
-       			Ui.switchToView(new MessageView(false), new MessageViewDelegate(), Ui.SLIDE_IMMEDIATE);
+       			Ui.switchToView(new MessageView(false, Rez.Strings.messageEntree), new MessageViewDelegate("messageEntrer", 0), Ui.SLIDE_IMMEDIATE);
        		}
        		
        		if (message1Heure.toNumber()==today.hour.toNumber() 	// 1er message
 			&& message1Minute.toNumber()==today.min.toNumber()) {
 				System.println("message du groupe C");
-				envoyerMessageAleaGroupe(tabMessages["grpC"]);
+				envoyerMessageAleaGroupe(tabMessages["grpC"], 1);
        		}
        		
        		if (message2Heure.toNumber()==today.hour.toNumber() 	// 2eme message
 			&& message2Minute.toNumber()==today.min.toNumber()) {
 				System.println("message du groupe C");
- 				envoyerMessageAleaGroupe(tabMessages["grpC"]);
+ 				envoyerMessageAleaGroupe(tabMessages["grpC"], 2);
        		}
        		
        		if (message3Heure.toNumber()==today.hour.toNumber() 	//3eme message
 			&& message3Minute.toNumber()==today.min.toNumber()) {
 				System.println("message du groupe Entrer D");
-				envoyerMessageAleaGroupe(tabMessages["grpD"]);
+				envoyerMessageAleaGroupe(tabMessages["grpD"], 3);
        		}
        		
        		if (message4Heure.toNumber()==today.hour.toNumber() 	//4eme message
 			&& message4Minute.toNumber()==today.min.toNumber()) {
 				System.println("message du groupe B");
-				envoyerMessageAleaGroupe(tabMessages["grpB"]);
+				envoyerMessageAleaGroupe(tabMessages["grpB"], 4);
        		}
        		
        		if (messageSortieHeure.toNumber()==today.hour.toNumber() 	//message de sortie
@@ -186,15 +208,19 @@ class WennerApp extends App.AppBase {
 				var nbPasActuel = ActivityMonitor.getInfo().steps;		// nombre de pas actuel
 				System.println("message du groupe Sortie");
 				if (nbPasActuel >= 10000){
-					envoyerMessageAleaGroupe(tabMessages["grpA"]);
+					userActuel.addJour();
+					System.println(tabMessages["grpA"]);
+					envoyerMessageAleaGroupe(tabMessages["grpA"], 5);
 				}
 				else {
+					userActuel.addJour();
 					System.println(tabMessages["grpE"]);
-					envoyerMessageAleaGroupe(tabMessages["grpE"]);
+					envoyerMessageAleaGroupe(tabMessages["grpE"], 5);
 				}
        		}
        		
-       		if (00==today.hour.toNumber() && 1==today.min.toNumber()) {
+       		if (4==today.hour.toNumber() && 00==today.min.toNumber()) {
+       			userActuel.addJour();
        		}
        }
        	//Kick the display update
@@ -202,7 +228,7 @@ class WennerApp extends App.AppBase {
 	}
 	
 	/* Fonction qui envoie le message selon le groupe choisi */
-    function envoyerMessageAleaGroupe(groupe){
+    function envoyerMessageAleaGroupe(groupe, type){
 		var random = Math.rand()%(groupe.size()); //To generate a random number between min and max => rand()%(max-min + 1) + min;
 		var tabKeys = groupe.keys();
     	var messageCode = tabKeys[random]; // Récupère un Id au hassard dans le groupe (tableau)
@@ -210,9 +236,9 @@ class WennerApp extends App.AppBase {
     	var messageId = groupe.get(messageCode);
     	System.println(messageId);
     	
-       	Ui.pushView(new MessageView(true, messageId, messageCode), new MessageViewDelegate(), Ui.SLIDE_IMMEDIATE);
+       	Ui.pushView(new MessageView(true, messageId), new MessageViewDelegate(messageCode, type), Ui.SLIDE_IMMEDIATE);
 	}
-
+	
     // Return the initial view of your application here
     function getInitialView() {
         return [ new WennerView() , new WennerDelegate() ];

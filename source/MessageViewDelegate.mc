@@ -1,36 +1,39 @@
 using Toybox.WatchUi as Ui;
 using Toybox.Timer as Timer;
 using Toybox.Application;
+using Toybox.ActivityMonitor;
 
 class MessageViewDelegate extends Ui.BehaviorDelegate {
 
 	var secMessage; //Timer
-	var minutes=0;
-	var secondes=0;
-	var milliSecs=0;
+	
+	var type;
+	var messageCode;
+	var secondes;
+	var nbPas;
 
-    function initialize() {
+    function initialize(_messageCode, _type) {
         BehaviorDelegate.initialize();
+        secondes = 0;
+        type = _type;
+        messageCode = _messageCode;
+        nbPas = ActivityMonitor.getInfo().steps;
+        
         System.println("testAffichageMessageViewDelegate");
        	secMessage = new Timer.Timer();
-        secMessage.start(method(:incsec), 50, true);
+        secMessage.start(method(:incsec), 1000, true);
     }
     
     function incsec() {
-		milliSecs += 50;
-		if(milliSecs == 1000){
-			milliSecs=0;
-			secondes +=1;
-			if(secondes==60){
-				secondes=0;
-				minutes+=1; 
-			}
-		}
+		secondes +=1;	
 	}
 	
 	function onBack(){
 		secMessage.stop();
-		System.println("temps mit : " + minutes + " minutes " + secondes + " secondes " + milliSecs + " milisecondes");
+		System.println("temps mit : " + secondes + "secondes");
+		var appbase = Application.getApp();
+		appbase.userActuel.addMessage(type, messageCode, secondes, nbPas);
+		System.println("finAddMessage");
 	}
 	
 

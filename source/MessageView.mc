@@ -10,7 +10,7 @@ class MessageView extends Ui.View {
 	var messageId;
 	var messageAenvoyer;
 
-    function initialize(vibration, _messageId, _messageCode) {
+    function initialize(vibration, _messageId) {
     	View.initialize();
     	
     	messageAenvoyer = Ui.loadResource(_messageId);

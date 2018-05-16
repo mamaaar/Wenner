@@ -39,4 +39,11 @@
 
          <string id="preE2">Ta santé\n est en jeu,\n ne l’oublie pas !</string>
          <string id="preE3">Ce n’est pas la bonne\n attitude pour atteindre\n ton objectif,\n fais des efforts !</string>
+         
+         <string id="sansCadrage1">Allez !</string>
+         <string id="sansCadrage2">Courage !</string>
+         <string id="sansCadrage3">Continue !</string>
+         <string id="sansCadrage4">Encore !</string>
+         <string id="sansCadrageSortieAteint">Objectif atteint !</string>
+         <string id="sansCadrageSortieNonAteint">Objectif non atteint.</string>
 </strings>

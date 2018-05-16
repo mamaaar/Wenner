@@ -9,14 +9,12 @@ class WennerView extends Ui.View { // Vue qui affiche l'heure
 	
     function initialize() {
         View.initialize();
-        sec = 0;
     	timer = new Timer.Timer();
-    	Ui.requestUpdate();
     }
     
     function onShow() {
+    	sec = 0;
     	timer.start(method(:incsec),1000, true);
-    	Ui.requestUpdate();
     }
 
     // Update the view

@@ -1,5 +1,5 @@
 <strings>
          <string id="idParticipant">65</string>
-         <string id="condition">prevention</string>  <!-- prevention, promotion, aleatoire -->
+         <string id="condition">prevention</string>  <!-- prevention, promotion, aleatoire, sansCadrage -->
          <string id="idMontre">4DY554040</string>
 </strings>
