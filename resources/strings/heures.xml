@@ -1,18 +1,9 @@
 <strings>
 	<!--  Le 0 est obligatoire avant un chiffre -->
-<<<<<<< HEAD
 	<string id="HeureMessageEntree">06:30</string>
 	<string id="HeureMessage1">09:00</string>
 	<string id="HeureMessage2">12:00</string>
 	<string id="HeureMessage3">15:00</string>
 	<string id="HeureMessage4">18:00</string>
 	<string id="HeureMessageSortie">21:00</string>
-=======
-	<string id="HeureMessageEntree">17:14</string>
-	<string id="HeureMessage1">17:15</string>
-	<string id="HeureMessage2">17:16</string>
-	<string id="HeureMessage3">17:17</string>
-	<string id="HeureMessage4">17:18</string>
-	<string id="HeureMessageSortie">17:19</string>
->>>>>>> sendWebRequest
 </strings>

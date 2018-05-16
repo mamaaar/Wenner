@@ -88,12 +88,5 @@ class WennerDelegate extends Ui.BehaviorDelegate {
 	function onBack() {
 		return true;
 	}
-<<<<<<< HEAD
-	
-	function onBack() {
-		return true;
-	}	
-=======
->>>>>>> sendWebRequest
 
 }
