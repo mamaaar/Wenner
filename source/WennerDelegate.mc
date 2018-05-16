@@ -16,5 +16,9 @@ class WennerDelegate extends Ui.BehaviorDelegate {
 	function onBack() {
 		return true;
 	}
+	
+	function onBack() {
+		return true;
+	}	
 
 }
