@@ -27,7 +27,6 @@ class PasView extends Ui.View {
     
     function onShow(){
     	timer.start(method(:incsec),1000, true);
-    	Ui.requestUpdate();	
     }
 
     // Update the view
@@ -107,9 +106,5 @@ class PasDelegate extends Ui.BehaviorDelegate {
 	
     function initialize() {
         BehaviorDelegate.initialize();
-    }
-    
-    function onBack() {
-    
     }
 }
