@@ -5,115 +5,26 @@ using Toybox.ActivityMonitor;
 using Toybox.Math;
 using Toybox.Communications;
 
-class User {
-	var idParticipant = Ui.loadResource(Rez.Strings.idParticipant);
-	var condition = Ui.loadResource(Rez.Strings.condition);
-	var idMontre = Ui.loadResource(Rez.Strings.idMontre);
-	var tabJours = [];
-	
-	var jourActuel;
-	
-	function initialize() {
-		var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
-		var stringToday = today.day_of_week + " " + today.day;
-		
-		self.jourActuel = new Jour(stringToday);
-	}
-	
-	function addJour() {  // ajouter les données de la journée dans la base locale
-		self.jourActuel.nbPas = ActivityMonitor.getInfo().steps;
-		self.tabJours.add(jourActuel);
-		var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
-		var stringToday = today.day_of_week + " " + today.day;
-		
-		self.jourActuel = new Jour(stringToday);
-	}
-	
-	function updateAvantMinuit() {  // ajouter les données de la journée dans la base locale
-		self.jourActuel.nbPas = ActivityMonitor.getInfo().steps;
-	}
-	
-	function addMessage(_type, _code, _tmps, _nbPas) { // ajouter les donénes du message envoyée dans la base locale
-		jourActuel.addMessage(_type, _code, _tmps, _nbPas);
-	}
-	
-	function affichage(){
-		System.print(idParticipant + ";");
-		System.print(condition + ";");
-		System.print(idMontre + ";");
-		for (var i = 0; i<tabJours.size(); i++) {
-			// i : class Jour
-			var iJour = tabJours[i].toString();
-			System.print(iJour[0] + ";");
-			System.print(iJour[1] + ";");
-			for (var j = 0; j < iJour[2].size(); j++) {
-				// j : class Message
-				var jMessage = iJour[2][j].toString();
-				System.print(jMessage[0] + ";");
-				System.print(jMessage[1] + ";");
-				System.print(jMessage[2] + ";");
-				System.println(jMessage[3]);
-			}
-		}
-	}
-	
-	function toString() {
-		return [idParticipant, condition, idMontre, tabJours];
-	}	
-}
-class Jour {
-	var jour;
-	var nbPas;
-	var tabMessages = [];
-	
-	function initialize(_jour) {
-		self.nbPas = ActivityMonitor.getInfo().steps;
-		self.jour = _jour;
-	}
-	
-	function addMessage(_type, _code, _tmps, _nbPas) {
-		self.nbPas = ActivityMonitor.getInfo().steps;
-		tabMessages.add(new Message(_type, _code, _tmps, _nbPas));
-	}
-	
-	function toString(){
-		return [jour, nbPas, tabMessages];
-	}
-}
-
-class Message {
-	var type; 		//0 pour le message d'entrer, 1 pour le 1er message ainsi de suite
-	var code;	 	//code du message
-	var tmps;		//temps passé sur le message
-	var nbPas;
-	
-	function initialize(_type, _code, _tmps, _nbPas) {
-		self.type = _type;
-		self.code = _code;
-		self.tmps = _tmps;
-		self.nbPas = _nbPas;
-	}
-	
-	function toString(){
-		return [type, code, tmps, nbPas];
-	}
-}
-
 class WennerApp extends App.AppBase {
 	
 	/***********Heure des messages définit en absolu***********/ 
-	var messageEntreeHeure;
-	var messageEntreeMinute;
-	var message1Heure;
-	var message1Minute;
-	var message2Heure;
-	var message2Minute;
-	var message3Heure;
-	var message3Minute;
-	var message4Heure;
-	var message4Minute;
-	var messageSortieHeure;
-	var messageSortieMinute;
+	var messageEntreeHeure = Ui.loadResource(Rez.Strings.HeureMessageEntree).substring(0,2);
+	var messageEntreeMinute = Ui.loadResource(Rez.Strings.HeureMessageEntree).substring(3,5);
+	
+	var message1Heure = Ui.loadResource(Rez.Strings.HeureMessage1).substring(0,2);
+    var message1Minute = Ui.loadResource(Rez.Strings.HeureMessage1).substring(3,5);
+    
+    var message2Heure = Ui.loadResource(Rez.Strings.HeureMessage2).substring(0,2);
+    var message2Minute = Ui.loadResource(Rez.Strings.HeureMessage2).substring(3,5);
+    
+	var message3Heure = Ui.loadResource(Rez.Strings.HeureMessage3).substring(0,2); 
+    var message3Minute = Ui.loadResource(Rez.Strings.HeureMessage3).substring(3,5);
+    
+    var message4Heure = Ui.loadResource(Rez.Strings.HeureMessage4).substring(0,2); 
+    var message4Minute = Ui.loadResource(Rez.Strings.HeureMessage4).substring(3,5);
+    
+    var messageSortieHeure = Ui.loadResource(Rez.Strings.HeureMessageSortie).substring(0,2);
+    var messageSortieMinute = Ui.loadResource(Rez.Strings.HeureMessageSortie).substring(3,5);
     /**********************************************************/
     // Variable globale
     var userActuel;
@@ -125,27 +36,9 @@ class WennerApp extends App.AppBase {
 	function initialize() {
 	
 		userActuel = new User(); // Donnée que l'on va récuper à la fin de l'expérimentation
-			
-		messageEntreeHeure = Ui.loadResource(Rez.Strings.HeureMessageEntree).substring(0,2);
-		messageEntreeMinute = Ui.loadResource(Rez.Strings.HeureMessageEntree).substring(3,5);
-		
-		message1Heure = Ui.loadResource(Rez.Strings.HeureMessage1).substring(0,2);
-	    message1Minute = Ui.loadResource(Rez.Strings.HeureMessage1).substring(3,5);
-	    
-	    message2Heure = Ui.loadResource(Rez.Strings.HeureMessage2).substring(0,2);
-	    message2Minute = Ui.loadResource(Rez.Strings.HeureMessage2).substring(3,5);
-	    
-		message3Heure = Ui.loadResource(Rez.Strings.HeureMessage3).substring(0,2); 
-	    message3Minute = Ui.loadResource(Rez.Strings.HeureMessage3).substring(3,5);
-	    
-	    message4Heure = Ui.loadResource(Rez.Strings.HeureMessage4).substring(0,2); 
-	    message4Minute = Ui.loadResource(Rez.Strings.HeureMessage4).substring(3,5);
-	    
-	    messageSortieHeure = Ui.loadResource(Rez.Strings.HeureMessageSortie).substring(0,2);
-	    messageSortieMinute = Ui.loadResource(Rez.Strings.HeureMessageSortie).substring(3,5);
-        
+		       
 		// Récup de la condition + du tableau correspondant *****************
-		//<!-- prevention, promotion, aleatoire -->
+		//<!-- prevention, promotion, aleatoire, sansCadrage -->
 		
     	if (userActuel.condition.equals("prevention")){
     		tabMessages = {
@@ -200,6 +93,7 @@ class WennerApp extends App.AppBase {
 			
 			if (messageEntreeHeure.toNumber()==today.hour.toNumber()  // message d'entrer
 			&& messageEntreeMinute.toNumber()==today.min.toNumber()) {
+				userActuel.addJour();
        			System.println("message d'entrer");
        			Ui.pushView(new MessageView(false, Rez.Strings.messageEntree), new MessageViewDelegate("messageEntrer", 0), Ui.SLIDE_IMMEDIATE);
        		}
@@ -242,9 +136,10 @@ class WennerApp extends App.AppBase {
 				}
        		}
        		
-       		if (4==today.hour.toNumber() && 00==today.min.toNumber()) {
-       			userActuel.addJour();
+       		if (23==today.hour.toNumber() && 59==today.min.toNumber()) {
+       			userActuel.updateAvantMinuit();
        		}
+       		
        }
        	//Kick the display update
        	Ui.requestUpdate();
