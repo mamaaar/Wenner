@@ -57,6 +57,9 @@ class WennerView extends Ui.View { // Vue qui affiche l'heure
 	function incsec() { // Permet d'actualiser l'interface toute les secondes
 		sec += 1;
        	System.println("ViewHeure" + sec);
+       	if (sec%60 == 0){
+       		sec = 0;
+       	}
        	//Kick the display update
        	Ui.requestUpdate();
 	}

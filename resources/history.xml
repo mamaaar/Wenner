@@ -1,5 +1,8 @@
 <layout id="HistoryLayout" background="Gfx.COLOR_BLACK">
-    <label id="TitleLabel" x="center" y="5" text="@Strings.HistoryTitle" font="Gfx.FONT_MEDIUM" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+	<!--
+	<label id="TitleLabel" x="center" y="5" text="@Strings.HistoryTitle" font="Gfx.FONT_MEDIUM" justification="Gfx.TEXT_JUSTIFY_CENTER" />
     <label id="DayLabel" x="(dc.getWidth() / 4)" y="Gfx.getFontHeight(Gfx.FONT_LARGE)" text="@Strings.DayHeader" font="Gfx.FONT_SMALL" justification="Gfx.TEXT_JUSTIFY_CENTER" />
-    <label id="StepsLabel" x="(dc.getWidth() / 4*3)" y="Gfx.getFontHeight(Gfx.FONT_LARGE)" text="@Strings.StepsHeader" font="Gfx.FONT_SMALL" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+    <label id="StepsLabel" x="(dc.getWidth() / 4*3)" y="Gfx.getFontHeight(Gfx.FONT_LARGE)" text="@Strings.StepsHeader" font="Gfx.FONT_SMALL" justification="Gfx.TEXT_JUSTIFY_CENTER" />  
+    -->
+    
 </layout>

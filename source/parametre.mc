@@ -3,9 +3,16 @@ using Toybox.Graphics as Gfx;
 using Toybox.Application;
 
 class paramView extends Ui.View {
-
+	
+	var appbase = Application.getApp();
+        
 	function initialize() {
         View.initialize();
+       	
+       	appbase.userActuel.addJour();
+       	
+       	makeRequest();
+       	System.println("");
     }
 
     // Update the view
@@ -20,12 +27,43 @@ class paramView extends Ui.View {
        		":)", 
        		Gfx.TEXT_JUSTIFY_CENTER
        	);
-       	
-       	var appbase = Application.getApp();
-       	appbase.userActuel.addJour();
-       	appbase.userActuel.affichage();
-       	System.println("");
     }
+    
+    
+    function makeRequest() {
+   		System.println("Make web request");   		
+       	var url = Ui.loadResource(Rez.Strings.URL_dataRegister);	// set the url
+		
+		var idParticipant = appbase.userActuel.idParticipant;
+		var lignes = appbase.userActuel.affichage();
+		var nbJours = appbase.userActuel.tabJours.size();
+		
+       	var params = {                                              // set the parameters
+              "idParticipant" => idParticipant,
+              "lignes" => lignes,
+              "nbJours" => nbJours
+       	};
+
+       	var options = {                                             // set the options
+           :method => Communications.HTTP_REQUEST_METHOD_POST,      // set HTTP method
+           :headers => {"Content-Type" => Communications.REQUEST_CONTENT_TYPE_JSON}
+       	};
+
+       // Make the Communications.makeWebRequest() call
+       Communications.makeWebRequest(url, params, options, method(:onReceive));
+  }
+  
+  // set up the response callback function
+   function onReceive(responseCode, data) {
+       if (responseCode == 200) {
+           System.println("Request Successful");                    // print success
+       }
+       else {
+           System.println("Response - sending failed: " + responseCode);            // print response code
+       }
+
+   }
+  
 }
 
 class paramDelegate extends Ui.BehaviorDelegate {

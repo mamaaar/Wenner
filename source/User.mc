@@ -13,18 +13,17 @@ class User {
 	function initialize() {
 		var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
 		var stringToday = today.day_of_week + " " + today.day;
-		
-		self.jourActuel = new Jour(stringToday);
+		var debPas = ActivityMonitor.getInfo().steps;
+		self.jourActuel = new Jour(stringToday, debPas);
 	}
 	
 	function addJour() {  // ajouter les données de la journée dans la base locale
-		var debPas = ActivityMonitor.getInfo().steps
-		self.jourActuel.nbPas += debPas;
+		var debPas = ActivityMonitor.getInfo().steps;
+		self.jourActuel.nbPas = debPas;
 		self.tabJours.add(jourActuel);
+		
 		var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
 		var stringToday = today.day_of_week + " " + today.day;
-		
-		
 		self.jourActuel = new Jour(stringToday, debPas);
 	}
 	
@@ -37,23 +36,24 @@ class User {
 	}
 	
 	function affichage(){
-		System.print(idParticipant + ";");
-		System.print(condition + ";");
-		System.print(idMontre + ";");
-		for (var i = 0; i<tabJours.size(); i++) {
+		System.print(idParticipant + ",");
+		System.print(condition + ",");
+		System.print(idMontre + ",");
+		for (var i = 0; i<tabJours.size(); i+=1) {
 			// i : class Jour
 			var iJour = tabJours[i].toString();
-			System.print(iJour[0] + ";");
-			System.print(iJour[1] + ";");
-			for (var j = 0; j < iJour[2].size(); j++) {
+			System.print(iJour[0] + ",");
+			System.print(iJour[1] + ",");
+			for (var j = 0; j < iJour[2].size(); j+=1) {
 				// j : class Message
 				var jMessage = iJour[2][j].toString();
-				System.print(jMessage[0] + ";");
-				System.print(jMessage[1] + ";");
-				System.print(jMessage[2] + ";");
-				System.println(jMessage[3]);
+				System.print(jMessage[0] + ",");
+				System.print(jMessage[1] + ",");
+				System.print(jMessage[2] + ",");
+				System.print(jMessage[3] + ",");
 			}
 		}
+		System.println("");
 	}
 	
 	function toString() {
