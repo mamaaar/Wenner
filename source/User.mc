@@ -36,24 +36,22 @@ class User {
 	}
 	
 	function affichage(){
-		System.print(idParticipant + ",");
-		System.print(condition + ",");
-		System.print(idMontre + ",");
-		for (var i = 0; i<tabJours.size(); i+=1) {
-			// i : class Jour
+		var string = "";
+		for(var i=0 ; i<tabJours.size(); i++){
+			string += idParticipant+","+condition+","+idMontre+",";
+			
 			var iJour = tabJours[i].toString();
-			System.print(iJour[0] + ",");
-			System.print(iJour[1] + ",");
-			for (var j = 0; j < iJour[2].size(); j+=1) {
-				// j : class Message
+			//			nomJour		nbPasTotal
+			string += iJour[0]+","+iJour[1]+",";
+			
+			for(var j=0; j<iJour[2].size(); j++){
 				var jMessage = iJour[2][j].toString();
-				System.print(jMessage[0] + ",");
-				System.print(jMessage[1] + ",");
-				System.print(jMessage[2] + ",");
-				System.print(jMessage[3] + ",");
+				//			type			code			tmps			nbPas		
+				string += jMessage[0]+","+jMessage[1]+","+jMessage[2]+","+jMessage[3]+",";
 			}
-		}
-		System.println("");
+			string += "\n";
+			}
+		return string;
 	}
 	
 	function toString() {
