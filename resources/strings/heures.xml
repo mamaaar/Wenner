@@ -1,20 +1,13 @@
 <strings>
 	<!--  Le 0 est obligatoire avant un chiffre -->
-<<<<<<< HEAD
-	<string id="HeureMessageEntree"	>06:30</string>
-	<string id="HeureMessage1"		>09:00</string>
-	<string id="HeureMessage2"		>12:00</string>
-	<string id="HeureMessage3"		>15:00</string>
-	<string id="HeureMessage4"		>18:00</string>
-	<string id="HeureMessageSortie"	>21:00</string>
-=======
-	<string id="HeureMessageEntree"	>11:53</string>
-	<string id="HeureMessage1"		>10:57</string>
-	<string id="HeureMessage2"		>10/58</string>
-	<string id="HeureMessage3"		>10/59</string>
-	<string id="HeureMessage4"		>11:00</string>
-	<string id="HeureMessageSortie"	>11:06</string>
->>>>>>> 78c7b811f5c4dd9ce22a074b2eb4d0c9acae598d
+
+	<string id="HeureMessageEntree"	>14:45</string>
+	<string id="HeureMessage1"		>15:36</string>
+	<string id="HeureMessage2"		>15!18</string>
+	<string id="HeureMessage3"		>16:03</string>
+	<string id="HeureMessage4"		>15:20</string>
+	<string id="HeureMessageSortie"	>16:01</string>
+
 </strings>
 
 <!--  

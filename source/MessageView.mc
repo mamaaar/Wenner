@@ -29,6 +29,7 @@ class MessageView extends Ui.View {
 
     // Update the view
     function onUpdate(dc) {
+    	dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_BLACK);
     	dc.clear();
    
        	var stepsPercent = (nbPasActuel.toFloat() / 10000); //percent of 10000 steps

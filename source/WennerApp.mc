@@ -77,6 +77,7 @@ class WennerApp extends App.AppBase {
     		};
     	}
     	//***************************************************************
+    	envoyerMessageAleaGroupe(tabMessages["grpD"], 3);
     	sec = 0;
     	timer = new Timer.Timer();
     	timer.start(method(:incsec),1000, true);
