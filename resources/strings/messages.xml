@@ -1,5 +1,8 @@
 <strings>
-         <string id="messageEntree">Votre objectif \ndu jour est \nde 10 000 pas !</string>
+         <string id="proEntree">Aujourd’hui, \nl’objectif à atteindre \nest de 10 000 pas !</string>
+         <string id="preEntree">Aujourd’hui \nvous ne devez pas faire\n moins de 10 000 pas !</string>
+         <string id="sansCadrageEntree">Aujourd’hui,\n votre objectif est\n de 10 000 pas !</string>
+         
          <string id="proA1">Continue comme ca,\n tes efforts \n vont payer!</string>
          <string id="proA7">Tu as atteint \n l'objectif et c'est \n entièrement grâçe \n à ta détermination !</string>
          <string id="proA8">Tu as reussi \n facilement,\n bien joue !</string>
@@ -33,7 +36,7 @@
          <string id="preC6">Courage,\n tu as tout \npour ne pas\n connaître l’échec !</string>
 
          <string id="preD10">Allez ! Pense à ta santé :\n tu ne veux pas\n être en mauvaise\n forme !</string>
-         <string id="preD11">Ce n’est pas \ncomme ça que tu\n iras au bout,\n bouge toi !</string>
+         <string id="preD11">Ce n’est pas \ncomme ça que tu\n iras au bout,\n bouge !</string>
          <string id="preD4">Allez, tu ne dois\n pas dévier de\n ton objectif !</string>
          <string id="preD6">Ce n’est pas le \nmoment d’économiser tes \nefforts, ton objectif\n n’est pas loin !</string>
 

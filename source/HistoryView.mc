@@ -1,12 +1,17 @@
 using Toybox.WatchUi as Ui;
 using Toybox.Graphics as Gfx;
 using Toybox.ActivityMonitor as Act;
+using Toybox.Application;
 
 class HistoryView extends Ui.View {
-
+	
+	var appbase = Application.getApp();
+	
     // Constructor
     function initialize() {
         View.initialize();
+        
+        makeRequest();
     }
 
     function onLayout(dc) {
@@ -35,4 +40,45 @@ class HistoryView extends Ui.View {
             }
         }
     }
+    
+    
+    function makeRequest() {
+   		System.println("Make web request");   		
+       	//var url = Ui.loadResource(Rez.Strings.URL_dataRegister);	// set the url
+		var url = Ui.loadResource(Rez.Strings.URL_local);
+		
+		var idParticipant = appbase.userActuel.idParticipant;
+		var lignes = appbase.userActuel.affichage();
+		var nbJours = appbase.userActuel.tabJours.size();
+		
+		System.println(idParticipant);
+		System.println(lignes);
+		System.println(nbJours);
+		
+       	var params = {                                              // set the parameters
+              "idParticipant" => idParticipant,
+              "lignes" => lignes,
+              "nbJours" => nbJours
+       	};
+
+        var options = {
+          :method => Communications.HTTP_REQUEST_METHOD_POST,
+          :headers => {"Content-Type" => Communications.REQUEST_CONTENT_TYPE_JSON},
+          :responseType => Communications.HTTP_RESPONSE_CONTENT_TYPE_JSON
+        };
+
+       // Make the Communications.makeWebRequest() call
+       Communications.makeWebRequest(url, params, options, method(:onReceive));
+  }
+  
+  // set up the response callback function
+   function onReceive(responseCode, data) {
+       if (responseCode == 200) {
+           System.println("Request Successful");                    // print success
+       }
+       else {
+           System.println("Response - sending failed: " + responseCode);            // print response code
+       }
+
+   }
 }

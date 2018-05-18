@@ -42,6 +42,7 @@ class WennerApp extends App.AppBase {
 		
     	if (userActuel.condition.equals("prevention")){
     		tabMessages = {
+    			"grpZ" => {"preEntree" => Rez.Strings.preEntree},
 				"grpA" => {"preA1" => Rez.Strings.preA1, "preA2" => Rez.Strings.preA2, "preA8" => Rez.Strings.preA8, "preA9" => Rez.Strings.preA9},
 			    "grpB" => {"preB4" => Rez.Strings.preB4, "preB5" => Rez.Strings.preB5, "preB8" => Rez.Strings.preB8},
 				"grpC" => {"preC2" => Rez.Strings.preC2, "preC3" => Rez.Strings.preC3, "preC4" => Rez.Strings.preC4, "preC6" => Rez.Strings.preC6},
@@ -51,6 +52,7 @@ class WennerApp extends App.AppBase {
     	}
     	else if (userActuel.condition.equals("promotion")){
     		tabMessages = {
+				"grpZ" => {"proEntree" => Rez.Strings.proEntree},
 				"grpA" => {"proA1" => Rez.Strings.proA1, "proA7" => Rez.Strings.proA7, "proA8" => Rez.Strings.proA8},
 		        "grpB" => {"proB7" => Rez.Strings.proB7, "proB4" => Rez.Strings.proB4, "proB8" => Rez.Strings.proB8},
 				"grpC" => {"proC8" => Rez.Strings.proC8, "proC7" => Rez.Strings.proC7, "proC3" => Rez.Strings.proC3},
@@ -60,6 +62,7 @@ class WennerApp extends App.AppBase {
     	}
     	else if (userActuel.condition.equals("aleatoire")){
     		tabMessages = {
+				"grpZ" => {"preEntree" => Rez.Strings.preEntree, "proEntree" => Rez.Strings.proEntree},
 				"grpA" => {"preA1" => Rez.Strings.preA1, "preA2" => Rez.Strings.preA2, "preA8" => Rez.Strings.preA8, "preA9" => Rez.Strings.preA9, "proA1" => Rez.Strings.proA1, "proA7" => Rez.Strings.proA7, "proA8" => Rez.Strings.proA8},
 			    "grpB" => {"preB4" => Rez.Strings.preB4, "preB5" => Rez.Strings.preB5, "preB8" => Rez.Strings.preB8, "proB7" => Rez.Strings.proB7, "proB4" => Rez.Strings.proB4, "proB8" => Rez.Strings.proB8},
 				"grpC" => {"preC2" => Rez.Strings.preC2, "preC3" => Rez.Strings.preC3, "preC4" => Rez.Strings.preC4, "preC6" => Rez.Strings.preC6, "proC8" => Rez.Strings.proC8, "proC7" => Rez.Strings.proC7, "proC3" => Rez.Strings.proC3},
@@ -69,6 +72,7 @@ class WennerApp extends App.AppBase {
     	}
     	else if (userActuel.condition.equals("sansCadrage")){
     		tabMessages = {
+    			"grpZ" => {"sansCadrageEntree" => Rez.Strings.sansCadrageEntree},
     			"grpA" => {"sansCadrageSortieAteint" => Rez.Strings.sansCadrageSortieAteint},
     			"grpB" => {"sansCadrage4" => Rez.Strings.sansCadrage4},
     			"grpC" => {"sansCadrage1" => Rez.Strings.sansCadrage1, "sansCadrage2" => Rez.Strings.sansCadrage2},
@@ -95,7 +99,7 @@ class WennerApp extends App.AppBase {
 			&& messageEntreeMinute.toNumber()==today.min.toNumber()) {
 				userActuel.addJour();
        			System.println("message d'entrer");
-       			Ui.pushView(new MessageView(false, Rez.Strings.messageEntree), new MessageViewDelegate("messageEntrer", 0), Ui.SLIDE_IMMEDIATE);
+       			envoyerMessageAleaGroupe(tabMessages["grpZ"], 1);
        		}
        		
        		if (message1Heure.toNumber()==today.hour.toNumber() 	// 1er message

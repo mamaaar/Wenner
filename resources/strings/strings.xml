@@ -1,5 +1,9 @@
 <strings>
     <string id="AppName">WEnner</string>
+    
+    <string id="HistoryTitle">Historique</string>
+    <string id="DayHeader">Jour</string>
+    <string id="StepsHeader">Pas / 10000</string>
 </strings>
 
 
