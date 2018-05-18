@@ -69,7 +69,7 @@ class WennerDelegate extends Ui.BehaviorDelegate {
 			okKeyDown = false;
 			okKeyUp = false;
 			System.println("Vue parametre");
-			Ui.pushView(new paramView(), new paramDelegate(), Ui.SLIDE_UP);
+			Ui.pushView(new HistoryView(), new HistoryDelegate(), Ui.SLIDE_UP);
 		} 
 	}
 	
