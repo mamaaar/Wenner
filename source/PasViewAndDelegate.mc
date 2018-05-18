@@ -1,11 +1,8 @@
 using Toybox.WatchUi as Ui;
 using Toybox.ActivityMonitor;
 using Toybox.Graphics as Gfx;
-using Toybox.Time;
-using Toybox.Time.Gregorian;
 using Toybox.Timer;
-using Toybox.Math;
-using Toybox.System;
+using Toybox.Application;
 
 class PasView extends Ui.View {
 
@@ -21,6 +18,9 @@ class PasView extends Ui.View {
         						:locX=>75,
         						:locY=>10}
         );
+        
+        var appbase = Application.getApp();
+		appbase.userActuel.addConsultation();
         
         timer = new Timer.Timer();
     }

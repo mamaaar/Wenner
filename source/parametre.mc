@@ -4,13 +4,10 @@ using Toybox.Application;
 
 class paramView extends Ui.View {
 	
-	var appbase = Application.getApp();
         
 	function initialize() {
         View.initialize();
-       	
-       	//appbase.userActuel.addJour();
-       	
+       	       	
        	makeRequest();
        	System.println("");
     }

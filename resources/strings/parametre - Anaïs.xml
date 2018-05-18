@@ -1,16 +1,20 @@
 <strings>
-         <string id="idParticipant">2</string>
-         <string id="condition">promotion</string>  
-         <string id="idMontre">4DY260599</string>
+         	<string id="idParticipant">4</string>
+         	<string id="condition">aleatoire</string>
+         	<string id="idMontre">4DY303177</string>
          
          <!-- prevention, promotion, aleatoire, sansCadrage -->
          <!-- 
          	<string id="idParticipant">1</string>
-         	<string id="condition">promotion</string>
-         	<string id="idMontre">4DY553278</string>
+         	<string id="condition">prevention</string>
+         	<string id="idMontre">4DY260812</string>
          	
          	<string id="idParticipant">2</string>
-         	<string id="condition">prevention</string>  
-         	<string id="idMontre">4DY260812</string>
+         	<string id="condition">promotion</string>
+         	<string id="idMontre">4DY260799</string>
+         	
+         	<string id="idParticipant">3</string>
+         	<string id="condition">sansCadrage</string>
+         	<string id="idMontre">4DY260811</string>
           -->
 </strings>
