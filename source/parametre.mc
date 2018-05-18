@@ -34,27 +34,30 @@ class paramView extends Ui.View {
    		System.println("Make web request");   		
        	//var url = Ui.loadResource(Rez.Strings.URL_dataRegister);	// set the url
 		var url = Ui.loadResource(Rez.Strings.URL_local);
-		
-		var idParticipant = appbase.userActuel.idParticipant;
-		var lignes = appbase.userActuel.affichage();
-		var nbJours = appbase.userActuel.tabJours.size();
+
+		var idParticipant = appbase.userActuel.idParticipant.toNumber();
+		var tablignes = appbase.userActuel.affichage();
+		var nbJours = appbase.userActuel.tabJours.size().toNumber();
 		
 		System.println(idParticipant);
-		System.println(lignes);
+		System.println(tablignes);
 		System.println(nbJours);
-		
+       	
        	var params = {                                              // set the parameters
               "idParticipant" => idParticipant,
-              "lignes" => lignes,
+              "lignes" => tablignes,
               "nbJours" => nbJours
        	};
-
+        var headers = {
+          "Content-Type" => Communications.REQUEST_CONTENT_TYPE_JSON,
+          // accept responses that are reported as json-compatible
+          "Accept" => "application/json" 
+        };
         var options = {
           :method => Communications.HTTP_REQUEST_METHOD_POST,
-          :headers => {"Content-Type" => Communications.REQUEST_CONTENT_TYPE_JSON},
+          :headers => headers,
           :responseType => Communications.HTTP_RESPONSE_CONTENT_TYPE_JSON
         };
-
        // Make the Communications.makeWebRequest() call
        Communications.makeWebRequest(url, params, options, method(:onReceive));
   }

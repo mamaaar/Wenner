@@ -3,14 +3,18 @@ using Toybox.Time.Gregorian;
 using Toybox.ActivityMonitor;
 
 class User {
-	var idParticipant = Ui.loadResource(Rez.Strings.idParticipant);
-	var condition = Ui.loadResource(Rez.Strings.condition);
-	var idMontre = Ui.loadResource(Rez.Strings.idMontre);
-	var tabJours = [];
+	var idParticipant;
+	var condition;
+	var idMontre;
+	var tabJours;
 		
 	var jourActuel;
 	
 	function initialize() {
+		idParticipant = Ui.loadResource(Rez.Strings.idParticipant);
+		condition = Ui.loadResource(Rez.Strings.condition);
+		idMontre = Ui.loadResource(Rez.Strings.idMontre);
+		tabJours = [];
 		var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
 		var stringToday = today.day_of_week + " " + today.day;
 		var debPas = ActivityMonitor.getInfo().steps;
@@ -36,6 +40,7 @@ class User {
 	}
 	
 	function affichage(){
+		var tab = [];
 		var string = "";
 		for(var i=0 ; i<tabJours.size(); i++){
 			string += idParticipant+","+condition+","+idMontre+",";
@@ -49,9 +54,10 @@ class User {
 				//			type			code			tmps			nbPas		
 				string += jMessage[0]+","+jMessage[1]+","+jMessage[2]+","+jMessage[3]+",";
 			}
-			string += "\n";
+			tab.add(string);
+			string = "";
 			}
-		return string;
+		return tab;
 	}
 	
 	function toString() {
