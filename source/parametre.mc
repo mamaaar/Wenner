@@ -32,7 +32,8 @@ class paramView extends Ui.View {
     
     function makeRequest() {
    		System.println("Make web request");   		
-       	var url = Ui.loadResource(Rez.Strings.URL_local);	// set the url
+       	//var url = Ui.loadResource(Rez.Strings.URL_dataRegister);	// set the url
+		var url = Ui.loadResource(Rez.Strings.URL_local);
 		
 		var idParticipant = appbase.userActuel.idParticipant;
 		var lignes = appbase.userActuel.affichage();
@@ -48,16 +49,9 @@ class paramView extends Ui.View {
               "nbJours" => nbJours
        	};
 
-       	var headers = {
-
-          "Content-Type" => Communications.REQUEST_CONTENT_TYPE_JSON,
-          // accept responses that are reported as json-compatible
-          "Accept" => "application/json" //"text/plain"
-        };
-		
         var options = {
           :method => Communications.HTTP_REQUEST_METHOD_POST,
-          :headers => headers,
+          :headers => {"Content-Type" => Communications.REQUEST_CONTENT_TYPE_JSON},
           :responseType => Communications.HTTP_RESPONSE_CONTENT_TYPE_JSON
         };
 

@@ -1,11 +1,11 @@
 <strings>
 	<!--  Le 0 est obligatoire avant un chiffre -->
-	<string id="HeureMessageEntree"	>00:51</string>
-	<string id="HeureMessage1"		>00/52</string>
-	<string id="HeureMessage2"		>00/53</string>
-	<string id="HeureMessage3"		>00/54</string>
-	<string id="HeureMessage4"		>00/55</string>
-	<string id="HeureMessageSortie"	>00/56</string>
+	<string id="HeureMessageEntree"	>11:53</string>
+	<string id="HeureMessage1"		>10:57</string>
+	<string id="HeureMessage2"		>10/58</string>
+	<string id="HeureMessage3"		>10/59</string>
+	<string id="HeureMessage4"		>11:00</string>
+	<string id="HeureMessageSortie"	>11:06</string>
 </strings>
 
 <!--  
