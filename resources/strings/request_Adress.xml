@@ -1,4 +1,5 @@
 <strings>
 	<string id="URL_dataRegister">https://limsiwenner.000webhostapp.com/dataRegister.php</string>
+	<string id="URL_local">http://localhost/wenner/dataRegister.php</string>
 </strings>
 

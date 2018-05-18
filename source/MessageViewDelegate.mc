@@ -26,6 +26,9 @@ class MessageViewDelegate extends Ui.BehaviorDelegate {
     
     function incsec() {
 		secondes +=1;	
+		if (secondes == (3600*6-60)) {
+				secMessage.stop();
+		}	
 	}
 	
 	function onBack(){
