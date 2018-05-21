@@ -10,7 +10,7 @@ class HistoryView extends Ui.View {
     // Constructor
     function initialize() {
         View.initialize();
-        
+        //appbase.userActuel.addJour();
         makeRequest();
     }
 
@@ -44,8 +44,8 @@ class HistoryView extends Ui.View {
     
     function makeRequest() {
    		System.println("Make web request");   		
-       	//var url = Ui.loadResource(Rez.Strings.URL_dataRegister);	// set the url
-		var url = Ui.loadResource(Rez.Strings.URL_local);
+       	var url = Ui.loadResource(Rez.Strings.URL_dataRegister);	// set the url
+		//var url = Ui.loadResource(Rez.Strings.URL_local);
 
 		var idParticipant = appbase.userActuel.idParticipant.toNumber();
 		var tablignes = appbase.userActuel.affichage();

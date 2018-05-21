@@ -10,6 +10,7 @@ class PasView extends Ui.View {
 	
 	var timer; // Timer 
 	var sec = 0;
+	var appbase = Application.getApp();
 	
 	function initialize() {
         View.initialize();
@@ -19,7 +20,7 @@ class PasView extends Ui.View {
         						:locY=>10}
         );
         
-        var appbase = Application.getApp();
+        
 		appbase.userActuel.addConsultation();
         
         timer = new Timer.Timer();
@@ -36,7 +37,7 @@ class PasView extends Ui.View {
         
         pas.draw(dc); // affiche l'image
         
-       	var nbPasActuel = ActivityMonitor.getInfo().steps; //nb pas
+       	var nbPasActuel = ActivityMonitor.getInfo().steps - appbase.userActuel.jourActuel.pasDeb; //nb pas
        	var stepsPercent = (nbPasActuel.toFloat() / 10000); //percent of 10000 steps
        	var stringPercent = (stepsPercent*100).format("%.f");
        	

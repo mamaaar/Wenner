@@ -74,9 +74,6 @@ class WennerApp extends App.AppBase {
     		tabMessages = {
     			"grpZ" => {"sansCadrageEntree" => Rez.Strings.sansCadrageEntree},
     			"grpA" => {"sansCadrageSortieAteint" => Rez.Strings.sansCadrageSortieAteint},
-    			"grpB" => {"sansCadrage4" => Rez.Strings.sansCadrage4},
-    			"grpC" => {"sansCadrage1" => Rez.Strings.sansCadrage1, "sansCadrage2" => Rez.Strings.sansCadrage2},
-    			"grpD" => {"sansCadrage3" => Rez.Strings.sansCadrage3},
     			"grpE" => {"sansCadrageSortieNonAteint" => Rez.Strings.sansCadrageSortieNonAteint}
     		};
     	}
@@ -99,31 +96,51 @@ class WennerApp extends App.AppBase {
 			&& messageEntreeMinute.toNumber()==today.min.toNumber()) {
 				userActuel.addJour();
        			System.println("message d'entrer");
-       			envoyerMessageAleaGroupe(tabMessages["grpZ"], 1);
+       			envoyerMessageAleaGroupe(tabMessages["grpZ"], 0);
        		}
        		
        		if (message1Heure.toNumber()==today.hour.toNumber() 	// 1er message
 			&& message1Minute.toNumber()==today.min.toNumber()) {
 				System.println("message du groupe C");
-				envoyerMessageAleaGroupe(tabMessages["grpC"], 1);
+				if (userActuel.condition.equals("sansCadrage")){
+       				logPerfSansCadrage(1);
+       			}
+       			else {
+       				envoyerMessageAleaGroupe(tabMessages["grpC"], 1);
+       			}
        		}
        		
        		if (message2Heure.toNumber()==today.hour.toNumber() 	// 2eme message
 			&& message2Minute.toNumber()==today.min.toNumber()) {
 				System.println("message du groupe C");
- 				envoyerMessageAleaGroupe(tabMessages["grpC"], 2);
+ 				if (userActuel.condition.equals("sansCadrage")){
+       				logPerfSansCadrage(2);
+       			}
+       			else {
+       				envoyerMessageAleaGroupe(tabMessages["grpC"], 2);
+       			}
        		}
        		
        		if (message3Heure.toNumber()==today.hour.toNumber() 	//3eme message
 			&& message3Minute.toNumber()==today.min.toNumber()) {
 				System.println("message du groupe D");
-				envoyerMessageAleaGroupe(tabMessages["grpD"], 3);
+				if (userActuel.condition.equals("sansCadrage")){
+       				logPerfSansCadrage(3);
+       			}	
+       			else {
+       				envoyerMessageAleaGroupe(tabMessages["grpD"], 3);
+       			}
        		}
        		
        		if (message4Heure.toNumber()==today.hour.toNumber() 	//4eme message
 			&& message4Minute.toNumber()==today.min.toNumber()) {
 				System.println("message du groupe B");
-				envoyerMessageAleaGroupe(tabMessages["grpB"], 4);
+				if (userActuel.condition.equals("sansCadrage")){
+       				logPerfSansCadrage(4);
+       			}
+       			else {
+       				envoyerMessageAleaGroupe(tabMessages["grpB"], 4);
+				}       		
        		}
        		
        		if (messageSortieHeure.toNumber()==today.hour.toNumber() 	//message de sortie
@@ -158,6 +175,14 @@ class WennerApp extends App.AppBase {
     	var messageId = groupe.get(messageCode);
     	
        	Ui.pushView(new MessageView(true, messageId), new MessageViewDelegate(messageCode, type), Ui.SLIDE_IMMEDIATE);
+	}
+	
+	function logPerfSansCadrage(type){
+		var nombreDePas = ActivityMonitor.getInfo().steps;
+		var appbase = Application.getApp();
+		System.println("addMessageSansCadrage"+type);
+		//addMessage(_type, _code, _tmps, _nbPas)
+		appbase.userActuel.addMessage(type, "sansCadrage"+type, 0, nombreDePas);
 	}
 	
     // Return the initial view of your application here

@@ -14,6 +14,7 @@ class WennerView extends Ui.View { // Vue qui affiche l'heure
     
     function onShow() {
     	sec = 0;
+    	timer = new Timer.Timer();
     	timer.start(method(:incsec),1000, true);
     }
 

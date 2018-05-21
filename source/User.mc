@@ -22,6 +22,7 @@ class User {
 	}
 	
 	function addJour() {  // ajouter les données de la journée dans la base locale
+		System.println("addJour");
 		var debPas = ActivityMonitor.getInfo().steps;
 		self.jourActuel.nbPas += debPas;
 		self.tabJours.add(jourActuel);
@@ -88,7 +89,7 @@ class Jour {
 	}
 	
 	function toString(){
-		return [jour, nbPas - pasDeb, tabMessages, nbConsultationPas];
+		return [jour, (nbPas-pasDeb), tabMessages, nbConsultationPas];
 	}
 }
 
@@ -102,7 +103,10 @@ class Message {
 		self.type = _type;
 		self.code = _code;
 		self.tmps = _tmps;
-		self.nbPas = _nbPas;
+		
+		var appbase = Application.getApp();
+		var pasDeb = appbase.userActuel.jourActuel.pasDeb;
+		self.nbPas = (_nbPas - pasDeb);
 	}
 	
 	function toString(){
