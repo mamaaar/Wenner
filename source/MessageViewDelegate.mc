@@ -10,14 +10,12 @@ class MessageViewDelegate extends Ui.BehaviorDelegate {
 	var type;
 	var messageCode;
 	var secondes;
-	var nbPas;
 
     function initialize(_messageCode, _type) {
         BehaviorDelegate.initialize();
         secondes = 0;
         type = _type;
         messageCode = _messageCode;
-        nbPas = ActivityMonitor.getInfo().steps;
         
         System.println("testAffichageMessageViewDelegate");
        	secMessage = new Timer.Timer();
@@ -35,7 +33,7 @@ class MessageViewDelegate extends Ui.BehaviorDelegate {
 		secMessage.stop();
 		System.println("temps mit : " + secondes + "secondes");
 		var appbase = Application.getApp();
-		appbase.userActuel.addMessage(type, messageCode, secondes, nbPas);
+		appbase.userActuel.addMessage(type, messageCode, secondes);
        	
 		System.println("finAddMessage");
 		System.println("");

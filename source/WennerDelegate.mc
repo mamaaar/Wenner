@@ -5,80 +5,58 @@ class WennerDelegate extends Ui.BehaviorDelegate {
 	var pasView = new PasView();
 	var pasDelegate = new PasDelegate();
 	
-	var timerUp; 			// Timer
-	var timerDown;
-	var secKeyUp;
-	var secKeyDown;
-	var okKeyUp;
-	var okKeyDown;
+	var timer;
+	var sec;
 	
-	var first; 
-	var second; 
-	var third;
+	var key1; 
+	var key2; 
+	var key3;
+	var key4;
+	var key5;
 
     function initialize() {
         BehaviorDelegate.initialize();
-    	timerUp = new Timer.Timer();
-    	timerDown = new Timer.Timer();
-    	secKeyUp = 0;
-		secKeyDown = 0;
-		okKeyUp = false;
-		okKeyDown = false;
+    	timer = new Timer.Timer();
+    	sec = 0;
+    	
+		key1 = false; 
+		key2 = false; 
+		key3 = false;
+		key4 = false; 
+		key5 = false;
     }
     
     
-    function incsecDown() {
-		secKeyDown += 1;
-		if (secKeyDown > 5) {
-			System.println("InitialiseDown");
-			okKeyUp = false;
-			okKeyDown = false;
-			secKeyUp = 0;
-			secKeyDown = 0;
-			timerDown.stop();
-			timerUp.stop();
-			
-		}
-	}
-	
-	function incsecUp() {
-		secKeyUp += 1;
-		if (secKeyUp > 5) {
-			System.println("InitialiseUp");
-			okKeyDown = false;
-			okKeyUp = false;
-			secKeyUp = 0;
-			secKeyDown = 0;
-			timerUp.stop();
-			timerDown.stop();
+    function incsec() {
+		sec += 1;
+		if (sec > 5) {
+			initKey();
 		}
 	}
 	
 	function onPreviousPage() {//UP
-		okKeyUp = true;
-		if (!okKeyDown) {
-			System.println("timerupstart");
-			timerUp.start(method(:incsecUp),100, true);
-		}
-		if (okKeyDown && okKeyUp) {
-			System.println("Initialise");
-			timerUp.stop();
-			timerDown.stop();
-			secKeyUp = 0;
-			secKeyDown = 0;
-			okKeyDown = false;
-			okKeyUp = false;
-			System.println("Vue parametre");
-			Ui.pushView(new HistoryView(), new HistoryDelegate(), Ui.SLIDE_UP);
-		} 
+		key1 = true;
+		timer.start(method(:incsec),100, true);
+		if (key2) { key3 = true; }
+		if (key4) { Ui.pushView(new HistoryView(), new HistoryDelegate(), Ui.SLIDE_UP); }
+		
+		
 	}
 	
 	function onNextPage() {//DOWN
-		if (okKeyUp) {
-			okKeyDown = true;
-			timerUp.stop();
-			timerDown.start(method(:incsecDown),100, true);
-		}
+		if (key1) { key2 = true; }
+		if (key3) { key4 = true; }
+	}
+	
+	function initKey() {
+		System.println("initKey");
+		timer.stop();
+		sec=0;
+		key1 = false; 
+		key2 = false; 
+		key3 = false;
+		key4 = false; 
+		key5 = false;
 	}
 	
 	function onSelect() {

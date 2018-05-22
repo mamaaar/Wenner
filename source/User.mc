@@ -17,27 +17,20 @@ class User {
 		tabJours = [];
 		var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
 		var stringToday = today.day_of_week + " " + today.day;
-		var debPas = ActivityMonitor.getInfo().steps;
-		self.jourActuel = new Jour(stringToday, debPas);
+		self.jourActuel = new Jour(stringToday);
 	}
 	
 	function addJour() {  // ajouter les données de la journée dans la base locale
 		System.println("addJour");
-		var debPas = ActivityMonitor.getInfo().steps;
-		self.jourActuel.nbPas += debPas;
 		self.tabJours.add(jourActuel);
 		
 		var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
 		var stringToday = today.day_of_week + " " + today.day;
-		self.jourActuel = new Jour(stringToday, debPas);
+		self.jourActuel = new Jour(stringToday);
 	}
 	
-	function updateAvantMinuit() {  // ajouter les données de la journée dans la base locale
-		self.jourActuel.nbPas = ActivityMonitor.getInfo().steps;
-	}
-	
-	function addMessage(_type, _code, _tmps, _nbPas) { // ajouter les donénes du message envoyée dans la base locale
-		jourActuel.addMessage(_type, _code, _tmps, _nbPas);
+	function addMessage(_type, _code, _tmps) { // ajouter les donénes du message envoyée dans la base locale
+		jourActuel.addMessage(_type, _code, _tmps);
 	}
 	
 	function affichage(){
@@ -71,25 +64,22 @@ class User {
 }
 class Jour {
 	var jour;
-	var pasDeb;
 	var nbPas;
 	var nbConsultationPas;
 	var tabMessages = [];
 	
-	function initialize(_jour, _pasDeb) {
+	function initialize(_jour) {
 		self.nbPas = ActivityMonitor.getInfo().steps;
 		self.jour = _jour;
-		self.pasDeb = _pasDeb;
 		self.nbConsultationPas = 0;
 	}
 	
-	function addMessage(_type, _code, _tmps, _nbPas) {
-		self.nbPas = ActivityMonitor.getInfo().steps;
-		tabMessages.add(new Message(_type, _code, _tmps, _nbPas));
+	function addMessage(_type, _code, _tmps) {
+		tabMessages.add(new Message(_type, _code, _tmps));
 	}
 	
 	function toString(){
-		return [jour, (nbPas-pasDeb), tabMessages, nbConsultationPas];
+		return [jour, nbPas, tabMessages, nbConsultationPas];
 	}
 }
 
@@ -99,14 +89,11 @@ class Message {
 	var tmps;		//temps passé sur le message
 	var nbPas;
 	
-	function initialize(_type, _code, _tmps, _nbPas) {
+	function initialize(_type, _code, _tmps) {
 		self.type = _type;
 		self.code = _code;
 		self.tmps = _tmps;
-		
-		var appbase = Application.getApp();
-		var pasDeb = appbase.userActuel.jourActuel.pasDeb;
-		self.nbPas = (_nbPas - pasDeb);
+		self.nbPas = ActivityMonitor.getInfo().steps;
 	}
 	
 	function toString(){

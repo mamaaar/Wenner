@@ -90,11 +90,12 @@ class WennerApp extends App.AppBase {
        	System.println("wennerView" + sec);
        	if (sec%60 == 0){		// Toute les minutes cette partie vérifie si un message doit être affiché
        		sec = 0;
-    		var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM); // récupère l'heure, la minute et la seconde courantes
-			
+       		userActuel.jourActuel.nbPas = ActivityMonitor.getInfo().steps;
+       		
+    		var today = System.getClockTime(); // récupère l'heure et la minute courante
+    		System.println(today.hour + " " + today.min);
 			if (messageEntreeHeure.toNumber()==today.hour.toNumber()  // message d'entrer
 			&& messageEntreeMinute.toNumber()==today.min.toNumber()) {
-				userActuel.addJour();
        			System.println("message d'entrer");
        			envoyerMessageAleaGroupe(tabMessages["grpZ"], 0);
        		}
@@ -158,7 +159,7 @@ class WennerApp extends App.AppBase {
        		}
        		
        		if (23==today.hour.toNumber() && 59==today.min.toNumber()) {
-       			userActuel.updateAvantMinuit();
+				userActuel.addJour();
        		}
        		
        }
@@ -178,11 +179,10 @@ class WennerApp extends App.AppBase {
 	}
 	
 	function logPerfSansCadrage(type){
-		var nombreDePas = ActivityMonitor.getInfo().steps;
 		var appbase = Application.getApp();
 		System.println("addMessageSansCadrage"+type);
-		//addMessage(_type, _code, _tmps, _nbPas)
-		appbase.userActuel.addMessage(type, "sansCadrage"+type, 0, nombreDePas);
+		//addMessage(_type, _code, _tmps)
+		appbase.userActuel.addMessage(type, "sansCadrage"+type, 0);
 	}
 	
     // Return the initial view of your application here
