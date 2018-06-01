@@ -4,6 +4,7 @@ using Toybox.Time.Gregorian;
 class WennerView extends Ui.View { // Vue qui affiche l'heure
 
 	/***********Heure des messages définit en absolu***********/ 
+	/*
 	var messageEntreeHeure = Ui.loadResource(Rez.Strings.HeureMessageEntree).substring(0,2);
 	var messageEntreeMinute = Ui.loadResource(Rez.Strings.HeureMessageEntree).substring(3,5);
 	
@@ -21,6 +22,25 @@ class WennerView extends Ui.View { // Vue qui affiche l'heure
     
     var messageSortieHeure = Ui.loadResource(Rez.Strings.HeureMessageSortie).substring(0,2);
     var messageSortieMinute = Ui.loadResource(Rez.Strings.HeureMessageSortie).substring(3,5);
+    
+    */
+    var messageEntreeHeure 		= 18;
+	var messageEntreeMinute 	= 35;
+	
+	var message1Heure 			= 18;
+    var message1Minute 			= 36;
+    
+    var message2Heure 			= 18;
+    var message2Minute 			= 37;
+    
+	var message3Heure 			= 18;
+    var message3Minute 			= 38;
+    
+    var message4Heure 			= 18;
+    var message4Minute 			= 39;
+    
+    var messageSortieHeure 		= 18; 
+    var messageSortieMinute 	= 40;
     /**********************************************************/
     var tabMessages;	// Pour récup le tableau des messages selon la condition
     
@@ -28,10 +48,11 @@ class WennerView extends Ui.View { // Vue qui affiche l'heure
 	var timer; 			// Timer 
 	var sec;			// Compteur pour refresh la page chaque seconde
 	
+	var userActuel = Application.getApp().userActuel;
+	
     function initialize() {
         View.initialize();
         
-        var userActuel = Application.getApp().userActuel;
         
         // Récup de la condition + du tableau correspondant *****************
 		//<!-- prevention, promotion, aleatoire, sansCadrage -->

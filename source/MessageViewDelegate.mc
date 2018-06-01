@@ -35,7 +35,7 @@ class MessageViewDelegate extends Ui.BehaviorDelegate {
 		var appbase = Application.getApp();
 		var nbPas = ActivityMonitor.getInfo().steps;
 		
-		appbase.userActuel.addMessage(type, messageCode, secondes, nbPasActuel);
+		appbase.userActuel.addMessage(type, messageCode, secondes, nbPas);
        	
 		System.println("finAddMessage");
 		System.println("");

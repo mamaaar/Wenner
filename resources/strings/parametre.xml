@@ -1,10 +1,13 @@
+
 <strings>
          	<string id="idParticipant">0</string>
          	<string id="condition">aleatoire</string>
          	<string id="idMontre">4DY553278</string>
          
          <!-- prevention, promotion, aleatoire, sansCadrage -->
-         <!-- 
+         <!--
+         
+         	
          	<string id="idParticipant">0</string>
          	<string id="condition">sansCadrage</string>
          	<string id="idMontre">4DY260797</string>
@@ -47,4 +50,13 @@
          	<string id="idMontre">4DY553278</string>
          	
           -->
+          
+          <!--  
+	<string id="HeureMessageEntree"	>06:30</string>
+	<string id="HeureMessage1"		>09:00</string>
+	<string id="HeureMessage2"		>12:00</string>
+	<string id="HeureMessage3"		>15:00</string>
+	<string id="HeureMessage4"		>18:00</string>
+	<string id="HeureMessageSortie"	>21:00</string>
+ -->
 </strings>

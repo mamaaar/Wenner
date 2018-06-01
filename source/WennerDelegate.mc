@@ -36,13 +36,13 @@ class WennerDelegate extends Ui.BehaviorDelegate {
 		timer.start(method(:incsec),100, true);
 		if (key2) { key3 = true; }
 		if (key4) { Ui.pushView(new HistoryView(), new HistoryDelegate(), Ui.SLIDE_UP); }
-		
-		
+		return true;		
 	}
 	
 	function onNextPage() {//DOWN
 		if (key1) { key2 = true; }
 		if (key3) { key4 = true; }
+		return true;
 	}
 	
 	function initKey() {

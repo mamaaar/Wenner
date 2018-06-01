@@ -31,8 +31,8 @@ class User {
 		self.jourActuel = new Jour(stringToday);
 	}
 	
-	function addMessage(_type, _code, _tmps) { // ajouter les donénes du message envoyée dans la base locale
-		jourActuel.addMessage(_type, _code, _tmps);
+	function addMessage(_type, _code, _tmps, _nbPas) { // ajouter les donénes du message envoyée dans la base locale
+		jourActuel.addMessage(_type, _code, _tmps, _nbPas);
 	}
 	
 	function affichage(){
@@ -72,8 +72,8 @@ class Jour {
 		self.nbConsultationPas = 0;
 	}
 	
-	function addMessage(_type, _code, _tmps) {
-		tabMessages.add(new Message(_type, _code, _tmps));
+	function addMessage(_type, _code, _tmps, _nbPas) {
+		tabMessages.add(new Message(_type, _code, _tmps, _nbPas));
 	}
 	
 	function toString(){
