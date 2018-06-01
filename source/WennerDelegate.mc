@@ -2,9 +2,6 @@ using Toybox.WatchUi as Ui;
 
 class WennerDelegate extends Ui.BehaviorDelegate {
 
-	var pasView = new PasView();
-	var pasDelegate = new PasDelegate();
-	
 	var timer;
 	var sec;
 	
@@ -29,7 +26,7 @@ class WennerDelegate extends Ui.BehaviorDelegate {
     
     function incsec() {
 		sec += 1;
-		if (sec > 5) {
+		if (sec > 10) {
 			initKey();
 		}
 	}
@@ -60,7 +57,7 @@ class WennerDelegate extends Ui.BehaviorDelegate {
 	}
 	
 	function onSelect() {
-		Ui.pushView(pasView, pasDelegate, Ui.SLIDE_LEFT);
+		Ui.pushView(new PasView(), new PasDelegate(), Ui.SLIDE_LEFT);
 	}
 	
 	function onBack() {

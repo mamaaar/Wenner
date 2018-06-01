@@ -33,7 +33,9 @@ class MessageViewDelegate extends Ui.BehaviorDelegate {
 		secMessage.stop();
 		System.println("temps mit : " + secondes + "secondes");
 		var appbase = Application.getApp();
-		appbase.userActuel.addMessage(type, messageCode, secondes);
+		var nbPas = ActivityMonitor.getInfo().steps;
+		
+		appbase.userActuel.addMessage(type, messageCode, secondes, nbPasActuel);
        	
 		System.println("finAddMessage");
 		System.println("");

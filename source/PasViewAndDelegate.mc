@@ -21,7 +21,7 @@ class PasView extends Ui.View {
         );
         
         
-		appbase.userActuel.addConsultation();
+		appbase.userActuel.jourActuel.addConsultation();
         
         timer = new Timer.Timer();
     }

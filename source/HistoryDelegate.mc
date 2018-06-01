@@ -52,10 +52,6 @@ class HistoryDelegate extends Ui.BehaviorDelegate {
         }
     }
 
-    function onBack() {
-        Ui.popView(Ui.SLIDE_RIGHT);
-        return true;
-    } 
     function incTimer(){
     	sec ++;
     }
@@ -63,26 +59,5 @@ class HistoryDelegate extends Ui.BehaviorDelegate {
     function onSelect() {
     	Ui.pushView(menu, delegate, Ui.SLIDE_LEFT); 
     }
-        
-    /*
-    function onKeyPressed(keyEvent) {
-        var key = keyEvent.getKey();
-        if (Ui.KEY_ENTER == key) {
-        	timer.start(method(:incTimer), 1000, true);        
-        }
-        Ui.requestUpdate();
-        return true;
-    }
-    function onKeyReleased(keyEvent) {
-    	var key = keyEvent.getKey();
-        if (Ui.KEY_ENTER == key) {
-        	if (sec >= 5){
-        		Ui.pushView(new parametreVue(), new parametreDelegate(), Ui.SLIDE_LEFT);
-        	}
-        	sec = 0;
-        	timer.stop();        
-        }
-        Ui.requestUpdate();
-        return true;
-    }*/
+    
 }

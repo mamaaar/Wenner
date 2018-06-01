@@ -23,7 +23,9 @@ class User {
 	function addJour() {  // ajouter les données de la journée dans la base locale
 		System.println("addJour");
 		self.tabJours.add(jourActuel);
-		
+	}
+	
+	function newJour() {
 		var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
 		var stringToday = today.day_of_week + " " + today.day;
 		self.jourActuel = new Jour(stringToday);
@@ -36,9 +38,9 @@ class User {
 	function affichage(){
 		var tab = [];
 		var string = "";
+		string += idParticipant+","+condition+","+idMontre+",";
+		
 		for(var i=0 ; i<tabJours.size(); i++){
-			string += idParticipant+","+condition+","+idMontre+",";
-			
 			var iJour = tabJours[i].toString();
 			//			nomJour		nbPasTotal
 			string += iJour[0]+","+iJour[1]+","+iJour[3]+",";
@@ -52,10 +54,6 @@ class User {
 			string = "";
 			}
 		return tab;
-	}
-	
-	function addConsultation(){
-		jourActuel.nbConsultationPas++;
 	}
 	
 	function toString() {
@@ -81,6 +79,10 @@ class Jour {
 	function toString(){
 		return [jour, nbPas, tabMessages, nbConsultationPas];
 	}
+	
+	function addConsultation(){
+		nbConsultationPas += 1;
+	}
 }
 
 class Message {
@@ -89,11 +91,11 @@ class Message {
 	var tmps;		//temps passé sur le message
 	var nbPas;
 	
-	function initialize(_type, _code, _tmps) {
+	function initialize(_type, _code, _tmps, _nbPas) {
 		self.type = _type;
 		self.code = _code;
 		self.tmps = _tmps;
-		self.nbPas = ActivityMonitor.getInfo().steps;
+		self.nbPas = _nbPas;
 	}
 	
 	function toString(){
