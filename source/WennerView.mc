@@ -4,56 +4,48 @@ using Toybox.Time.Gregorian;
 class WennerView extends Ui.View { // Vue qui affiche l'heure
 
 	/***********Heure des messages définit en absolu***********/ 
-	/*
-	var messageEntreeHeure = Ui.loadResource(Rez.Strings.HeureMessageEntree).substring(0,2);
-	var messageEntreeMinute = Ui.loadResource(Rez.Strings.HeureMessageEntree).substring(3,5);
-	
-	var message1Heure = Ui.loadResource(Rez.Strings.HeureMessage1).substring(0,2);
-    var message1Minute = Ui.loadResource(Rez.Strings.HeureMessage1).substring(3,5);
-    
-    var message2Heure = Ui.loadResource(Rez.Strings.HeureMessage2).substring(0,2);
-    var message2Minute = Ui.loadResource(Rez.Strings.HeureMessage2).substring(3,5);
-    
-	var message3Heure = Ui.loadResource(Rez.Strings.HeureMessage3).substring(0,2); 
-    var message3Minute = Ui.loadResource(Rez.Strings.HeureMessage3).substring(3,5);
-    
-    var message4Heure = Ui.loadResource(Rez.Strings.HeureMessage4).substring(0,2); 
-    var message4Minute = Ui.loadResource(Rez.Strings.HeureMessage4).substring(3,5);
-    
-    var messageSortieHeure = Ui.loadResource(Rez.Strings.HeureMessageSortie).substring(0,2);
-    var messageSortieMinute = Ui.loadResource(Rez.Strings.HeureMessageSortie).substring(3,5);
-    
-    */
-    var messageEntreeHeure 		= 18;
-	var messageEntreeMinute 	= 35;
-	
-	var message1Heure 			= 18;
-    var message1Minute 			= 36;
-    
-    var message2Heure 			= 18;
-    var message2Minute 			= 37;
-    
-	var message3Heure 			= 18;
-    var message3Minute 			= 38;
-    
+
+    var messageEntreeHeure 		= 6;
+	var messageEntreeMinute 	= 30;
+	var message1Heure 			= 9;
+    var message1Minute 			= 0;
+    var message2Heure 			= 12;
+    var message2Minute 			= 0;
+	var message3Heure 			= 15;
+    var message3Minute 			= 0;
     var message4Heure 			= 18;
-    var message4Minute 			= 39;
+    var message4Minute 			= 0;
+    var messageSortieHeure 		= 21; 
+    var messageSortieMinute 	= 0;
     
-    var messageSortieHeure 		= 18; 
-    var messageSortieMinute 	= 40;
+    
+    /*
+    var messageEntreeHeure 		= 6;
+	var messageEntreeMinute 	= 30;
+	var message1Heure 			= 9;
+    var message1Minute 			= 0;
+    var message2Heure 			= 12;
+    var message2Minute 			= 0;
+	var message3Heure 			= 15;
+    var message3Minute 			= 0;
+    var message4Heure 			= 18;
+    var message4Minute 			= 0;
+    var messageSortieHeure 		= 21; 
+    var messageSortieMinute 	= 0;
+    */
     /**********************************************************/
     var tabMessages;	// Pour récup le tableau des messages selon la condition
     
 	var today;			// var pour récup l'heure, la minute et la seconde courantes
-	var timer; 			// Timer 
-	var sec;			// Compteur pour refresh la page chaque seconde
+	var timer; 			// Timer
 	
 	var userActuel = Application.getApp().userActuel;
 	
     function initialize() {
         View.initialize();
-        
-        
+        timer = new Timer.Timer();
+    	timer.start(method(:callback),1000, true);
+    	
         // Récup de la condition + du tableau correspondant *****************
 		//<!-- prevention, promotion, aleatoire, sansCadrage -->
 		
@@ -78,6 +70,7 @@ class WennerView extends Ui.View { // Vue qui affiche l'heure
 			};
     	}
     	else if (userActuel.condition.equals("aleatoire")){
+    		System.println("test");
     		tabMessages = {
 				"grpZ" => {"preEntree" => Rez.Strings.preEntree, "proEntree" => Rez.Strings.proEntree},
 				"grpA" => {"preA1" => Rez.Strings.preA1, "preA2" => Rez.Strings.preA2, "preA8" => Rez.Strings.preA8, "preA9" => Rez.Strings.preA9, "proA1" => Rez.Strings.proA1, "proA7" => Rez.Strings.proA7, "proA8" => Rez.Strings.proA8},
@@ -95,10 +88,6 @@ class WennerView extends Ui.View { // Vue qui affiche l'heure
     		};
     	}
     	//***************************************************************
-        
-    	sec = 0;
-    	timer = new Timer.Timer();
-    	timer.start(method(:incsec),1000, true);
     }
     
     
@@ -140,17 +129,16 @@ class WennerView extends Ui.View { // Vue qui affiche l'heure
 	    	
     }
 	
-	function incsec() { // Permet d'actualiser l'interface toute les secondes
-		sec += 1;
+	function callback() { // Permet d'actualiser l'interface toute les secondes
+       	
+       	var today = System.getClockTime(); // récupère l'heure et la minute courante
+       	var sec = today.sec.toNumber();
+       	
        	System.println("ViewHeure" + sec);
        	
-       	
-       	if (sec%60 == 0){
-       		sec = 0;
+       	if (sec == 0){
        	     	       	
 	       	userActuel.jourActuel.nbPas = ActivityMonitor.getInfo().steps;
-	       		
-	    		var today = System.getClockTime(); // récupère l'heure et la minute courante
 	    		
 	    		System.println(today.hour + " " + today.min);
 	    		

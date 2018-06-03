@@ -10,7 +10,9 @@ class HistoryView extends Ui.View {
     // Constructor
     function initialize() {
         View.initialize();
-        appbase.userActuel.addJour();
+        
+        //appbase.userActuel.addJour();
+        
         makeRequest();
     }
 
@@ -84,4 +86,14 @@ class HistoryView extends Ui.View {
        }
 
    }
+}
+
+
+
+class HistoryDelegate extends Ui.BehaviorDelegate {
+
+    function initialize() {
+        BehaviorDelegate.initialize();
+    }
+    
 }

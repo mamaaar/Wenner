@@ -19,10 +19,10 @@ class MessageViewDelegate extends Ui.BehaviorDelegate {
         
         System.println("testAffichageMessageViewDelegate");
        	secMessage = new Timer.Timer();
-        secMessage.start(method(:incsec), 1000, true);
+        secMessage.start(method(:callback), 1000, true);
     }
     
-    function incsec() {
+    function callback() {
 		secondes +=1;	
 		if (secondes == (3600*6-60)) {
 				secMessage.stop();
@@ -38,7 +38,7 @@ class MessageViewDelegate extends Ui.BehaviorDelegate {
 		appbase.userActuel.addMessage(type, messageCode, secondes, nbPas);
        	
 		System.println("finAddMessage");
-		System.println("");
+		return false; 
 	}
 	
 
