@@ -31,24 +31,26 @@ class User {
 		self.jourActuel = new Jour(stringToday);
 	}
 	
-	function addMessage(_type, _code, _tmps, _nbPas) { // ajouter les donénes du message envoyée dans la base locale
-		jourActuel.addMessage(_type, _code, _tmps, _nbPas);
+	function addMessage(_type, _code, _tmps, log1, log2) { // ajouter les donénes du message envoyée dans la base locale
+		jourActuel.addMessage(_type, _code, _tmps, log1, log2);
 	}
 	
 	function affichage(){
 		var tab = [];
 		var string = "";
-		string += idParticipant+","+condition+","+idMontre+",";
 		
 		for(var i=0 ; i<tabJours.size(); i++){
-			var iJour = tabJours[i].toString();
-			//			nomJour		nbPasTotal
-			string += iJour[0]+","+iJour[1]+","+iJour[3]+",";
+		
+			string += idParticipant+","+condition+","+idMontre+",";
 			
-			for(var j=0; j<iJour[2].size(); j++){
-				var jMessage = iJour[2][j].toString();
-				//			type			code			tmps			nbPas		
-				string += jMessage[0]+","+jMessage[1]+","+jMessage[2]+","+jMessage[3]+",";
+			var iJour = tabJours[i].toString();
+			//			nomJour		nbPasTotal	nbConsultationPas
+			string += iJour[0]+","+iJour[1]+","+iJour[2]+",";
+			
+			for(var j=0; j<iJour[3].size(); j++){
+				var jMessage = iJour[3][j].toString();
+				//			type			code			tmps			nbPaslog1		nbPaslog2	
+				string += jMessage[0]+","+jMessage[1]+","+jMessage[2]+","+jMessage[3]+","+jMessage[4]+",";
 			}
 			tab.add(string);
 			string = "";
@@ -72,16 +74,17 @@ class Jour {
 		self.nbConsultationPas = 0;
 	}
 	
-	function addMessage(_type, _code, _tmps, _nbPas) {
-		tabMessages.add(new Message(_type, _code, _tmps, _nbPas));
+	function addMessage(_type, _code, _tmps, log1, log2) {
+		tabMessages.add(new Message(_type, _code, _tmps, log1, log2));
 	}
 	
 	function toString(){
-		return [jour, nbPas, tabMessages, nbConsultationPas];
+		return [jour, nbPas, nbConsultationPas, tabMessages];
 	}
 	
 	function addConsultation(){
-		nbConsultationPas += 1;
+		self.nbConsultationPas = self.nbConsultationPas + 1;
+		System.println("nbConsultationPas : " + self.nbConsultationPas);
 	}
 }
 
@@ -89,16 +92,18 @@ class Message {
 	var type; 		//0 pour le message d'entrer, 1 pour le 1er message ainsi de suite
 	var code;	 	//code du message
 	var tmps;		//temps passé sur le message
-	var nbPas;
+	var log1;
+	var log2;
 	
-	function initialize(_type, _code, _tmps, _nbPas) {
+	function initialize(_type, _code, _tmps, log1, log2) {
 		self.type = _type;
 		self.code = _code;
 		self.tmps = _tmps;
-		self.nbPas = _nbPas;
+		self.log1 = log1;
+		self.log2 = log2;
 	}
 	
 	function toString(){
-		return [type, code, tmps, nbPas];
+		return [type, code, tmps, log1, log2];
 	}
 }

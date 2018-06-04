@@ -10,24 +10,24 @@ class PasView extends Ui.View {
 	
 	var timer; // Timer 
 	var sec = 0;
-	var appbase = Application.getApp();
+	
 	
 	function initialize() {
         View.initialize();
         //Initialise l'image pas
+        
         pas = new Ui.Bitmap({	:rezId=>Rez.Drawables.pas,
         						:locX=>75,
         						:locY=>10}
         );
-        
-        
-		appbase.userActuel.jourActuel.addConsultation();
+                
+		addConsultation();
         
         timer = new Timer.Timer();
+        timer.start(method(:incsec),1000, true);
     }
     
-    function onShow(){
-    	timer.start(method(:incsec),1000, true);
+    function onLayout(dc) {
     }
 
     // Update the view
@@ -54,7 +54,7 @@ class PasView extends Ui.View {
        	
        	dc.drawText(	// Affiche le nombre de pas
        		dc.getWidth() / 2, 
-       		dc.getHeight() - 4 * Gfx.getFontHeight(Gfx.FONT_LARGE) + pas.height, 
+       		dc.getHeight() - 4 * Gfx.getFontHeight(Gfx.FONT_LARGE) + 61, 
        		Gfx.FONT_NUMBER_HOT, 
        		nbPasActuel.toString(), 
        		Gfx.TEXT_JUSTIFY_CENTER
@@ -62,6 +62,11 @@ class PasView extends Ui.View {
 
         
     }
+    
+    function addConsultation() {
+    		var appbase = Application.getApp();
+			appbase.userActuel.jourActuel.addConsultation();
+	}
     
     function incsec() { // Permet d'actualiser l'interface toute les secondes
 		sec += 1;
@@ -90,12 +95,8 @@ class PasView extends Ui.View {
 
         dc.drawText(x, y - Gfx.getFontHeight(font) - 3, font, string, Gfx.TEXT_JUSTIFY_LEFT);
     }
-
-    // Called when this View is removed from the screen. Save the
-    // state of this View here. This includes freeing resources from
-    // memory.
-    function onHide() {
-    	sec = 0;
+    
+    function onHide(){
     	timer.stop();
     }
     
@@ -108,4 +109,14 @@ class PasDelegate extends Ui.BehaviorDelegate {
     function initialize() {
         BehaviorDelegate.initialize();
     }
+    
+    function onSelect() {
+    	
+    }
+    
+    function onBack () {
+    	Ui.popView(SLIDE_RIGHT);
+    	return true;
+    }
+    
 }
