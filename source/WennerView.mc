@@ -5,18 +5,18 @@ class WennerView extends Ui.View { // Vue qui affiche l'heure
 
 	/***********Heure des messages définit en absolu***********/ 
 
-    var messageEntreeHeure 		= 6;
-	var messageEntreeMinute 	= 30;
-	var message1Heure 			= 9;
-    var message1Minute 			= 0;
+    var messageEntreeHeure 		= 12;
+	var messageEntreeMinute 	= 38;
+	var message1Heure 			= 12;
+    var message1Minute 			= 39;
     var message2Heure 			= 12;
-    var message2Minute 			= 0;
-	var message3Heure 			= 15;
-    var message3Minute 			= 0;
-    var message4Heure 			= 18;
-    var message4Minute 			= 0;
-    var messageSortieHeure 		= 21; 
-    var messageSortieMinute 	= 0;
+    var message2Minute 			= 40;
+	var message3Heure 			= 12;
+    var message3Minute 			= 41;
+    var message4Heure 			= 12;
+    var message4Minute 			= 42;
+    var messageSortieHeure 		= 12; 
+    var messageSortieMinute 	= 43;
     
     
     /*

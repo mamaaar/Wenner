@@ -10,7 +10,7 @@ class PasView extends Ui.View {
 	
 	var timer; // Timer 
 	var sec = 0;
-	var appbase = Application.getApp();
+	
 	
 	function initialize() {
         View.initialize();
@@ -21,7 +21,7 @@ class PasView extends Ui.View {
         						:locY=>10}
         );
                 
-		appbase.userActuel.jourActuel.addConsultation();
+		addConsultation();
         
         timer = new Timer.Timer();
         timer.start(method(:incsec),1000, true);
@@ -62,6 +62,11 @@ class PasView extends Ui.View {
 
         
     }
+    
+    function addConsultation() {
+    		var appbase = Application.getApp();
+			appbase.userActuel.jourActuel.addConsultation();
+	}
     
     function incsec() { // Permet d'actualiser l'interface toute les secondes
 		sec += 1;

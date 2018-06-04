@@ -1,624 +1,620 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
 <pcToLineNum>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="12" pc="268435456" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="13" pc="268435460" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="15" pc="268435478" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="16" pc="268435503" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="18" pc="268435529" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="19" pc="268435534" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="20" pc="268435549" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="25" pc="268435601" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="31" pc="268435626" symbol="onUpdate"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="32" pc="268435630" symbol="onUpdate"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="33" pc="268435670" symbol="onUpdate"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="35" pc="268435682" symbol="onUpdate"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="36" pc="268435707" symbol="onUpdate"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="38" pc="268435731" symbol="onUpdate"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="48" pc="268435776" symbol="drawBarMessage"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="49" pc="268435780" symbol="drawBarMessage"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="50" pc="268435805" symbol="drawBarMessage"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="51" pc="268435824" symbol="drawBarMessage"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="52" pc="268435831" symbol="drawBarMessage"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="53" pc="268435842" symbol="drawBarMessage"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="56" pc="268435852" symbol="drawBarMessage"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="57" pc="268435888" symbol="drawBarMessage"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="58" pc="268435914" symbol="drawBarMessage"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="59" pc="268435950" symbol="drawBarMessage"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="60" pc="268435973" symbol="drawBarMessage"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="62" pc="268435990" symbol="drawBarMessage"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="64" pc="268436004" symbol="drawBarMessage"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="66" pc="268436075" symbol="drawBarMessage"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="68" pc="268436111" symbol="drawBarMessage"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="14" pc="268436175" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="15" pc="268436179" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="16" pc="268436197" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="17" pc="268436233" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="21" pc="268436246" symbol="incsec"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="22" pc="268436250" symbol="incsec"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="23" pc="268436269" symbol="incsec"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="24" pc="268436286" symbol="incsec"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="29" pc="268436302" symbol="onPreviousPage"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="30" pc="268436306" symbol="onPreviousPage"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="31" pc="268436316" symbol="onPreviousPage"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="32" pc="268436357" symbol="onPreviousPage"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="32" pc="268436368" symbol="onPreviousPage"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="33" pc="268436381" symbol="onPreviousPage"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="33" pc="268436392" symbol="onPreviousPage"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="34" pc="268436467" symbol="onPreviousPage"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="37" pc="268436471" symbol="onNextPage"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="38" pc="268436475" symbol="onNextPage"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="38" pc="268436486" symbol="onNextPage"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="39" pc="268436499" symbol="onNextPage"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="39" pc="268436510" symbol="onNextPage"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="40" pc="268436523" symbol="onNextPage"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="43" pc="268436527" symbol="initKey"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="44" pc="268436531" symbol="initKey"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="45" pc="268436554" symbol="initKey"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="46" pc="268436572" symbol="initKey"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="47" pc="268436585" symbol="initKey"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="48" pc="268436595" symbol="initKey"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="49" pc="268436605" symbol="initKey"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="50" pc="268436615" symbol="initKey"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="51" pc="268436625" symbol="initKey"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="54" pc="268436636" symbol="onSelect"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="55" pc="268436640" symbol="onSelect"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="56" pc="268436658" symbol="onSelect"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="57" pc="268436730" symbol="onSelect"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="60" pc="268436734" symbol="onBack"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="61" pc="268436738" symbol="onBack"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="14" pc="268436742" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="15" pc="268436746" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="16" pc="268436764" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="17" pc="268436777" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="18" pc="268436787" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="20" pc="268436797" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="21" pc="268436820" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="22" pc="268436854" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="25" pc="268436896" symbol="callback"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="26" pc="268436900" symbol="callback"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="27" pc="268436919" symbol="callback"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="28" pc="268436936" symbol="callback"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="32" pc="268436958" symbol="onBack"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="33" pc="268436962" symbol="onBack"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="34" pc="268436980" symbol="onBack"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="35" pc="268437018" symbol="onBack"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="36" pc="268437035" symbol="onBack"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="38" pc="268437058" symbol="onBack"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="40" pc="268437102" symbol="onBack"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="41" pc="268437125" symbol="onBack"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerApp.mc" lineNum="8" pc="268437129" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerApp.mc" lineNum="9" pc="268437133" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerApp.mc" lineNum="10" pc="268437151" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerApp.mc" lineNum="14" pc="268437182" symbol="onStart"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerApp.mc" lineNum="18" pc="268437187" symbol="onStop"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerApp.mc" lineNum="22" pc="268437192" symbol="getInitialView"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerApp.mc" lineNum="23" pc="268437196" symbol="getInitialView"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="13" pc="268437264" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="14" pc="268437268" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="15" pc="268437311" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="16" pc="268437354" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="17" pc="268437397" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="18" pc="268437411" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="19" pc="268437459" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="20" pc="268437484" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="23" pc="268437517" symbol="addJour"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="24" pc="268437521" symbol="addJour"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="25" pc="268437544" symbol="addJour"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="28" pc="268437571" symbol="newJour"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="29" pc="268437575" symbol="newJour"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="30" pc="268437623" symbol="newJour"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="31" pc="268437648" symbol="newJour"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="34" pc="268437681" symbol="addMessage"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="35" pc="268437685" symbol="addMessage"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="38" pc="268437712" symbol="affichage"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="39" pc="268437716" symbol="affichage"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="40" pc="268437724" symbol="affichage"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="41" pc="268437731" symbol="affichage"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="43" pc="268437780" symbol="affichage"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="44" pc="268437810" symbol="affichage"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="46" pc="268437832" symbol="affichage"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="48" pc="268437881" symbol="affichage"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="49" pc="268437911" symbol="affichage"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="51" pc="268437933" symbol="affichage"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="53" pc="268438010" symbol="affichage"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="54" pc="268438024" symbol="affichage"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="56" pc="268438044" symbol="affichage"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="59" pc="268438048" symbol="toString"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="60" pc="268438052" symbol="toString"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="69" pc="268438124" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="70" pc="268438128" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="71" pc="268438157" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="72" pc="268438167" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="75" pc="268438181" symbol="addMessage"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="76" pc="268438185" symbol="addMessage"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="79" pc="268438234" symbol="toString"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="80" pc="268438238" symbol="toString"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="83" pc="268438310" symbol="addConsultation"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="84" pc="268438314" symbol="addConsultation"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="94" pc="268438334" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="95" pc="268438338" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="96" pc="268438348" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="97" pc="268438358" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="98" pc="268438368" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="101" pc="268438379" symbol="toString"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="102" pc="268438383" symbol="toString"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="11" pc="268438455" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="12" pc="268438459" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="16" pc="268438477" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="19" pc="268438490" symbol="onLayout"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="20" pc="268438494" symbol="onLayout"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="24" pc="268438532" symbol="onUpdate"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="25" pc="268438536" symbol="onUpdate"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="27" pc="268438556" symbol="onUpdate"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="28" pc="268438592" symbol="onUpdate"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="29" pc="268438609" symbol="onUpdate"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="30" pc="268438616" symbol="onUpdate"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="31" pc="268438623" symbol="onUpdate"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="33" pc="268438652" symbol="onUpdate"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="35" pc="268438682" symbol="onUpdate"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="36" pc="268438706" symbol="onUpdate"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="38" pc="268438790" symbol="onUpdate"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="39" pc="268438819" symbol="onUpdate"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="40" pc="268438841" symbol="onUpdate"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="47" pc="268438936" symbol="makeRequest"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="48" pc="268438940" symbol="makeRequest"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="49" pc="268438963" symbol="makeRequest"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="52" pc="268439000" symbol="makeRequest"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="53" pc="268439031" symbol="makeRequest"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="54" pc="268439056" symbol="makeRequest"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="56" pc="268439096" symbol="makeRequest"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="57" pc="268439116" symbol="makeRequest"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="58" pc="268439136" symbol="makeRequest"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="60" pc="268439156" symbol="makeRequest"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="65" pc="268439194" symbol="makeRequest"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="70" pc="268439237" symbol="makeRequest"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="76" pc="268439299" symbol="makeRequest"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="80" pc="268439340" symbol="onReceive"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="81" pc="268439344" symbol="onReceive"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="82" pc="268439355" symbol="onReceive"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="85" pc="268439381" symbol="onReceive"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="95" pc="268439408" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="96" pc="268439412" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="44" pc="268439431" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="45" pc="268439435" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="46" pc="268439453" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="47" pc="268439489" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="52" pc="268439530" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="53" pc="268439561" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="62" pc="268440166" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="63" pc="268440197" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="72" pc="268440718" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="73" pc="268440749" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="74" pc="268440772" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="83" pc="268441797" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="84" pc="268441828" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="95" pc="268441972" symbol="onUpdate"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="96" pc="268441976" symbol="onUpdate"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="97" pc="268442016" symbol="onUpdate"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="99" pc="268442028" symbol="onUpdate"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="100" pc="268442047" symbol="onUpdate"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="101" pc="268442066" symbol="onUpdate"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="103" pc="268442120" symbol="onUpdate"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="111" pc="268442237" symbol="onUpdate"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="122" pc="268442406" symbol="onUpdate"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="132" pc="268442537" symbol="callback"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="134" pc="268442541" symbol="callback"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="135" pc="268442560" symbol="callback"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="137" pc="268442579" symbol="callback"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="139" pc="268442605" symbol="callback"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="141" pc="268442616" symbol="callback"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="143" pc="268442659" symbol="callback"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="145" pc="268442700" symbol="callback"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="147" pc="268442779" symbol="callback"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="148" pc="268442802" symbol="callback"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="151" pc="268442836" symbol="callback"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="153" pc="268442915" symbol="callback"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="154" pc="268442938" symbol="callback"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="155" pc="268442969" symbol="callback"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="158" pc="268442989" symbol="callback"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="162" pc="268443023" symbol="callback"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="164" pc="268443102" symbol="callback"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="165" pc="268443125" symbol="callback"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="166" pc="268443156" symbol="callback"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="169" pc="268443176" symbol="callback"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="173" pc="268443210" symbol="callback"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="175" pc="268443289" symbol="callback"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="176" pc="268443312" symbol="callback"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="177" pc="268443343" symbol="callback"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="180" pc="268443363" symbol="callback"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="184" pc="268443397" symbol="callback"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="186" pc="268443476" symbol="callback"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="187" pc="268443499" symbol="callback"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="188" pc="268443530" symbol="callback"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="191" pc="268443550" symbol="callback"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="195" pc="268443584" symbol="callback"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="197" pc="268443663" symbol="callback"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="198" pc="268443688" symbol="callback"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="199" pc="268443711" symbol="callback"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="200" pc="268443722" symbol="callback"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="201" pc="268443745" symbol="callback"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="204" pc="268443779" symbol="callback"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="205" pc="268443802" symbol="callback"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="209" pc="268443836" symbol="callback"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="210" pc="268443891" symbol="callback"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="213" pc="268443912" symbol="callback"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="214" pc="268443967" symbol="callback"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="222" pc="268443991" symbol="callback"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="226" pc="268444008" symbol="envoyerMessageAleaGroupe"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="227" pc="268444012" symbol="envoyerMessageAleaGroupe"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="228" pc="268444043" symbol="envoyerMessageAleaGroupe"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="229" pc="268444056" symbol="envoyerMessageAleaGroupe"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="230" pc="268444063" symbol="envoyerMessageAleaGroupe"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="231" pc="268444083" symbol="envoyerMessageAleaGroupe"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="233" pc="268444098" symbol="envoyerMessageAleaGroupe"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="236" pc="268444179" symbol="logPerfSansCadrage"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="237" pc="268444183" symbol="logPerfSansCadrage"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="238" pc="268444202" symbol="logPerfSansCadrage"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="240" pc="268444228" symbol="logPerfSansCadrage"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="15" pc="268444262" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="16" pc="268444266" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="19" pc="268444284" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="24" pc="268444378" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="26" pc="268444408" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="27" pc="268444442" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="30" pc="268444484" symbol="onLayout"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="34" pc="268444489" symbol="onUpdate"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="35" pc="268444493" symbol="onUpdate"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="36" pc="268444529" symbol="onUpdate"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="38" pc="268444541" symbol="onUpdate"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="40" pc="268444561" symbol="onUpdate"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="41" pc="268444584" symbol="onUpdate"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="42" pc="268444603" symbol="onUpdate"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="44" pc="268444627" symbol="onUpdate"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="53" pc="268444698" symbol="onUpdate"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="55" pc="268444734" symbol="onUpdate"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="66" pc="268444850" symbol="incsec"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="67" pc="268444854" symbol="incsec"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="68" pc="268444873" symbol="incsec"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="71" pc="268444905" symbol="incsec"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="75" pc="268444922" symbol="drawBar"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="76" pc="268444926" symbol="drawBar"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="77" pc="268444951" symbol="drawBar"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="79" pc="268444970" symbol="drawBar"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="80" pc="268444981" symbol="drawBar"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="83" pc="268444991" symbol="drawBar"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="84" pc="268445007" symbol="drawBar"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="85" pc="268445033" symbol="drawBar"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="86" pc="268445069" symbol="drawBar"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="87" pc="268445092" symbol="drawBar"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="89" pc="268445109" symbol="drawBar"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="91" pc="268445123" symbol="drawBar"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="94" pc="268445180" symbol="onHide"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="95" pc="268445184" symbol="onHide"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="104" pc="268445203" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="105" pc="268445207" symbol="initialize"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="108" pc="268445226" symbol="onSelect"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="112" pc="268445231" symbol="onBack"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="113" pc="268445235" symbol="onBack"/>
-<entry filename="C:\\Users\\ammar\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="114" pc="268445259" symbol="onBack"/>
-<entry filename="Rez" lineNum="64" pc="268445263" symbol="HistoryLayout"/>
-<entry filename="Rez" lineNum="68" pc="268445275" symbol="HistoryLayout"/>
-<entry filename="Rez" lineNum="69" pc="268445431" symbol="HistoryLayout"/>
-<entry filename="Rez" lineNum="70" pc="268445456" symbol="HistoryLayout"/>
-<entry filename="Rez" lineNum="71" pc="268445508" symbol="HistoryLayout"/>
-<entry filename="Rez" lineNum="72" pc="268445683" symbol="HistoryLayout"/>
-<entry filename="Rez" lineNum="75" pc="268445864" symbol="HistoryLayout"/>
-<entry filename="Rez" lineNum="84" pc="268445902" symbol="MainText"/>
-<entry filename="Rez" lineNum="88" pc="268445914" symbol="MainText"/>
-<entry filename="Rez" lineNum="89" pc="268446108" symbol="MainText"/>
-<entry filename="Rez" lineNum="90" pc="268446133" symbol="MainText"/>
-<entry filename="Rez" lineNum="91" pc="268446185" symbol="MainText"/>
-<entry filename="Rez" lineNum="92" pc="268446328" symbol="MainText"/>
-<entry filename="Rez" lineNum="93" pc="268446353" symbol="MainText"/>
-<entry filename="Rez" lineNum="94" pc="268446405" symbol="MainText"/>
-<entry filename="Rez" lineNum="95" pc="268446451" symbol="MainText"/>
-<entry filename="Rez" lineNum="96" pc="268446631" symbol="MainText"/>
-<entry filename="Rez" lineNum="97" pc="268446656" symbol="MainText"/>
-<entry filename="Rez" lineNum="98" pc="268446708" symbol="MainText"/>
-<entry filename="Rez" lineNum="99" pc="268446902" symbol="MainText"/>
-<entry filename="Rez" lineNum="100" pc="268446927" symbol="MainText"/>
-<entry filename="Rez" lineNum="101" pc="268446979" symbol="MainText"/>
-<entry filename="Rez" lineNum="102" pc="268447122" symbol="MainText"/>
-<entry filename="Rez" lineNum="103" pc="268447147" symbol="MainText"/>
-<entry filename="Rez" lineNum="104" pc="268447199" symbol="MainText"/>
-<entry filename="Rez" lineNum="105" pc="268447245" symbol="MainText"/>
-<entry filename="Rez" lineNum="106" pc="268447425" symbol="MainText"/>
-<entry filename="Rez" lineNum="107" pc="268447450" symbol="MainText"/>
-<entry filename="Rez" lineNum="108" pc="268447502" symbol="MainText"/>
-<entry filename="Rez" lineNum="109" pc="268447696" symbol="MainText"/>
-<entry filename="Rez" lineNum="110" pc="268447721" symbol="MainText"/>
-<entry filename="Rez" lineNum="111" pc="268447773" symbol="MainText"/>
-<entry filename="Rez" lineNum="112" pc="268447916" symbol="MainText"/>
-<entry filename="Rez" lineNum="113" pc="268447941" symbol="MainText"/>
-<entry filename="Rez" lineNum="114" pc="268447993" symbol="MainText"/>
-<entry filename="Rez" lineNum="115" pc="268448039" symbol="MainText"/>
-<entry filename="Rez" lineNum="116" pc="268448219" symbol="MainText"/>
-<entry filename="Rez" lineNum="117" pc="268448244" symbol="MainText"/>
-<entry filename="Rez" lineNum="120" pc="268448296" symbol="MainText"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="14" pc="268435456" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="15" pc="268435460" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="16" pc="268435478" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="17" pc="268435514" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="21" pc="268435527" symbol="incsec"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="22" pc="268435531" symbol="incsec"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="23" pc="268435550" symbol="incsec"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="24" pc="268435567" symbol="incsec"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="29" pc="268435583" symbol="onPreviousPage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="30" pc="268435587" symbol="onPreviousPage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="31" pc="268435597" symbol="onPreviousPage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="32" pc="268435638" symbol="onPreviousPage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="32" pc="268435649" symbol="onPreviousPage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="33" pc="268435662" symbol="onPreviousPage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="33" pc="268435673" symbol="onPreviousPage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="34" pc="268435748" symbol="onPreviousPage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="37" pc="268435752" symbol="onNextPage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="38" pc="268435756" symbol="onNextPage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="38" pc="268435767" symbol="onNextPage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="39" pc="268435780" symbol="onNextPage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="39" pc="268435791" symbol="onNextPage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="40" pc="268435804" symbol="onNextPage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="43" pc="268435808" symbol="initKey"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="44" pc="268435812" symbol="initKey"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="45" pc="268435835" symbol="initKey"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="46" pc="268435853" symbol="initKey"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="47" pc="268435866" symbol="initKey"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="48" pc="268435876" symbol="initKey"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="49" pc="268435886" symbol="initKey"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="50" pc="268435896" symbol="initKey"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="51" pc="268435906" symbol="initKey"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="54" pc="268435917" symbol="onSelect"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="55" pc="268435921" symbol="onSelect"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="56" pc="268435939" symbol="onSelect"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="57" pc="268436011" symbol="onSelect"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="60" pc="268436015" symbol="onBack"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="61" pc="268436019" symbol="onBack"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="44" pc="268436023" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="45" pc="268436027" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="46" pc="268436045" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="47" pc="268436081" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="52" pc="268436122" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="53" pc="268436153" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="62" pc="268436758" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="63" pc="268436789" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="72" pc="268437310" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="73" pc="268437341" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="74" pc="268437364" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="83" pc="268438389" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="84" pc="268438420" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="95" pc="268438564" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="96" pc="268438568" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="97" pc="268438608" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="99" pc="268438620" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="100" pc="268438639" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="101" pc="268438658" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="103" pc="268438712" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="111" pc="268438829" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="122" pc="268438998" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="132" pc="268439129" symbol="callback"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="134" pc="268439133" symbol="callback"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="135" pc="268439152" symbol="callback"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="137" pc="268439171" symbol="callback"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="139" pc="268439197" symbol="callback"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="141" pc="268439208" symbol="callback"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="143" pc="268439251" symbol="callback"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="145" pc="268439292" symbol="callback"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="147" pc="268439371" symbol="callback"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="148" pc="268439394" symbol="callback"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="151" pc="268439428" symbol="callback"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="153" pc="268439507" symbol="callback"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="154" pc="268439530" symbol="callback"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="155" pc="268439561" symbol="callback"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="158" pc="268439581" symbol="callback"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="162" pc="268439615" symbol="callback"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="164" pc="268439694" symbol="callback"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="165" pc="268439717" symbol="callback"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="166" pc="268439748" symbol="callback"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="169" pc="268439768" symbol="callback"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="173" pc="268439802" symbol="callback"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="175" pc="268439881" symbol="callback"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="176" pc="268439904" symbol="callback"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="177" pc="268439935" symbol="callback"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="180" pc="268439955" symbol="callback"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="184" pc="268439989" symbol="callback"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="186" pc="268440068" symbol="callback"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="187" pc="268440091" symbol="callback"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="188" pc="268440122" symbol="callback"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="191" pc="268440142" symbol="callback"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="195" pc="268440176" symbol="callback"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="197" pc="268440255" symbol="callback"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="198" pc="268440280" symbol="callback"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="199" pc="268440303" symbol="callback"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="200" pc="268440314" symbol="callback"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="201" pc="268440337" symbol="callback"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="204" pc="268440371" symbol="callback"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="205" pc="268440394" symbol="callback"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="209" pc="268440428" symbol="callback"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="210" pc="268440483" symbol="callback"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="213" pc="268440504" symbol="callback"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="214" pc="268440559" symbol="callback"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="222" pc="268440583" symbol="callback"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="226" pc="268440600" symbol="envoyerMessageAleaGroupe"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="227" pc="268440604" symbol="envoyerMessageAleaGroupe"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="228" pc="268440635" symbol="envoyerMessageAleaGroupe"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="229" pc="268440648" symbol="envoyerMessageAleaGroupe"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="230" pc="268440655" symbol="envoyerMessageAleaGroupe"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="231" pc="268440675" symbol="envoyerMessageAleaGroupe"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="233" pc="268440690" symbol="envoyerMessageAleaGroupe"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="236" pc="268440771" symbol="logPerfSansCadrage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="237" pc="268440775" symbol="logPerfSansCadrage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="238" pc="268440794" symbol="logPerfSansCadrage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="240" pc="268440820" symbol="logPerfSansCadrage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="17" pc="268440854" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="18" pc="268440858" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="19" pc="268440876" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="20" pc="268440889" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="21" pc="268440899" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="22" pc="268440909" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="24" pc="268440938" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="25" pc="268440961" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="26" pc="268440995" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="29" pc="268441037" symbol="callback"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="30" pc="268441041" symbol="callback"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="31" pc="268441060" symbol="callback"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="32" pc="268441077" symbol="callback"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="36" pc="268441099" symbol="onBack"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="37" pc="268441103" symbol="onBack"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="38" pc="268441121" symbol="onBack"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="40" pc="268441159" symbol="onBack"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="42" pc="268441188" symbol="onBack"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="43" pc="268441205" symbol="onBack"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="45" pc="268441263" symbol="onBack"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="46" pc="268441286" symbol="onBack"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="15" pc="268441290" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="16" pc="268441294" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="19" pc="268441312" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="24" pc="268441406" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="26" pc="268441418" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="27" pc="268441452" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="30" pc="268441494" symbol="onLayout"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="34" pc="268441499" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="35" pc="268441503" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="36" pc="268441539" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="38" pc="268441551" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="40" pc="268441571" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="41" pc="268441594" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="42" pc="268441613" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="44" pc="268441637" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="53" pc="268441708" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="55" pc="268441744" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="66" pc="268441860" symbol="addConsultation"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="67" pc="268441864" symbol="addConsultation"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="68" pc="268441881" symbol="addConsultation"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="71" pc="268441906" symbol="incsec"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="72" pc="268441910" symbol="incsec"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="73" pc="268441929" symbol="incsec"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="76" pc="268441961" symbol="incsec"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="80" pc="268441978" symbol="drawBar"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="81" pc="268441982" symbol="drawBar"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="82" pc="268442007" symbol="drawBar"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="84" pc="268442026" symbol="drawBar"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="85" pc="268442037" symbol="drawBar"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="88" pc="268442047" symbol="drawBar"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="89" pc="268442063" symbol="drawBar"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="90" pc="268442089" symbol="drawBar"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="91" pc="268442125" symbol="drawBar"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="92" pc="268442148" symbol="drawBar"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="94" pc="268442165" symbol="drawBar"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="96" pc="268442179" symbol="drawBar"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="99" pc="268442236" symbol="onHide"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="100" pc="268442240" symbol="onHide"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="109" pc="268442259" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="110" pc="268442263" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="113" pc="268442282" symbol="onSelect"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="117" pc="268442287" symbol="onBack"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="118" pc="268442291" symbol="onBack"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="119" pc="268442315" symbol="onBack"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\User.mc" lineNum="13" pc="268442319" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\User.mc" lineNum="14" pc="268442323" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\User.mc" lineNum="15" pc="268442366" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\User.mc" lineNum="16" pc="268442409" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\User.mc" lineNum="17" pc="268442452" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\User.mc" lineNum="18" pc="268442466" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\User.mc" lineNum="19" pc="268442514" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\User.mc" lineNum="20" pc="268442539" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\User.mc" lineNum="23" pc="268442572" symbol="addJour"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\User.mc" lineNum="24" pc="268442576" symbol="addJour"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\User.mc" lineNum="25" pc="268442599" symbol="addJour"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\User.mc" lineNum="28" pc="268442626" symbol="newJour"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\User.mc" lineNum="29" pc="268442630" symbol="newJour"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\User.mc" lineNum="30" pc="268442678" symbol="newJour"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\User.mc" lineNum="31" pc="268442703" symbol="newJour"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\User.mc" lineNum="34" pc="268442736" symbol="addMessage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\User.mc" lineNum="35" pc="268442740" symbol="addMessage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\User.mc" lineNum="38" pc="268442769" symbol="affichage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\User.mc" lineNum="39" pc="268442773" symbol="affichage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\User.mc" lineNum="40" pc="268442781" symbol="affichage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\User.mc" lineNum="42" pc="268442788" symbol="affichage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\User.mc" lineNum="44" pc="268442818" symbol="affichage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\User.mc" lineNum="46" pc="268442867" symbol="affichage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\User.mc" lineNum="48" pc="268442889" symbol="affichage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\User.mc" lineNum="50" pc="268442938" symbol="affichage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\User.mc" lineNum="51" pc="268442968" symbol="affichage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\User.mc" lineNum="53" pc="268442990" symbol="affichage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\User.mc" lineNum="55" pc="268443082" symbol="affichage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\User.mc" lineNum="56" pc="268443096" symbol="affichage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\User.mc" lineNum="58" pc="268443116" symbol="affichage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\User.mc" lineNum="61" pc="268443120" symbol="toString"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\User.mc" lineNum="62" pc="268443124" symbol="toString"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\User.mc" lineNum="71" pc="268443196" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\User.mc" lineNum="72" pc="268443200" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\User.mc" lineNum="73" pc="268443229" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\User.mc" lineNum="74" pc="268443239" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\User.mc" lineNum="77" pc="268443253" symbol="addMessage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\User.mc" lineNum="78" pc="268443257" symbol="addMessage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\User.mc" lineNum="81" pc="268443308" symbol="toString"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\User.mc" lineNum="82" pc="268443312" symbol="toString"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\User.mc" lineNum="85" pc="268443384" symbol="addConsultation"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\User.mc" lineNum="86" pc="268443388" symbol="addConsultation"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\User.mc" lineNum="87" pc="268443410" symbol="addConsultation"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\User.mc" lineNum="98" pc="268443443" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\User.mc" lineNum="99" pc="268443447" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\User.mc" lineNum="100" pc="268443457" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\User.mc" lineNum="101" pc="268443467" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\User.mc" lineNum="102" pc="268443477" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\User.mc" lineNum="103" pc="268443487" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\User.mc" lineNum="106" pc="268443498" symbol="toString"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\User.mc" lineNum="107" pc="268443502" symbol="toString"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryView.mc" lineNum="11" pc="268443590" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryView.mc" lineNum="12" pc="268443594" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryView.mc" lineNum="14" pc="268443612" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryView.mc" lineNum="16" pc="268443636" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryView.mc" lineNum="19" pc="268443649" symbol="onLayout"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryView.mc" lineNum="20" pc="268443653" symbol="onLayout"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryView.mc" lineNum="24" pc="268443691" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryView.mc" lineNum="25" pc="268443695" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryView.mc" lineNum="27" pc="268443715" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryView.mc" lineNum="28" pc="268443751" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryView.mc" lineNum="29" pc="268443768" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryView.mc" lineNum="30" pc="268443775" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryView.mc" lineNum="31" pc="268443782" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryView.mc" lineNum="33" pc="268443811" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryView.mc" lineNum="35" pc="268443841" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryView.mc" lineNum="36" pc="268443865" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryView.mc" lineNum="38" pc="268443949" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryView.mc" lineNum="39" pc="268443978" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryView.mc" lineNum="40" pc="268444000" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryView.mc" lineNum="47" pc="268444095" symbol="makeRequest"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryView.mc" lineNum="48" pc="268444099" symbol="makeRequest"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryView.mc" lineNum="49" pc="268444122" symbol="makeRequest"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryView.mc" lineNum="52" pc="268444159" symbol="makeRequest"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryView.mc" lineNum="53" pc="268444190" symbol="makeRequest"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryView.mc" lineNum="54" pc="268444215" symbol="makeRequest"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryView.mc" lineNum="56" pc="268444255" symbol="makeRequest"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryView.mc" lineNum="57" pc="268444275" symbol="makeRequest"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryView.mc" lineNum="58" pc="268444295" symbol="makeRequest"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryView.mc" lineNum="60" pc="268444315" symbol="makeRequest"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryView.mc" lineNum="65" pc="268444353" symbol="makeRequest"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryView.mc" lineNum="70" pc="268444396" symbol="makeRequest"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryView.mc" lineNum="76" pc="268444458" symbol="makeRequest"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryView.mc" lineNum="80" pc="268444499" symbol="onReceive"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryView.mc" lineNum="81" pc="268444503" symbol="onReceive"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryView.mc" lineNum="82" pc="268444514" symbol="onReceive"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryView.mc" lineNum="85" pc="268444540" symbol="onReceive"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryView.mc" lineNum="95" pc="268444567" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\HistoryView.mc" lineNum="96" pc="268444571" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerApp.mc" lineNum="8" pc="268444590" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerApp.mc" lineNum="9" pc="268444594" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerApp.mc" lineNum="10" pc="268444612" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerApp.mc" lineNum="14" pc="268444643" symbol="onStart"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerApp.mc" lineNum="18" pc="268444648" symbol="onStop"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerApp.mc" lineNum="22" pc="268444653" symbol="getInitialView"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerApp.mc" lineNum="23" pc="268444657" symbol="getInitialView"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="12" pc="268444725" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="13" pc="268444729" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="15" pc="268444747" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="16" pc="268444772" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="18" pc="268444798" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="19" pc="268444803" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="20" pc="268444818" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="25" pc="268444870" symbol="initialize"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="31" pc="268444895" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="32" pc="268444899" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="33" pc="268444939" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="35" pc="268444951" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="36" pc="268444976" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="38" pc="268445000" symbol="onUpdate"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="48" pc="268445045" symbol="drawBarMessage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="49" pc="268445049" symbol="drawBarMessage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="50" pc="268445074" symbol="drawBarMessage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="51" pc="268445093" symbol="drawBarMessage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="52" pc="268445100" symbol="drawBarMessage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="53" pc="268445111" symbol="drawBarMessage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="56" pc="268445121" symbol="drawBarMessage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="57" pc="268445157" symbol="drawBarMessage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="58" pc="268445183" symbol="drawBarMessage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="59" pc="268445219" symbol="drawBarMessage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="60" pc="268445242" symbol="drawBarMessage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="62" pc="268445259" symbol="drawBarMessage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="64" pc="268445273" symbol="drawBarMessage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="66" pc="268445344" symbol="drawBarMessage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\MessageView.mc" lineNum="68" pc="268445380" symbol="drawBarMessage"/>
+<entry filename="Rez" lineNum="64" pc="268445444" symbol="HistoryLayout"/>
+<entry filename="Rez" lineNum="68" pc="268445456" symbol="HistoryLayout"/>
+<entry filename="Rez" lineNum="69" pc="268445612" symbol="HistoryLayout"/>
+<entry filename="Rez" lineNum="70" pc="268445637" symbol="HistoryLayout"/>
+<entry filename="Rez" lineNum="71" pc="268445689" symbol="HistoryLayout"/>
+<entry filename="Rez" lineNum="72" pc="268445864" symbol="HistoryLayout"/>
+<entry filename="Rez" lineNum="75" pc="268446045" symbol="HistoryLayout"/>
+<entry filename="Rez" lineNum="84" pc="268446083" symbol="MainText"/>
+<entry filename="Rez" lineNum="88" pc="268446095" symbol="MainText"/>
+<entry filename="Rez" lineNum="89" pc="268446289" symbol="MainText"/>
+<entry filename="Rez" lineNum="90" pc="268446314" symbol="MainText"/>
+<entry filename="Rez" lineNum="91" pc="268446366" symbol="MainText"/>
+<entry filename="Rez" lineNum="92" pc="268446509" symbol="MainText"/>
+<entry filename="Rez" lineNum="93" pc="268446534" symbol="MainText"/>
+<entry filename="Rez" lineNum="94" pc="268446586" symbol="MainText"/>
+<entry filename="Rez" lineNum="95" pc="268446632" symbol="MainText"/>
+<entry filename="Rez" lineNum="96" pc="268446812" symbol="MainText"/>
+<entry filename="Rez" lineNum="97" pc="268446837" symbol="MainText"/>
+<entry filename="Rez" lineNum="98" pc="268446889" symbol="MainText"/>
+<entry filename="Rez" lineNum="99" pc="268447083" symbol="MainText"/>
+<entry filename="Rez" lineNum="100" pc="268447108" symbol="MainText"/>
+<entry filename="Rez" lineNum="101" pc="268447160" symbol="MainText"/>
+<entry filename="Rez" lineNum="102" pc="268447303" symbol="MainText"/>
+<entry filename="Rez" lineNum="103" pc="268447328" symbol="MainText"/>
+<entry filename="Rez" lineNum="104" pc="268447380" symbol="MainText"/>
+<entry filename="Rez" lineNum="105" pc="268447426" symbol="MainText"/>
+<entry filename="Rez" lineNum="106" pc="268447606" symbol="MainText"/>
+<entry filename="Rez" lineNum="107" pc="268447631" symbol="MainText"/>
+<entry filename="Rez" lineNum="108" pc="268447683" symbol="MainText"/>
+<entry filename="Rez" lineNum="109" pc="268447877" symbol="MainText"/>
+<entry filename="Rez" lineNum="110" pc="268447902" symbol="MainText"/>
+<entry filename="Rez" lineNum="111" pc="268447954" symbol="MainText"/>
+<entry filename="Rez" lineNum="112" pc="268448097" symbol="MainText"/>
+<entry filename="Rez" lineNum="113" pc="268448122" symbol="MainText"/>
+<entry filename="Rez" lineNum="114" pc="268448174" symbol="MainText"/>
+<entry filename="Rez" lineNum="115" pc="268448220" symbol="MainText"/>
+<entry filename="Rez" lineNum="116" pc="268448400" symbol="MainText"/>
+<entry filename="Rez" lineNum="117" pc="268448425" symbol="MainText"/>
+<entry filename="Rez" lineNum="120" pc="268448477" symbol="MainText"/>
 </pcToLineNum>
 <symbolTable>
-<entry id="10" object="true" symbol="WennerDelegate"/>
+<entry id="9" object="true" symbol="WennerDelegate"/>
 <entry field="true" id="8388923" method="true" symbol="today"/>
-<entry field="true" id="96" symbol="message4Heure"/>
+<entry field="true" id="95" symbol="message4Heure"/>
 <entry id="25" method="true" symbol="addConsultation"/>
-<entry id="16" object="true" symbol="HistoryDelegate"/>
-<entry field="true" id="100" symbol="userActuel"/>
+<entry id="17" object="true" symbol="HistoryDelegate"/>
+<entry field="true" id="99" symbol="userActuel"/>
 <entry id="8388987" method="true" symbol="vibrate"/>
-<entry field="true" id="115" symbol="nbPasActuel"/>
-<entry field="true" id="88" symbol="messageEntreeHeure"/>
+<entry field="true" id="117" symbol="nbPasActuel"/>
+<entry field="true" id="87" symbol="messageEntreeHeure"/>
 <entry id="8389124" method="true" symbol="onUpdate"/>
 <entry id="8389349" symbol="justification"/>
-<entry id="18" object="true" symbol="PasView"/>
-<entry id="111" method="true" symbol="newJour"/>
-<entry field="true" id="54" symbol="URL_local"/>
-<entry id="41" method="true" symbol="HistoryLayout"/>
-<entry field="true" id="47" symbol="preEntree"/>
-<entry field="true" id="98" symbol="messageSortieHeure"/>
-<entry id="12" object="true" symbol="WennerApp"/>
+<entry id="12" object="true" symbol="PasView"/>
+<entry id="112" method="true" symbol="newJour"/>
+<entry field="true" id="53" symbol="URL_local"/>
+<entry id="40" method="true" symbol="HistoryLayout"/>
+<entry field="true" id="46" symbol="preEntree"/>
+<entry field="true" id="97" symbol="messageSortieHeure"/>
+<entry id="18" object="true" symbol="WennerApp"/>
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-<entry id="42" method="true" symbol="MainText"/>
+<entry id="41" method="true" symbol="MainText"/>
 <entry id="8389619" method="true" symbol="onSelect"/>
-<entry field="true" id="35" symbol="key5"/>
-<entry field="true" id="34" symbol="key4"/>
-<entry field="true" id="33" symbol="key3"/>
-<entry field="true" id="32" symbol="key2"/>
-<entry field="true" id="31" symbol="key1"/>
-<entry field="true" id="97" symbol="message4Minute"/>
+<entry field="true" id="31" symbol="key5"/>
+<entry field="true" id="30" symbol="key4"/>
+<entry field="true" id="29" symbol="key3"/>
+<entry field="true" id="28" symbol="key2"/>
+<entry field="true" id="27" symbol="key1"/>
+<entry field="true" id="96" symbol="message4Minute"/>
 <entry id="8388770" module="true" object="true" symbol="Strings"/>
 <entry id="8388783" method="true" symbol="toString"/>
-<entry id="14" object="true" symbol="Jour"/>
-<entry id="101" method="true" symbol="envoyerMessageAleaGroupe"/>
-<entry id="30" method="true" symbol="drawBar"/>
+<entry id="15" object="true" symbol="Jour"/>
+<entry id="100" method="true" symbol="envoyerMessageAleaGroupe"/>
+<entry id="35" method="true" symbol="drawBar"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
-<entry id="29" method="true" symbol="incsec"/>
-<entry field="true" id="116" symbol="messageAenvoyer"/>
+<entry id="32" method="true" symbol="incsec"/>
+<entry field="true" id="118" symbol="messageAenvoyer"/>
 <entry id="8388705" method="true" symbol="callback"/>
-<entry field="true" id="82" symbol="preD11"/>
-<entry field="true" id="81" symbol="preD10"/>
+<entry field="true" id="81" symbol="preD11"/>
+<entry field="true" id="80" symbol="preD10"/>
 <entry id="8388769" module="true" object="true" symbol="Rez"/>
-<entry field="true" id="90" symbol="message1Heure"/>
-<entry field="true" id="57" symbol="sansCadrageSortieAteint"/>
+<entry field="true" id="89" symbol="message1Heure"/>
+<entry field="true" id="56" symbol="sansCadrageSortieAteint"/>
 <entry id="8388924" module="true" symbol="Gregorian"/>
-<entry id="102" method="true" symbol="logPerfSansCadrage"/>
+<entry id="101" method="true" symbol="logPerfSansCadrage"/>
 <entry id="8389236" object="true" symbol="Message"/>
-<entry id="117" method="true" symbol="drawBarMessage"/>
+<entry id="119" method="true" symbol="drawBarMessage"/>
 <entry id="8388636" module="true" symbol="Attention"/>
-<entry field="true" id="27" symbol="timer"/>
+<entry field="true" id="26" symbol="timer"/>
 <entry id="8388702" method="true" symbol="initialize"/>
-<entry id="17" object="true" symbol="WennerView"/>
-<entry field="true" id="55" symbol="AppName"/>
-<entry id="13" object="true" symbol="User"/>
-<entry id="113" method="true" symbol="makeRequest"/>
+<entry id="10" object="true" symbol="WennerView"/>
+<entry field="true" id="54" symbol="AppName"/>
+<entry id="14" object="true" symbol="User"/>
+<entry id="115" method="true" symbol="makeRequest"/>
 <entry id="8389594" symbol="headers"/>
-<entry field="true" id="104" symbol="messageCode"/>
-<entry field="true" id="107" symbol="tmps"/>
-<entry field="true" id="94" symbol="message3Heure"/>
+<entry field="true" id="103" symbol="messageCode"/>
+<entry field="true" id="108" symbol="tmps"/>
+<entry field="true" id="93" symbol="message3Heure"/>
 <entry id="8389078" method="true" symbol="onNextPage"/>
 <entry field="true" id="22" symbol="nbConsultationPas"/>
-<entry id="9" object="true" symbol="MessageView"/>
-<entry field="true" id="40" symbol="LauncherIcon"/>
-<entry field="true" id="58" symbol="proEntree"/>
-<entry id="112" method="true" symbol="affichage"/>
-<entry field="true" id="56" symbol="idParticipant"/>
-<entry field="true" id="72" symbol="idMontre"/>
+<entry id="19" object="true" symbol="MessageView"/>
+<entry field="true" id="39" symbol="LauncherIcon"/>
+<entry field="true" id="57" symbol="proEntree"/>
+<entry id="113" method="true" symbol="affichage"/>
+<entry field="true" id="55" symbol="idParticipant"/>
+<entry field="true" id="71" symbol="idMontre"/>
 <entry id="8388646" module="true" object="true" symbol="Timer"/>
 <entry id="8389081" method="true" symbol="onBack"/>
 <entry id="8388786" method="true" symbol="method"/>
 <entry id="11" object="true" symbol="MessageViewDelegate"/>
+<entry field="true" id="106" symbol="log2"/>
+<entry field="true" id="105" symbol="log1"/>
 <entry id="8389281" method="true" symbol="onStop"/>
 <entry field="true" id="8389065" symbol="locY"/>
 <entry field="true" id="8389064" symbol="locX"/>
 <entry id="8388771" module="true" object="true" symbol="Drawables"/>
-<entry field="true" id="45" symbol="DayHeader"/>
+<entry field="true" id="44" symbol="DayHeader"/>
 <entry id="8389122" method="true" symbol="onLayout"/>
-<entry field="true" id="99" symbol="messageSortieMinute"/>
+<entry field="true" id="98" symbol="messageSortieMinute"/>
 <entry id="8389279" method="true" symbol="onStart"/>
-<entry field="true" id="89" symbol="messageEntreeMinute"/>
-<entry field="true" id="70" symbol="sansCadrageEntree"/>
-<entry field="true" id="91" symbol="message1Minute"/>
-<entry id="19" object="true" symbol="PasDelegate"/>
+<entry field="true" id="88" symbol="messageEntreeMinute"/>
+<entry field="true" id="69" symbol="sansCadrageEntree"/>
+<entry field="true" id="90" symbol="message1Minute"/>
+<entry id="13" object="true" symbol="PasDelegate"/>
 <entry id="8389348" symbol="font"/>
-<entry field="true" id="103" symbol="secMessage"/>
+<entry field="true" id="102" symbol="secMessage"/>
 <entry id="8389347" symbol="color"/>
-<entry field="true" id="46" symbol="StepsHeader"/>
-<entry field="true" id="65" symbol="proE4"/>
-<entry field="true" id="66" symbol="proE3"/>
-<entry field="true" id="68" symbol="proE2"/>
-<entry field="true" id="44" symbol="proD6"/>
-<entry field="true" id="48" symbol="proD1"/>
-<entry field="true" id="61" symbol="proC8"/>
-<entry field="true" id="62" symbol="proC7"/>
+<entry field="true" id="45" symbol="StepsHeader"/>
+<entry field="true" id="64" symbol="proE4"/>
+<entry field="true" id="65" symbol="proE3"/>
+<entry field="true" id="67" symbol="proE2"/>
+<entry field="true" id="43" symbol="proD6"/>
+<entry field="true" id="47" symbol="proD1"/>
+<entry field="true" id="60" symbol="proC8"/>
+<entry field="true" id="61" symbol="proC7"/>
 <entry field="true" id="8389846" symbol="type"/>
-<entry field="true" id="64" symbol="proC3"/>
-<entry field="true" id="85" symbol="proB8"/>
-<entry field="true" id="87" symbol="proB7"/>
-<entry field="true" id="43" symbol="proB4"/>
-<entry field="true" id="59" symbol="proA8"/>
-<entry field="true" id="60" symbol="proA7"/>
-<entry field="true" id="63" symbol="proA1"/>
-<entry field="true" id="109" symbol="jourActuel"/>
+<entry field="true" id="63" symbol="proC3"/>
+<entry field="true" id="84" symbol="proB8"/>
+<entry field="true" id="86" symbol="proB7"/>
+<entry field="true" id="42" symbol="proB4"/>
+<entry field="true" id="58" symbol="proA8"/>
+<entry field="true" id="59" symbol="proA7"/>
+<entry field="true" id="62" symbol="proA1"/>
+<entry field="true" id="110" symbol="jourActuel"/>
 <entry field="true" id="8389240" symbol="messageId"/>
 <entry field="true" id="21" symbol="nbPas"/>
-<entry id="38" module="true" symbol="Layouts"/>
+<entry id="37" module="true" symbol="Layouts"/>
 <entry field="true" id="20" symbol="jour"/>
 <entry id="8389079" method="true" symbol="onPreviousPage"/>
-<entry field="true" id="28" symbol="appbase"/>
-<entry field="true" id="84" symbol="URL_dataRegister"/>
-<entry id="15" object="true" symbol="HistoryView"/>
+<entry field="true" id="114" symbol="appbase"/>
+<entry field="true" id="83" symbol="URL_dataRegister"/>
+<entry id="16" object="true" symbol="HistoryView"/>
 <entry id="24" method="true" symbol="addMessage"/>
-<entry field="true" id="39" symbol="coeur"/>
-<entry field="true" id="78" symbol="preE3"/>
-<entry field="true" id="79" symbol="preE2"/>
+<entry field="true" id="38" symbol="coeur"/>
+<entry field="true" id="77" symbol="preE3"/>
+<entry field="true" id="78" symbol="preE2"/>
 <entry id="8389125" method="true" symbol="onHide"/>
-<entry field="true" id="52" symbol="preD6"/>
-<entry field="true" id="53" symbol="preD4"/>
+<entry field="true" id="51" symbol="preD6"/>
+<entry field="true" id="52" symbol="preD4"/>
 <entry field="true" id="23" symbol="tabMessages"/>
-<entry field="true" id="71" symbol="preC6"/>
-<entry field="true" id="74" symbol="preC4"/>
-<entry field="true" id="76" symbol="preC3"/>
-<entry field="true" id="77" symbol="preC2"/>
-<entry field="true" id="49" symbol="preB8"/>
-<entry field="true" id="50" symbol="preB5"/>
-<entry field="true" id="51" symbol="preB4"/>
+<entry field="true" id="70" symbol="preC6"/>
+<entry field="true" id="73" symbol="preC4"/>
+<entry field="true" id="75" symbol="preC3"/>
+<entry field="true" id="76" symbol="preC2"/>
+<entry field="true" id="48" symbol="preB8"/>
+<entry field="true" id="49" symbol="preB5"/>
+<entry field="true" id="50" symbol="preB4"/>
 <entry id="8389345" symbol="rezId"/>
-<entry field="true" id="67" symbol="preA9"/>
-<entry field="true" id="69" symbol="preA8"/>
-<entry field="true" id="73" symbol="preA2"/>
-<entry field="true" id="75" symbol="preA1"/>
+<entry field="true" id="66" symbol="preA9"/>
+<entry field="true" id="68" symbol="preA8"/>
+<entry field="true" id="72" symbol="preA2"/>
+<entry field="true" id="74" symbol="preA1"/>
 <entry id="8390088" module="true" object="true" symbol="JsonData"/>
-<entry field="true" id="106" symbol="code"/>
+<entry field="true" id="107" symbol="code"/>
 <entry id="8389844" symbol="responseType"/>
-<entry field="true" id="86" symbol="HistoryTitle"/>
+<entry field="true" id="85" symbol="HistoryTitle"/>
 <entry id="8389346" symbol="text"/>
-<entry field="true" id="92" symbol="message2Heure"/>
-<entry field="true" id="83" symbol="sansCadrageSortieNonAteint"/>
+<entry field="true" id="91" symbol="message2Heure"/>
+<entry field="true" id="82" symbol="sansCadrageSortieNonAteint"/>
 <entry field="true" id="8389063" symbol="identifier"/>
-<entry id="36" method="true" symbol="initKey"/>
-<entry id="37" module="true" symbol="Menus"/>
-<entry field="true" id="95" symbol="message3Minute"/>
-<entry id="110" method="true" symbol="addJour"/>
-<entry field="true" id="93" symbol="message2Minute"/>
-<entry field="true" id="80" symbol="condition"/>
-<entry id="114" method="true" symbol="onReceive"/>
-<entry field="true" id="26" symbol="pas"/>
-<entry field="true" id="108" symbol="tabJours"/>
+<entry id="33" method="true" symbol="initKey"/>
+<entry id="36" module="true" symbol="Menus"/>
+<entry field="true" id="94" symbol="message3Minute"/>
+<entry id="111" method="true" symbol="addJour"/>
+<entry field="true" id="92" symbol="message2Minute"/>
+<entry field="true" id="79" symbol="condition"/>
+<entry id="116" method="true" symbol="onReceive"/>
+<entry field="true" id="34" symbol="pas"/>
+<entry field="true" id="109" symbol="tabJours"/>
 <entry id="8388772" module="true" object="true" symbol="Fonts"/>
 <entry field="true" id="8388722" symbol="sec"/>
 <entry id="8388633" module="true" symbol="ActivityMonitor"/>
-<entry field="true" id="105" symbol="secondes"/>
+<entry field="true" id="104" symbol="secondes"/>
 <entry id="8388635" module="true" symbol="Application"/>
 </symbolTable>
 <localVars>
-<entry endPc="268435619" name="vibrations" stackId="3" startPc="268435549"/>
-<entry endPc="268435626" name="vibration" stackId="1" startPc="268435456"/>
-<entry endPc="268435626" name="_messageId" stackId="2" startPc="268435456"/>
-<entry endPc="268435775" name="stringPercent" stackId="3" startPc="268435630"/>
-<entry endPc="268435775" name="stepsPercent" stackId="2" startPc="268435630"/>
-<entry endPc="268435776" name="dc" stackId="1" startPc="268435626"/>
-<entry endPc="268436174" name="x" stackId="6" startPc="268435780"/>
-<entry endPc="268436174" name="font" stackId="8" startPc="268435780"/>
-<entry endPc="268436174" name="width" stackId="5" startPc="268435780"/>
-<entry endPc="268436174" name="y" stackId="7" startPc="268435780"/>
-<entry endPc="268436175" name="dc" stackId="1" startPc="268435776"/>
-<entry endPc="268436175" name="message" stackId="4" startPc="268435776"/>
-<entry endPc="268436175" name="percent" stackId="3" startPc="268435776"/>
-<entry endPc="268436175" name="text" stackId="2" startPc="268435776"/>
-<entry endPc="268436896" name="_messageCode" stackId="1" startPc="268436742"/>
-<entry endPc="268436896" name="_type" stackId="2" startPc="268436742"/>
-<entry endPc="268437128" name="nbPas" stackId="2" startPc="268436962"/>
-<entry endPc="268437128" name="appbase" stackId="1" startPc="268436962"/>
-<entry endPc="268437187" name="state" stackId="1" startPc="268437182"/>
-<entry endPc="268437192" name="state" stackId="1" startPc="268437187"/>
-<entry endPc="268437516" name="today" stackId="1" startPc="268437268"/>
-<entry endPc="268437516" name="stringToday" stackId="2" startPc="268437268"/>
-<entry endPc="268437680" name="today" stackId="1" startPc="268437575"/>
-<entry endPc="268437680" name="stringToday" stackId="2" startPc="268437575"/>
-<entry endPc="268437712" name="_type" stackId="1" startPc="268437681"/>
-<entry endPc="268437712" name="_tmps" stackId="3" startPc="268437681"/>
-<entry endPc="268437712" name="_code" stackId="2" startPc="268437681"/>
-<entry endPc="268437712" name="_nbPas" stackId="4" startPc="268437681"/>
-<entry endPc="268437997" name="jMessage" stackId="6" startPc="268437911"/>
-<entry endPc="268438010" name="j" stackId="5" startPc="268437911"/>
-<entry endPc="268438031" name="iJour" stackId="4" startPc="268437810"/>
-<entry endPc="268438044" name="i" stackId="3" startPc="268437810"/>
-<entry endPc="268438047" name="string" stackId="2" startPc="268437716"/>
-<entry endPc="268438047" name="tab" stackId="1" startPc="268437716"/>
-<entry endPc="268438181" name="_jour" stackId="1" startPc="268438124"/>
-<entry endPc="268438234" name="_type" stackId="1" startPc="268438181"/>
-<entry endPc="268438234" name="_tmps" stackId="3" startPc="268438181"/>
-<entry endPc="268438234" name="_code" stackId="2" startPc="268438181"/>
-<entry endPc="268438234" name="_nbPas" stackId="4" startPc="268438181"/>
-<entry endPc="268438379" name="_type" stackId="1" startPc="268438334"/>
-<entry endPc="268438379" name="_tmps" stackId="3" startPc="268438334"/>
-<entry endPc="268438379" name="_code" stackId="2" startPc="268438334"/>
-<entry endPc="268438379" name="_nbPas" stackId="4" startPc="268438334"/>
-<entry endPc="268438532" name="dc" stackId="1" startPc="268438490"/>
-<entry endPc="268438932" name="i" stackId="6" startPc="268438706"/>
-<entry endPc="268438935" name="string" stackId="4" startPc="268438536"/>
-<entry endPc="268438935" name="fontHeight" stackId="5" startPc="268438536"/>
-<entry endPc="268438935" name="actHistArray" stackId="2" startPc="268438536"/>
-<entry endPc="268438935" name="padding" stackId="3" startPc="268438536"/>
-<entry endPc="268438936" name="dc" stackId="1" startPc="268438532"/>
-<entry endPc="268439339" name="tablignes" stackId="3" startPc="268438940"/>
-<entry endPc="268439339" name="nbJours" stackId="4" startPc="268438940"/>
-<entry endPc="268439339" name="options" stackId="7" startPc="268438940"/>
-<entry endPc="268439339" name="url" stackId="1" startPc="268438940"/>
-<entry endPc="268439339" name="headers" stackId="6" startPc="268438940"/>
-<entry endPc="268439339" name="params" stackId="5" startPc="268438940"/>
-<entry endPc="268439339" name="idParticipant" stackId="2" startPc="268438940"/>
-<entry endPc="268439408" name="responseCode" stackId="1" startPc="268439340"/>
-<entry endPc="268439408" name="data" stackId="2" startPc="268439340"/>
-<entry endPc="268442536" name="myStats" stackId="3" startPc="268441976"/>
-<entry endPc="268442536" name="myTime" stackId="2" startPc="268441976"/>
-<entry endPc="268442537" name="dc" stackId="1" startPc="268441972"/>
-<entry endPc="268443833" name="nbPasActuel" stackId="3" startPc="268443663"/>
-<entry endPc="268444007" name="today" stackId="1" startPc="268442541"/>
-<entry endPc="268444007" name="sec" stackId="2" startPc="268442541"/>
-<entry endPc="268444178" name="messageId" stackId="6" startPc="268444012"/>
-<entry endPc="268444178" name="messageCode" stackId="5" startPc="268444012"/>
-<entry endPc="268444178" name="random" stackId="3" startPc="268444012"/>
-<entry endPc="268444178" name="tabKeys" stackId="4" startPc="268444012"/>
-<entry endPc="268444179" name="groupe" stackId="1" startPc="268444008"/>
-<entry endPc="268444179" name="type" stackId="2" startPc="268444008"/>
-<entry endPc="268444261" name="appbase" stackId="2" startPc="268444183"/>
-<entry endPc="268444262" name="type" stackId="1" startPc="268444179"/>
-<entry endPc="268444489" name="dc" stackId="1" startPc="268444484"/>
-<entry endPc="268444849" name="stringPercent" stackId="4" startPc="268444493"/>
-<entry endPc="268444849" name="stepsPercent" stackId="3" startPc="268444493"/>
-<entry endPc="268444849" name="nbPasActuel" stackId="2" startPc="268444493"/>
-<entry endPc="268444850" name="dc" stackId="1" startPc="268444489"/>
-<entry endPc="268445179" name="x" stackId="7" startPc="268444926"/>
-<entry endPc="268445179" name="font" stackId="8" startPc="268444926"/>
-<entry endPc="268445179" name="width" stackId="6" startPc="268444926"/>
-<entry endPc="268445180" name="dc" stackId="1" startPc="268444922"/>
-<entry endPc="268445180" name="color" stackId="5" startPc="268444922"/>
-<entry endPc="268445180" name="string" stackId="2" startPc="268444922"/>
-<entry endPc="268445180" name="percent" stackId="4" startPc="268444922"/>
-<entry endPc="268445180" name="y" stackId="3" startPc="268444922"/>
-<entry endPc="268445901" name="rez_cmp_local_bitmap_TitleLabel" stackId="2" startPc="268445275"/>
-<entry endPc="268445901" name="rez_cmp_local_bitmap_TitleLabel_fontHeight" stackId="3" startPc="268445275"/>
-<entry endPc="268445901" name="rez_cmp_local_bitmap_StepsLabel" stackId="5" startPc="268445275"/>
-<entry endPc="268445901" name="rez_cmp_local_bitmap_DayLabel" stackId="4" startPc="268445275"/>
-<entry endPc="268445902" name="dc" stackId="1" startPc="268445263"/>
-<entry endPc="268448393" name="rez_cmp_local_bitmap_Type_de_messages_fontHeight" stackId="5" startPc="268445914"/>
-<entry endPc="268448393" name="rez_cmp_local_bitmap_Messages2" stackId="14" startPc="268445914"/>
-<entry endPc="268448393" name="rez_cmp_local_bitmap_Promotion" stackId="10" startPc="268445914"/>
-<entry endPc="268448393" name="rez_cmp_local_bitmap_Semaine_fontHeight" stackId="17" startPc="268445914"/>
-<entry endPc="268448393" name="rez_cmp_local_bitmap_Messages_fontHeight" stackId="7" startPc="268445914"/>
-<entry endPc="268448393" name="rez_cmp_local_bitmap_Messages" stackId="6" startPc="268445914"/>
-<entry endPc="268448393" name="rez_cmp_local_bitmap_Type_de_messages2_fontHeight" stackId="9" startPc="268445914"/>
-<entry endPc="268448393" name="rez_cmp_local_bitmap_Type_de_messages" stackId="4" startPc="268445914"/>
-<entry endPc="268448393" name="rez_cmp_local_bitmap_Week_end_fontHeight" stackId="19" startPc="268445914"/>
-<entry endPc="268448393" name="rez_cmp_local_bitmap_Promotion_fontHeight" stackId="11" startPc="268445914"/>
-<entry endPc="268448393" name="rez_cmp_local_bitmap_Semaine" stackId="16" startPc="268445914"/>
-<entry endPc="268448393" name="rez_cmp_local_bitmap_Week_end" stackId="18" startPc="268445914"/>
-<entry endPc="268448393" name="rez_cmp_local_bitmap_Messages2_fontHeight" stackId="15" startPc="268445914"/>
-<entry endPc="268448393" name="rez_cmp_local_bitmap_Prevention" stackId="12" startPc="268445914"/>
-<entry endPc="268448393" name="rez_cmp_local_bitmap_Parametre_fontHeight" stackId="3" startPc="268445914"/>
-<entry endPc="268448393" name="rez_cmp_local_bitmap_Prevention_fontHeight" stackId="13" startPc="268445914"/>
-<entry endPc="268448393" name="rez_cmp_local_bitmap_Parametre" stackId="2" startPc="268445914"/>
-<entry endPc="268448393" name="rez_cmp_local_bitmap_Type_de_messages2" stackId="8" startPc="268445914"/>
-<entry endPc="268448394" name="dc" stackId="1" startPc="268445902"/>
+<entry endPc="268439128" name="myStats" stackId="3" startPc="268438568"/>
+<entry endPc="268439128" name="myTime" stackId="2" startPc="268438568"/>
+<entry endPc="268439129" name="dc" stackId="1" startPc="268438564"/>
+<entry endPc="268440425" name="nbPasActuel" stackId="3" startPc="268440255"/>
+<entry endPc="268440599" name="today" stackId="1" startPc="268439133"/>
+<entry endPc="268440599" name="sec" stackId="2" startPc="268439133"/>
+<entry endPc="268440770" name="messageId" stackId="6" startPc="268440604"/>
+<entry endPc="268440770" name="messageCode" stackId="5" startPc="268440604"/>
+<entry endPc="268440770" name="random" stackId="3" startPc="268440604"/>
+<entry endPc="268440770" name="tabKeys" stackId="4" startPc="268440604"/>
+<entry endPc="268440771" name="groupe" stackId="1" startPc="268440600"/>
+<entry endPc="268440771" name="type" stackId="2" startPc="268440600"/>
+<entry endPc="268440853" name="appbase" stackId="2" startPc="268440775"/>
+<entry endPc="268440854" name="type" stackId="1" startPc="268440771"/>
+<entry endPc="268441037" name="_messageCode" stackId="1" startPc="268440854"/>
+<entry endPc="268441037" name="_type" stackId="2" startPc="268440854"/>
+<entry endPc="268441289" name="appbase" stackId="1" startPc="268441103"/>
+<entry endPc="268441499" name="dc" stackId="1" startPc="268441494"/>
+<entry endPc="268441859" name="stringPercent" stackId="4" startPc="268441503"/>
+<entry endPc="268441859" name="stepsPercent" stackId="3" startPc="268441503"/>
+<entry endPc="268441859" name="nbPasActuel" stackId="2" startPc="268441503"/>
+<entry endPc="268441860" name="dc" stackId="1" startPc="268441499"/>
+<entry endPc="268441905" name="appbase" stackId="1" startPc="268441864"/>
+<entry endPc="268442235" name="x" stackId="7" startPc="268441982"/>
+<entry endPc="268442235" name="font" stackId="8" startPc="268441982"/>
+<entry endPc="268442235" name="width" stackId="6" startPc="268441982"/>
+<entry endPc="268442236" name="dc" stackId="1" startPc="268441978"/>
+<entry endPc="268442236" name="color" stackId="5" startPc="268441978"/>
+<entry endPc="268442236" name="string" stackId="2" startPc="268441978"/>
+<entry endPc="268442236" name="percent" stackId="4" startPc="268441978"/>
+<entry endPc="268442236" name="y" stackId="3" startPc="268441978"/>
+<entry endPc="268442571" name="today" stackId="1" startPc="268442323"/>
+<entry endPc="268442571" name="stringToday" stackId="2" startPc="268442323"/>
+<entry endPc="268442735" name="today" stackId="1" startPc="268442630"/>
+<entry endPc="268442735" name="stringToday" stackId="2" startPc="268442630"/>
+<entry endPc="268442769" name="log2" stackId="5" startPc="268442736"/>
+<entry endPc="268442769" name="_type" stackId="1" startPc="268442736"/>
+<entry endPc="268442769" name="log1" stackId="4" startPc="268442736"/>
+<entry endPc="268442769" name="_tmps" stackId="3" startPc="268442736"/>
+<entry endPc="268442769" name="_code" stackId="2" startPc="268442736"/>
+<entry endPc="268443069" name="jMessage" stackId="6" startPc="268442968"/>
+<entry endPc="268443082" name="j" stackId="5" startPc="268442968"/>
+<entry endPc="268443103" name="iJour" stackId="4" startPc="268442818"/>
+<entry endPc="268443116" name="i" stackId="3" startPc="268442818"/>
+<entry endPc="268443119" name="string" stackId="2" startPc="268442773"/>
+<entry endPc="268443119" name="tab" stackId="1" startPc="268442773"/>
+<entry endPc="268443253" name="_jour" stackId="1" startPc="268443196"/>
+<entry endPc="268443308" name="log2" stackId="5" startPc="268443253"/>
+<entry endPc="268443308" name="_type" stackId="1" startPc="268443253"/>
+<entry endPc="268443308" name="log1" stackId="4" startPc="268443253"/>
+<entry endPc="268443308" name="_tmps" stackId="3" startPc="268443253"/>
+<entry endPc="268443308" name="_code" stackId="2" startPc="268443253"/>
+<entry endPc="268443498" name="log2" stackId="5" startPc="268443443"/>
+<entry endPc="268443498" name="_type" stackId="1" startPc="268443443"/>
+<entry endPc="268443498" name="log1" stackId="4" startPc="268443443"/>
+<entry endPc="268443498" name="_tmps" stackId="3" startPc="268443443"/>
+<entry endPc="268443498" name="_code" stackId="2" startPc="268443443"/>
+<entry endPc="268443691" name="dc" stackId="1" startPc="268443649"/>
+<entry endPc="268444091" name="i" stackId="6" startPc="268443865"/>
+<entry endPc="268444094" name="string" stackId="4" startPc="268443695"/>
+<entry endPc="268444094" name="fontHeight" stackId="5" startPc="268443695"/>
+<entry endPc="268444094" name="actHistArray" stackId="2" startPc="268443695"/>
+<entry endPc="268444094" name="padding" stackId="3" startPc="268443695"/>
+<entry endPc="268444095" name="dc" stackId="1" startPc="268443691"/>
+<entry endPc="268444498" name="tablignes" stackId="3" startPc="268444099"/>
+<entry endPc="268444498" name="nbJours" stackId="4" startPc="268444099"/>
+<entry endPc="268444498" name="options" stackId="7" startPc="268444099"/>
+<entry endPc="268444498" name="url" stackId="1" startPc="268444099"/>
+<entry endPc="268444498" name="headers" stackId="6" startPc="268444099"/>
+<entry endPc="268444498" name="params" stackId="5" startPc="268444099"/>
+<entry endPc="268444498" name="idParticipant" stackId="2" startPc="268444099"/>
+<entry endPc="268444567" name="responseCode" stackId="1" startPc="268444499"/>
+<entry endPc="268444567" name="data" stackId="2" startPc="268444499"/>
+<entry endPc="268444648" name="state" stackId="1" startPc="268444643"/>
+<entry endPc="268444653" name="state" stackId="1" startPc="268444648"/>
+<entry endPc="268444888" name="vibrations" stackId="3" startPc="268444818"/>
+<entry endPc="268444895" name="vibration" stackId="1" startPc="268444725"/>
+<entry endPc="268444895" name="_messageId" stackId="2" startPc="268444725"/>
+<entry endPc="268445044" name="stringPercent" stackId="3" startPc="268444899"/>
+<entry endPc="268445044" name="stepsPercent" stackId="2" startPc="268444899"/>
+<entry endPc="268445045" name="dc" stackId="1" startPc="268444895"/>
+<entry endPc="268445443" name="x" stackId="6" startPc="268445049"/>
+<entry endPc="268445443" name="font" stackId="8" startPc="268445049"/>
+<entry endPc="268445443" name="width" stackId="5" startPc="268445049"/>
+<entry endPc="268445443" name="y" stackId="7" startPc="268445049"/>
+<entry endPc="268445444" name="dc" stackId="1" startPc="268445045"/>
+<entry endPc="268445444" name="message" stackId="4" startPc="268445045"/>
+<entry endPc="268445444" name="percent" stackId="3" startPc="268445045"/>
+<entry endPc="268445444" name="text" stackId="2" startPc="268445045"/>
+<entry endPc="268446082" name="rez_cmp_local_bitmap_TitleLabel" stackId="2" startPc="268445456"/>
+<entry endPc="268446082" name="rez_cmp_local_bitmap_TitleLabel_fontHeight" stackId="3" startPc="268445456"/>
+<entry endPc="268446082" name="rez_cmp_local_bitmap_StepsLabel" stackId="5" startPc="268445456"/>
+<entry endPc="268446082" name="rez_cmp_local_bitmap_DayLabel" stackId="4" startPc="268445456"/>
+<entry endPc="268446083" name="dc" stackId="1" startPc="268445444"/>
+<entry endPc="268448574" name="rez_cmp_local_bitmap_Type_de_messages_fontHeight" stackId="5" startPc="268446095"/>
+<entry endPc="268448574" name="rez_cmp_local_bitmap_Messages2" stackId="14" startPc="268446095"/>
+<entry endPc="268448574" name="rez_cmp_local_bitmap_Promotion" stackId="10" startPc="268446095"/>
+<entry endPc="268448574" name="rez_cmp_local_bitmap_Semaine_fontHeight" stackId="17" startPc="268446095"/>
+<entry endPc="268448574" name="rez_cmp_local_bitmap_Messages_fontHeight" stackId="7" startPc="268446095"/>
+<entry endPc="268448574" name="rez_cmp_local_bitmap_Messages" stackId="6" startPc="268446095"/>
+<entry endPc="268448574" name="rez_cmp_local_bitmap_Type_de_messages2_fontHeight" stackId="9" startPc="268446095"/>
+<entry endPc="268448574" name="rez_cmp_local_bitmap_Type_de_messages" stackId="4" startPc="268446095"/>
+<entry endPc="268448574" name="rez_cmp_local_bitmap_Week_end_fontHeight" stackId="19" startPc="268446095"/>
+<entry endPc="268448574" name="rez_cmp_local_bitmap_Promotion_fontHeight" stackId="11" startPc="268446095"/>
+<entry endPc="268448574" name="rez_cmp_local_bitmap_Semaine" stackId="16" startPc="268446095"/>
+<entry endPc="268448574" name="rez_cmp_local_bitmap_Week_end" stackId="18" startPc="268446095"/>
+<entry endPc="268448574" name="rez_cmp_local_bitmap_Messages2_fontHeight" stackId="15" startPc="268446095"/>
+<entry endPc="268448574" name="rez_cmp_local_bitmap_Prevention" stackId="12" startPc="268446095"/>
+<entry endPc="268448574" name="rez_cmp_local_bitmap_Parametre_fontHeight" stackId="3" startPc="268446095"/>
+<entry endPc="268448574" name="rez_cmp_local_bitmap_Prevention_fontHeight" stackId="13" startPc="268446095"/>
+<entry endPc="268448574" name="rez_cmp_local_bitmap_Parametre" stackId="2" startPc="268446095"/>
+<entry endPc="268448574" name="rez_cmp_local_bitmap_Type_de_messages2" stackId="8" startPc="268446095"/>
+<entry endPc="268448575" name="dc" stackId="1" startPc="268446083"/>
 </localVars>
 <annotations/>
 <functions>
-<functionEntry accessMode="public" name="initialize" parent="MessageView">
-<param id="vibration"/>
-<param id="_messageId"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onUpdate" parent="MessageView">
-<param id="dc"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="drawBarMessage" parent="MessageView">
-<param id="dc"/>
-<param id="text"/>
-<param id="percent"/>
-<param id="message"/>
-<documentation/>
-</functionEntry>
 <functionEntry accessMode="public" name="initialize" parent="WennerDelegate">
 <documentation/>
 </functionEntry>
@@ -640,6 +636,25 @@
 <functionEntry accessMode="public" name="onBack" parent="WennerDelegate">
 <documentation/>
 </functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="WennerView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onUpdate" parent="WennerView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="callback" parent="WennerView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="envoyerMessageAleaGroupe" parent="WennerView">
+<param id="groupe"/>
+<param id="type"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="logPerfSansCadrage" parent="WennerView">
+<param id="type"/>
+<documentation/>
+</functionEntry>
 <functionEntry accessMode="public" name="initialize" parent="MessageViewDelegate">
 <param id="_messageCode"/>
 <param id="_type"/>
@@ -651,18 +666,41 @@
 <functionEntry accessMode="public" name="onBack" parent="MessageViewDelegate">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="initialize" parent="WennerApp">
+<functionEntry accessMode="public" name="initialize" parent="PasView">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="onStart" parent="WennerApp">
-<param id="state"/>
+<functionEntry accessMode="public" name="onLayout" parent="PasView">
+<param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="onStop" parent="WennerApp">
-<param id="state"/>
+<functionEntry accessMode="public" name="onUpdate" parent="PasView">
+<param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="getInitialView" parent="WennerApp">
+<functionEntry accessMode="public" name="addConsultation" parent="PasView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="incsec" parent="PasView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="drawBar" parent="PasView">
+<param id="dc"/>
+<param id="string"/>
+<param id="y"/>
+<param id="percent"/>
+<param id="color"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="PasView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="PasDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onSelect" parent="PasDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onBack" parent="PasDelegate">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="initialize" parent="User">
@@ -678,7 +716,8 @@
 <param id="_type"/>
 <param id="_code"/>
 <param id="_tmps"/>
-<param id="_nbPas"/>
+<param id="log1"/>
+<param id="log2"/>
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="affichage" parent="User">
@@ -695,7 +734,8 @@
 <param id="_type"/>
 <param id="_code"/>
 <param id="_tmps"/>
-<param id="_nbPas"/>
+<param id="log1"/>
+<param id="log2"/>
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="toString" parent="Jour">
@@ -708,7 +748,8 @@
 <param id="_type"/>
 <param id="_code"/>
 <param id="_tmps"/>
-<param id="_nbPas"/>
+<param id="log1"/>
+<param id="log2"/>
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="toString" parent="Message">
@@ -736,57 +777,34 @@
 <functionEntry accessMode="public" name="initialize" parent="HistoryDelegate">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="initialize" parent="WennerView">
+<functionEntry accessMode="public" name="initialize" parent="WennerApp">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="onUpdate" parent="WennerView">
+<functionEntry accessMode="public" name="onStart" parent="WennerApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStop" parent="WennerApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getInitialView" parent="WennerApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="MessageView">
+<param id="vibration"/>
+<param id="_messageId"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onUpdate" parent="MessageView">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="callback" parent="WennerView">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="envoyerMessageAleaGroupe" parent="WennerView">
-<param id="groupe"/>
-<param id="type"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="logPerfSansCadrage" parent="WennerView">
-<param id="type"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="initialize" parent="PasView">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onLayout" parent="PasView">
+<functionEntry accessMode="public" name="drawBarMessage" parent="MessageView">
 <param id="dc"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onUpdate" parent="PasView">
-<param id="dc"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="incsec" parent="PasView">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="drawBar" parent="PasView">
-<param id="dc"/>
-<param id="string"/>
-<param id="y"/>
+<param id="text"/>
 <param id="percent"/>
-<param id="color"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onHide" parent="PasView">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="initialize" parent="PasDelegate">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onSelect" parent="PasDelegate">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onBack" parent="PasDelegate">
+<param id="message"/>
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="HistoryLayout" parent="Layouts">
@@ -801,8 +819,8 @@
 <dataEntryOffsetMappings>
 <dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
 <dataEntry offset="294" parentId="globals" symbolId="Jour" type="class"/>
-<dataEntry offset="397" parentId="globals" symbolId="PasView" type="class"/>
-<dataEntry offset="516" parentId="globals" symbolId="WennerDelegate" type="class"/>
+<dataEntry offset="397" parentId="globals" symbolId="WennerDelegate" type="class"/>
+<dataEntry offset="548" parentId="globals" symbolId="PasView" type="class"/>
 <dataEntry offset="667" parentId="globals" symbolId="Rez" type="module"/>
 <dataEntry offset="746" parentId="Rez" symbolId="Drawables" type="module"/>
 <dataEntry offset="801" parentId="Rez" symbolId="Menus" type="module"/>
@@ -810,14 +828,14 @@
 <dataEntry offset="863" parentId="Rez" symbolId="JsonData" type="module"/>
 <dataEntry offset="894" parentId="Rez" symbolId="Layouts" type="module"/>
 <dataEntry offset="941" parentId="Rez" symbolId="Strings" type="module"/>
-<dataEntry offset="1332" parentId="globals" symbolId="WennerView" type="class"/>
-<dataEntry offset="1539" parentId="globals" symbolId="HistoryDelegate" type="class"/>
+<dataEntry offset="1332" parentId="globals" symbolId="HistoryDelegate" type="class"/>
+<dataEntry offset="1379" parentId="globals" symbolId="WennerView" type="class"/>
 <dataEntry offset="1586" parentId="globals" symbolId="MessageViewDelegate" type="class"/>
-<dataEntry offset="1681" parentId="globals" symbolId="WennerApp" type="class"/>
-<dataEntry offset="1760" parentId="globals" symbolId="Message" type="class"/>
-<dataEntry offset="1847" parentId="globals" symbolId="User" type="class"/>
-<dataEntry offset="1974" parentId="globals" symbolId="HistoryView" type="class"/>
-<dataEntry offset="2061" parentId="globals" symbolId="PasDelegate" type="class"/>
-<dataEntry offset="2124" parentId="globals" symbolId="MessageView" type="class"/>
+<dataEntry offset="1697" parentId="globals" symbolId="WennerApp" type="class"/>
+<dataEntry offset="1776" parentId="globals" symbolId="Message" type="class"/>
+<dataEntry offset="1871" parentId="globals" symbolId="User" type="class"/>
+<dataEntry offset="1998" parentId="globals" symbolId="HistoryView" type="class"/>
+<dataEntry offset="2085" parentId="globals" symbolId="MessageView" type="class"/>
+<dataEntry offset="2172" parentId="globals" symbolId="PasDelegate" type="class"/>
 </dataEntryOffsetMappings>
 </debugInfo>

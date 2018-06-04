@@ -11,7 +11,7 @@ class HistoryView extends Ui.View {
     function initialize() {
         View.initialize();
         
-        //appbase.userActuel.addJour();
+        appbase.userActuel.addJour();
         
         makeRequest();
     }
