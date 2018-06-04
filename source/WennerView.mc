@@ -4,54 +4,19 @@ using Toybox.Time.Gregorian;
 class WennerView extends Ui.View { // Vue qui affiche l'heure
 
 	/***********Heure des messages définit en absolu***********/ 
-<<<<<<< HEAD
-	/*
-	var messageEntreeHeure = Ui.loadResource(Rez.Strings.HeureMessageEntree).substring(0,2);
-	var messageEntreeMinute = Ui.loadResource(Rez.Strings.HeureMessageEntree).substring(3,5);
-	
-	var message1Heure = Ui.loadResource(Rez.Strings.HeureMessage1).substring(0,2);
-    var message1Minute = Ui.loadResource(Rez.Strings.HeureMessage1).substring(3,5);
-    
-    var message2Heure = Ui.loadResource(Rez.Strings.HeureMessage2).substring(0,2);
-    var message2Minute = Ui.loadResource(Rez.Strings.HeureMessage2).substring(3,5);
-    
-	var message3Heure = Ui.loadResource(Rez.Strings.HeureMessage3).substring(0,2); 
-    var message3Minute = Ui.loadResource(Rez.Strings.HeureMessage3).substring(3,5);
-    
-    var message4Heure = Ui.loadResource(Rez.Strings.HeureMessage4).substring(0,2); 
-    var message4Minute = Ui.loadResource(Rez.Strings.HeureMessage4).substring(3,5);
-    
-    var messageSortieHeure = Ui.loadResource(Rez.Strings.HeureMessageSortie).substring(0,2);
-    var messageSortieMinute = Ui.loadResource(Rez.Strings.HeureMessageSortie).substring(3,5);
-    
-    */
+
     var messageEntreeHeure 		= 6;
 	var messageEntreeMinute 	= 30;
-	
 	var message1Heure 			= 9;
     var message1Minute 			= 0;
-    
     var message2Heure 			= 12;
     var message2Minute 			= 0;
-    
 	var message3Heure 			= 15;
     var message3Minute 			= 0;
-=======
-
-    var messageEntreeHeure 		= 12;
-	var messageEntreeMinute 	= 38;
-	var message1Heure 			= 12;
-    var message1Minute 			= 39;
-    var message2Heure 			= 12;
-    var message2Minute 			= 40;
-	var message3Heure 			= 12;
-    var message3Minute 			= 41;
-    var message4Heure 			= 12;
-    var message4Minute 			= 42;
-    var messageSortieHeure 		= 12; 
-    var messageSortieMinute 	= 43;
-    
->>>>>>> 590c9a05127842aa7182b08aea855f878c56ea5a
+    var message4Heure 			= 18;
+    var message4Minute 			= 0;
+    var messageSortieHeure		= 21;
+    var messageSortieMinute		= 0;
     
     /*
     var messageEntreeHeure 		= 6;
@@ -64,15 +29,10 @@ class WennerView extends Ui.View { // Vue qui affiche l'heure
     var message3Minute 			= 0;
     var message4Heure 			= 18;
     var message4Minute 			= 0;
-<<<<<<< HEAD
-   
-    var messageSortieHeure 		= 21; 
-    var messageSortieMinute 	= 0;
-=======
-    var messageSortieHeure 		= 21; 
-    var messageSortieMinute 	= 0;
+    var messageSortieHeure		= 21;
+    var messageSortieMinute		= 0;
     */
->>>>>>> 590c9a05127842aa7182b08aea855f878c56ea5a
+
     /**********************************************************/
     var tabMessages;	// Pour récup le tableau des messages selon la condition
     
@@ -250,7 +210,7 @@ class WennerView extends Ui.View { // Vue qui affiche l'heure
 					userActuel.addJour();
 	       		}
 	       		
-	       		if (00==today.hour.toNumber() && 01==today.min.toNumber()) {
+	       		if (1==today.hour.toNumber() && 1==today.min.toNumber()) {
 					userActuel.newJour();
 	       		}
 	       		
@@ -277,7 +237,8 @@ class WennerView extends Ui.View { // Vue qui affiche l'heure
 		var appbase = Application.getApp();
 		System.println("addMessageSansCadrage"+type);
 		//addMessage(_type, _code, _tmps)
-		appbase.userActuel.addMessage(type, "sansCadrage"+type, 0);
+		var log = ActivityMonitor.getInfo().steps;
+		appbase.userActuel.addMessage(type, "sansCadrage"+type, 0, log, log);
 	}
 	
 }
