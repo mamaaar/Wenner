@@ -24,23 +24,23 @@ class WennerView extends Ui.View { // Vue qui affiche l'heure
     var messageSortieMinute = Ui.loadResource(Rez.Strings.HeureMessageSortie).substring(3,5);
     
     */
-    var messageEntreeHeure 		= 18;
-	var messageEntreeMinute 	= 35;
+    var messageEntreeHeure 		= 6;
+	var messageEntreeMinute 	= 30;
 	
-	var message1Heure 			= 18;
-    var message1Minute 			= 36;
+	var message1Heure 			= 9;
+    var message1Minute 			= 0;
     
-    var message2Heure 			= 18;
-    var message2Minute 			= 37;
+    var message2Heure 			= 12;
+    var message2Minute 			= 0;
     
-	var message3Heure 			= 18;
-    var message3Minute 			= 38;
+	var message3Heure 			= 15;
+    var message3Minute 			= 0;
     
     var message4Heure 			= 18;
-    var message4Minute 			= 39;
-    
-    var messageSortieHeure 		= 18; 
-    var messageSortieMinute 	= 40;
+    var message4Minute 			= 0;
+   
+    var messageSortieHeure 		= 21; 
+    var messageSortieMinute 	= 0;
     /**********************************************************/
     var tabMessages;	// Pour récup le tableau des messages selon la condition
     
