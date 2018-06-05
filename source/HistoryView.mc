@@ -10,7 +10,7 @@ class HistoryView extends Ui.View {
     // Constructor
     function initialize() {
         View.initialize();
-        
+
         makeRequest();
     }
 
