@@ -7,8 +7,8 @@ class WennerView extends Ui.View { // Vue qui affiche l'heure
 
     var messageEntreeHeure 		= 12;
 	var messageEntreeMinute 	= 38;
-	var message1Heure 			= 12;
-    var message1Minute 			= 39;
+	var message1Heure 			= 13;
+    var message1Minute 			= 25;
     var message2Heure 			= 12;
     var message2Minute 			= 40;
 	var message3Heure 			= 12;
@@ -237,7 +237,8 @@ class WennerView extends Ui.View { // Vue qui affiche l'heure
 		var appbase = Application.getApp();
 		System.println("addMessageSansCadrage"+type);
 		//addMessage(_type, _code, _tmps)
-		appbase.userActuel.addMessage(type, "sansCadrage"+type, 0);
+		var log = ActivityMonitor.getInfo().steps;
+		appbase.userActuel.addMessage(type, "sansCadrage"+type, 0, log, log);
 	}
 	
 }
