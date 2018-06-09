@@ -1,8 +1,13 @@
 
 <strings>
          	<string id="idParticipant">0</string>
+<<<<<<< HEAD
          	<string id="condition">sansCadrage</string>
          	<string id="idMontre">4DY554056</string>
+=======
+         	<string id="condition">aleatoire</string>
+         	<string id="idMontre">4DY260797</string>
+>>>>>>> abab340c9d5227c4ee0126bba0f7e47e60872486
          
          <!-- prevention, promotion, aleatoire, sansCadrage -->
          <!--
