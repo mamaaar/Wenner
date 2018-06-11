@@ -6,7 +6,7 @@ class WennerView extends Ui.View { // Vue qui affiche l'heure
 	/***********Heure des messages définit en absolu***********/ 
 
 	var messageEntreeHeure 		= 6;
-	var messageEntreeMinute 	= 30;
+	var messageEntreeMinute 	= 0;
 	var message1Heure 			= 9;
     var message1Minute 			= 0;
     var message2Heure 			= 12;
@@ -20,7 +20,7 @@ class WennerView extends Ui.View { // Vue qui affiche l'heure
     
     /*
     var messageEntreeHeure 		= 6;
-	var messageEntreeMinute 	= 30;
+	var messageEntreeMinute 	= 0;
 	var message1Heure 			= 9;
     var message1Minute 			= 0;
     var message2Heure 			= 12;
@@ -137,15 +137,13 @@ class WennerView extends Ui.View { // Vue qui affiche l'heure
        	System.println("ViewHeure" + sec);
        	
        	if (sec == 0){
-       	     	       	
-	       	userActuel.jourActuel.nbPas = ActivityMonitor.getInfo().steps;
 	    		
 	    		System.println(today.hour + " " + today.min);
 	    		
 				if (messageEntreeHeure.toNumber()==today.hour.toNumber()  // message d'entrer
 				&& messageEntreeMinute.toNumber()==today.min.toNumber()) {
 	       			System.println("message d'entrer");
-	       			envoyerMessageAleaGroupe(tabMessages["grpZ"], 0);
+	       			afficherMessage(tabMessages["grpZ"], 0);
 	       		}
 	       		
 	       		if (message1Heure.toNumber()==today.hour.toNumber() 	// 1er message
@@ -155,7 +153,7 @@ class WennerView extends Ui.View { // Vue qui affiche l'heure
 	       				logPerfSansCadrage(1);
 	       			}
 	       			else {
-	       				envoyerMessageAleaGroupe(tabMessages["grpC"], 1);
+	       				afficherMessage(tabMessages["grpC"], 1);
 	       			}
 	       		}
 	       		
@@ -166,7 +164,7 @@ class WennerView extends Ui.View { // Vue qui affiche l'heure
 	       				logPerfSansCadrage(2);
 	       			}
 	       			else {
-	       				envoyerMessageAleaGroupe(tabMessages["grpC"], 2);
+	       				afficherMessage(tabMessages["grpC"], 2);
 	       			}
 	       		}
 	       		
@@ -177,7 +175,7 @@ class WennerView extends Ui.View { // Vue qui affiche l'heure
 	       				logPerfSansCadrage(3);
 	       			}	
 	       			else {
-	       				envoyerMessageAleaGroupe(tabMessages["grpD"], 3);
+	       				afficherMessage(tabMessages["grpD"], 3);
 	       			}
 	       		}
 	       		
@@ -188,7 +186,7 @@ class WennerView extends Ui.View { // Vue qui affiche l'heure
 	       				logPerfSansCadrage(4);
 	       			}
 	       			else {
-	       				envoyerMessageAleaGroupe(tabMessages["grpB"], 4);
+	       				afficherMessage(tabMessages["grpB"], 4);
 					}       		
 	       		}
 	       		
@@ -198,15 +196,16 @@ class WennerView extends Ui.View { // Vue qui affiche l'heure
 					System.println("message de Sortie");
 					if (nbPasActuel >= 10000){
 						System.println("message du groupe A");
-						envoyerMessageAleaGroupe(tabMessages["grpA"], 5);
+						afficherMessage(tabMessages["grpA"], 5);
 					}
 					else {
 						System.println("message du groupe E");
-						envoyerMessageAleaGroupe(tabMessages["grpE"], 5);
+						afficherMessage(tabMessages["grpE"], 5);
 					}
 	       		}
 	       		
 	       		if (23==today.hour.toNumber() && 59==today.min.toNumber()) {
+	       			userActuel.jourActuel.nbPas = ActivityMonitor.getInfo().steps; 
 					userActuel.addJour();
 	       		}
 	       		
@@ -223,7 +222,7 @@ class WennerView extends Ui.View { // Vue qui affiche l'heure
 	}
 	
 	/* Fonction qui envoie le message selon le groupe choisi */
-    function envoyerMessageAleaGroupe(groupe, type){
+    function afficherMessage(groupe, type){
 		var random = Math.rand()%(groupe.size()); //To generate a random number between min and max => rand()%(max-min + 1) + min;
 		var tabKeys = groupe.keys();
     	var messageCode = tabKeys[random]; // Récupère un Id au hassard dans le groupe (tableau)
