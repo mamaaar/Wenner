@@ -6,7 +6,7 @@ class WennerView extends Ui.View { // Vue qui affiche l'heure
 	/***********Heure des messages définit en absolu***********/ 
 
 	var messageEntreeHeure 		= 6;
-	var messageEntreeMinute 	= 30;
+	var messageEntreeMinute 	= 0;
 	var message1Heure 			= 9;
     var message1Minute 			= 0;
     var message2Heure 			= 12;
@@ -20,7 +20,7 @@ class WennerView extends Ui.View { // Vue qui affiche l'heure
     
     /*
     var messageEntreeHeure 		= 6;
-	var messageEntreeMinute 	= 30;
+	var messageEntreeMinute 	= 0;
 	var message1Heure 			= 9;
     var message1Minute 			= 0;
     var message2Heure 			= 12;
@@ -137,8 +137,6 @@ class WennerView extends Ui.View { // Vue qui affiche l'heure
        	System.println("ViewHeure" + sec);
        	
        	if (sec == 0){
-       	     	       	
-	       	userActuel.jourActuel.nbPas = ActivityMonitor.getInfo().steps;
 	    		
 	    		System.println(today.hour + " " + today.min);
 	    		
@@ -207,6 +205,7 @@ class WennerView extends Ui.View { // Vue qui affiche l'heure
 	       		}
 	       		
 	       		if (23==today.hour.toNumber() && 59==today.min.toNumber()) {
+	       			userActuel.jourActuel.nbPas = ActivityMonitor.getInfo().steps; 
 					userActuel.addJour();
 	       		}
 	       		
