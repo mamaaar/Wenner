@@ -103,13 +103,13 @@
 <entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="213" pc="268440504" symbol="callback"/>
 <entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="214" pc="268440559" symbol="callback"/>
 <entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="222" pc="268440583" symbol="callback"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="226" pc="268440600" symbol="envoyerMessageAleaGroupe"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="227" pc="268440604" symbol="envoyerMessageAleaGroupe"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="228" pc="268440635" symbol="envoyerMessageAleaGroupe"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="229" pc="268440648" symbol="envoyerMessageAleaGroupe"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="230" pc="268440655" symbol="envoyerMessageAleaGroupe"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="231" pc="268440675" symbol="envoyerMessageAleaGroupe"/>
-<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="233" pc="268440690" symbol="envoyerMessageAleaGroupe"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="226" pc="268440600" symbol="afficherMessage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="227" pc="268440604" symbol="afficherMessage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="228" pc="268440635" symbol="afficherMessage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="229" pc="268440648" symbol="afficherMessage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="230" pc="268440655" symbol="afficherMessage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="231" pc="268440675" symbol="afficherMessage"/>
+<entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="233" pc="268440690" symbol="afficherMessage"/>
 <entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="236" pc="268440771" symbol="logPerfSansCadrage"/>
 <entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="237" pc="268440775" symbol="logPerfSansCadrage"/>
 <entry filename="C:\\Users\\moizaly\\eclipse-workspace\\Wenner\\.\\source\\WennerView.mc" lineNum="238" pc="268440794" symbol="logPerfSansCadrage"/>
@@ -375,7 +375,6 @@
 <entry id="8388770" module="true" object="true" symbol="Strings"/>
 <entry id="8388783" method="true" symbol="toString"/>
 <entry id="15" object="true" symbol="Jour"/>
-<entry id="100" method="true" symbol="envoyerMessageAleaGroupe"/>
 <entry id="35" method="true" symbol="drawBar"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
 <entry id="32" method="true" symbol="incsec"/>
@@ -399,6 +398,7 @@
 <entry id="115" method="true" symbol="makeRequest"/>
 <entry id="8389594" symbol="headers"/>
 <entry field="true" id="103" symbol="messageCode"/>
+<entry id="100" method="true" symbol="afficherMessage"/>
 <entry field="true" id="108" symbol="tmps"/>
 <entry field="true" id="93" symbol="message3Heure"/>
 <entry id="8389078" method="true" symbol="onNextPage"/>
@@ -647,7 +647,7 @@
 <functionEntry accessMode="public" name="callback" parent="WennerView">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="envoyerMessageAleaGroupe" parent="WennerView">
+<functionEntry accessMode="public" name="afficherMessage" parent="WennerView">
 <param id="groupe"/>
 <param id="type"/>
 <documentation/>
