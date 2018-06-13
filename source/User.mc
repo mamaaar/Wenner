@@ -21,7 +21,6 @@ class User {
 	}
 	
 	function addJour() {  // ajouter les données de la journée dans la base locale
-		System.println("addJour");
 		self.tabJours.add(jourActuel);
 	}
 	
@@ -84,7 +83,6 @@ class Jour {
 	
 	function addConsultation(){
 		self.nbConsultationPas = self.nbConsultationPas + 1;
-		System.println("nbConsultationPas : " + self.nbConsultationPas);
 	}
 }
 

@@ -134,21 +134,15 @@ class WennerView extends Ui.View { // Vue qui affiche l'heure
        	var today = System.getClockTime(); // récupère l'heure et la minute courante
        	var sec = today.sec.toNumber();
        	
-       	System.println("ViewHeure" + sec);
-       	
        	if (sec == 0){
-	    		
-	    		System.println(today.hour + " " + today.min);
 	    		
 				if (messageEntreeHeure.toNumber()==today.hour.toNumber()  // message d'entrer
 				&& messageEntreeMinute.toNumber()==today.min.toNumber()) {
-	       			System.println("message d'entrer");
 	       			afficherMessage(tabMessages["grpZ"], 0);
 	       		}
 	       		
 	       		if (message1Heure.toNumber()==today.hour.toNumber() 	// 1er message
 				&& message1Minute.toNumber()==today.min.toNumber()) {
-					System.println("message du groupe C");
 					if (userActuel.condition.equals("sansCadrage")){
 	       				logPerfSansCadrage(1);
 	       			}
@@ -159,7 +153,6 @@ class WennerView extends Ui.View { // Vue qui affiche l'heure
 	       		
 	       		if (message2Heure.toNumber()==today.hour.toNumber() 	// 2eme message
 				&& message2Minute.toNumber()==today.min.toNumber()) {
-					System.println("message du groupe C");
 	 				if (userActuel.condition.equals("sansCadrage")){
 	       				logPerfSansCadrage(2);
 	       			}
@@ -170,7 +163,6 @@ class WennerView extends Ui.View { // Vue qui affiche l'heure
 	       		
 	       		if (message3Heure.toNumber()==today.hour.toNumber() 	//3eme message
 				&& message3Minute.toNumber()==today.min.toNumber()) {
-					System.println("message du groupe D");
 					if (userActuel.condition.equals("sansCadrage")){
 	       				logPerfSansCadrage(3);
 	       			}	
@@ -181,7 +173,6 @@ class WennerView extends Ui.View { // Vue qui affiche l'heure
 	       		
 	       		if (message4Heure.toNumber()==today.hour.toNumber() 	//4eme message
 				&& message4Minute.toNumber()==today.min.toNumber()) {
-					System.println("message du groupe B");
 					if (userActuel.condition.equals("sansCadrage")){
 	       				logPerfSansCadrage(4);
 	       			}
@@ -193,13 +184,10 @@ class WennerView extends Ui.View { // Vue qui affiche l'heure
 	       		if (messageSortieHeure.toNumber()==today.hour.toNumber() 	//message de sortie
 				&& messageSortieMinute.toNumber()==today.min.toNumber()) {
 					var nbPasActuel = ActivityMonitor.getInfo().steps;		// nombre de pas actuel
-					System.println("message de Sortie");
 					if (nbPasActuel >= 10000){
-						System.println("message du groupe A");
 						afficherMessage(tabMessages["grpA"], 5);
 					}
 					else {
-						System.println("message du groupe E");
 						afficherMessage(tabMessages["grpE"], 5);
 					}
 	       		}
@@ -212,10 +200,7 @@ class WennerView extends Ui.View { // Vue qui affiche l'heure
 	       		if (1==today.hour.toNumber() && 1==today.min.toNumber()) {
 					userActuel.newJour();
 	       		}
-	       		
 	    }
-       
-       
        
        	//Kick the display update
        	Ui.requestUpdate();
@@ -226,7 +211,6 @@ class WennerView extends Ui.View { // Vue qui affiche l'heure
 		var random = Math.rand()%(groupe.size()); //To generate a random number between min and max => rand()%(max-min + 1) + min;
 		var tabKeys = groupe.keys();
     	var messageCode = tabKeys[random]; // Récupère un Id au hassard dans le groupe (tableau)
-    	System.println(messageCode);
     	var messageId = groupe.get(messageCode);
     	
        	Ui.pushView(new MessageView(true, messageId), new MessageViewDelegate(messageCode, type), Ui.SLIDE_IMMEDIATE);
@@ -234,7 +218,6 @@ class WennerView extends Ui.View { // Vue qui affiche l'heure
 	
 	function logPerfSansCadrage(type){
 		var appbase = Application.getApp();
-		System.println("addMessageSansCadrage"+type);
 		//addMessage(_type, _code, _tmps)
 		var log = ActivityMonitor.getInfo().steps;
 		appbase.userActuel.addMessage(type, "sansCadrage"+type, 0, log, log);

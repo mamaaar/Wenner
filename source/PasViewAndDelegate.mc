@@ -7,11 +7,7 @@ using Toybox.Application;
 class PasView extends Ui.View {
 
 	var pas; //variable pour le logo nombre de pas
-	
-	var timer; // Timer 
-	var sec = 0;
-	
-	
+		
 	function initialize() {
         View.initialize();
         //Initialise l'image pas
@@ -20,16 +16,12 @@ class PasView extends Ui.View {
         						:locX=>75,
         						:locY=>10}
         );
-                
-		addConsultation();
         
-        timer = new Timer.Timer();
-        timer.start(method(:incsec),1000, true);
+        var appbase = Application.getApp();
+        //Incrémente de 1 le nombre de consultation
+		appbase.userActuel.jourActuel.addConsultation();
     }
     
-    function onLayout(dc) {
-    }
-
     // Update the view
     function onUpdate(dc) {
         dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_BLACK);
@@ -62,19 +54,6 @@ class PasView extends Ui.View {
 
         
     }
-    
-    function addConsultation() {
-    		var appbase = Application.getApp();
-			appbase.userActuel.jourActuel.addConsultation();
-	}
-    
-    function incsec() { // Permet d'actualiser l'interface toute les secondes
-		sec += 1;
-       	System.println("pas " + sec);
-       
-       	//Kick the display update
-       	Ui.requestUpdate();
-	}
 
     // fonction qui affiche la bar de progression 
     function drawBar(dc, string, y, percent, color) { 
@@ -96,22 +75,12 @@ class PasView extends Ui.View {
         dc.drawText(x, y - Gfx.getFontHeight(font) - 3, font, string, Gfx.TEXT_JUSTIFY_LEFT);
     }
     
-    function onHide(){
-    	timer.stop();
-    }
-    
 }
-
-
 
 class PasDelegate extends Ui.BehaviorDelegate {
 	
     function initialize() {
         BehaviorDelegate.initialize();
-    }
-    
-    function onSelect() {
-    	
     }
     
     function onBack () {

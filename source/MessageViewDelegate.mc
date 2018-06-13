@@ -21,7 +21,6 @@ class MessageViewDelegate extends Ui.BehaviorDelegate {
         messageCode = _messageCode;
         log1 = ActivityMonitor.getInfo().steps;
         
-        System.println("testAffichageMessageViewDelegate");
        	secMessage = new Timer.Timer();
         secMessage.start(method(:callback), 1000, true);
     }
@@ -35,14 +34,12 @@ class MessageViewDelegate extends Ui.BehaviorDelegate {
 	
 	function onBack(){
 		secMessage.stop();
-		System.println("temps mit : " + secondes + "secondes");
 				
 		log2 = ActivityMonitor.getInfo().steps;
 				
 		var appbase = Application.getApp();
 		appbase.userActuel.addMessage(type, messageCode, secondes, log1, log2);
        	
-		System.println("finAddMessage");
 		return false; 
 	}
 	
