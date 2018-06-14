@@ -41,6 +41,14 @@ class WennerView extends Ui.View { // Vue qui affiche l'heure
 	
 	var userActuel = Application.getApp().userActuel;
 	
+	// ----- Sauvegarde dans le fichier de logs ----- //
+	var heureRecord = 23;
+	var minuteRecord = 45;
+	
+	// ----- Valeur de la batterie critique ----- //
+	var minBattery = 5.0;
+	var saveLowBattery = false;
+	
     function initialize() {
         View.initialize();
         timer = new Timer.Timer();
@@ -201,6 +209,27 @@ class WennerView extends Ui.View { // Vue qui affiche l'heure
 					userActuel.newJour();
 	       		}
 	    }
+	    
+	    // ----- Ajout écriture dans le fichier de backup ----- //
+		if(today.hour.toNumber() == heureRecord && today.min.toNumber() == minuteRecord){
+			//System.print("0 sansCadrage 4DY553278 Samedi 9 0 23 1 sansCadrage1 0 0 0 0 sansCadrageEntree 14916 0 0 2 sansCadrage2 0 171 171 3 sansCadrage3 0 4027 4027 4 sansCadrage4 0 4540 4540 5 sansCadrageSortieNonAteint 3 5931 5931" + "#");
+			var u = Application.getApp().userActuel;
+			System.print(u.idParticipant + "," + u.condition + "," + u.idMontre);
+			System.print(u.afficherJourCourant() + "#");
+		}
+		// ----- Fin ajout écriture dans le fichier de backup ----- //
+		
+		// ----- Surveillance de la batterie ----- //
+		// Si on atteint 5% de batteries, peu importe l'heure on fais une sauvegarde de tout ce qu'on a actuellement
+		var myStats = System.getSystemStats();
+		
+		if(myStats.battery <= minBattery && !saveLowBattery){ // si la batterie est <= 5% et qu'on a pas déjà sauvegarder pour la batterie 
+		
+			// Sauvegarde
+			var u = Application.getApp().userActuel;
+			System.print(u.idParticipant + "," + u.condition + "," + u.idMontre + u.afficherJourCourant() + "#");
+			saveLowBattery = true;
+		}
        
        	//Kick the display update
        	Ui.requestUpdate();
@@ -214,7 +243,7 @@ class WennerView extends Ui.View { // Vue qui affiche l'heure
 		var random = Math.rand()%(groupe.size()); 
 		var tabKeys = groupe.keys(); //Tableau contenant les clés du groupe
     	var messageCode = tabKeys[random]; // Récupère une clé au hassard
-    	var messageId = groupe.get(messageCode); // Récupère le message
+    	var messageId = groupe.get(messageCode); // Récupère le message de la clé
     	
        	Ui.pushView(
        		new MessageView(true, messageId), 

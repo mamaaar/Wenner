@@ -60,6 +60,24 @@ class User {
 			}
 		return tab;
 	}
+	
+	function afficherJourCourant(){
+		var string = "";
+		var u = Application.getApp().userActuel;
+		var jActuel = u.jourActuel.toString();
+		
+		//var iJour = tabJours[i].toString();
+		// nomJour nbPasTotal nbConsultationPas
+		string += jActuel[0]+","+jActuel[1]+","+jActuel[2]+",";
+		
+		for(var j=0; j<jActuel[3].size(); j++){
+			var jMessage = jActuel[3][j].toString();
+			// type code tmps nbPaslog1 nbPaslog2 
+			string += jMessage[0]+","+jMessage[1]+","+jMessage[2]+","+jMessage[3]+","+jMessage[4]+",";
+		}
+		
+		return string;
+	}
 
 	
 	function toString() {
