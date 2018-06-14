@@ -13,7 +13,6 @@ class MessageView extends Ui.View {
     	View.initialize();
     	
     	messageAenvoyer = Ui.loadResource(_messageId);
-    	System.println(messageAenvoyer);
     	
     	if (vibration){
     		if (Attention has :vibrate) {

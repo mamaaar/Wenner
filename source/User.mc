@@ -34,7 +34,7 @@ class User {
 		jourActuel.addMessage(_type, _code, _tmps, log1, log2);
 	}
 	
-	function affichage(){
+	function printData(){
 		var tab = [];
 		var string = "";
 		
@@ -48,14 +48,19 @@ class User {
 			
 			for(var j=0; j<iJour[3].size(); j++){
 				var jMessage = iJour[3][j].toString();
-				//			type			code			tmps			nbPaslog1		nbPaslog2	
-				string += jMessage[0]+","+jMessage[1]+","+jMessage[2]+","+jMessage[3]+","+jMessage[4]+",";
+				
+				string += 	jMessage[0]+","		//type
+							+jMessage[1]+","	//code
+							+jMessage[2]+","	//tmps
+							+jMessage[3]+","	//logPerf1
+							+jMessage[4]+",";	//logPerf2
 			}
 			tab.add(string);
 			string = "";
 			}
 		return tab;
 	}
+
 	
 	function toString() {
 		return [idParticipant, condition, idMontre, tabJours];

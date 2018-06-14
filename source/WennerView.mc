@@ -5,8 +5,8 @@ class WennerView extends Ui.View { // Vue qui affiche l'heure
 
 	/***********Heure des messages définit en absolu***********/ 
 
-	var messageEntreeHeure 		= 6;
-	var messageEntreeMinute 	= 0;
+	var messageEntreeHeure 		= 10;
+	var messageEntreeMinute 	= 31;
 	var message1Heure 			= 9;
     var message1Minute 			= 0;
     var message2Heure 			= 12;
@@ -208,12 +208,19 @@ class WennerView extends Ui.View { // Vue qui affiche l'heure
 	
 	/* Fonction qui envoie le message selon le groupe choisi */
     function afficherMessage(groupe, type){
-		var random = Math.rand()%(groupe.size()); //To generate a random number between min and max => rand()%(max-min + 1) + min;
-		var tabKeys = groupe.keys();
-    	var messageCode = tabKeys[random]; // Récupère un Id au hassard dans le groupe (tableau)
-    	var messageId = groupe.get(messageCode);
+		//generate a random number between min and max 
+		//=> min = 0 and max = groupe.size()-1
+		//=> rand()%(max-min + 1) + min;
+		var random = Math.rand()%(groupe.size()); 
+		var tabKeys = groupe.keys(); //Tableau contenant les clés du groupe
+    	var messageCode = tabKeys[random]; // Récupère une clé au hassard
+    	var messageId = groupe.get(messageCode); // Récupère le message
     	
-       	Ui.pushView(new MessageView(true, messageId), new MessageViewDelegate(messageCode, type), Ui.SLIDE_IMMEDIATE);
+       	Ui.pushView(
+       		new MessageView(true, messageId), 
+       		new MessageViewDelegate(messageCode, type), 
+       		Ui.SLIDE_IMMEDIATE
+       	);
 	}
 	
 	function logPerfSansCadrage(type){
