@@ -5,15 +5,15 @@ class WennerView extends Ui.View { // Vue qui affiche l'heure
 
 	/***********Heure des messages définit en absolu***********/ 
 
-	var messageEntreeHeure 		= 10;
-	var messageEntreeMinute 	= 31;
-	var message1Heure 			= 9;
-    var message1Minute 			= 0;
-    var message2Heure 			= 12;
+	var messageEntreeHeure 		= 14;
+	var messageEntreeMinute 	= 27;
+	var message1Heure 			= 14;
+    var message1Minute 			= 20;
+    var message2Heure 			= 17;
     var message2Minute 			= 0;
-	var message3Heure 			= 15;
+	var message3Heure 			= 18;
     var message3Minute 			= 0;
-    var message4Heure 			= 18;
+    var message4Heure 			= 19;
     var message4Minute 			= 0;
     var messageSortieHeure		= 21;
     var messageSortieMinute		= 0;
@@ -78,7 +78,6 @@ class WennerView extends Ui.View { // Vue qui affiche l'heure
 			};
     	}
     	else if (userActuel.condition.equals("aleatoire")){
-    		System.println("test");
     		tabMessages = {
 				"grpZ" => {"preEntree" => Rez.Strings.preEntree, "proEntree" => Rez.Strings.proEntree},
 				"grpA" => {"preA1" => Rez.Strings.preA1, "preA2" => Rez.Strings.preA2, "preA8" => Rez.Strings.preA8, "preA9" => Rez.Strings.preA9, "proA1" => Rez.Strings.proA1, "proA7" => Rez.Strings.proA7, "proA8" => Rez.Strings.proA8},
@@ -214,8 +213,7 @@ class WennerView extends Ui.View { // Vue qui affiche l'heure
 		if(today.hour.toNumber() == heureRecord && today.min.toNumber() == minuteRecord){
 			//System.print("0 sansCadrage 4DY553278 Samedi 9 0 23 1 sansCadrage1 0 0 0 0 sansCadrageEntree 14916 0 0 2 sansCadrage2 0 171 171 3 sansCadrage3 0 4027 4027 4 sansCadrage4 0 4540 4540 5 sansCadrageSortieNonAteint 3 5931 5931" + "#");
 			var u = Application.getApp().userActuel;
-			System.print(u.idParticipant + "," + u.condition + "," + u.idMontre);
-			System.print(u.afficherJourCourant() + "#");
+			System.print(u.afficherJourCourant());
 		}
 		// ----- Fin ajout écriture dans le fichier de backup ----- //
 		
@@ -227,9 +225,18 @@ class WennerView extends Ui.View { // Vue qui affiche l'heure
 		
 			// Sauvegarde
 			var u = Application.getApp().userActuel;
-			System.print(u.idParticipant + "," + u.condition + "," + u.idMontre + u.afficherJourCourant() + "#");
+			System.print(u.afficherJourCourant());
 			saveLowBattery = true;
 		}
+		
+		var seuilMemory = (5/myStats.totalMemory)*100;
+		var percentMemory = (myStats.freeMemory/myStats.totalMemory)*100;
+		
+		if (percentMemory<seuilMemory) {
+			var u = Application.getApp().userActuel;
+			System.print(u.afficherJourCourant());
+		}
+		
        
        	//Kick the display update
        	Ui.requestUpdate();

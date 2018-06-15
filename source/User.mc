@@ -64,6 +64,8 @@ class User {
 	function afficherJourCourant(){
 		var string = "";
 		var u = Application.getApp().userActuel;
+		string += u.idParticipant + "," + u.condition + "," + u.idMontre + ",";
+		
 		var jActuel = u.jourActuel.toString();
 		
 		//var iJour = tabJours[i].toString();
@@ -76,7 +78,9 @@ class User {
 			string += jMessage[0]+","+jMessage[1]+","+jMessage[2]+","+jMessage[3]+","+jMessage[4]+",";
 		}
 		
-		return string;
+		string += "#";
+		
+		return string ;
 	}
 
 	

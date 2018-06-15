@@ -16,6 +16,9 @@ class WennerApp extends App.AppBase {
 
     // onStop() is called when your application is exiting
     function onStop(state) {
+    	System.println("#");
+    	var u = Application.getApp().userActuel;
+		System.print(u.afficherJourCourant());
     }
 
     // Return the initial view of your application here
