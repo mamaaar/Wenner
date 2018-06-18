@@ -64,6 +64,7 @@ class User {
 	function afficherJourCourant(){
 		var string = "";
 		var u = Application.getApp().userActuel;
+		u.jourActuel.nbPas = ActivityMonitor.getInfo().steps;
 		string += u.idParticipant + "," + u.condition + "," + u.idMontre + ",";
 		
 		var jActuel = u.jourActuel.toString();
