@@ -41,7 +41,6 @@ class WennerDelegate extends Ui.BehaviorDelegate {
 	}
 	
 	function initKey() {
-		System.println("initKey");
 		timer.stop();
 		sec=0;
 		key1 = false; 

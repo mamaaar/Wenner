@@ -10,7 +10,7 @@ class HistoryView extends Ui.View {
     // Constructor
     function initialize() {
         View.initialize();
-
+		//Application.getApp().userActuel.addJour();
         makeRequest();
     }
 
@@ -42,24 +42,17 @@ class HistoryView extends Ui.View {
     }
     
     
-    function makeRequest() {
-   		System.println("Make web request");   		
+    function makeRequest() {  		
        	var url = Ui.loadResource(Rez.Strings.URL_dataRegister);	// set the url
-		//var url = Ui.loadResource(Rez.Strings.URL_local);
 
-		var idParticipant = appbase.userActuel.idParticipant.toNumber();
-		var tablignes = appbase.userActuel.affichage();
-		var nbJours = appbase.userActuel.tabJours.size().toNumber();
-		
-		System.println(idParticipant);
-		System.println(tablignes);
-		System.println(nbJours);
-       	
+		var idMontre = appbase.userActuel.idMontre;
+		var tablignes = appbase.userActuel.printData();
+		       	
        	var params = {                                              // set the parameters
-              "idParticipant" => idParticipant,
-              "lignes" => tablignes,
-              "nbJours" => nbJours
+              "idMontre" => idMontre,
+              "lignes" => tablignes
        	};
+       	
         var headers = {
           "Content-Type" => Communications.REQUEST_CONTENT_TYPE_JSON,
           // accept responses that are reported as json-compatible
@@ -72,19 +65,22 @@ class HistoryView extends Ui.View {
         };
        // Make the Communications.makeWebRequest() call
        Communications.makeWebRequest(url, params, options, method(:onReceive));
-  }
+  	}
   
-  // set up the response callback function
-   function onReceive(responseCode, data) {
-       if (responseCode == 200) {
+  	// set up the response callback function
+  	function onReceive(responseCode, data) {
+	
+		if (responseCode == 200) {
            System.println("Request Successful");                    // print success
-       }
-       else {
+       	}
+       	else {
            System.println("Response - sending failed: " + responseCode);            // print response code
-       }
+       	}
 
-   }
-}
+   	}
+  	
+  	
+ }	
 
 
 

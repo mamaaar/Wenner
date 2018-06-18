@@ -5,8 +5,22 @@ class WennerView extends Ui.View { // Vue qui affiche l'heure
 
 	/***********Heure des messages définit en absolu***********/ 
 
-	var messageEntreeHeure 		= 6;
-	var messageEntreeMinute 	= 30;
+	/*var messageEntreeHeure 		= 10;
+	var messageEntreeMinute 	= 26;
+	var message1Heure 			= 10;
+    var message1Minute 			= 27;
+    var message2Heure 			= 10;
+    var message2Minute 			= 28;
+	var message3Heure 			= 10;
+    var message3Minute 			= 29;
+    var message4Heure 			= 10;
+    var message4Minute 			= 30;
+    var messageSortieHeure		= 10;
+    var messageSortieMinute		= 31;
+    */
+    
+    var messageEntreeHeure 		= 6;
+	var messageEntreeMinute 	= 0;
 	var message1Heure 			= 9;
     var message1Minute 			= 0;
     var message2Heure 			= 12;
@@ -18,20 +32,6 @@ class WennerView extends Ui.View { // Vue qui affiche l'heure
     var messageSortieHeure		= 21;
     var messageSortieMinute		= 0;
     
-    /*
-    var messageEntreeHeure 		= 6;
-	var messageEntreeMinute 	= 30;
-	var message1Heure 			= 9;
-    var message1Minute 			= 0;
-    var message2Heure 			= 12;
-    var message2Minute 			= 0;
-	var message3Heure 			= 15;
-    var message3Minute 			= 0;
-    var message4Heure 			= 18;
-    var message4Minute 			= 0;
-    var messageSortieHeure		= 21;
-    var messageSortieMinute		= 0;
-    */
 
     /**********************************************************/
     var tabMessages;	// Pour récup le tableau des messages selon la condition
@@ -40,6 +40,14 @@ class WennerView extends Ui.View { // Vue qui affiche l'heure
 	var timer; 			// Timer
 	
 	var userActuel = Application.getApp().userActuel;
+	
+	// ----- Sauvegarde dans le fichier de logs ----- //
+	var heureRecord = 23;
+	var minuteRecord = 45;
+	
+	// ----- Valeur de la batterie critique ----- //
+	var minBattery = 5.0;
+	var saveLowBattery = false;
 	
     function initialize() {
         View.initialize();
@@ -70,7 +78,6 @@ class WennerView extends Ui.View { // Vue qui affiche l'heure
 			};
     	}
     	else if (userActuel.condition.equals("aleatoire")){
-    		System.println("test");
     		tabMessages = {
 				"grpZ" => {"preEntree" => Rez.Strings.preEntree, "proEntree" => Rez.Strings.proEntree},
 				"grpA" => {"preA1" => Rez.Strings.preA1, "preA2" => Rez.Strings.preA2, "preA8" => Rez.Strings.preA8, "preA9" => Rez.Strings.preA9, "proA1" => Rez.Strings.proA1, "proA7" => Rez.Strings.proA7, "proA8" => Rez.Strings.proA8},
@@ -134,79 +141,66 @@ class WennerView extends Ui.View { // Vue qui affiche l'heure
        	var today = System.getClockTime(); // récupère l'heure et la minute courante
        	var sec = today.sec.toNumber();
        	
-       	System.println("ViewHeure" + sec);
-       	
        	if (sec == 0){
-       	     	       	
-	       	userActuel.jourActuel.nbPas = ActivityMonitor.getInfo().steps;
-	    		
-	    		System.println(today.hour + " " + today.min);
 	    		
 				if (messageEntreeHeure.toNumber()==today.hour.toNumber()  // message d'entrer
 				&& messageEntreeMinute.toNumber()==today.min.toNumber()) {
-	       			System.println("message d'entrer");
-	       			envoyerMessageAleaGroupe(tabMessages["grpZ"], 0);
+	       			afficherMessage(tabMessages["grpZ"], 0);
 	       		}
 	       		
 	       		if (message1Heure.toNumber()==today.hour.toNumber() 	// 1er message
 				&& message1Minute.toNumber()==today.min.toNumber()) {
-					System.println("message du groupe C");
 					if (userActuel.condition.equals("sansCadrage")){
 	       				logPerfSansCadrage(1);
 	       			}
 	       			else {
-	       				envoyerMessageAleaGroupe(tabMessages["grpC"], 1);
+	       				afficherMessage(tabMessages["grpC"], 1);
 	       			}
 	       		}
 	       		
 	       		if (message2Heure.toNumber()==today.hour.toNumber() 	// 2eme message
 				&& message2Minute.toNumber()==today.min.toNumber()) {
-					System.println("message du groupe C");
 	 				if (userActuel.condition.equals("sansCadrage")){
 	       				logPerfSansCadrage(2);
 	       			}
 	       			else {
-	       				envoyerMessageAleaGroupe(tabMessages["grpC"], 2);
+	       				afficherMessage(tabMessages["grpC"], 2);
 	       			}
 	       		}
 	       		
 	       		if (message3Heure.toNumber()==today.hour.toNumber() 	//3eme message
 				&& message3Minute.toNumber()==today.min.toNumber()) {
-					System.println("message du groupe D");
 					if (userActuel.condition.equals("sansCadrage")){
 	       				logPerfSansCadrage(3);
 	       			}	
 	       			else {
-	       				envoyerMessageAleaGroupe(tabMessages["grpD"], 3);
+	       				afficherMessage(tabMessages["grpD"], 3);
 	       			}
 	       		}
 	       		
 	       		if (message4Heure.toNumber()==today.hour.toNumber() 	//4eme message
 				&& message4Minute.toNumber()==today.min.toNumber()) {
-					System.println("message du groupe B");
 					if (userActuel.condition.equals("sansCadrage")){
 	       				logPerfSansCadrage(4);
 	       			}
 	       			else {
-	       				envoyerMessageAleaGroupe(tabMessages["grpB"], 4);
+	       				afficherMessage(tabMessages["grpB"], 4);
 					}       		
 	       		}
 	       		
 	       		if (messageSortieHeure.toNumber()==today.hour.toNumber() 	//message de sortie
 				&& messageSortieMinute.toNumber()==today.min.toNumber()) {
 					var nbPasActuel = ActivityMonitor.getInfo().steps;		// nombre de pas actuel
-					System.println("message de Sortie");
 					if (nbPasActuel >= 10000){
-						System.println("message du groupe A");
-						envoyerMessageAleaGroupe(tabMessages["grpA"], 5);
+						afficherMessage(tabMessages["grpA"], 5);
 					}
 					else {
-						System.println("message du groupe E");
-						envoyerMessageAleaGroupe(tabMessages["grpE"], 5);
+						afficherMessage(tabMessages["grpE"], 5);
 					}
 	       		}
 	       		
 	       		if (23==today.hour.toNumber() && 59==today.min.toNumber()) {
+	       			userActuel.jourActuel.nbPas = ActivityMonitor.getInfo().steps; 
 					userActuel.addJour();
 	       		}
 	       		
@@ -214,28 +208,62 @@ class WennerView extends Ui.View { // Vue qui affiche l'heure
 					userActuel.newJour();
 	       		}
 	       		
+	       		 // ----- Ajout écriture dans le fichier de backup ----- //
+				if(today.hour.toNumber() == heureRecord && today.min.toNumber() == minuteRecord){
+					//System.print("0 sansCadrage 4DY553278 Samedi 9 0 23 1 sansCadrage1 0 0 0 0 sansCadrageEntree 14916 0 0 2 sansCadrage2 0 171 171 3 sansCadrage3 0 4027 4027 4 sansCadrage4 0 4540 4540 5 sansCadrageSortieNonAteint 3 5931 5931" + "#");
+					var u = Application.getApp().userActuel;
+					System.print("1," + u.afficherJourCourant());
+				}
+				// ----- Fin ajout écriture dans le fichier de backup ----- //
+		
+				// ----- Surveillance de la batterie ----- //
+				// Si on atteint 5% de batteries, peu importe l'heure on fais une sauvegarde de tout ce qu'on a actuellement
+				var myStats = System.getSystemStats();
+		
+				if(myStats.battery <= minBattery && !saveLowBattery){ // si la batterie est <= 5% et qu'on a pas déjà sauvegarder pour la batterie 
+		
+					// Sauvegarde
+					var u = Application.getApp().userActuel;
+					System.print("2," + u.afficherJourCourant());
+					saveLowBattery = true;
+				}
+		
+				/*var seuilMemory = (5/myStats.totalMemory)*100;
+				var percentMemory = (myStats.freeMemory/myStats.totalMemory)*100;
+			
+				if (percentMemory<seuilMemory) {
+					var u = Application.getApp().userActuel;
+					System.print(u.afficherJourCourant());
+				}
+		 	     */		
 	    }
-       
-       
+	    
+	   
+		
        
        	//Kick the display update
        	Ui.requestUpdate();
 	}
 	
 	/* Fonction qui envoie le message selon le groupe choisi */
-    function envoyerMessageAleaGroupe(groupe, type){
-		var random = Math.rand()%(groupe.size()); //To generate a random number between min and max => rand()%(max-min + 1) + min;
-		var tabKeys = groupe.keys();
-    	var messageCode = tabKeys[random]; // Récupère un Id au hassard dans le groupe (tableau)
-    	System.println(messageCode);
-    	var messageId = groupe.get(messageCode);
+    function afficherMessage(groupe, type){
+		//generate a random number between min and max 
+		//=> min = 0 and max = groupe.size()-1
+		//=> rand()%(max-min + 1) + min;
+		var random = Math.rand()%(groupe.size()); 
+		var tabKeys = groupe.keys(); //Tableau contenant les clés du groupe
+    	var messageCode = tabKeys[random]; // Récupère une clé au hassard
+    	var messageId = groupe.get(messageCode); // Récupère le message de la clé
     	
-       	Ui.pushView(new MessageView(true, messageId), new MessageViewDelegate(messageCode, type), Ui.SLIDE_IMMEDIATE);
+       	Ui.pushView(
+       		new MessageView(true, messageId), 
+       		new MessageViewDelegate(messageCode, type), 
+       		Ui.SLIDE_IMMEDIATE
+       	);
 	}
 	
 	function logPerfSansCadrage(type){
 		var appbase = Application.getApp();
-		System.println("addMessageSansCadrage"+type);
 		//addMessage(_type, _code, _tmps)
 		var log = ActivityMonitor.getInfo().steps;
 		appbase.userActuel.addMessage(type, "sansCadrage"+type, 0, log, log);
