@@ -80,7 +80,7 @@ class User {
 		
 		string += "#";
 		
-		return string ;
+		return string;
 	}
 
 	

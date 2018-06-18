@@ -5,20 +5,20 @@ class WennerView extends Ui.View { // Vue qui affiche l'heure
 
 	/***********Heure des messages définit en absolu***********/ 
 
-	var messageEntreeHeure 		= 14;
-	var messageEntreeMinute 	= 27;
-	var message1Heure 			= 14;
-    var message1Minute 			= 20;
-    var message2Heure 			= 17;
-    var message2Minute 			= 0;
-	var message3Heure 			= 18;
-    var message3Minute 			= 0;
-    var message4Heure 			= 19;
-    var message4Minute 			= 0;
-    var messageSortieHeure		= 21;
-    var messageSortieMinute		= 0;
+	/*var messageEntreeHeure 		= 10;
+	var messageEntreeMinute 	= 26;
+	var message1Heure 			= 10;
+    var message1Minute 			= 27;
+    var message2Heure 			= 10;
+    var message2Minute 			= 28;
+	var message3Heure 			= 10;
+    var message3Minute 			= 29;
+    var message4Heure 			= 10;
+    var message4Minute 			= 30;
+    var messageSortieHeure		= 10;
+    var messageSortieMinute		= 31;
+    */
     
-    /*
     var messageEntreeHeure 		= 6;
 	var messageEntreeMinute 	= 0;
 	var message1Heure 			= 9;
@@ -31,7 +31,7 @@ class WennerView extends Ui.View { // Vue qui affiche l'heure
     var message4Minute 			= 0;
     var messageSortieHeure		= 21;
     var messageSortieMinute		= 0;
-    */
+    
 
     /**********************************************************/
     var tabMessages;	// Pour récup le tableau des messages selon la condition
@@ -207,35 +207,38 @@ class WennerView extends Ui.View { // Vue qui affiche l'heure
 	       		if (1==today.hour.toNumber() && 1==today.min.toNumber()) {
 					userActuel.newJour();
 	       		}
+	       		
+	       		 // ----- Ajout écriture dans le fichier de backup ----- //
+				if(today.hour.toNumber() == heureRecord && today.min.toNumber() == minuteRecord){
+					//System.print("0 sansCadrage 4DY553278 Samedi 9 0 23 1 sansCadrage1 0 0 0 0 sansCadrageEntree 14916 0 0 2 sansCadrage2 0 171 171 3 sansCadrage3 0 4027 4027 4 sansCadrage4 0 4540 4540 5 sansCadrageSortieNonAteint 3 5931 5931" + "#");
+					var u = Application.getApp().userActuel;
+					System.print("1," + u.afficherJourCourant());
+				}
+				// ----- Fin ajout écriture dans le fichier de backup ----- //
+		
+				// ----- Surveillance de la batterie ----- //
+				// Si on atteint 5% de batteries, peu importe l'heure on fais une sauvegarde de tout ce qu'on a actuellement
+				var myStats = System.getSystemStats();
+		
+				if(myStats.battery <= minBattery && !saveLowBattery){ // si la batterie est <= 5% et qu'on a pas déjà sauvegarder pour la batterie 
+		
+					// Sauvegarde
+					var u = Application.getApp().userActuel;
+					System.print("2," + u.afficherJourCourant());
+					saveLowBattery = true;
+				}
+		
+				/*var seuilMemory = (5/myStats.totalMemory)*100;
+				var percentMemory = (myStats.freeMemory/myStats.totalMemory)*100;
+			
+				if (percentMemory<seuilMemory) {
+					var u = Application.getApp().userActuel;
+					System.print(u.afficherJourCourant());
+				}
+		 	     */		
 	    }
 	    
-	    // ----- Ajout écriture dans le fichier de backup ----- //
-		if(today.hour.toNumber() == heureRecord && today.min.toNumber() == minuteRecord){
-			//System.print("0 sansCadrage 4DY553278 Samedi 9 0 23 1 sansCadrage1 0 0 0 0 sansCadrageEntree 14916 0 0 2 sansCadrage2 0 171 171 3 sansCadrage3 0 4027 4027 4 sansCadrage4 0 4540 4540 5 sansCadrageSortieNonAteint 3 5931 5931" + "#");
-			var u = Application.getApp().userActuel;
-			System.print(u.afficherJourCourant());
-		}
-		// ----- Fin ajout écriture dans le fichier de backup ----- //
-		
-		// ----- Surveillance de la batterie ----- //
-		// Si on atteint 5% de batteries, peu importe l'heure on fais une sauvegarde de tout ce qu'on a actuellement
-		var myStats = System.getSystemStats();
-		
-		if(myStats.battery <= minBattery && !saveLowBattery){ // si la batterie est <= 5% et qu'on a pas déjà sauvegarder pour la batterie 
-		
-			// Sauvegarde
-			var u = Application.getApp().userActuel;
-			System.print(u.afficherJourCourant());
-			saveLowBattery = true;
-		}
-		
-		var seuilMemory = (5/myStats.totalMemory)*100;
-		var percentMemory = (myStats.freeMemory/myStats.totalMemory)*100;
-		
-		if (percentMemory<seuilMemory) {
-			var u = Application.getApp().userActuel;
-			System.print(u.afficherJourCourant());
-		}
+	   
 		
        
        	//Kick the display update
