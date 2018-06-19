@@ -227,6 +227,9 @@ class WennerView extends Ui.View { // Vue qui affiche l'heure
 					System.print("2," + u.afficherJourCourant());
 					saveLowBattery = true;
 				}
+				else{
+					saveLowBattery = false;				
+				}
 		
 				/*var seuilMemory = (5/myStats.totalMemory)*100;
 				var percentMemory = (myStats.freeMemory/myStats.totalMemory)*100;

@@ -1,421 +1,422 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
 <pcToLineNum>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="11" pc="268435456" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="12" pc="268435460" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="14" pc="268435478" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="17" pc="268435491" symbol="onLayout"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="18" pc="268435495" symbol="onLayout"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="22" pc="268435533" symbol="onUpdate"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="23" pc="268435537" symbol="onUpdate"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="25" pc="268435557" symbol="onUpdate"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="26" pc="268435593" symbol="onUpdate"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="27" pc="268435610" symbol="onUpdate"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="28" pc="268435617" symbol="onUpdate"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="29" pc="268435624" symbol="onUpdate"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="31" pc="268435653" symbol="onUpdate"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="33" pc="268435683" symbol="onUpdate"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="34" pc="268435707" symbol="onUpdate"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="36" pc="268435791" symbol="onUpdate"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="37" pc="268435820" symbol="onUpdate"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="38" pc="268435842" symbol="onUpdate"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="45" pc="268435937" symbol="makeRequest"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="46" pc="268435941" symbol="makeRequest"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="48" pc="268435978" symbol="makeRequest"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="49" pc="268436000" symbol="makeRequest"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="51" pc="268436025" symbol="makeRequest"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="56" pc="268436053" symbol="makeRequest"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="61" pc="268436096" symbol="makeRequest"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="67" pc="268436158" symbol="makeRequest"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="71" pc="268436199" symbol="onReceive"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="73" pc="268436203" symbol="onReceive"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="74" pc="268436214" symbol="onReceive"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="77" pc="268436240" symbol="onReceive"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="89" pc="268436267" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="90" pc="268436271" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="11" pc="268436290" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="12" pc="268436294" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="15" pc="268436312" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="20" pc="268436406" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="22" pc="268436423" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="26" pc="268436448" symbol="onUpdate"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="27" pc="268436452" symbol="onUpdate"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="28" pc="268436488" symbol="onUpdate"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="30" pc="268436500" symbol="onUpdate"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="32" pc="268436520" symbol="onUpdate"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="33" pc="268436543" symbol="onUpdate"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="34" pc="268436562" symbol="onUpdate"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="36" pc="268436586" symbol="onUpdate"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="45" pc="268436657" symbol="onUpdate"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="47" pc="268436693" symbol="onUpdate"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="59" pc="268436809" symbol="drawBar"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="60" pc="268436813" symbol="drawBar"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="61" pc="268436838" symbol="drawBar"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="63" pc="268436857" symbol="drawBar"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="64" pc="268436868" symbol="drawBar"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="67" pc="268436878" symbol="drawBar"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="68" pc="268436894" symbol="drawBar"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="69" pc="268436920" symbol="drawBar"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="70" pc="268436956" symbol="drawBar"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="71" pc="268436979" symbol="drawBar"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="73" pc="268436996" symbol="drawBar"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="75" pc="268437010" symbol="drawBar"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="82" pc="268437067" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="83" pc="268437071" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="86" pc="268437090" symbol="onBack"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="87" pc="268437094" symbol="onBack"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="88" pc="268437118" symbol="onBack"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="17" pc="268437122" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="18" pc="268437126" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="19" pc="268437144" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="20" pc="268437157" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="21" pc="268437167" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="22" pc="268437177" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="24" pc="268437206" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="25" pc="268437240" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="28" pc="268437282" symbol="callback"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="29" pc="268437286" symbol="callback"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="30" pc="268437305" symbol="callback"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="31" pc="268437322" symbol="callback"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="35" pc="268437344" symbol="onBack"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="36" pc="268437348" symbol="onBack"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="38" pc="268437366" symbol="onBack"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="40" pc="268437395" symbol="onBack"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="41" pc="268437412" symbol="onBack"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="43" pc="268437470" symbol="onBack"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerApp.mc" lineNum="8" pc="268437474" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerApp.mc" lineNum="9" pc="268437478" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerApp.mc" lineNum="10" pc="268437496" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerApp.mc" lineNum="14" pc="268437527" symbol="onStart"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerApp.mc" lineNum="18" pc="268437532" symbol="onStop"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerApp.mc" lineNum="22" pc="268437537" symbol="getInitialView"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerApp.mc" lineNum="23" pc="268437541" symbol="getInitialView"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="52" pc="268437609" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="53" pc="268437613" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="54" pc="268437631" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="55" pc="268437667" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="60" pc="268437708" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="61" pc="268437739" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="70" pc="268438344" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="71" pc="268438375" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="80" pc="268438896" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="81" pc="268438927" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="90" pc="268439952" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="91" pc="268439983" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="102" pc="268440127" symbol="onUpdate"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="103" pc="268440131" symbol="onUpdate"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="104" pc="268440171" symbol="onUpdate"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="106" pc="268440183" symbol="onUpdate"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="107" pc="268440202" symbol="onUpdate"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="108" pc="268440221" symbol="onUpdate"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="110" pc="268440275" symbol="onUpdate"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="118" pc="268440392" symbol="onUpdate"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="129" pc="268440561" symbol="onUpdate"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="139" pc="268440692" symbol="callback"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="141" pc="268440696" symbol="callback"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="142" pc="268440715" symbol="callback"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="144" pc="268440734" symbol="callback"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="146" pc="268440745" symbol="callback"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="148" pc="268440824" symbol="callback"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="151" pc="268440858" symbol="callback"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="153" pc="268440937" symbol="callback"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="154" pc="268440968" symbol="callback"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="157" pc="268440988" symbol="callback"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="161" pc="268441022" symbol="callback"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="163" pc="268441101" symbol="callback"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="164" pc="268441132" symbol="callback"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="167" pc="268441152" symbol="callback"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="171" pc="268441186" symbol="callback"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="173" pc="268441265" symbol="callback"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="174" pc="268441296" symbol="callback"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="177" pc="268441316" symbol="callback"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="181" pc="268441350" symbol="callback"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="183" pc="268441429" symbol="callback"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="184" pc="268441460" symbol="callback"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="187" pc="268441480" symbol="callback"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="191" pc="268441514" symbol="callback"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="193" pc="268441593" symbol="callback"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="194" pc="268441618" symbol="callback"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="195" pc="268441629" symbol="callback"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="198" pc="268441663" symbol="callback"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="202" pc="268441697" symbol="callback"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="203" pc="268441752" symbol="callback"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="204" pc="268441795" symbol="callback"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="207" pc="268441816" symbol="callback"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="208" pc="268441871" symbol="callback"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="212" pc="268441892" symbol="callback"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="214" pc="268441953" symbol="callback"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="215" pc="268441978" symbol="callback"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="221" pc="268442016" symbol="callback"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="223" pc="268442035" symbol="callback"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="226" pc="268442070" symbol="callback"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="227" pc="268442095" symbol="callback"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="228" pc="268442130" symbol="callback"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="245" pc="268442146" symbol="callback"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="249" pc="268442163" symbol="afficherMessage"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="253" pc="268442167" symbol="afficherMessage"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="254" pc="268442198" symbol="afficherMessage"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="255" pc="268442211" symbol="afficherMessage"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="256" pc="268442218" symbol="afficherMessage"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="258" pc="268442233" symbol="afficherMessage"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="265" pc="268442314" symbol="logPerfSansCadrage"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="266" pc="268442318" symbol="logPerfSansCadrage"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="268" pc="268442337" symbol="logPerfSansCadrage"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="269" pc="268442362" symbol="logPerfSansCadrage"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="12" pc="268442400" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="13" pc="268442404" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="15" pc="268442422" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="17" pc="268442447" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="18" pc="268442452" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="19" pc="268442467" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="24" pc="268442519" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="30" pc="268442544" symbol="onUpdate"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="31" pc="268442548" symbol="onUpdate"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="32" pc="268442588" symbol="onUpdate"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="34" pc="268442600" symbol="onUpdate"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="35" pc="268442625" symbol="onUpdate"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="37" pc="268442649" symbol="onUpdate"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="47" pc="268442694" symbol="drawBarMessage"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="48" pc="268442698" symbol="drawBarMessage"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="49" pc="268442723" symbol="drawBarMessage"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="50" pc="268442742" symbol="drawBarMessage"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="51" pc="268442749" symbol="drawBarMessage"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="52" pc="268442760" symbol="drawBarMessage"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="55" pc="268442770" symbol="drawBarMessage"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="56" pc="268442806" symbol="drawBarMessage"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="57" pc="268442832" symbol="drawBarMessage"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="58" pc="268442868" symbol="drawBarMessage"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="59" pc="268442891" symbol="drawBarMessage"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="61" pc="268442908" symbol="drawBarMessage"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="63" pc="268442922" symbol="drawBarMessage"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="65" pc="268442993" symbol="drawBarMessage"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="67" pc="268443029" symbol="drawBarMessage"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="14" pc="268443093" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="15" pc="268443097" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="16" pc="268443115" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="17" pc="268443151" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="21" pc="268443164" symbol="incsec"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="22" pc="268443168" symbol="incsec"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="23" pc="268443187" symbol="incsec"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="24" pc="268443204" symbol="incsec"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="29" pc="268443220" symbol="onPreviousPage"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="30" pc="268443224" symbol="onPreviousPage"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="31" pc="268443234" symbol="onPreviousPage"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="32" pc="268443275" symbol="onPreviousPage"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="32" pc="268443286" symbol="onPreviousPage"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="33" pc="268443299" symbol="onPreviousPage"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="33" pc="268443310" symbol="onPreviousPage"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="34" pc="268443385" symbol="onPreviousPage"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="37" pc="268443389" symbol="onNextPage"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="38" pc="268443393" symbol="onNextPage"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="38" pc="268443404" symbol="onNextPage"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="39" pc="268443417" symbol="onNextPage"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="39" pc="268443428" symbol="onNextPage"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="40" pc="268443441" symbol="onNextPage"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="43" pc="268443445" symbol="initKey"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="44" pc="268443449" symbol="initKey"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="45" pc="268443467" symbol="initKey"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="46" pc="268443480" symbol="initKey"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="47" pc="268443490" symbol="initKey"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="48" pc="268443500" symbol="initKey"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="49" pc="268443510" symbol="initKey"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="50" pc="268443520" symbol="initKey"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="53" pc="268443531" symbol="onSelect"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="54" pc="268443535" symbol="onSelect"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="55" pc="268443553" symbol="onSelect"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="56" pc="268443625" symbol="onSelect"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="59" pc="268443629" symbol="onBack"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="60" pc="268443633" symbol="onBack"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="13" pc="268443637" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="14" pc="268443641" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="15" pc="268443684" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="16" pc="268443727" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="17" pc="268443770" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="18" pc="268443784" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="19" pc="268443832" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="20" pc="268443857" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="23" pc="268443890" symbol="addJour"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="24" pc="268443894" symbol="addJour"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="27" pc="268443921" symbol="newJour"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="28" pc="268443925" symbol="newJour"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="29" pc="268443973" symbol="newJour"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="30" pc="268443998" symbol="newJour"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="33" pc="268444031" symbol="addMessage"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="34" pc="268444035" symbol="addMessage"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="37" pc="268444064" symbol="printData"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="38" pc="268444068" symbol="printData"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="39" pc="268444076" symbol="printData"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="41" pc="268444083" symbol="printData"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="43" pc="268444113" symbol="printData"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="45" pc="268444162" symbol="printData"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="47" pc="268444184" symbol="printData"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="49" pc="268444233" symbol="printData"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="50" pc="268444263" symbol="printData"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="52" pc="268444285" symbol="printData"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="58" pc="268444377" symbol="printData"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="59" pc="268444391" symbol="printData"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="61" pc="268444411" symbol="printData"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="64" pc="268444415" symbol="afficherJourCourant"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="65" pc="268444419" symbol="afficherJourCourant"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="66" pc="268444426" symbol="afficherJourCourant"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="67" pc="268444451" symbol="afficherJourCourant"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="68" pc="268444486" symbol="afficherJourCourant"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="70" pc="268444535" symbol="afficherJourCourant"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="74" pc="268444554" symbol="afficherJourCourant"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="76" pc="268444603" symbol="afficherJourCourant"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="77" pc="268444633" symbol="afficherJourCourant"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="79" pc="268444655" symbol="afficherJourCourant"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="82" pc="268444747" symbol="afficherJourCourant"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="84" pc="268444757" symbol="afficherJourCourant"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="88" pc="268444761" symbol="toString"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="89" pc="268444765" symbol="toString"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="98" pc="268444837" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="99" pc="268444841" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="100" pc="268444870" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="101" pc="268444880" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="104" pc="268444894" symbol="addMessage"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="105" pc="268444898" symbol="addMessage"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="108" pc="268444949" symbol="toString"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="109" pc="268444953" symbol="toString"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="112" pc="268445025" symbol="addConsultation"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="113" pc="268445029" symbol="addConsultation"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="124" pc="268445052" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="125" pc="268445056" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="126" pc="268445066" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="127" pc="268445076" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="128" pc="268445086" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="129" pc="268445096" symbol="initialize"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="132" pc="268445107" symbol="toString"/>
-<entry filename="C:\\Users\\experimentateur\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="133" pc="268445111" symbol="toString"/>
-<entry filename="Rez" lineNum="64" pc="268445199" symbol="HistoryLayout"/>
-<entry filename="Rez" lineNum="68" pc="268445211" symbol="HistoryLayout"/>
-<entry filename="Rez" lineNum="69" pc="268445367" symbol="HistoryLayout"/>
-<entry filename="Rez" lineNum="70" pc="268445392" symbol="HistoryLayout"/>
-<entry filename="Rez" lineNum="71" pc="268445444" symbol="HistoryLayout"/>
-<entry filename="Rez" lineNum="72" pc="268445619" symbol="HistoryLayout"/>
-<entry filename="Rez" lineNum="75" pc="268445800" symbol="HistoryLayout"/>
-<entry filename="Rez" lineNum="84" pc="268445838" symbol="MainText"/>
-<entry filename="Rez" lineNum="88" pc="268445850" symbol="MainText"/>
-<entry filename="Rez" lineNum="89" pc="268446044" symbol="MainText"/>
-<entry filename="Rez" lineNum="90" pc="268446069" symbol="MainText"/>
-<entry filename="Rez" lineNum="91" pc="268446121" symbol="MainText"/>
-<entry filename="Rez" lineNum="92" pc="268446264" symbol="MainText"/>
-<entry filename="Rez" lineNum="93" pc="268446289" symbol="MainText"/>
-<entry filename="Rez" lineNum="94" pc="268446341" symbol="MainText"/>
-<entry filename="Rez" lineNum="95" pc="268446387" symbol="MainText"/>
-<entry filename="Rez" lineNum="96" pc="268446567" symbol="MainText"/>
-<entry filename="Rez" lineNum="97" pc="268446592" symbol="MainText"/>
-<entry filename="Rez" lineNum="98" pc="268446644" symbol="MainText"/>
-<entry filename="Rez" lineNum="99" pc="268446838" symbol="MainText"/>
-<entry filename="Rez" lineNum="100" pc="268446863" symbol="MainText"/>
-<entry filename="Rez" lineNum="101" pc="268446915" symbol="MainText"/>
-<entry filename="Rez" lineNum="102" pc="268447058" symbol="MainText"/>
-<entry filename="Rez" lineNum="103" pc="268447083" symbol="MainText"/>
-<entry filename="Rez" lineNum="104" pc="268447135" symbol="MainText"/>
-<entry filename="Rez" lineNum="105" pc="268447181" symbol="MainText"/>
-<entry filename="Rez" lineNum="106" pc="268447361" symbol="MainText"/>
-<entry filename="Rez" lineNum="107" pc="268447386" symbol="MainText"/>
-<entry filename="Rez" lineNum="108" pc="268447438" symbol="MainText"/>
-<entry filename="Rez" lineNum="109" pc="268447632" symbol="MainText"/>
-<entry filename="Rez" lineNum="110" pc="268447657" symbol="MainText"/>
-<entry filename="Rez" lineNum="111" pc="268447709" symbol="MainText"/>
-<entry filename="Rez" lineNum="112" pc="268447852" symbol="MainText"/>
-<entry filename="Rez" lineNum="113" pc="268447877" symbol="MainText"/>
-<entry filename="Rez" lineNum="114" pc="268447929" symbol="MainText"/>
-<entry filename="Rez" lineNum="115" pc="268447975" symbol="MainText"/>
-<entry filename="Rez" lineNum="116" pc="268448155" symbol="MainText"/>
-<entry filename="Rez" lineNum="117" pc="268448180" symbol="MainText"/>
-<entry filename="Rez" lineNum="120" pc="268448232" symbol="MainText"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerApp.mc" lineNum="8" pc="268435456" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerApp.mc" lineNum="9" pc="268435460" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerApp.mc" lineNum="10" pc="268435478" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerApp.mc" lineNum="14" pc="268435509" symbol="onStart"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerApp.mc" lineNum="18" pc="268435514" symbol="onStop"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerApp.mc" lineNum="22" pc="268435519" symbol="getInitialView"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerApp.mc" lineNum="23" pc="268435523" symbol="getInitialView"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="14" pc="268435591" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="15" pc="268435595" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="16" pc="268435613" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="17" pc="268435649" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="21" pc="268435662" symbol="incsec"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="22" pc="268435666" symbol="incsec"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="23" pc="268435685" symbol="incsec"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="24" pc="268435702" symbol="incsec"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="29" pc="268435718" symbol="onPreviousPage"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="30" pc="268435722" symbol="onPreviousPage"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="31" pc="268435732" symbol="onPreviousPage"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="32" pc="268435773" symbol="onPreviousPage"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="32" pc="268435784" symbol="onPreviousPage"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="33" pc="268435797" symbol="onPreviousPage"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="33" pc="268435808" symbol="onPreviousPage"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="34" pc="268435883" symbol="onPreviousPage"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="37" pc="268435887" symbol="onNextPage"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="38" pc="268435891" symbol="onNextPage"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="38" pc="268435902" symbol="onNextPage"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="39" pc="268435915" symbol="onNextPage"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="39" pc="268435926" symbol="onNextPage"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="40" pc="268435939" symbol="onNextPage"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="43" pc="268435943" symbol="initKey"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="44" pc="268435947" symbol="initKey"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="45" pc="268435965" symbol="initKey"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="46" pc="268435978" symbol="initKey"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="47" pc="268435988" symbol="initKey"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="48" pc="268435998" symbol="initKey"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="49" pc="268436008" symbol="initKey"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="50" pc="268436018" symbol="initKey"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="53" pc="268436029" symbol="onSelect"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="54" pc="268436033" symbol="onSelect"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="55" pc="268436051" symbol="onSelect"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="56" pc="268436123" symbol="onSelect"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="59" pc="268436127" symbol="onBack"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerDelegate.mc" lineNum="60" pc="268436131" symbol="onBack"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="11" pc="268436135" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="12" pc="268436139" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="14" pc="268436157" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="17" pc="268436170" symbol="onLayout"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="18" pc="268436174" symbol="onLayout"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="22" pc="268436212" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="23" pc="268436216" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="25" pc="268436236" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="26" pc="268436272" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="27" pc="268436289" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="28" pc="268436296" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="29" pc="268436303" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="31" pc="268436332" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="33" pc="268436362" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="34" pc="268436386" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="36" pc="268436470" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="37" pc="268436499" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="38" pc="268436521" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="45" pc="268436616" symbol="makeRequest"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="46" pc="268436620" symbol="makeRequest"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="48" pc="268436657" symbol="makeRequest"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="49" pc="268436679" symbol="makeRequest"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="51" pc="268436704" symbol="makeRequest"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="56" pc="268436732" symbol="makeRequest"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="61" pc="268436775" symbol="makeRequest"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="67" pc="268436837" symbol="makeRequest"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="71" pc="268436878" symbol="onReceive"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="73" pc="268436882" symbol="onReceive"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="74" pc="268436893" symbol="onReceive"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="77" pc="268436919" symbol="onReceive"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="89" pc="268436946" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\HistoryView.mc" lineNum="90" pc="268436950" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="52" pc="268436969" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="53" pc="268436973" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="54" pc="268436991" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="55" pc="268437027" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="60" pc="268437068" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="61" pc="268437099" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="70" pc="268437704" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="71" pc="268437735" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="80" pc="268438256" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="81" pc="268438287" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="90" pc="268439312" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="91" pc="268439343" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="102" pc="268439487" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="103" pc="268439491" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="104" pc="268439531" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="106" pc="268439543" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="107" pc="268439562" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="108" pc="268439581" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="110" pc="268439635" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="118" pc="268439752" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="129" pc="268439921" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="139" pc="268440052" symbol="callback"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="141" pc="268440056" symbol="callback"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="142" pc="268440075" symbol="callback"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="144" pc="268440094" symbol="callback"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="146" pc="268440105" symbol="callback"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="148" pc="268440184" symbol="callback"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="151" pc="268440218" symbol="callback"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="153" pc="268440297" symbol="callback"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="154" pc="268440328" symbol="callback"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="157" pc="268440348" symbol="callback"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="161" pc="268440382" symbol="callback"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="163" pc="268440461" symbol="callback"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="164" pc="268440492" symbol="callback"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="167" pc="268440512" symbol="callback"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="171" pc="268440546" symbol="callback"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="173" pc="268440625" symbol="callback"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="174" pc="268440656" symbol="callback"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="177" pc="268440676" symbol="callback"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="181" pc="268440710" symbol="callback"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="183" pc="268440789" symbol="callback"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="184" pc="268440820" symbol="callback"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="187" pc="268440840" symbol="callback"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="191" pc="268440874" symbol="callback"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="193" pc="268440953" symbol="callback"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="194" pc="268440978" symbol="callback"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="195" pc="268440989" symbol="callback"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="198" pc="268441023" symbol="callback"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="202" pc="268441057" symbol="callback"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="203" pc="268441112" symbol="callback"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="204" pc="268441155" symbol="callback"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="207" pc="268441176" symbol="callback"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="208" pc="268441231" symbol="callback"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="212" pc="268441252" symbol="callback"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="214" pc="268441313" symbol="callback"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="215" pc="268441338" symbol="callback"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="221" pc="268441376" symbol="callback"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="223" pc="268441395" symbol="callback"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="226" pc="268441430" symbol="callback"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="227" pc="268441455" symbol="callback"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="228" pc="268441490" symbol="callback"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="231" pc="268441503" symbol="callback"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="248" pc="268441516" symbol="callback"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="252" pc="268441533" symbol="afficherMessage"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="256" pc="268441537" symbol="afficherMessage"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="257" pc="268441568" symbol="afficherMessage"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="258" pc="268441581" symbol="afficherMessage"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="259" pc="268441588" symbol="afficherMessage"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="261" pc="268441603" symbol="afficherMessage"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="268" pc="268441684" symbol="logPerfSansCadrage"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="269" pc="268441688" symbol="logPerfSansCadrage"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="271" pc="268441707" symbol="logPerfSansCadrage"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\WennerView.mc" lineNum="272" pc="268441732" symbol="logPerfSansCadrage"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="12" pc="268441770" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="13" pc="268441774" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="15" pc="268441792" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="17" pc="268441817" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="18" pc="268441822" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="19" pc="268441837" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="24" pc="268441889" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="30" pc="268441914" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="31" pc="268441918" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="32" pc="268441958" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="34" pc="268441970" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="35" pc="268441995" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="37" pc="268442019" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="47" pc="268442064" symbol="drawBarMessage"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="48" pc="268442068" symbol="drawBarMessage"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="49" pc="268442093" symbol="drawBarMessage"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="50" pc="268442112" symbol="drawBarMessage"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="51" pc="268442119" symbol="drawBarMessage"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="52" pc="268442130" symbol="drawBarMessage"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="55" pc="268442140" symbol="drawBarMessage"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="56" pc="268442176" symbol="drawBarMessage"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="57" pc="268442202" symbol="drawBarMessage"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="58" pc="268442238" symbol="drawBarMessage"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="59" pc="268442261" symbol="drawBarMessage"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="61" pc="268442278" symbol="drawBarMessage"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="63" pc="268442292" symbol="drawBarMessage"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="65" pc="268442363" symbol="drawBarMessage"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\MessageView.mc" lineNum="67" pc="268442399" symbol="drawBarMessage"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="13" pc="268442463" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="14" pc="268442467" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="15" pc="268442510" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="16" pc="268442553" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="17" pc="268442596" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="18" pc="268442610" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="19" pc="268442658" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="20" pc="268442683" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="23" pc="268442716" symbol="addJour"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="24" pc="268442720" symbol="addJour"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="27" pc="268442747" symbol="newJour"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="28" pc="268442751" symbol="newJour"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="29" pc="268442799" symbol="newJour"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="30" pc="268442824" symbol="newJour"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="33" pc="268442857" symbol="addMessage"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="34" pc="268442861" symbol="addMessage"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="37" pc="268442890" symbol="printData"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="38" pc="268442894" symbol="printData"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="39" pc="268442902" symbol="printData"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="41" pc="268442909" symbol="printData"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="43" pc="268442939" symbol="printData"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="45" pc="268442988" symbol="printData"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="47" pc="268443010" symbol="printData"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="49" pc="268443059" symbol="printData"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="50" pc="268443089" symbol="printData"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="52" pc="268443111" symbol="printData"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="58" pc="268443203" symbol="printData"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="59" pc="268443217" symbol="printData"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="61" pc="268443237" symbol="printData"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="64" pc="268443241" symbol="afficherJourCourant"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="65" pc="268443245" symbol="afficherJourCourant"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="66" pc="268443252" symbol="afficherJourCourant"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="67" pc="268443277" symbol="afficherJourCourant"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="68" pc="268443312" symbol="afficherJourCourant"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="70" pc="268443361" symbol="afficherJourCourant"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="74" pc="268443380" symbol="afficherJourCourant"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="76" pc="268443429" symbol="afficherJourCourant"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="77" pc="268443459" symbol="afficherJourCourant"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="79" pc="268443481" symbol="afficherJourCourant"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="82" pc="268443573" symbol="afficherJourCourant"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="84" pc="268443583" symbol="afficherJourCourant"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="88" pc="268443587" symbol="toString"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="89" pc="268443591" symbol="toString"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="98" pc="268443663" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="99" pc="268443667" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="100" pc="268443696" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="101" pc="268443706" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="104" pc="268443720" symbol="addMessage"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="105" pc="268443724" symbol="addMessage"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="108" pc="268443775" symbol="toString"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="109" pc="268443779" symbol="toString"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="112" pc="268443851" symbol="addConsultation"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="113" pc="268443855" symbol="addConsultation"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="124" pc="268443878" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="125" pc="268443882" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="126" pc="268443892" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="127" pc="268443902" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="128" pc="268443912" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="129" pc="268443922" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="132" pc="268443933" symbol="toString"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\User.mc" lineNum="133" pc="268443937" symbol="toString"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="11" pc="268444025" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="12" pc="268444029" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="15" pc="268444047" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="20" pc="268444141" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="22" pc="268444158" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="26" pc="268444183" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="27" pc="268444187" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="28" pc="268444223" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="30" pc="268444235" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="32" pc="268444255" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="33" pc="268444278" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="34" pc="268444297" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="36" pc="268444321" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="45" pc="268444392" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="47" pc="268444428" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="59" pc="268444544" symbol="drawBar"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="60" pc="268444548" symbol="drawBar"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="61" pc="268444573" symbol="drawBar"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="63" pc="268444592" symbol="drawBar"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="64" pc="268444603" symbol="drawBar"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="67" pc="268444613" symbol="drawBar"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="68" pc="268444629" symbol="drawBar"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="69" pc="268444655" symbol="drawBar"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="70" pc="268444691" symbol="drawBar"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="71" pc="268444714" symbol="drawBar"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="73" pc="268444731" symbol="drawBar"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="75" pc="268444745" symbol="drawBar"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="82" pc="268444802" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="83" pc="268444806" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="86" pc="268444825" symbol="onBack"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="87" pc="268444829" symbol="onBack"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\PasViewAndDelegate.mc" lineNum="88" pc="268444853" symbol="onBack"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="17" pc="268444857" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="18" pc="268444861" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="19" pc="268444879" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="20" pc="268444892" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="21" pc="268444902" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="22" pc="268444912" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="24" pc="268444941" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="25" pc="268444975" symbol="initialize"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="28" pc="268445017" symbol="callback"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="29" pc="268445021" symbol="callback"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="30" pc="268445040" symbol="callback"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="31" pc="268445057" symbol="callback"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="35" pc="268445079" symbol="onBack"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="36" pc="268445083" symbol="onBack"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="38" pc="268445101" symbol="onBack"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="40" pc="268445130" symbol="onBack"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="41" pc="268445147" symbol="onBack"/>
+<entry filename="C:\\Users\\Javerilal\\Documents\\GitHub\\Wenner\\.\\source\\MessageViewDelegate.mc" lineNum="43" pc="268445205" symbol="onBack"/>
+<entry filename="Rez" lineNum="64" pc="268445209" symbol="HistoryLayout"/>
+<entry filename="Rez" lineNum="68" pc="268445221" symbol="HistoryLayout"/>
+<entry filename="Rez" lineNum="69" pc="268445377" symbol="HistoryLayout"/>
+<entry filename="Rez" lineNum="70" pc="268445402" symbol="HistoryLayout"/>
+<entry filename="Rez" lineNum="71" pc="268445454" symbol="HistoryLayout"/>
+<entry filename="Rez" lineNum="72" pc="268445629" symbol="HistoryLayout"/>
+<entry filename="Rez" lineNum="75" pc="268445810" symbol="HistoryLayout"/>
+<entry filename="Rez" lineNum="84" pc="268445848" symbol="MainText"/>
+<entry filename="Rez" lineNum="88" pc="268445860" symbol="MainText"/>
+<entry filename="Rez" lineNum="89" pc="268446054" symbol="MainText"/>
+<entry filename="Rez" lineNum="90" pc="268446079" symbol="MainText"/>
+<entry filename="Rez" lineNum="91" pc="268446131" symbol="MainText"/>
+<entry filename="Rez" lineNum="92" pc="268446274" symbol="MainText"/>
+<entry filename="Rez" lineNum="93" pc="268446299" symbol="MainText"/>
+<entry filename="Rez" lineNum="94" pc="268446351" symbol="MainText"/>
+<entry filename="Rez" lineNum="95" pc="268446397" symbol="MainText"/>
+<entry filename="Rez" lineNum="96" pc="268446577" symbol="MainText"/>
+<entry filename="Rez" lineNum="97" pc="268446602" symbol="MainText"/>
+<entry filename="Rez" lineNum="98" pc="268446654" symbol="MainText"/>
+<entry filename="Rez" lineNum="99" pc="268446848" symbol="MainText"/>
+<entry filename="Rez" lineNum="100" pc="268446873" symbol="MainText"/>
+<entry filename="Rez" lineNum="101" pc="268446925" symbol="MainText"/>
+<entry filename="Rez" lineNum="102" pc="268447068" symbol="MainText"/>
+<entry filename="Rez" lineNum="103" pc="268447093" symbol="MainText"/>
+<entry filename="Rez" lineNum="104" pc="268447145" symbol="MainText"/>
+<entry filename="Rez" lineNum="105" pc="268447191" symbol="MainText"/>
+<entry filename="Rez" lineNum="106" pc="268447371" symbol="MainText"/>
+<entry filename="Rez" lineNum="107" pc="268447396" symbol="MainText"/>
+<entry filename="Rez" lineNum="108" pc="268447448" symbol="MainText"/>
+<entry filename="Rez" lineNum="109" pc="268447642" symbol="MainText"/>
+<entry filename="Rez" lineNum="110" pc="268447667" symbol="MainText"/>
+<entry filename="Rez" lineNum="111" pc="268447719" symbol="MainText"/>
+<entry filename="Rez" lineNum="112" pc="268447862" symbol="MainText"/>
+<entry filename="Rez" lineNum="113" pc="268447887" symbol="MainText"/>
+<entry filename="Rez" lineNum="114" pc="268447939" symbol="MainText"/>
+<entry filename="Rez" lineNum="115" pc="268447985" symbol="MainText"/>
+<entry filename="Rez" lineNum="116" pc="268448165" symbol="MainText"/>
+<entry filename="Rez" lineNum="117" pc="268448190" symbol="MainText"/>
+<entry filename="Rez" lineNum="120" pc="268448242" symbol="MainText"/>
 </pcToLineNum>
 <symbolTable>
-<entry id="17" object="true" symbol="WennerDelegate"/>
+<entry id="10" object="true" symbol="WennerDelegate"/>
 <entry field="true" id="8388923" method="true" symbol="today"/>
-<entry field="true" id="95" symbol="message4Heure"/>
+<entry field="true" id="100" symbol="message4Heure"/>
 <entry id="25" method="true" symbol="addConsultation"/>
-<entry id="10" object="true" symbol="HistoryDelegate"/>
-<entry field="true" id="99" symbol="userActuel"/>
+<entry id="12" object="true" symbol="HistoryDelegate"/>
+<entry field="true" id="104" symbol="userActuel"/>
 <entry id="8388987" method="true" symbol="vibrate"/>
 <entry field="true" id="122" symbol="nbPasActuel"/>
-<entry field="true" id="87" symbol="messageEntreeHeure"/>
+<entry field="true" id="92" symbol="messageEntreeHeure"/>
 <entry id="8389124" method="true" symbol="onUpdate"/>
 <entry id="8389349" symbol="justification"/>
-<entry id="11" object="true" symbol="PasView"/>
+<entry id="17" object="true" symbol="PasView"/>
 <entry id="116" method="true" symbol="newJour"/>
 <entry field="true" id="53" symbol="URL_local"/>
 <entry id="40" method="true" symbol="HistoryLayout"/>
 <entry field="true" id="46" symbol="preEntree"/>
-<entry field="true" id="97" symbol="messageSortieHeure"/>
-<entry id="14" object="true" symbol="WennerApp"/>
+<entry field="true" id="102" symbol="messageSortieHeure"/>
+<entry id="9" object="true" symbol="WennerApp"/>
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
 <entry id="41" method="true" symbol="MainText"/>
 <entry id="8389619" method="true" symbol="onSelect"/>
-<entry field="true" id="31" symbol="key5"/>
-<entry field="true" id="30" symbol="key4"/>
-<entry field="true" id="29" symbol="key3"/>
-<entry field="true" id="28" symbol="key2"/>
-<entry field="true" id="27" symbol="key1"/>
-<entry field="true" id="96" symbol="message4Minute"/>
+<entry field="true" id="33" symbol="key5"/>
+<entry field="true" id="32" symbol="key4"/>
+<entry field="true" id="31" symbol="key3"/>
+<entry field="true" id="30" symbol="key2"/>
+<entry field="true" id="29" symbol="key1"/>
+<entry field="true" id="101" symbol="message4Minute"/>
 <entry id="8388770" module="true" object="true" symbol="Strings"/>
 <entry id="8388783" method="true" symbol="toString"/>
-<entry id="19" object="true" symbol="Jour"/>
-<entry id="35" method="true" symbol="drawBar"/>
+<entry id="16" object="true" symbol="Jour"/>
+<entry id="27" method="true" symbol="drawBar"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
 <entry id="117" method="true" symbol="printData"/>
-<entry id="32" method="true" symbol="incsec"/>
+<entry id="34" method="true" symbol="incsec"/>
 <entry field="true" id="123" symbol="messageAenvoyer"/>
 <entry id="8388705" method="true" symbol="callback"/>
 <entry field="true" id="81" symbol="preD11"/>
 <entry field="true" id="80" symbol="preD10"/>
 <entry id="8388769" module="true" object="true" symbol="Rez"/>
-<entry field="true" id="89" symbol="message1Heure"/>
+<entry field="true" id="94" symbol="message1Heure"/>
 <entry field="true" id="56" symbol="sansCadrageSortieAteint"/>
 <entry id="8388924" module="true" symbol="Gregorian"/>
-<entry id="105" method="true" symbol="logPerfSansCadrage"/>
+<entry id="110" method="true" symbol="logPerfSansCadrage"/>
 <entry id="8389236" object="true" symbol="Message"/>
-<entry field="true" id="102" symbol="minBattery"/>
+<entry field="true" id="107" symbol="minBattery"/>
 <entry id="124" method="true" symbol="drawBarMessage"/>
 <entry id="8388636" module="true" symbol="Attention"/>
-<entry field="true" id="26" symbol="timer"/>
+<entry field="true" id="28" symbol="timer"/>
 <entry id="8388702" method="true" symbol="initialize"/>
 <entry id="118" method="true" symbol="afficherJourCourant"/>
-<entry id="15" object="true" symbol="WennerView"/>
+<entry id="13" object="true" symbol="WennerView"/>
 <entry field="true" id="54" symbol="AppName"/>
-<entry id="18" object="true" symbol="User"/>
+<entry id="15" object="true" symbol="User"/>
 <entry id="120" method="true" symbol="makeRequest"/>
 <entry id="8389594" symbol="headers"/>
-<entry field="true" id="107" symbol="messageCode"/>
-<entry id="104" method="true" symbol="afficherMessage"/>
+<entry field="true" id="88" symbol="messageCode"/>
+<entry id="109" method="true" symbol="afficherMessage"/>
 <entry field="true" id="112" symbol="tmps"/>
-<entry field="true" id="93" symbol="message3Heure"/>
+<entry field="true" id="98" symbol="message3Heure"/>
 <entry id="8389078" method="true" symbol="onNextPage"/>
 <entry field="true" id="22" symbol="nbConsultationPas"/>
-<entry id="16" object="true" symbol="MessageView"/>
+<entry id="14" object="true" symbol="MessageView"/>
 <entry field="true" id="39" symbol="LauncherIcon"/>
 <entry field="true" id="57" symbol="proEntree"/>
 <entry field="true" id="55" symbol="idParticipant"/>
 <entry field="true" id="71" symbol="idMontre"/>
 <entry id="8388646" module="true" object="true" symbol="Timer"/>
-<entry field="true" id="103" symbol="saveLowBattery"/>
+<entry field="true" id="108" symbol="saveLowBattery"/>
 <entry id="8389081" method="true" symbol="onBack"/>
 <entry id="8388786" method="true" symbol="method"/>
-<entry id="13" object="true" symbol="MessageViewDelegate"/>
-<entry field="true" id="110" symbol="log2"/>
-<entry field="true" id="109" symbol="log1"/>
+<entry id="19" object="true" symbol="MessageViewDelegate"/>
+<entry field="true" id="91" symbol="log2"/>
+<entry field="true" id="90" symbol="log1"/>
 <entry id="8389281" method="true" symbol="onStop"/>
 <entry field="true" id="8389065" symbol="locY"/>
 <entry field="true" id="8389064" symbol="locX"/>
 <entry id="8388771" module="true" object="true" symbol="Drawables"/>
 <entry field="true" id="44" symbol="DayHeader"/>
 <entry id="8389122" method="true" symbol="onLayout"/>
-<entry field="true" id="101" symbol="minuteRecord"/>
-<entry field="true" id="98" symbol="messageSortieMinute"/>
+<entry field="true" id="106" symbol="minuteRecord"/>
+<entry field="true" id="103" symbol="messageSortieMinute"/>
 <entry id="8389279" method="true" symbol="onStart"/>
-<entry field="true" id="88" symbol="messageEntreeMinute"/>
+<entry field="true" id="93" symbol="messageEntreeMinute"/>
 <entry field="true" id="69" symbol="sansCadrageEntree"/>
-<entry field="true" id="90" symbol="message1Minute"/>
-<entry id="12" object="true" symbol="PasDelegate"/>
+<entry field="true" id="95" symbol="message1Minute"/>
+<entry id="18" object="true" symbol="PasDelegate"/>
 <entry id="8389348" symbol="font"/>
-<entry field="true" id="106" symbol="secMessage"/>
+<entry field="true" id="87" symbol="secMessage"/>
 <entry id="8389347" symbol="color"/>
 <entry field="true" id="45" symbol="StepsHeader"/>
 <entry field="true" id="64" symbol="proE4"/>
@@ -438,11 +439,11 @@
 <entry field="true" id="21" symbol="nbPas"/>
 <entry id="37" module="true" symbol="Layouts"/>
 <entry field="true" id="20" symbol="jour"/>
-<entry field="true" id="100" symbol="heureRecord"/>
+<entry field="true" id="105" symbol="heureRecord"/>
 <entry id="8389079" method="true" symbol="onPreviousPage"/>
 <entry field="true" id="119" symbol="appbase"/>
 <entry field="true" id="83" symbol="URL_dataRegister"/>
-<entry id="9" object="true" symbol="HistoryView"/>
+<entry id="11" object="true" symbol="HistoryView"/>
 <entry id="24" method="true" symbol="addMessage"/>
 <entry field="true" id="38" symbol="coeur"/>
 <entry field="true" id="77" symbol="preE3"/>
@@ -467,148 +468,183 @@
 <entry id="8389844" symbol="responseType"/>
 <entry field="true" id="85" symbol="HistoryTitle"/>
 <entry id="8389346" symbol="text"/>
-<entry field="true" id="91" symbol="message2Heure"/>
+<entry field="true" id="96" symbol="message2Heure"/>
 <entry field="true" id="82" symbol="sansCadrageSortieNonAteint"/>
 <entry field="true" id="8389063" symbol="identifier"/>
-<entry id="33" method="true" symbol="initKey"/>
+<entry id="35" method="true" symbol="initKey"/>
 <entry id="36" module="true" symbol="Menus"/>
-<entry field="true" id="94" symbol="message3Minute"/>
+<entry field="true" id="99" symbol="message3Minute"/>
 <entry id="115" method="true" symbol="addJour"/>
-<entry field="true" id="92" symbol="message2Minute"/>
+<entry field="true" id="97" symbol="message2Minute"/>
 <entry field="true" id="79" symbol="condition"/>
 <entry id="121" method="true" symbol="onReceive"/>
-<entry field="true" id="34" symbol="pas"/>
+<entry field="true" id="26" symbol="pas"/>
 <entry field="true" id="113" symbol="tabJours"/>
 <entry id="8388772" module="true" object="true" symbol="Fonts"/>
 <entry field="true" id="8388722" symbol="sec"/>
 <entry id="8388633" module="true" symbol="ActivityMonitor"/>
-<entry field="true" id="108" symbol="secondes"/>
+<entry field="true" id="89" symbol="secondes"/>
 <entry id="8388635" module="true" symbol="Application"/>
 </symbolTable>
 <localVars>
-<entry endPc="268435533" name="dc" stackId="1" startPc="268435491"/>
-<entry endPc="268435933" name="i" stackId="6" startPc="268435707"/>
-<entry endPc="268435936" name="string" stackId="4" startPc="268435537"/>
-<entry endPc="268435936" name="fontHeight" stackId="5" startPc="268435537"/>
-<entry endPc="268435936" name="actHistArray" stackId="2" startPc="268435537"/>
-<entry endPc="268435936" name="padding" stackId="3" startPc="268435537"/>
-<entry endPc="268435937" name="dc" stackId="1" startPc="268435533"/>
-<entry endPc="268436198" name="idMontre" stackId="2" startPc="268435941"/>
-<entry endPc="268436198" name="tablignes" stackId="3" startPc="268435941"/>
-<entry endPc="268436198" name="options" stackId="6" startPc="268435941"/>
-<entry endPc="268436198" name="url" stackId="1" startPc="268435941"/>
-<entry endPc="268436198" name="headers" stackId="5" startPc="268435941"/>
-<entry endPc="268436198" name="params" stackId="4" startPc="268435941"/>
-<entry endPc="268436267" name="responseCode" stackId="1" startPc="268436199"/>
-<entry endPc="268436267" name="data" stackId="2" startPc="268436199"/>
-<entry endPc="268436447" name="appbase" stackId="1" startPc="268436294"/>
-<entry endPc="268436808" name="stringPercent" stackId="4" startPc="268436452"/>
-<entry endPc="268436808" name="stepsPercent" stackId="3" startPc="268436452"/>
-<entry endPc="268436808" name="nbPasActuel" stackId="2" startPc="268436452"/>
-<entry endPc="268436809" name="dc" stackId="1" startPc="268436448"/>
-<entry endPc="268437066" name="x" stackId="7" startPc="268436813"/>
-<entry endPc="268437066" name="font" stackId="8" startPc="268436813"/>
-<entry endPc="268437066" name="width" stackId="6" startPc="268436813"/>
-<entry endPc="268437067" name="dc" stackId="1" startPc="268436809"/>
-<entry endPc="268437067" name="color" stackId="5" startPc="268436809"/>
-<entry endPc="268437067" name="string" stackId="2" startPc="268436809"/>
-<entry endPc="268437067" name="percent" stackId="4" startPc="268436809"/>
-<entry endPc="268437067" name="y" stackId="3" startPc="268436809"/>
-<entry endPc="268437282" name="_messageCode" stackId="1" startPc="268437122"/>
-<entry endPc="268437282" name="_type" stackId="2" startPc="268437122"/>
-<entry endPc="268437473" name="appbase" stackId="1" startPc="268437348"/>
-<entry endPc="268437532" name="state" stackId="1" startPc="268437527"/>
-<entry endPc="268437537" name="state" stackId="1" startPc="268437532"/>
-<entry endPc="268440691" name="myStats" stackId="3" startPc="268440131"/>
-<entry endPc="268440691" name="myTime" stackId="2" startPc="268440131"/>
-<entry endPc="268440692" name="dc" stackId="1" startPc="268440127"/>
-<entry endPc="268441694" name="nbPasActuel" stackId="3" startPc="268441593"/>
-<entry endPc="268442013" name="u" stackId="4" startPc="268441953"/>
-<entry endPc="268442140" name="u" stackId="6" startPc="268442070"/>
-<entry endPc="268442143" name="myStats" stackId="5" startPc="268440745"/>
-<entry endPc="268442162" name="today" stackId="1" startPc="268440696"/>
-<entry endPc="268442162" name="sec" stackId="2" startPc="268440696"/>
-<entry endPc="268442313" name="messageId" stackId="6" startPc="268442167"/>
-<entry endPc="268442313" name="messageCode" stackId="5" startPc="268442167"/>
-<entry endPc="268442313" name="random" stackId="3" startPc="268442167"/>
-<entry endPc="268442313" name="tabKeys" stackId="4" startPc="268442167"/>
-<entry endPc="268442314" name="groupe" stackId="1" startPc="268442163"/>
-<entry endPc="268442314" name="type" stackId="2" startPc="268442163"/>
-<entry endPc="268442399" name="log" stackId="3" startPc="268442318"/>
-<entry endPc="268442399" name="appbase" stackId="2" startPc="268442318"/>
-<entry endPc="268442400" name="type" stackId="1" startPc="268442314"/>
-<entry endPc="268442537" name="vibrations" stackId="3" startPc="268442467"/>
-<entry endPc="268442544" name="vibration" stackId="1" startPc="268442400"/>
-<entry endPc="268442544" name="_messageId" stackId="2" startPc="268442400"/>
-<entry endPc="268442693" name="stringPercent" stackId="3" startPc="268442548"/>
-<entry endPc="268442693" name="stepsPercent" stackId="2" startPc="268442548"/>
-<entry endPc="268442694" name="dc" stackId="1" startPc="268442544"/>
-<entry endPc="268443092" name="x" stackId="6" startPc="268442698"/>
-<entry endPc="268443092" name="font" stackId="8" startPc="268442698"/>
-<entry endPc="268443092" name="width" stackId="5" startPc="268442698"/>
-<entry endPc="268443092" name="y" stackId="7" startPc="268442698"/>
-<entry endPc="268443093" name="dc" stackId="1" startPc="268442694"/>
-<entry endPc="268443093" name="message" stackId="4" startPc="268442694"/>
-<entry endPc="268443093" name="percent" stackId="3" startPc="268442694"/>
-<entry endPc="268443093" name="text" stackId="2" startPc="268442694"/>
-<entry endPc="268443889" name="today" stackId="1" startPc="268443641"/>
-<entry endPc="268443889" name="stringToday" stackId="2" startPc="268443641"/>
-<entry endPc="268444030" name="today" stackId="1" startPc="268443925"/>
-<entry endPc="268444030" name="stringToday" stackId="2" startPc="268443925"/>
-<entry endPc="268444064" name="log2" stackId="5" startPc="268444031"/>
-<entry endPc="268444064" name="_type" stackId="1" startPc="268444031"/>
-<entry endPc="268444064" name="log1" stackId="4" startPc="268444031"/>
-<entry endPc="268444064" name="_tmps" stackId="3" startPc="268444031"/>
-<entry endPc="268444064" name="_code" stackId="2" startPc="268444031"/>
-<entry endPc="268444364" name="jMessage" stackId="6" startPc="268444263"/>
-<entry endPc="268444377" name="j" stackId="5" startPc="268444263"/>
-<entry endPc="268444398" name="iJour" stackId="4" startPc="268444113"/>
-<entry endPc="268444411" name="i" stackId="3" startPc="268444113"/>
-<entry endPc="268444414" name="string" stackId="2" startPc="268444068"/>
-<entry endPc="268444414" name="tab" stackId="1" startPc="268444068"/>
-<entry endPc="268444734" name="jMessage" stackId="5" startPc="268444633"/>
-<entry endPc="268444747" name="j" stackId="4" startPc="268444633"/>
-<entry endPc="268444760" name="u" stackId="2" startPc="268444419"/>
-<entry endPc="268444760" name="string" stackId="1" startPc="268444419"/>
-<entry endPc="268444760" name="jActuel" stackId="3" startPc="268444419"/>
-<entry endPc="268444894" name="_jour" stackId="1" startPc="268444837"/>
-<entry endPc="268444949" name="log2" stackId="5" startPc="268444894"/>
-<entry endPc="268444949" name="_type" stackId="1" startPc="268444894"/>
-<entry endPc="268444949" name="log1" stackId="4" startPc="268444894"/>
-<entry endPc="268444949" name="_tmps" stackId="3" startPc="268444894"/>
-<entry endPc="268444949" name="_code" stackId="2" startPc="268444894"/>
-<entry endPc="268445107" name="log2" stackId="5" startPc="268445052"/>
-<entry endPc="268445107" name="_type" stackId="1" startPc="268445052"/>
-<entry endPc="268445107" name="log1" stackId="4" startPc="268445052"/>
-<entry endPc="268445107" name="_tmps" stackId="3" startPc="268445052"/>
-<entry endPc="268445107" name="_code" stackId="2" startPc="268445052"/>
-<entry endPc="268445837" name="rez_cmp_local_bitmap_TitleLabel" stackId="2" startPc="268445211"/>
-<entry endPc="268445837" name="rez_cmp_local_bitmap_TitleLabel_fontHeight" stackId="3" startPc="268445211"/>
-<entry endPc="268445837" name="rez_cmp_local_bitmap_StepsLabel" stackId="5" startPc="268445211"/>
-<entry endPc="268445837" name="rez_cmp_local_bitmap_DayLabel" stackId="4" startPc="268445211"/>
-<entry endPc="268445838" name="dc" stackId="1" startPc="268445199"/>
-<entry endPc="268448329" name="rez_cmp_local_bitmap_Type_de_messages_fontHeight" stackId="5" startPc="268445850"/>
-<entry endPc="268448329" name="rez_cmp_local_bitmap_Messages2" stackId="14" startPc="268445850"/>
-<entry endPc="268448329" name="rez_cmp_local_bitmap_Promotion" stackId="10" startPc="268445850"/>
-<entry endPc="268448329" name="rez_cmp_local_bitmap_Semaine_fontHeight" stackId="17" startPc="268445850"/>
-<entry endPc="268448329" name="rez_cmp_local_bitmap_Messages_fontHeight" stackId="7" startPc="268445850"/>
-<entry endPc="268448329" name="rez_cmp_local_bitmap_Messages" stackId="6" startPc="268445850"/>
-<entry endPc="268448329" name="rez_cmp_local_bitmap_Type_de_messages2_fontHeight" stackId="9" startPc="268445850"/>
-<entry endPc="268448329" name="rez_cmp_local_bitmap_Type_de_messages" stackId="4" startPc="268445850"/>
-<entry endPc="268448329" name="rez_cmp_local_bitmap_Week_end_fontHeight" stackId="19" startPc="268445850"/>
-<entry endPc="268448329" name="rez_cmp_local_bitmap_Promotion_fontHeight" stackId="11" startPc="268445850"/>
-<entry endPc="268448329" name="rez_cmp_local_bitmap_Semaine" stackId="16" startPc="268445850"/>
-<entry endPc="268448329" name="rez_cmp_local_bitmap_Week_end" stackId="18" startPc="268445850"/>
-<entry endPc="268448329" name="rez_cmp_local_bitmap_Messages2_fontHeight" stackId="15" startPc="268445850"/>
-<entry endPc="268448329" name="rez_cmp_local_bitmap_Prevention" stackId="12" startPc="268445850"/>
-<entry endPc="268448329" name="rez_cmp_local_bitmap_Parametre_fontHeight" stackId="3" startPc="268445850"/>
-<entry endPc="268448329" name="rez_cmp_local_bitmap_Prevention_fontHeight" stackId="13" startPc="268445850"/>
-<entry endPc="268448329" name="rez_cmp_local_bitmap_Parametre" stackId="2" startPc="268445850"/>
-<entry endPc="268448329" name="rez_cmp_local_bitmap_Type_de_messages2" stackId="8" startPc="268445850"/>
-<entry endPc="268448330" name="dc" stackId="1" startPc="268445838"/>
+<entry endPc="268435514" name="state" stackId="1" startPc="268435509"/>
+<entry endPc="268435519" name="state" stackId="1" startPc="268435514"/>
+<entry endPc="268436212" name="dc" stackId="1" startPc="268436170"/>
+<entry endPc="268436612" name="i" stackId="6" startPc="268436386"/>
+<entry endPc="268436615" name="string" stackId="4" startPc="268436216"/>
+<entry endPc="268436615" name="fontHeight" stackId="5" startPc="268436216"/>
+<entry endPc="268436615" name="actHistArray" stackId="2" startPc="268436216"/>
+<entry endPc="268436615" name="padding" stackId="3" startPc="268436216"/>
+<entry endPc="268436616" name="dc" stackId="1" startPc="268436212"/>
+<entry endPc="268436877" name="idMontre" stackId="2" startPc="268436620"/>
+<entry endPc="268436877" name="tablignes" stackId="3" startPc="268436620"/>
+<entry endPc="268436877" name="options" stackId="6" startPc="268436620"/>
+<entry endPc="268436877" name="url" stackId="1" startPc="268436620"/>
+<entry endPc="268436877" name="headers" stackId="5" startPc="268436620"/>
+<entry endPc="268436877" name="params" stackId="4" startPc="268436620"/>
+<entry endPc="268436946" name="responseCode" stackId="1" startPc="268436878"/>
+<entry endPc="268436946" name="data" stackId="2" startPc="268436878"/>
+<entry endPc="268440051" name="myStats" stackId="3" startPc="268439491"/>
+<entry endPc="268440051" name="myTime" stackId="2" startPc="268439491"/>
+<entry endPc="268440052" name="dc" stackId="1" startPc="268439487"/>
+<entry endPc="268441054" name="nbPasActuel" stackId="3" startPc="268440953"/>
+<entry endPc="268441373" name="u" stackId="4" startPc="268441313"/>
+<entry endPc="268441500" name="u" stackId="6" startPc="268441430"/>
+<entry endPc="268441513" name="myStats" stackId="5" startPc="268440105"/>
+<entry endPc="268441532" name="today" stackId="1" startPc="268440056"/>
+<entry endPc="268441532" name="sec" stackId="2" startPc="268440056"/>
+<entry endPc="268441683" name="messageId" stackId="6" startPc="268441537"/>
+<entry endPc="268441683" name="messageCode" stackId="5" startPc="268441537"/>
+<entry endPc="268441683" name="random" stackId="3" startPc="268441537"/>
+<entry endPc="268441683" name="tabKeys" stackId="4" startPc="268441537"/>
+<entry endPc="268441684" name="groupe" stackId="1" startPc="268441533"/>
+<entry endPc="268441684" name="type" stackId="2" startPc="268441533"/>
+<entry endPc="268441769" name="log" stackId="3" startPc="268441688"/>
+<entry endPc="268441769" name="appbase" stackId="2" startPc="268441688"/>
+<entry endPc="268441770" name="type" stackId="1" startPc="268441684"/>
+<entry endPc="268441907" name="vibrations" stackId="3" startPc="268441837"/>
+<entry endPc="268441914" name="vibration" stackId="1" startPc="268441770"/>
+<entry endPc="268441914" name="_messageId" stackId="2" startPc="268441770"/>
+<entry endPc="268442063" name="stringPercent" stackId="3" startPc="268441918"/>
+<entry endPc="268442063" name="stepsPercent" stackId="2" startPc="268441918"/>
+<entry endPc="268442064" name="dc" stackId="1" startPc="268441914"/>
+<entry endPc="268442462" name="x" stackId="6" startPc="268442068"/>
+<entry endPc="268442462" name="font" stackId="8" startPc="268442068"/>
+<entry endPc="268442462" name="width" stackId="5" startPc="268442068"/>
+<entry endPc="268442462" name="y" stackId="7" startPc="268442068"/>
+<entry endPc="268442463" name="dc" stackId="1" startPc="268442064"/>
+<entry endPc="268442463" name="message" stackId="4" startPc="268442064"/>
+<entry endPc="268442463" name="percent" stackId="3" startPc="268442064"/>
+<entry endPc="268442463" name="text" stackId="2" startPc="268442064"/>
+<entry endPc="268442715" name="today" stackId="1" startPc="268442467"/>
+<entry endPc="268442715" name="stringToday" stackId="2" startPc="268442467"/>
+<entry endPc="268442856" name="today" stackId="1" startPc="268442751"/>
+<entry endPc="268442856" name="stringToday" stackId="2" startPc="268442751"/>
+<entry endPc="268442890" name="log2" stackId="5" startPc="268442857"/>
+<entry endPc="268442890" name="_type" stackId="1" startPc="268442857"/>
+<entry endPc="268442890" name="log1" stackId="4" startPc="268442857"/>
+<entry endPc="268442890" name="_tmps" stackId="3" startPc="268442857"/>
+<entry endPc="268442890" name="_code" stackId="2" startPc="268442857"/>
+<entry endPc="268443190" name="jMessage" stackId="6" startPc="268443089"/>
+<entry endPc="268443203" name="j" stackId="5" startPc="268443089"/>
+<entry endPc="268443224" name="iJour" stackId="4" startPc="268442939"/>
+<entry endPc="268443237" name="i" stackId="3" startPc="268442939"/>
+<entry endPc="268443240" name="string" stackId="2" startPc="268442894"/>
+<entry endPc="268443240" name="tab" stackId="1" startPc="268442894"/>
+<entry endPc="268443560" name="jMessage" stackId="5" startPc="268443459"/>
+<entry endPc="268443573" name="j" stackId="4" startPc="268443459"/>
+<entry endPc="268443586" name="u" stackId="2" startPc="268443245"/>
+<entry endPc="268443586" name="string" stackId="1" startPc="268443245"/>
+<entry endPc="268443586" name="jActuel" stackId="3" startPc="268443245"/>
+<entry endPc="268443720" name="_jour" stackId="1" startPc="268443663"/>
+<entry endPc="268443775" name="log2" stackId="5" startPc="268443720"/>
+<entry endPc="268443775" name="_type" stackId="1" startPc="268443720"/>
+<entry endPc="268443775" name="log1" stackId="4" startPc="268443720"/>
+<entry endPc="268443775" name="_tmps" stackId="3" startPc="268443720"/>
+<entry endPc="268443775" name="_code" stackId="2" startPc="268443720"/>
+<entry endPc="268443933" name="log2" stackId="5" startPc="268443878"/>
+<entry endPc="268443933" name="_type" stackId="1" startPc="268443878"/>
+<entry endPc="268443933" name="log1" stackId="4" startPc="268443878"/>
+<entry endPc="268443933" name="_tmps" stackId="3" startPc="268443878"/>
+<entry endPc="268443933" name="_code" stackId="2" startPc="268443878"/>
+<entry endPc="268444182" name="appbase" stackId="1" startPc="268444029"/>
+<entry endPc="268444543" name="stringPercent" stackId="4" startPc="268444187"/>
+<entry endPc="268444543" name="stepsPercent" stackId="3" startPc="268444187"/>
+<entry endPc="268444543" name="nbPasActuel" stackId="2" startPc="268444187"/>
+<entry endPc="268444544" name="dc" stackId="1" startPc="268444183"/>
+<entry endPc="268444801" name="x" stackId="7" startPc="268444548"/>
+<entry endPc="268444801" name="font" stackId="8" startPc="268444548"/>
+<entry endPc="268444801" name="width" stackId="6" startPc="268444548"/>
+<entry endPc="268444802" name="dc" stackId="1" startPc="268444544"/>
+<entry endPc="268444802" name="color" stackId="5" startPc="268444544"/>
+<entry endPc="268444802" name="string" stackId="2" startPc="268444544"/>
+<entry endPc="268444802" name="percent" stackId="4" startPc="268444544"/>
+<entry endPc="268444802" name="y" stackId="3" startPc="268444544"/>
+<entry endPc="268445017" name="_messageCode" stackId="1" startPc="268444857"/>
+<entry endPc="268445017" name="_type" stackId="2" startPc="268444857"/>
+<entry endPc="268445208" name="appbase" stackId="1" startPc="268445083"/>
+<entry endPc="268445847" name="rez_cmp_local_bitmap_TitleLabel" stackId="2" startPc="268445221"/>
+<entry endPc="268445847" name="rez_cmp_local_bitmap_TitleLabel_fontHeight" stackId="3" startPc="268445221"/>
+<entry endPc="268445847" name="rez_cmp_local_bitmap_StepsLabel" stackId="5" startPc="268445221"/>
+<entry endPc="268445847" name="rez_cmp_local_bitmap_DayLabel" stackId="4" startPc="268445221"/>
+<entry endPc="268445848" name="dc" stackId="1" startPc="268445209"/>
+<entry endPc="268448339" name="rez_cmp_local_bitmap_Type_de_messages_fontHeight" stackId="5" startPc="268445860"/>
+<entry endPc="268448339" name="rez_cmp_local_bitmap_Messages2" stackId="14" startPc="268445860"/>
+<entry endPc="268448339" name="rez_cmp_local_bitmap_Promotion" stackId="10" startPc="268445860"/>
+<entry endPc="268448339" name="rez_cmp_local_bitmap_Semaine_fontHeight" stackId="17" startPc="268445860"/>
+<entry endPc="268448339" name="rez_cmp_local_bitmap_Messages_fontHeight" stackId="7" startPc="268445860"/>
+<entry endPc="268448339" name="rez_cmp_local_bitmap_Messages" stackId="6" startPc="268445860"/>
+<entry endPc="268448339" name="rez_cmp_local_bitmap_Type_de_messages2_fontHeight" stackId="9" startPc="268445860"/>
+<entry endPc="268448339" name="rez_cmp_local_bitmap_Type_de_messages" stackId="4" startPc="268445860"/>
+<entry endPc="268448339" name="rez_cmp_local_bitmap_Week_end_fontHeight" stackId="19" startPc="268445860"/>
+<entry endPc="268448339" name="rez_cmp_local_bitmap_Promotion_fontHeight" stackId="11" startPc="268445860"/>
+<entry endPc="268448339" name="rez_cmp_local_bitmap_Semaine" stackId="16" startPc="268445860"/>
+<entry endPc="268448339" name="rez_cmp_local_bitmap_Week_end" stackId="18" startPc="268445860"/>
+<entry endPc="268448339" name="rez_cmp_local_bitmap_Messages2_fontHeight" stackId="15" startPc="268445860"/>
+<entry endPc="268448339" name="rez_cmp_local_bitmap_Prevention" stackId="12" startPc="268445860"/>
+<entry endPc="268448339" name="rez_cmp_local_bitmap_Parametre_fontHeight" stackId="3" startPc="268445860"/>
+<entry endPc="268448339" name="rez_cmp_local_bitmap_Prevention_fontHeight" stackId="13" startPc="268445860"/>
+<entry endPc="268448339" name="rez_cmp_local_bitmap_Parametre" stackId="2" startPc="268445860"/>
+<entry endPc="268448339" name="rez_cmp_local_bitmap_Type_de_messages2" stackId="8" startPc="268445860"/>
+<entry endPc="268448340" name="dc" stackId="1" startPc="268445848"/>
 </localVars>
 <annotations/>
 <functions>
+<functionEntry accessMode="public" name="initialize" parent="WennerApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStart" parent="WennerApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStop" parent="WennerApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getInitialView" parent="WennerApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="WennerDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="incsec" parent="WennerDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onPreviousPage" parent="WennerDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onNextPage" parent="WennerDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initKey" parent="WennerDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onSelect" parent="WennerDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onBack" parent="WennerDelegate">
+<documentation/>
+</functionEntry>
 <functionEntry accessMode="public" name="initialize" parent="HistoryView">
 <documentation/>
 </functionEntry>
@@ -629,52 +665,6 @@
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="initialize" parent="HistoryDelegate">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="initialize" parent="PasView">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onUpdate" parent="PasView">
-<param id="dc"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="drawBar" parent="PasView">
-<param id="dc"/>
-<param id="string"/>
-<param id="y"/>
-<param id="percent"/>
-<param id="color"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="initialize" parent="PasDelegate">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onBack" parent="PasDelegate">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="initialize" parent="MessageViewDelegate">
-<param id="_messageCode"/>
-<param id="_type"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="callback" parent="MessageViewDelegate">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onBack" parent="MessageViewDelegate">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="initialize" parent="WennerApp">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onStart" parent="WennerApp">
-<param id="state"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onStop" parent="WennerApp">
-<param id="state"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="getInitialView" parent="WennerApp">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="initialize" parent="WennerView">
@@ -710,27 +700,6 @@
 <param id="text"/>
 <param id="percent"/>
 <param id="message"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="initialize" parent="WennerDelegate">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="incsec" parent="WennerDelegate">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onPreviousPage" parent="WennerDelegate">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onNextPage" parent="WennerDelegate">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="initKey" parent="WennerDelegate">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onSelect" parent="WennerDelegate">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onBack" parent="WennerDelegate">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="initialize" parent="User">
@@ -788,6 +757,38 @@
 <functionEntry accessMode="public" name="toString" parent="Message">
 <documentation/>
 </functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="PasView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onUpdate" parent="PasView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="drawBar" parent="PasView">
+<param id="dc"/>
+<param id="string"/>
+<param id="y"/>
+<param id="percent"/>
+<param id="color"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="PasDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onBack" parent="PasDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="MessageViewDelegate">
+<param id="_messageCode"/>
+<param id="_type"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="callback" parent="MessageViewDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onBack" parent="MessageViewDelegate">
+<documentation/>
+</functionEntry>
 <functionEntry accessMode="public" name="HistoryLayout" parent="Layouts">
 <param id="dc"/>
 <documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
@@ -800,8 +801,8 @@
 <dataEntryOffsetMappings>
 <dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
 <dataEntry offset="294" parentId="globals" symbolId="Jour" type="class"/>
-<dataEntry offset="397" parentId="globals" symbolId="WennerDelegate" type="class"/>
-<dataEntry offset="548" parentId="globals" symbolId="PasView" type="class"/>
+<dataEntry offset="397" parentId="globals" symbolId="PasView" type="class"/>
+<dataEntry offset="468" parentId="globals" symbolId="WennerDelegate" type="class"/>
 <dataEntry offset="619" parentId="globals" symbolId="Rez" type="module"/>
 <dataEntry offset="698" parentId="Rez" symbolId="Drawables" type="module"/>
 <dataEntry offset="753" parentId="Rez" symbolId="Menus" type="module"/>
@@ -809,9 +810,9 @@
 <dataEntry offset="815" parentId="Rez" symbolId="JsonData" type="module"/>
 <dataEntry offset="846" parentId="Rez" symbolId="Layouts" type="module"/>
 <dataEntry offset="893" parentId="Rez" symbolId="Strings" type="module"/>
-<dataEntry offset="1284" parentId="globals" symbolId="HistoryDelegate" type="class"/>
-<dataEntry offset="1331" parentId="globals" symbolId="WennerView" type="class"/>
-<dataEntry offset="1570" parentId="globals" symbolId="MessageViewDelegate" type="class"/>
+<dataEntry offset="1284" parentId="globals" symbolId="MessageViewDelegate" type="class"/>
+<dataEntry offset="1395" parentId="globals" symbolId="HistoryDelegate" type="class"/>
+<dataEntry offset="1442" parentId="globals" symbolId="WennerView" type="class"/>
 <dataEntry offset="1681" parentId="globals" symbolId="WennerApp" type="class"/>
 <dataEntry offset="1760" parentId="globals" symbolId="Message" type="class"/>
 <dataEntry offset="1855" parentId="globals" symbolId="User" type="class"/>
