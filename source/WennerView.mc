@@ -3,7 +3,7 @@ using Toybox.Time.Gregorian;
 
 class WennerView extends Ui.View { // Vue qui affiche l'heure
 
-	/***********Heure des messages définit en absolu***********/ 
+	/***********Heure des messages dï¿½finit en absolu***********/ 
 
 	/*var messageEntreeHeure 		= 10;
 	var messageEntreeMinute 	= 26;
@@ -34,9 +34,9 @@ class WennerView extends Ui.View { // Vue qui affiche l'heure
     
 
     /**********************************************************/
-    var tabMessages;	// Pour récup le tableau des messages selon la condition
+    var tabMessages;	// Pour rï¿½cup le tableau des messages selon la condition
     
-	var today;			// var pour récup l'heure, la minute et la seconde courantes
+	var today;			// var pour rï¿½cup l'heure, la minute et la seconde courantes
 	var timer; 			// Timer
 	
 	var userActuel = Application.getApp().userActuel;
@@ -54,7 +54,7 @@ class WennerView extends Ui.View { // Vue qui affiche l'heure
         timer = new Timer.Timer();
     	timer.start(method(:callback),1000, true);
     	
-        // Récup de la condition + du tableau correspondant *****************
+        // Rï¿½cup de la condition + du tableau correspondant *****************
 		//<!-- prevention, promotion, aleatoire, sansCadrage -->
 		
     	if (userActuel.condition.equals("prevention")){
@@ -138,7 +138,7 @@ class WennerView extends Ui.View { // Vue qui affiche l'heure
 	
 	function callback() { // Permet d'actualiser l'interface toute les secondes
        	
-       	var today = System.getClockTime(); // récupère l'heure et la minute courante
+       	var today = System.getClockTime(); // rï¿½cupï¿½re l'heure et la minute courante
        	var sec = today.sec.toNumber();
        	
        	if (sec == 0){
@@ -208,27 +208,24 @@ class WennerView extends Ui.View { // Vue qui affiche l'heure
 					userActuel.newJour();
 	       		}
 	       		
-	       		 // ----- Ajout écriture dans le fichier de backup ----- //
+	       		 // ----- Ajout ï¿½criture dans le fichier de backup ----- //
 				if(today.hour.toNumber() == heureRecord && today.min.toNumber() == minuteRecord){
 					//System.print("0 sansCadrage 4DY553278 Samedi 9 0 23 1 sansCadrage1 0 0 0 0 sansCadrageEntree 14916 0 0 2 sansCadrage2 0 171 171 3 sansCadrage3 0 4027 4027 4 sansCadrage4 0 4540 4540 5 sansCadrageSortieNonAteint 3 5931 5931" + "#");
 					var u = Application.getApp().userActuel;
 					System.print("1," + u.afficherJourCourant());
 				}
-				// ----- Fin ajout écriture dans le fichier de backup ----- //
+				// ----- Fin ajout ï¿½criture dans le fichier de backup ----- //
 		
 				// ----- Surveillance de la batterie ----- //
 				// Si on atteint 5% de batteries, peu importe l'heure on fais une sauvegarde de tout ce qu'on a actuellement
 				var myStats = System.getSystemStats();
 		
-				if(myStats.battery <= minBattery && !saveLowBattery){ // si la batterie est <= 5% et qu'on a pas déjà sauvegarder pour la batterie 
+				if(myStats.battery <= minBattery && !saveLowBattery){ // si la batterie est <= 5% et qu'on a pas dï¿½jï¿½ sauvegarder pour la batterie 
 		
 					// Sauvegarde
 					var u = Application.getApp().userActuel;
 					System.print("2," + u.afficherJourCourant());
 					saveLowBattery = true;
-				}
-				else{
-					saveLowBattery = false;				
 				}
 		
 				/*var seuilMemory = (5/myStats.totalMemory)*100;
@@ -254,9 +251,9 @@ class WennerView extends Ui.View { // Vue qui affiche l'heure
 		//=> min = 0 and max = groupe.size()-1
 		//=> rand()%(max-min + 1) + min;
 		var random = Math.rand()%(groupe.size()); 
-		var tabKeys = groupe.keys(); //Tableau contenant les clés du groupe
-    	var messageCode = tabKeys[random]; // Récupère une clé au hassard
-    	var messageId = groupe.get(messageCode); // Récupère le message de la clé
+		var tabKeys = groupe.keys(); //Tableau contenant les clï¿½s du groupe
+    	var messageCode = tabKeys[random]; // Rï¿½cupï¿½re une clï¿½ au hassard
+    	var messageId = groupe.get(messageCode); // Rï¿½cupï¿½re le message de la clï¿½
     	
        	Ui.pushView(
        		new MessageView(true, messageId), 
