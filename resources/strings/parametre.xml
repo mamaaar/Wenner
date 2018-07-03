@@ -3,11 +3,12 @@
          	<string id="idParticipant">0</string>
          	<string id="condition">sansCadrage</string>
          	<string id="idMontre">4DY554056</string>
-
          
          <!-- prevention, promotion, aleatoire, sansCadrage -->
          <!--
          
+<<<<<<< HEAD
+=======
          	<string id="idParticipant">0</string>
          	<string id="condition">promotion</string>
          	<string id="idMontre">4DY282121</string>
@@ -16,6 +17,7 @@
          	<string id="condition">sansCadrage</string>
          	<string id="idMontre">4DY553278</string>
          	
+>>>>>>> 6b274225c8b1a6ef5dd7774a4a654cf581ad2dce
           -->
           
           <!--  
